@@ -1,73 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kangifaz Landing Page</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifaz Fachrul Hindami</title>
+    <!-- Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-pY1MELcTv2rJ+LMRZesf8TVPg8xqU6rDEe9t7VZfbVwlrpW2rBpr6wEuvfLxWBW0mRj8X8tZOHvJ9EPOCM0pMw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="header">
-    <div class="container text-center">
-      <h1>Welcome to Kangifaz</h1>
-      <p>Your personal gateway to exploration</p>
-    </div>
-  </header>
 
-  <div class="content">
-    <div class="options">
-      <div class="option">
-        <span class="bi bi-collection icon"></span>
-        <h2 class="title">Alexandria</h2>
-        <p class="summary">(Blog) Discover a collection of resources</p>
-        <button class="btn btn-primary btn-option" data-link="https://alexa.kangifaz.com">Explore</button>
-      </div>
-      <div class="option">
-        <span class="bi bi-rocket-takeoff icon"></span>
-        <h2 class="title">Apollo</h2>
-        <p class="summary">(NMS) Embark on a journey to the stars</p>
-        <button class="btn btn-primary btn-option" data-link="https://apollo.kangifaz.com">Launch</button>
-      </div>
-      <div class="option">
-        <span class="bi bi-camera icon"></span>
-        <h2 class="title">Photography</h2>
-        <p class="summary">(Photography Album) Explore captivating visual stories</p>
-        <button class="btn btn-primary btn-option" data-link="https://youpic.com/ifazfachrul">View Gallery</button>
-      </div>
-      <div class="option">
-        <span class="bi bi-linkedin icon"></span>
-        <h2 class="title">LinkedIn</h2>
-        <p class="summary">(Professional Linkedin) Connect and network professionally</p>
-        <button class="btn btn-primary btn-option" data-link="https://www.linkedin.com/in/ifazfh/">Connect</button>
-      </div>
-      <div class="option">
-        <span class="bi bi-file-person icon"></span>
-        <h2 class="title">About</h2>
-        <p class="summary">(About Pages) Learn more about me</p>
-        <button class="btn btn-primary btn-option" data-link="https://alexa.kangifaz.com/about">About Me</button>
-      </div>
-    </div>
-  </div>
+    <div class="card">
+        <!-- Summary Column -->
+        <div class="summary">
+            <h1>Ifaz Fachrul Hindami</h1>
+            <p>
+                Hello, I'm Ifaz Fachrul Hindami. Select an option below to connect with me:
+            </p>
+        </div>
 
-  <footer class="footer">
-    <div class="container text-center">
-      <p>About Kangifaz</p>
-      <p>"Your future is created by what you do today, not tomorrow." - Robert Kiyosaki</p>
-      <p>&copy; 2024 Kangifaz. All rights reserved.</p>
+        <!-- Buttons Column -->
+        <div class="buttons">
+            <a href="https://www.linkedin.com/in/ifazfh" target="_blank" class="linkedin" aria-label="LinkedIn Profile">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://alexa.kangifaz.com/about-alexa/" target="_blank" class="blog" aria-label="My Blog">
+                <i class="fas fa-blog"></i> Blog
+            </a>
+            <a href="https://youpic.com/ifazfachrul" target="_blank" class="portfolio" aria-label="Portfolio Photography">
+                <i class="fas fa-camera"></i> Portfolio
+            </a>
+            <a href="https://www.instagram.com/kangifaz" target="_blank" class="instagram" aria-label="Instagram Profile">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+        </div>
     </div>
-  </footer>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      $('.btn-option').click(function() {
-        var link = $(this).data('link');
-        window.location.href = link;
-      });
-    });
-  </script>
+    <!-- Optional JavaScript for additional interactivity -->
+    <script>
+        // You can add JavaScript here if needed in the future
+    </script>
 </body>
 </html>

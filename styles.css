@@ -1,47 +1,183 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background: #121212;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px; /* Added padding for better spacing on small screens */
+  overflow: auto; /* Changed from hidden to auto for better responsiveness */
+}
+
+/* Card container */
+.card {
+  background: #1e1e1e;
+  padding: 30px 40px; /* Reduced top/bottom padding for a more compact look */
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 800px; /* Increased max-width for better layout */
+  width: 100%;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 1s forwards;
+}
+
+/* Summary Section */
+.summary {
+  flex: 1;
+  margin-right: 20px;
+  animation: slideInLeft 1s forwards;
+}
+
+.summary h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.summary p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #b0b0b0;
+}
+
+/* Buttons Section */
+.buttons {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  gap: 12px; /* Reduced gap between buttons */
+  animation: slideInRight 1s forwards;
+  width: 100%; /* Ensure buttons take full width */
 }
 
-.header {
-  background-color: #007bff;
-  color: #fff;
-  padding: 50px 0;
-}
-
-.header h1 {
-  margin-bottom: 20px;
-}
-
-.content {
-  flex: 1;
-  padding: 50px 0;
-}
-
-.footer {
-  background-color: #f8f9fa;
-  padding: 20px 0;
-  margin-top: auto;
-}
-
-.options {
+/* Button styling */
+.buttons a {
+  text-decoration: none;
+  background: #6200ea;
+  color: #ffffff;
+  padding: 10px 16px; /* Reduced padding for smaller buttons */
+  border-radius: 8px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 20px;
+  align-items: center;
+  justify-content: center; /* Center the content */
+  transition: transform 0.3s, background 0.3s;
+  font-size: 14px; /* Reduced font size for smaller buttons */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  width: 100%; /* Make all buttons take the full width of the container */
 }
 
-.option {
-  text-align: center;
+/* Different colors for different buttons */
+.buttons a.linkedin {
+  background: #0077b5;
 }
 
-.btn-option {
-  margin-top: 10px;
+.buttons a.blog {
+  background: #ff4500;
 }
 
-.icon {
-  font-size: 3rem;
-  margin-bottom: 10px;
+.buttons a.portfolio {
+  background: #ff7f50;
+}
+
+.buttons a.instagram {
+  background: #e4405f;
+}
+
+/* Hover Effects */
+.buttons a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Icon styling */
+.buttons a i {
+  margin-right: 6px; /* Reduced margin between icon and text */
+  font-size: 16px; /* Slightly smaller icon size */
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+      opacity: 0;
+      transform: translateX(-30px);
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+      opacity: 0;
+      transform: translateX(30px);
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card {
+      flex-direction: column;
+      align-items: stretch;
+      padding: 30px; /* Reduced padding for smaller screens */
+  }
+
+  .summary {
+      margin-right: 0;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+
+  .buttons {
+      align-items: stretch; /* Ensure buttons take full width */
+  }
+
+  .buttons a {
+      max-width: 300px; /* Optional: Set a max-width for better appearance */
+      margin: 0 auto; /* Center buttons horizontally */
+  }
+}
+
+@media (max-width: 480px) {
+  .summary h1 {
+      font-size: 24px;
+  }
+
+  .summary p {
+      font-size: 14px;
+  }
+
+  .buttons a {
+      font-size: 14px;
+      padding: 10px 16px;
+      max-width: 200px;
+  }
+
+  .buttons a i {
+      font-size: 16px;
+  }
 }
