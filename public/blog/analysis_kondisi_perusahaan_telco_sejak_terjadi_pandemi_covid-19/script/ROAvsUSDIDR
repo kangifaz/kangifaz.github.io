@@ -1,0 +1,7 @@
+plot(data$USDIDR, data$ROA, 
+     main = "ROA vs USDIDR",
+     xlab = "USDIDR", ylab = "ROA", 
+     pch = 19, col = "blue")
+model_ROA <- lm(ROA ~ USDIDR, data = data)
+abline(model_ROA, col = "red")
+summary(model_ROA)
