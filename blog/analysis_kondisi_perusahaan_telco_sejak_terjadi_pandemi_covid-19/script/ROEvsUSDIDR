@@ -1,0 +1,7 @@
+plot(data$USDIDR, data$ROE, 
+     main = "ROE vs USDIDR",
+     xlab = "USDIDR", ylab = "ROE", 
+     pch = 19, col = "blue")
+model_ROE <- lm(ROE ~ USDIDR, data = data)
+abline(model_ROE, col = "red")
+summary(model_ROE)
