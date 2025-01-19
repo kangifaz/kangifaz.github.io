@@ -1,19 +1,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-<title>Alexandria - Kang Ifaz – My Blog</title>
-<link>http://localhost:1313/blog/insight/</link>
-<description>Recent content in My Blog on Alexandria - Kang Ifaz</description>
-<generator>Hugo -- gohugo.io</generator>
-<language>en-us</language>
-<lastBuildDate>Sun, 12 Jan 2025 20:00:57 +0700</lastBuildDate>
-
+    <title>Alexandria - Kang Ifaz – Insight</title>
+    <link>http://localhost:1313/blog/insight/</link>
+    <description>Recent content in Insight on Alexandria - Kang Ifaz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Jan 2025 08:01:35 +0700</lastBuildDate>
+    
 	  <atom:link href="http://localhost:1313/blog/insight/index.xml" rel="self" type="application/rss+xml" />
-
-
-  
-
-  
-
-
+    
+    
+      
+        
+      
+    
+    
   </channel>
 </rss>

@@ -1,37 +1,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-<title>Alexandria - Kang Ifaz – My Blog</title>
-<link>http://localhost:1313/blog/ict-infrastructure/</link>
-<description>Recent content in My Blog on Alexandria - Kang Ifaz</description>
-<generator>Hugo -- gohugo.io</generator>
-<language>en-us</language>
-<lastBuildDate>Sun, 12 Jan 2025 20:00:57 +0700</lastBuildDate>
-
+    <title>Alexandria - Kang Ifaz – Ict Infrastructure</title>
+    <link>http://localhost:1313/blog/ict-infrastructure/</link>
+    <description>Recent content in Ict Infrastructure on Alexandria - Kang Ifaz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Jan 2025 08:02:30 +0700</lastBuildDate>
+    
 	  <atom:link href="http://localhost:1313/blog/ict-infrastructure/index.xml" rel="self" type="application/rss+xml" />
-
-
-  
-
-  
-
-
-<item>
-  <title>Home Data Center</title>
-  <link>http://localhost:1313/blog/ict-infrastructure/home_data_center/</link>
-  <pubDate>Sun, 12 Jan 2025 18:05:31 +0700</pubDate>
-  
-  <guid>http://localhost:1313/blog/ict-infrastructure/home_data_center/</guid>
-  <description>
-
-
-&lt;h2&gt;A.	Data Center Definition&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;adata-center-definition&#34;&gt;&lt;/span&gt;
-&lt;a href=&#34;#adata-center-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Data Center basically can be defined any space have main function for house of servers&lt;code&gt;[1][2]&lt;/code&gt;. The servers in Data Center generally provide for digital services that we use on daily activity such as Video streaming, file sharing, web search, social networking, financial service and many more services that related with digital operation all provided in Data Center&lt;code&gt;[3]&lt;/code&gt;. Nodes installed on data center not limited by Server, but also can install with another type, it’s depend on the function what we require on the Data Center. Basically Services is house for service. For example web service is installed on a server, but to access the services we can’t access without transport technology. So we need another node type for transport technology. And also for security we can’t let the server and transport node connect to public network. We need also for security function to protect the data center is safe. Safe on configuration, protocols and anything potentials ruin the services inside data center and servers. Transport what we mentioned is routers and the security devices we can also mention with firewall devices.
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Home Data Center</title>
+      <link>http://localhost:1313/blog/ict-infrastructure/home_data_center/</link>
+      <pubDate>Sun, 12 Jan 2025 18:05:31 +0700</pubDate>
+      
+      <guid>http://localhost:1313/blog/ict-infrastructure/home_data_center/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;A.	Data Center Definition&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;adata-center-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#adata-center-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Data Center basically can be defined any space have main function for house of servers&lt;code&gt;[1][2]&lt;/code&gt;. The servers in Data Center generally provide for digital services that we use on daily activity such as Video streaming, file sharing, web search, social networking, financial service and many more services that related with digital operation all provided in Data Center&lt;code&gt;[3]&lt;/code&gt;. Nodes installed on data center not limited by Server, but also can install with another type, it’s depend on the function what we require on the Data Center. Basically Services is house for service. For example web service is installed on a server, but to access the services we can’t access without transport technology. So we need another node type for transport technology. And also for security we can’t let the server and transport node connect to public network. We need also for security function to protect the data center is safe. Safe on configuration, protocols and anything potentials ruin the services inside data center and servers. Transport what we mentioned is routers and the security devices we can also mention with firewall devices.
 Commonly data center also designed with various methods. Both in physical and logical methods. In physical mechanism, Data Center mostly designed always redundant. Everything in physical must be redundant. Like service installed on physical server, normally installed on more than 1 server and each server protect the services. Once 1 server is down, like incident or maintenance, another server should be back up the services. Can we imagine for financial service, like bank account without protection. The incident always not predictable. Once the incident happen, how big bank losses incurred. Not only transaction failure, but also trust from customer will be decrease extremely. This will affected to the bank business and revenue &lt;code&gt;[4]&lt;/code&gt;. To protect business value, need to protect the services. How to do, need to protect physically like multiple server, multiple power resources and multiple transmission path. Also need ensure all path transmission need to be secure. Logically to make the services is redundant, need to make a service is effective in logic and redundant by system. Like ensuring after 1 server is down, need mechanism to service can be move to another server can be alive. In special case, not only server and transmission need have redundant way, but also once 1 data center is down, should be has another data center need to back up. This issue is very rare but we need prepare the worst and well prepare. Who knows earthquake schedule? Who knows war like in Ukraine schedule? Nobody knows, so preparation is the best way to keep the services is safe.&lt;/p&gt;
 &lt;h2&gt;B.	Data Center Challange&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;bdata-center-challange&#34;&gt;&lt;/span&gt;
-&lt;a href=&#34;#bdata-center-challange&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Because of that’s so important the services inside data centers need consume power 24x7 per week uptime, and that’s not only 1 server. All server back-up also need to be uptime. If we see the specification of server for example HPE ProLiant DL380 Gen10 Server power specification can until 1600 W. Can we imagine if this kind of server we use for redundant server, need power ready 3200 W 24 Horus, 7 Days a week. In Indonesia, 1 home with medium package power is around 1200 W. so we can imagine, 1 service with 2 server Main and backup can turn on almost 3 house. This only for 1 service in 1 server. So with this case we can imagine, the main issue on Data Center is Power Consume. And to find the effectivity a data center we find using formula Power Usage Effectiveness (PUE). Basically PUE is an instantaneous representation of electrical energy consumption that encourages operators to report the minimum observed values of PUE&lt;code&gt;[1]&lt;/code&gt;.
+    &lt;a href=&#34;#bdata-center-challange&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Because of that’s so important the services inside data centers need consume power 24x7 per week uptime, and that’s not only 1 server. All server back-up also need to be uptime. If we see the specification of server for example HPE ProLiant DL380 Gen10 Server power specification can until 1600 W. Can we imagine if this kind of server we use for redundant server, need power ready 3200 W 24 Horus, 7 Days a week. In Indonesia, 1 home with medium package power is around 1200 W. so we can imagine, 1 service with 2 server Main and backup can turn on almost 3 house. This only for 1 service in 1 server. So with this case we can imagine, the main issue on Data Center is Power Consume. And to find the effectivity a data center we find using formula Power Usage Effectiveness (PUE). Basically PUE is an instantaneous representation of electrical energy consumption that encourages operators to report the minimum observed values of PUE&lt;code&gt;[1]&lt;/code&gt;.
 In professional data center, power consume and costing so big. Sample in Google consume with over than 1,120 GWh and $67 M, Microsoft with over than 600 GWh and $36M&lt;code&gt;[5]&lt;/code&gt;. This is because various service is maintain in the services,numerous customers rely on infrastructure provided by large cloud companies with datacenters consisting of hundreds of thousands of servers &lt;code&gt;[3]&lt;/code&gt;. Mostly the professional data center already consider for clean power source. It’s mean currently the power consume source from fossil energy. So big data center already deploy for clean energy such as solar panel, cooler by nature. And this measure for how clean data center can calculate with Carbone usage Effectiveness (CUE), CUE is defined as: CUE = Total CO Emissions caused by Total Datacenter Energy/IT Energy Con- sumption. The units of the CUE metric are kilograms of carbon dioxide equivalent (kgCO2e) per kilowatt-hour (kWh)&lt;code&gt;[5] [3]&lt;/code&gt;. The power source is one of important on data center, and another things in power maintain is to deploy safe and reliable power, battery management system and anything related for power management, professional data center already deploy to build environment for clean and reliable data center in advantages &lt;code&gt;[6]&lt;/code&gt;.&lt;/p&gt;
 &lt;h3&gt;C.	Home Data Center&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;chome-data-center&#34;&gt;&lt;/span&gt;
-&lt;a href=&#34;#chome-data-center&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Home Data Center what we raise in this article are implemented with picture as below. We deploy data center with an environment for supporting homework and research activity.&lt;/p&gt;
+    &lt;a href=&#34;#chome-data-center&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Home Data Center what we raise in this article are implemented with picture as below. We deploy data center with an environment for supporting homework and research activity.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;img/homedc.jpg&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Figure 1 Home Data Center Installation
 Services maintain in home data center we tried is&lt;/p&gt;
@@ -70,32 +70,15 @@ Home data center performance as below monitored by its server. The performance p
 Security of home data center we strictly policed in the firewall, activate for features can support the security such as IPS / IDS, Clam-V, etc. And in Security part also have feature VPN. To remote access from anywhere, we connect from this firewall to cloud VPN, and we can access from anywhere as long can access the VPN network. For logical topology can refer to picture as below&lt;/p&gt;
 &lt;p&gt;Figure 8 Security and Remote Access Topology&lt;/p&gt;
 &lt;h2&gt;D.	Reference:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;dreference&#34;&gt;&lt;/span&gt;
-&lt;a href=&#34;#dreference&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+    &lt;a href=&#34;#dreference&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;[1]	J. Yuventi and R. Mehdizadeh, “A critical analysis of Power Usage Effectiveness and its use in communicating data center energy consumption,” Energy Build, vol. 64, pp. 90–94, 2013, doi: 10.1016/j.enbuild.2013.04.015.&lt;/p&gt;
+&lt;p&gt;[2]	J. G. Koomey, “Worldwide electricity used in data centers,” Environmental Research Letters, vol. 3, no. 3, Jul. 2008, doi: 10.1088/1748-9326/3/3/034008.&lt;/p&gt;
+&lt;p&gt;[3]	M. Noormohammadpour and C. S. Raghavendra, “Datacenter Traffic Control: Understanding Techniques and Tradeoffs,” IEEE Communications Surveys and Tutorials, vol. 20, no. 2. Institute of Electrical and Electronics Engineers Inc., pp. 1492–1525, Apr. 01, 2018. doi: 10.1109/COMST.2017.2782753.&lt;/p&gt;
+&lt;p&gt;[4]	J. Ceballos, R. Dipasquale, and R. Feldman, “Business continuity and security in datacenter interconnection,” Bell Labs Tech J, vol. 17, no. 3, pp. 147–155, 2012, doi: 10.1002/bltj.21565.&lt;/p&gt;
+&lt;p&gt;[5]	“Harnessing renewable energy in cloud datacenters- opportunities and challenges ”.&lt;/p&gt;
+&lt;p&gt;[6]	J. M. Pierson et al., “Datazero: Datacenter with zero emission and robust management using renewable energy,” IEEE Access, vol. 7, pp. 103209–103230, 2019, doi: 10.1109/ACCESS.2019.2930368.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;[1]	J. Yuventi and R. Mehdizadeh, “A critical analysis of Power Usage Effectiveness and its use in communicating data center energy consumption,” Energy Build, vol. 64, pp. 90–94, 2013, doi: 10.1016/j.enbuild.2013.04.015.
-
-[2]	J. G. Koomey, “Worldwide electricity used in data centers,” Environmental Research Letters, vol. 3, no. 3, Jul. 2008, doi: 10.1088/1748-9326/3/3/034008.
-
-[3]	M. Noormohammadpour and C. S. Raghavendra, “Datacenter Traffic Control: Understanding Techniques and Tradeoffs,” IEEE Communications Surveys and Tutorials, vol. 20, no. 2. Institute of Electrical and Electronics Engineers Inc., pp. 1492–1525, Apr. 01, 2018. doi: 10.1109/COMST.2017.2782753.
-
-[4]	J. Ceballos, R. Dipasquale, and R. Feldman, “Business continuity and security in datacenter interconnection,” Bell Labs Tech J, vol. 17, no. 3, pp. 147–155, 2012, doi: 10.1002/bltj.21565.
-
-[5]	“Harnessing renewable energy in cloud datacenters- opportunities and challenges ”.
-
-[6]	J. M. Pierson et al., “Datazero: Datacenter with zero emission and robust management using renewable energy,” IEEE Access, vol. 7, pp. 103209–103230, 2019, doi: 10.1109/ACCESS.2019.2930368.
- &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-title=&#34;Copy code&#34;
-  &gt;
-&lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-  </description>
-</item>
-
+      </description>
+    </item>
+    
   </channel>
 </rss>
