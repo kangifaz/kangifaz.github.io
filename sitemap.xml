@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kangifaz.com/</loc>
-    <lastmod>2025-01-19T08:06:45+07:00</lastmod>
+    <loc>https://kangifaz.com/docs/olympys-data-center/stb-commissioning/</loc>
+    <lastmod>2025-01-19T11:00:28+07:00</lastmod>
   </url><url>
-    <loc>https://kangifaz.com/blog/insight/data-center-market-landscape/</loc>
+    <loc>https://kangifaz.com/</loc>
+    <lastmod>2025-01-19T11:00:28+07:00</lastmod>
+  </url><url>
+    <loc>https://kangifaz.com/blog/insight-data-and-research/data-center-market-landscape/</loc>
     <lastmod>2025-01-18T18:05:31+07:00</lastmod>
   </url><url>
-    <loc>https://kangifaz.com/blog/data-and-research/analysis_kondisi_perusahaan_telco_sejak_terjadi_pandemi_covid-19/</loc>
+    <loc>https://kangifaz.com/blog/insight-data-and-research/analysis_kondisi_perusahaan_telco_sejak_terjadi_pandemi_covid-19/</loc>
     <lastmod>2025-01-12T18:05:31+07:00</lastmod>
   </url><url>
     <loc>https://kangifaz.com/blog/ict-infrastructure/home_data_center/</loc>

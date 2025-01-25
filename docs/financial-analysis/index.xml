@@ -1,0 +1,19 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexandria - Kang Ifaz – Financial Analysis with R</title>
+    <link>http://localhost:1313/docs/financial-analysis/</link>
+    <description>Recent content in Financial Analysis with R on Alexandria - Kang Ifaz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Jan 2025 18:19:21 +0700</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/docs/financial-analysis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>
