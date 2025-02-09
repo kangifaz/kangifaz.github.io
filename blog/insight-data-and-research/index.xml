@@ -17,6 +17,214 @@
     
     
     <item>
+      <title>Machine Also Can Learn, Like Us!</title>
+      <link>http://localhost:1313/blog/insight-data-and-research/machine-also-can-learn/</link>
+      <pubDate>Sun, 09 Feb 2025 23:55:52 +0700</pubDate>
+      
+      <guid>http://localhost:1313/blog/insight-data-and-research/machine-also-can-learn/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;&lt;strong&gt;1. The Inspiration Behind Machine Learning: A Nobel Prize Story&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-the-inspiration-behind-machine-learning-a-nobel-prize-story&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-the-inspiration-behind-machine-learning-a-nobel-prize-story&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In 2004, the &lt;a href=&#34;https://www.nobelprize.org/prizes/physics/2024/press-release/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nobel Prize&lt;/a&gt; in Physics was awarded to &lt;code&gt;David J. Gross&lt;/code&gt;, &lt;code&gt;H. David Politzer&lt;/code&gt;, and &lt;code&gt;Frank Wilczek&lt;/code&gt; for their discoveries concerning the strong interaction in quantum chromodynamics. While their work was rooted in particle physics, the advancements in understanding complex interactions inspired research in various fields, including &lt;code&gt;artificial intelligence (AI)&lt;/code&gt; and &lt;code&gt;machine learning (ML)&lt;/code&gt;. Around the same time, researchers were diving deeper into the concept of artificial neural networks, mimicking the human brain&amp;rsquo;s ability to process information. Just as neurons in our brain store and transmit signals to learn and adapt, machine learning models began leveraging similar structures to improve memory, recognition, and decision-making.&lt;/p&gt;
+&lt;p&gt;The idea of &lt;a href=&#34;https://www.nobelprize.org/uploads/2024/10/fig2_fy_pop_en_241009_neuronVSnod-2.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;neural networks&lt;/a&gt; dates back even further to the 1940s, but it wasn’t until computational power caught up that these models could be effectively trained. Inspired by how the human brain processes and recalls information, researchers aimed to replicate cognitive functions in machines, giving rise to deep learning models that continue to evolve today.
+&lt;img src=&#34;image.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;2. The Expanding Role of ML and AI Across Industries&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-the-expanding-role-of-ml-and-ai-across-industries&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-the-expanding-role-of-ml-and-ai-across-industries&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Since the rise of AI and ML, these technologies have become &lt;code&gt;Since AI and ML became more advanced&lt;/code&gt;, they have started changing industries in a big way. These technologies are helping businesses work better and connect with customers in new ways. Many sectors have seen big improvements because of &lt;code&gt;AI’s ability&lt;/code&gt; to process &lt;code&gt;large amounts of data&lt;/code&gt;, &lt;code&gt;automate tasks&lt;/code&gt;, and &lt;code&gt;make predictions&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ICT Industry:&lt;/strong&gt; AI improves search engines, helps manage networks, strengthens cybersecurity, and makes interactions between humans and machines smoother with natural language processing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Retail &amp;amp; E-commerce:&lt;/strong&gt; Companies use AI to suggest products, run chatbots for customer service, predict demand, and improve supply chains, making shopping experiences better.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Automotive:&lt;/strong&gt; AI plays a huge role in self-driving cars, helping vehicles understand their surroundings and drive safely using computer vision and machine learning.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Finance:&lt;/strong&gt; AI is making a big impact in finance, helping to analyze stock trends, detect fraud, and automate trading. However, finance is a unique industry where AI also brings risks. Since the market is driven by money, AI-powered trading and financial predictions could bring both benefits and disruptions.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;3. Challenges in AI and ML Development&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-challenges-in-ai-and-ml-development&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-challenges-in-ai-and-ml-development&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Even though AI has made great progress, there are still &lt;code&gt;many challenges in its development&lt;/code&gt;. One of the biggest issues is that &lt;code&gt;ethics and legal standards for AI are not yet fully&lt;/code&gt; defined. This can &lt;code&gt;lead to problems&lt;/code&gt; with &lt;code&gt;copyright&lt;/code&gt;, &lt;code&gt;laws&lt;/code&gt;, and &lt;code&gt;moral concerns&lt;/code&gt;, especially when AI models are trained using large amounts of data without clear ownership rules.&lt;/p&gt;
+&lt;p&gt;Another challenge is the &lt;code&gt;availability of resources&lt;/code&gt;. AI development requires &lt;code&gt;high-performance hardware&lt;/code&gt; like GPUs or TPUs, which &lt;code&gt;consume a lot of power.&lt;/code&gt; This raises concerns about energy usage and sustainability. At the same time, human resources are also limited. AI research and development need skilled professionals, but there are not enough experts in the field to keep up with the growing demand.&lt;/p&gt;
+&lt;p&gt;AI models also &lt;code&gt;struggle with accuracy&lt;/code&gt;. Even the most advanced models can still make mistakes, and &lt;code&gt;these errors can have serious consequences&lt;/code&gt;, especially in areas &lt;code&gt;like healthcare or finance&lt;/code&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Ensuring that AI systems are reliable and trustworthy is an ongoing challenge.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;/blockquote&gt;
+&lt;p&gt;As AI continues to evolve, addressing these challenges will be crucial to making sure it remains a positive force for progress.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;4. Alexa Experiment: Stock Price Forecasting with LSTM and ARIMA to Get Insight&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4-alexa-experiment-stock-price-forecasting-with-lstm-and-arima-to-get-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-alexa-experiment-stock-price-forecasting-with-lstm-and-arima-to-get-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;As a finance and technology enthusiast, I try to learn and build a simple model using Long &lt;code&gt;Short-Term Memory (LSTM)&lt;/code&gt; networks to predict stock prices. LSTMs, a type of &lt;code&gt;recurrent neural network (RNN)&lt;/code&gt;, are well-suited for time-series forecasting, making them ideal for analyzing historical stock data.&lt;/p&gt;
+&lt;p&gt;All resources that I used can be view on my &lt;a href=&#34;https://github.com/kangifaz/repo/blob/main/machine-also-can-learn/Machine%20Also%20Can%20Learn.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Repository Pages&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I gathered stock market data, preprocessed it, and trained an LSTM model to recognize patterns and predict future trends. While the model provided insightful predictions, it also highlighted the complexities of financial markets, where external factors such as global events and economic policies play a significant role. This experiment reinforced the importance of continuous learning and improvement in AI models.&lt;/p&gt;
+&lt;p&gt;Stock price forecasting has always been a challenging task due to the &lt;strong&gt;complexity of financial markets&lt;/strong&gt;. In this experiment, I attempted to predict the &lt;strong&gt;future stock prices of BBCA (Bank Central Asia)&lt;/strong&gt; using two different approaches:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Long Short-Term Memory (LSTM)&lt;/strong&gt;, a deep learning model capable of understanding time-series data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AutoRegressive Integrated Moving Average (ARIMA)&lt;/strong&gt;, a traditional statistical model widely used in financial forecasting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The purpose of this study was not to create a perfect forecasting model but to &lt;strong&gt;gain insights into how different machine learning models behave in financial forecasting&lt;/strong&gt;. Additionally, I explored a &lt;strong&gt;combination of both models (ensemble forecast)&lt;/strong&gt; to see if merging predictions could improve accuracy.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;a. Data Collection and Preprocessing&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;a-data-collection-and-preprocessing&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#a-data-collection-and-preprocessing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Before we begin forecasting, &lt;strong&gt;data preparation is crucial&lt;/strong&gt;. The data used in this experiment consists of:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;BBCA_history_price.csv&lt;/strong&gt; – Containing historical price data (Open, High, Low, Close, Volume).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BBCA-financials.xlsx&lt;/strong&gt; – Containing financial ratios and performance metrics.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;&lt;strong&gt;Key Preprocessing Steps&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;key-preprocessing-steps&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#key-preprocessing-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Filtering the last 10 years of data&lt;/strong&gt; to focus on recent trends.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exploratory Data Analysis (EDA)&lt;/strong&gt; to visualize patterns in stock prices.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data normalization&lt;/strong&gt; using Min-Max Scaling for better deep learning performance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feature engineering&lt;/strong&gt; to create sequences of past prices for the LSTM model.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;b. Exploratory Data Analysis (EDA)&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;b-exploratory-data-analysis-eda&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#b-exploratory-data-analysis-eda&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Exploratory Data Analysis (EDA) is &lt;strong&gt;one of the most important steps in data science&lt;/strong&gt; because it allows us to identify &lt;strong&gt;patterns, trends, and anomalies&lt;/strong&gt; before applying any machine learning models.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;EDA Process:&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;eda-process&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#eda-process&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Visualization of Historical Prices&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A time-series plot was generated to observe the long-term trend of BBCA stock prices.&lt;/li&gt;
+&lt;li&gt;It revealed a general upward trend but with fluctuations due to market conditions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Correlation Analysis&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A heatmap of financial indicators was created to identify relationships between variables.&lt;/li&gt;
+&lt;li&gt;Understanding which financial metrics correlate with stock prices can help improve forecasting models.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Handling Missing Data&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Any missing values were carefully handled to ensure model reliability.&lt;/li&gt;
+&lt;li&gt;If missing values were found in financial reports, interpolation or forward-filling was applied.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;c. Forecasting Using LSTM (Deep Learning)&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;c-forecasting-using-lstm-deep-learning&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#c-forecasting-using-lstm-deep-learning&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;&lt;strong&gt;What is LSTM?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-is-lstm&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-is-lstm&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;LSTM (&lt;strong&gt;Long Short-Term Memory&lt;/strong&gt;) is a &lt;strong&gt;special type of Recurrent Neural Network (RNN)&lt;/strong&gt; designed to &lt;strong&gt;handle time-series data&lt;/strong&gt;. Unlike traditional neural networks, LSTM has &lt;strong&gt;memory cells&lt;/strong&gt; that allow it to learn long-term dependencies.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;How We Used LSTM&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-we-used-lstm&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#how-we-used-lstm&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Creating Input Sequences&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A &lt;strong&gt;sliding window approach&lt;/strong&gt; was used, where the model learns from the &lt;strong&gt;last 60 days of stock prices&lt;/strong&gt; to predict the next day&amp;rsquo;s price.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Building the LSTM Model&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Two LSTM layers&lt;/strong&gt; were added to capture time-series dependencies.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dropout layers&lt;/strong&gt; were included to prevent overfitting.&lt;/li&gt;
+&lt;li&gt;A &lt;strong&gt;Dense output layer&lt;/strong&gt; was used for final price predictions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Training and Testing&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The dataset was split into &lt;strong&gt;80% training data and 20% testing data&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;The model was trained using &lt;strong&gt;Adam optimizer&lt;/strong&gt; and &lt;strong&gt;Mean Squared Error (MSE) loss function&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;&lt;strong&gt;Advantages of LSTM&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;advantages-of-lstm&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#advantages-of-lstm&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;✅ &lt;strong&gt;Handles long-term dependencies&lt;/strong&gt; in stock price movements.&lt;br&gt;
+✅ &lt;strong&gt;Adapts to non-linear patterns&lt;/strong&gt;, making it more suitable for financial forecasting.&lt;br&gt;
+✅ &lt;strong&gt;Learns patterns without requiring explicit feature engineering&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;d. Forecasting Using ARIMA (Traditional Statistical Model)&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;d-forecasting-using-arima-traditional-statistical-model&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#d-forecasting-using-arima-traditional-statistical-model&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;&lt;strong&gt;What is ARIMA?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-is-arima&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-is-arima&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;ARIMA (&lt;strong&gt;AutoRegressive Integrated Moving Average&lt;/strong&gt;) is a &lt;strong&gt;time-series forecasting model&lt;/strong&gt; that assumes stock prices are influenced by &lt;strong&gt;past values and error terms&lt;/strong&gt;.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;How We Used ARIMA&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-we-used-arima&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#how-we-used-arima&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Model Selection&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We analyzed the &lt;strong&gt;Autocorrelation Function (ACF)&lt;/strong&gt; and &lt;strong&gt;Partial Autocorrelation Function (PACF)&lt;/strong&gt; plots.&lt;/li&gt;
+&lt;li&gt;The best order was determined as &lt;strong&gt;(5,1,0)&lt;/strong&gt;, meaning:
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;p = 5&lt;/em&gt;: The past 5 values influence future predictions.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;d = 1&lt;/em&gt;: The data was differenced once to remove trends.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;q = 0&lt;/em&gt;: No moving average component was used.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Training and Forecasting&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ARIMA was trained on &lt;strong&gt;historical stock prices&lt;/strong&gt; and forecasted the &lt;strong&gt;next 2 years&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;&lt;strong&gt;Advantages of ARIMA&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;advantages-of-arima&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#advantages-of-arima&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;✅ &lt;strong&gt;Interpretable and efficient&lt;/strong&gt; for short-term forecasting.&lt;br&gt;
+✅ &lt;strong&gt;Works well on stationary time-series data&lt;/strong&gt;.&lt;br&gt;
+✅ &lt;strong&gt;A widely used method in econometrics and finance&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;e. Combining the Forecasts (Ensemble Model)&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;e-combining-the-forecasts-ensemble-model&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#e-combining-the-forecasts-ensemble-model&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Since LSTM and ARIMA have &lt;strong&gt;different strengths&lt;/strong&gt;, I combined them into an &lt;strong&gt;ensemble forecast&lt;/strong&gt; by averaging predictions.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Why Ensemble Forecasting?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;why-ensemble-forecasting&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#why-ensemble-forecasting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;LSTM captures &lt;strong&gt;complex, non-linear patterns&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;ARIMA models &lt;strong&gt;linear trends&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;By &lt;strong&gt;combining both models&lt;/strong&gt;, we get a &lt;strong&gt;balanced forecast&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;strong&gt;Final Ensemble Formula&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;final-ensemble-formula&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#final-ensemble-formula&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;\[
+\text{Ensemble Forecast} = \frac{\text{LSTM Forecast} + \text{ARIMA Forecast}}{2}
+\]&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;f. Results and Insights&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;f-results-and-insights&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#f-results-and-insights&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;&lt;strong&gt;1. LSTM Performance on Test Data&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-lstm-performance-on-test-data&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-lstm-performance-on-test-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;📌 &lt;strong&gt;Comparison of Actual vs. Predicted Prices (Test Set)&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;image-2.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;strong&gt;LSTM model closely followed actual stock prices&lt;/strong&gt;, with some deviations.&lt;/li&gt;
+&lt;li&gt;Predictions were &lt;strong&gt;smoother than actual prices&lt;/strong&gt;, meaning it captured trends but missed short-term volatility.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;strong&gt;2. 2-Year Forecast Comparison&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-2-year-forecast-comparison&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-2-year-forecast-comparison&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;📌 &lt;strong&gt;Forecasting the Next 2 Years&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;image-1.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ARIMA Prediction (Red Line)&lt;/strong&gt;: A flat trend, showing it struggles with capturing recent price volatility.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LSTM Prediction (Green Line)&lt;/strong&gt;: Predicts a downward trend, which may be &lt;strong&gt;influenced by recent bearish trends&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ensemble Prediction (Black Dashed Line)&lt;/strong&gt;: A more balanced estimate, combining &lt;strong&gt;both the trend-following nature of ARIMA and the adaptability of LSTM&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;g. Conclusion&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;g-conclusion&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#g-conclusion&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;LSTM performed well for short-term predictions&lt;/strong&gt; but showed &lt;strong&gt;limitations in long-term forecasting&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ARIMA worked for basic trend-following but lacked complexity&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The ensemble forecast provided the most stable prediction&lt;/strong&gt;, balancing &lt;strong&gt;trend and volatility&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real-world forecasting should include external economic indicators&lt;/strong&gt; such as &lt;strong&gt;interest rates, inflation, and market sentiment&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;More advanced hybrid models (LSTM + XGBoost) could be tested for improved accuracy&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;h. Limitations and Disclaimer&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;h-limitations-and-disclaimer&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#h-limitations-and-disclaimer&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;🛑 &lt;strong&gt;Disclaimer:&lt;/strong&gt;&lt;br&gt;
+🚨 &lt;strong&gt;This study is purely for research and educational purposes.&lt;/strong&gt;&lt;br&gt;
+📉 &lt;strong&gt;It is NOT financial advice and should NOT be used for trading or investment decisions.&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Limitations of This Experiment&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;limitations-of-this-experiment&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#limitations-of-this-experiment&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;External factors like economic policies, global events, and investor sentiment are not considered&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The model was trained only on past price movements&lt;/strong&gt;, without fundamental analysis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Predictions may not reflect actual future movements&lt;/strong&gt; due to the unpredictable nature of financial markets.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;💡 &lt;strong&gt;This research is intended to explore machine learning applications in stock forecasting and inspire future improvements.&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;i. Future Improvements&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;i-future-improvements&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#i-future-improvements&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;📌 &lt;strong&gt;Integrate fundamental analysis&lt;/strong&gt; (revenue, earnings, interest rates).&lt;/li&gt;
+&lt;li&gt;📌 &lt;strong&gt;Experiment with hybrid models&lt;/strong&gt; (LSTM + ARIMA + XGBoost).&lt;/li&gt;
+&lt;li&gt;📌 &lt;strong&gt;Use sentiment analysis on news and social media&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;📌 &lt;strong&gt;Test alternative deep learning architectures&lt;/strong&gt; (GRU, Transformer models).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🔍 &lt;strong&gt;This study shows how AI and ML can be applied in stock forecasting, but financial markets remain highly unpredictable.&lt;/strong&gt;&lt;br&gt;
+🚀 &lt;strong&gt;Further research and model improvements are necessary for practical use!&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;6. Conclusion&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;6-conclusion&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6-conclusion&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Machine learning and AI have come a long way, drawing inspiration from the intricate workings of the human brain. From their early theoretical roots to practical applications across industries, AI continues to shape our world. However, challenges like hardware demands, energy consumption, and ethical considerations must be addressed to ensure responsible AI development.&lt;/p&gt;
+&lt;p&gt;As we move forward, AI holds the promise of solving real-world problems, making life more efficient, and unlocking new possibilities. Through small experiments like stock price prediction with LSTM, we can appreciate both the potential and limitations of AI, pushing us to refine and innovate further. Just like us, machines are learning—and their journey has only just begun.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Free[AI] Secretary Service</title>
       <link>http://localhost:1313/blog/insight-data-and-research/ai-personal-assistant/</link>
       <pubDate>Mon, 27 Jan 2025 23:29:38 +0700</pubDate>
@@ -799,11 +1007,11 @@ InterestRate  0.230121231.0000000&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hex
 &lt;/div&gt;
 &lt;p&gt;Penjelasan :&lt;/p&gt;
 &lt;h1&gt;Analisis Korelasi Variabel Keuangan dan Makroekonomi&lt;/h1&gt;&lt;p&gt;Analisis ini bertujuan untuk mengevaluasi hubungan antara kinerja keuangan perusahaan, yang direpresentasikan oleh indikator-indikator seperti ROA, ROE, GPM, OPM, DER, CR, dan ICR, dengan variabel makroekonomi seperti GDP, inflasi, tingkat pengangguran, konsumsi masyarakat, dan suku bunga. Pendekatan yang digunakan adalah analisis korelasi Pearson, yang mengukur kekuatan dan arah hubungan linear antara dua variabel. Pemilihan metode ini didasarkan pada kemampuannya untuk memberikan indikasi awal mengenai adanya keterkaitan antara variabel-variabel yang diamati, sehingga memungkinkan identifikasi potensi hubungan yang signifikan untuk analisis lebih lanjut.&lt;/p&gt;
-&lt;p&gt;Hasil analisis korelasi menunjukkan bahwa terdapat beberapa hubungan signifikan antara variabel makroekonomi dan indikator keuangan. Sebagai contoh, GDP memiliki korelasi negatif yang kuat dengan DER ((r = -0.81)) dan korelasi positif yang kuat dengan CR ((r = 0.77)), mengindikasikan bahwa pertumbuhan ekonomi berkontribusi terhadap pengurangan leverage perusahaan sekaligus meningkatkan likuiditasnya. Inflasi memiliki korelasi positif dengan DER ((r = 0.70)), tetapi korelasi negatif dengan CR ((r = -0.74)), yang menunjukkan bahwa tekanan inflasi dapat mendorong peningkatan penggunaan utang oleh perusahaan sambil menurunkan rasio likuiditas. Tingkat pengangguran menunjukkan korelasi positif dengan GPM ((r = 0.75)) dan DER ((r = 0.78)), yang dapat diinterpretasikan sebagai dampak dari penurunan konsumsi rumah tangga terhadap strategi margin laba kotor perusahaan.&lt;/p&gt;
+&lt;p&gt;Hasil analisis korelasi menunjukkan bahwa terdapat beberapa hubungan signifikan antara variabel makroekonomi dan indikator keuangan. Sebagai contoh, GDP memiliki korelasi negatif yang kuat dengan DER (\(r = -0.81\)) dan korelasi positif yang kuat dengan CR (\(r = 0.77\)), mengindikasikan bahwa pertumbuhan ekonomi berkontribusi terhadap pengurangan leverage perusahaan sekaligus meningkatkan likuiditasnya. Inflasi memiliki korelasi positif dengan DER (\(r = 0.70\)), tetapi korelasi negatif dengan CR (\(r = -0.74\)), yang menunjukkan bahwa tekanan inflasi dapat mendorong peningkatan penggunaan utang oleh perusahaan sambil menurunkan rasio likuiditas. Tingkat pengangguran menunjukkan korelasi positif dengan GPM (\(r = 0.75\)) dan DER (\(r = 0.78\)), yang dapat diinterpretasikan sebagai dampak dari penurunan konsumsi rumah tangga terhadap strategi margin laba kotor perusahaan.&lt;/p&gt;
 &lt;p&gt;Metode korelasi digunakan karena menyediakan analisis awal untuk mengevaluasi hubungan linier antarvariabel secara kuantitatif. Dengan koefisien korelasi Pearson, dapat diidentifikasi variabel-variabel yang memiliki hubungan signifikan dan arah hubungan tersebut (positif atau negatif). Namun, penting untuk dicatat bahwa korelasi tidak menunjukkan hubungan sebab-akibat (causality); oleh karena itu, hasil ini hanya memberikan indikasi awal yang membutuhkan analisis lebih lanjut.&lt;/p&gt;
 &lt;p&gt;Untuk menjawab pertanyaan tentang pengaruh variabel makroekonomi selain USDIDR terhadap kinerja keuangan perusahaan, analisis multivariat dapat dilakukan. Model regresi linier berganda diterapkan untuk mengevaluasi dampak simultan dari berbagai variabel makroekonomi terhadap indikator keuangan utama. Model ini mengasumsikan bahwa setiap variabel independen (GDP, inflasi, pengangguran, konsumsi, suku bunga) memiliki kontribusi unik terhadap variabel dependen (misalnya, ROA). Rumus umum model regresi linier berganda adalah:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;img/image-17.png&#34; alt=&#34;rumus&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Hasil regresi linier menunjukkan bahwa selain USDIDR, variabel makroekonomi lainnya seperti inflasi dan GDP juga memiliki pengaruh signifikan terhadap indikator keuangan tertentu. Sebagai contoh, regresi terhadap ROA menunjukkan bahwa inflasi memiliki pengaruh negatif signifikan ((p &amp;lt; 0.05)) dan GDP memiliki pengaruh positif signifikan ((p &amp;lt; 0.01)), mengindikasikan bahwa kedua variabel tersebut memengaruhi profitabilitas perusahaan secara berbeda. Hasil serupa diamati untuk indikator lainnya seperti CR dan DER, yang menunjukkan pengaruh yang beragam dari variabel makroekonomi.&lt;/p&gt;
+&lt;p&gt;Hasil regresi linier menunjukkan bahwa selain USDIDR, variabel makroekonomi lainnya seperti inflasi dan GDP juga memiliki pengaruh signifikan terhadap indikator keuangan tertentu. Sebagai contoh, regresi terhadap ROA menunjukkan bahwa inflasi memiliki pengaruh negatif signifikan (\(p &lt; 0.05\)) dan GDP memiliki pengaruh positif signifikan (\(p &lt; 0.01\)), mengindikasikan bahwa kedua variabel tersebut memengaruhi profitabilitas perusahaan secara berbeda. Hasil serupa diamati untuk indikator lainnya seperti CR dan DER, yang menunjukkan pengaruh yang beragam dari variabel makroekonomi.&lt;/p&gt;
 &lt;p&gt;Analisis ini memberikan wawasan bahwa kinerja keuangan perusahaan dipengaruhi oleh kombinasi dari berbagai faktor makroekonomi, bukan hanya USDIDR. Untuk menjawab pertanyaan dengan lebih komprehensif, model ekonometrika yang lebih kompleks, seperti analisis regresi panel atau model kausalitas Granger, dapat diterapkan untuk menangkap dinamika hubungan antarvariabel dalam rentang waktu tertentu.&lt;/p&gt;
 &lt;h1&gt;BAGIAN B&lt;/h1&gt;&lt;p&gt;Tambahkan data baru, yaitu data kuartal 2 tahun 2024 dan kuartal 3 tahun 2024 (jika sudah ada), dari laporan keuangan masing-masing emiten. Lakukan analisis komparasi kondisi perusahaan (i) tahun 2023 terhadap tahun 2022, dan (ii) tahun 2024 terhadap tahun 2023.&lt;/p&gt;
 &lt;h2&gt;ROA&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;roa&#34;&gt;&lt;/span&gt;
