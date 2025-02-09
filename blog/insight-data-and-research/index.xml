@@ -28,13 +28,23 @@
         &lt;h2&gt;&lt;strong&gt;1. The Inspiration Behind Machine Learning: A Nobel Prize Story&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-the-inspiration-behind-machine-learning-a-nobel-prize-story&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#1-the-inspiration-behind-machine-learning-a-nobel-prize-story&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In 2004, the &lt;a href=&#34;https://www.nobelprize.org/prizes/physics/2024/press-release/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nobel Prize&lt;/a&gt; in Physics was awarded to &lt;code&gt;David J. Gross&lt;/code&gt;, &lt;code&gt;H. David Politzer&lt;/code&gt;, and &lt;code&gt;Frank Wilczek&lt;/code&gt; for their discoveries concerning the strong interaction in quantum chromodynamics. While their work was rooted in particle physics, the advancements in understanding complex interactions inspired research in various fields, including &lt;code&gt;artificial intelligence (AI)&lt;/code&gt; and &lt;code&gt;machine learning (ML)&lt;/code&gt;. Around the same time, researchers were diving deeper into the concept of artificial neural networks, mimicking the human brain&amp;rsquo;s ability to process information. Just as neurons in our brain store and transmit signals to learn and adapt, machine learning models began leveraging similar structures to improve memory, recognition, and decision-making.&lt;/p&gt;
 &lt;p&gt;The idea of &lt;a href=&#34;https://www.nobelprize.org/uploads/2024/10/fig2_fy_pop_en_241009_neuronVSnod-2.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;neural networks&lt;/a&gt; dates back even further to the 1940s, but it wasn’t until computational power caught up that these models could be effectively trained. Inspired by how the human brain processes and recalls information, researchers aimed to replicate cognitive functions in machines, giving rise to deep learning models that continue to evolve today.
-&lt;img src=&#34;image.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;img/image.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;&lt;strong&gt;2. The Expanding Role of ML and AI Across Industries&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-the-expanding-role-of-ml-and-ai-across-industries&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#2-the-expanding-role-of-ml-and-ai-across-industries&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Since the rise of AI and ML, these technologies have become &lt;code&gt;Since AI and ML became more advanced&lt;/code&gt;, they have started changing industries in a big way. These technologies are helping businesses work better and connect with customers in new ways. Many sectors have seen big improvements because of &lt;code&gt;AI’s ability&lt;/code&gt; to process &lt;code&gt;large amounts of data&lt;/code&gt;, &lt;code&gt;automate tasks&lt;/code&gt;, and &lt;code&gt;make predictions&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;strong&gt;ICT Industry:&lt;/strong&gt; AI improves search engines, helps manage networks, strengthens cybersecurity, and makes interactions between humans and machines smoother with natural language processing.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Retail &amp;amp; E-commerce:&lt;/strong&gt; Companies use AI to suggest products, run chatbots for customer service, predict demand, and improve supply chains, making shopping experiences better.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Automotive:&lt;/strong&gt; AI plays a huge role in self-driving cars, helping vehicles understand their surroundings and drive safely using computer vision and machine learning.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Finance:&lt;/strong&gt; AI is making a big impact in finance, helping to analyze stock trends, detect fraud, and automate trading. However, finance is a unique industry where AI also brings risks. Since the market is driven by money, AI-powered trading and financial predictions could bring both benefits and disruptions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;&lt;strong&gt;3. Challenges in AI and ML Development&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-challenges-in-ai-and-ml-development&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#3-challenges-in-ai-and-ml-development&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Even though AI has made great progress, there are still &lt;code&gt;many challenges in its development&lt;/code&gt;. One of the biggest issues is that &lt;code&gt;ethics and legal standards for AI are not yet fully&lt;/code&gt; defined. This can &lt;code&gt;lead to problems&lt;/code&gt; with &lt;code&gt;copyright&lt;/code&gt;, &lt;code&gt;laws&lt;/code&gt;, and &lt;code&gt;moral concerns&lt;/code&gt;, especially when AI models are trained using large amounts of data without clear ownership rules.&lt;/p&gt;
 &lt;p&gt;Another challenge is the &lt;code&gt;availability of resources&lt;/code&gt;. AI development requires &lt;code&gt;high-performance hardware&lt;/code&gt; like GPUs or TPUs, which &lt;code&gt;consume a lot of power.&lt;/code&gt; This raises concerns about energy usage and sustainability. At the same time, human resources are also limited. AI research and development need skilled professionals, but there are not enough experts in the field to keep up with the growing demand.&lt;/p&gt;
@@ -55,8 +65,8 @@
 &lt;/ul&gt;
 &lt;p&gt;The purpose of this study was not to create a perfect forecasting model but to &lt;strong&gt;gain insights into how different machine learning models behave in financial forecasting&lt;/strong&gt;. Additionally, I explored a &lt;strong&gt;combination of both models (ensemble forecast)&lt;/strong&gt; to see if merging predictions could improve accuracy.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3&gt;&lt;strong&gt;a. Data Collection and Preprocessing&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;a-data-collection-and-preprocessing&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#a-data-collection-and-preprocessing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Before we begin forecasting, &lt;strong&gt;data preparation is crucial&lt;/strong&gt;. The data used in this experiment consists of:&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;4.1. Data Collection and Preprocessing&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;41-data-collection-and-preprocessing&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#41-data-collection-and-preprocessing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Before we begin forecasting, &lt;strong&gt;data preparation is crucial&lt;/strong&gt;. The data used in this experiment consists of:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;BBCA_history_price.csv&lt;/strong&gt; – Containing historical price data (Open, High, Low, Close, Volume).&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;BBCA-financials.xlsx&lt;/strong&gt; – Containing financial ratios and performance metrics.&lt;/li&gt;
@@ -69,8 +79,8 @@
 &lt;li&gt;&lt;strong&gt;Feature engineering&lt;/strong&gt; to create sequences of past prices for the LSTM model.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3&gt;&lt;strong&gt;b. Exploratory Data Analysis (EDA)&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;b-exploratory-data-analysis-eda&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#b-exploratory-data-analysis-eda&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Exploratory Data Analysis (EDA) is &lt;strong&gt;one of the most important steps in data science&lt;/strong&gt; because it allows us to identify &lt;strong&gt;patterns, trends, and anomalies&lt;/strong&gt; before applying any machine learning models.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;4.2. Exploratory Data Analysis (EDA)&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;42-exploratory-data-analysis-eda&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#42-exploratory-data-analysis-eda&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Exploratory Data Analysis (EDA) is &lt;strong&gt;one of the most important steps in data science&lt;/strong&gt; because it allows us to identify &lt;strong&gt;patterns, trends, and anomalies&lt;/strong&gt; before applying any machine learning models.&lt;/p&gt;
 &lt;h4&gt;&lt;strong&gt;EDA Process:&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;eda-process&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#eda-process&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;
@@ -96,8 +106,8 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h3&gt;&lt;strong&gt;c. Forecasting Using LSTM (Deep Learning)&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;c-forecasting-using-lstm-deep-learning&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#c-forecasting-using-lstm-deep-learning&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;&lt;strong&gt;What is LSTM?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-is-lstm&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;&lt;strong&gt;4.3. Forecasting Using LSTM (Deep Learning)&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;43-forecasting-using-lstm-deep-learning&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#43-forecasting-using-lstm-deep-learning&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;&lt;strong&gt;What is LSTM?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-is-lstm&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#what-is-lstm&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;LSTM (&lt;strong&gt;Long Short-Term Memory&lt;/strong&gt;) is a &lt;strong&gt;special type of Recurrent Neural Network (RNN)&lt;/strong&gt; designed to &lt;strong&gt;handle time-series data&lt;/strong&gt;. Unlike traditional neural networks, LSTM has &lt;strong&gt;memory cells&lt;/strong&gt; that allow it to learn long-term dependencies.&lt;/p&gt;
 &lt;h4&gt;&lt;strong&gt;How We Used LSTM&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-we-used-lstm&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#how-we-used-lstm&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
@@ -128,8 +138,8 @@
 ✅ &lt;strong&gt;Adapts to non-linear patterns&lt;/strong&gt;, making it more suitable for financial forecasting.&lt;br&gt;
 ✅ &lt;strong&gt;Learns patterns without requiring explicit feature engineering&lt;/strong&gt;.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3&gt;&lt;strong&gt;d. Forecasting Using ARIMA (Traditional Statistical Model)&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;d-forecasting-using-arima-traditional-statistical-model&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#d-forecasting-using-arima-traditional-statistical-model&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;&lt;strong&gt;What is ARIMA?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-is-arima&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;&lt;strong&gt;4.4. Forecasting Using ARIMA (Traditional Statistical Model)&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;44-forecasting-using-arima-traditional-statistical-model&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#44-forecasting-using-arima-traditional-statistical-model&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;&lt;strong&gt;What is ARIMA?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-is-arima&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#what-is-arima&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;ARIMA (&lt;strong&gt;AutoRegressive Integrated Moving Average&lt;/strong&gt;) is a &lt;strong&gt;time-series forecasting model&lt;/strong&gt; that assumes stock prices are influenced by &lt;strong&gt;past values and error terms&lt;/strong&gt;.&lt;/p&gt;
 &lt;h4&gt;&lt;strong&gt;How We Used ARIMA&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-we-used-arima&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#how-we-used-arima&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
@@ -158,8 +168,8 @@
 ✅ &lt;strong&gt;Works well on stationary time-series data&lt;/strong&gt;.&lt;br&gt;
 ✅ &lt;strong&gt;A widely used method in econometrics and finance&lt;/strong&gt;.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3&gt;&lt;strong&gt;e. Combining the Forecasts (Ensemble Model)&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;e-combining-the-forecasts-ensemble-model&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#e-combining-the-forecasts-ensemble-model&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Since LSTM and ARIMA have &lt;strong&gt;different strengths&lt;/strong&gt;, I combined them into an &lt;strong&gt;ensemble forecast&lt;/strong&gt; by averaging predictions.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;4.5. Combining the Forecasts (Ensemble Model)&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;45-combining-the-forecasts-ensemble-model&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#45-combining-the-forecasts-ensemble-model&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Since LSTM and ARIMA have &lt;strong&gt;different strengths&lt;/strong&gt;, I combined them into an &lt;strong&gt;ensemble forecast&lt;/strong&gt; by averaging predictions.&lt;/p&gt;
 &lt;h4&gt;&lt;strong&gt;Why Ensemble Forecasting?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;why-ensemble-forecasting&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#why-ensemble-forecasting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;LSTM captures &lt;strong&gt;complex, non-linear patterns&lt;/strong&gt;.&lt;/li&gt;
@@ -170,25 +180,25 @@
     &lt;a href=&#34;#final-ensemble-formula&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;\[
 \text{Ensemble Forecast} = \frac{\text{LSTM Forecast} + \text{ARIMA Forecast}}{2}
 \]&lt;hr&gt;
-&lt;h3&gt;&lt;strong&gt;f. Results and Insights&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;f-results-and-insights&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#f-results-and-insights&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;&lt;strong&gt;1. LSTM Performance on Test Data&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-lstm-performance-on-test-data&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;&lt;strong&gt;4.6. Results and Insights&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;46-results-and-insights&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#46-results-and-insights&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;&lt;strong&gt;1. LSTM Performance on Test Data&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-lstm-performance-on-test-data&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#1-lstm-performance-on-test-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;📌 &lt;strong&gt;Comparison of Actual vs. Predicted Prices (Test Set)&lt;/strong&gt;&lt;br&gt;
-&lt;img src=&#34;image-2.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;img/image-2.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The &lt;strong&gt;LSTM model closely followed actual stock prices&lt;/strong&gt;, with some deviations.&lt;/li&gt;
 &lt;li&gt;Predictions were &lt;strong&gt;smoother than actual prices&lt;/strong&gt;, meaning it captured trends but missed short-term volatility.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;&lt;strong&gt;2. 2-Year Forecast Comparison&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-2-year-forecast-comparison&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#2-2-year-forecast-comparison&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;📌 &lt;strong&gt;Forecasting the Next 2 Years&lt;/strong&gt;&lt;br&gt;
-&lt;img src=&#34;image-1.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;img/image-1.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;ARIMA Prediction (Red Line)&lt;/strong&gt;: A flat trend, showing it struggles with capturing recent price volatility.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;LSTM Prediction (Green Line)&lt;/strong&gt;: Predicts a downward trend, which may be &lt;strong&gt;influenced by recent bearish trends&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Ensemble Prediction (Black Dashed Line)&lt;/strong&gt;: A more balanced estimate, combining &lt;strong&gt;both the trend-following nature of ARIMA and the adaptability of LSTM&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3&gt;&lt;strong&gt;g. Conclusion&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;g-conclusion&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#g-conclusion&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;h3&gt;&lt;strong&gt;4.7. Summary of the Research&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;47-summary-of-the-research&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#47-summary-of-the-research&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;LSTM performed well for short-term predictions&lt;/strong&gt; but showed &lt;strong&gt;limitations in long-term forecasting&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ARIMA worked for basic trend-following but lacked complexity&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;The ensemble forecast provided the most stable prediction&lt;/strong&gt;, balancing &lt;strong&gt;trend and volatility&lt;/strong&gt;.&lt;/li&gt;
@@ -196,8 +206,8 @@
 &lt;li&gt;&lt;strong&gt;More advanced hybrid models (LSTM + XGBoost) could be tested for improved accuracy&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h3&gt;&lt;strong&gt;h. Limitations and Disclaimer&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;h-limitations-and-disclaimer&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#h-limitations-and-disclaimer&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;🛑 &lt;strong&gt;Disclaimer:&lt;/strong&gt;&lt;br&gt;
+&lt;h3&gt;&lt;strong&gt;4.8. Limitations and Disclaimer&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;48-limitations-and-disclaimer&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#48-limitations-and-disclaimer&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;🛑 &lt;strong&gt;Disclaimer:&lt;/strong&gt;&lt;br&gt;
 🚨 &lt;strong&gt;This study is purely for research and educational purposes.&lt;/strong&gt;&lt;br&gt;
 📉 &lt;strong&gt;It is NOT financial advice and should NOT be used for trading or investment decisions.&lt;/strong&gt;&lt;/p&gt;
 &lt;h4&gt;&lt;strong&gt;Limitations of This Experiment&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;limitations-of-this-experiment&#34;&gt;&lt;/span&gt;
@@ -208,8 +218,8 @@
 &lt;/ul&gt;
 &lt;p&gt;💡 &lt;strong&gt;This research is intended to explore machine learning applications in stock forecasting and inspire future improvements.&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3&gt;&lt;strong&gt;i. Future Improvements&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;i-future-improvements&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#i-future-improvements&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;h3&gt;&lt;strong&gt;4.9. Future Improvements&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;49-future-improvements&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#49-future-improvements&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;📌 &lt;strong&gt;Integrate fundamental analysis&lt;/strong&gt; (revenue, earnings, interest rates).&lt;/li&gt;
 &lt;li&gt;📌 &lt;strong&gt;Experiment with hybrid models&lt;/strong&gt; (LSTM + ARIMA + XGBoost).&lt;/li&gt;
 &lt;li&gt;📌 &lt;strong&gt;Use sentiment analysis on news and social media&lt;/strong&gt;.&lt;/li&gt;
@@ -217,9 +227,9 @@
 &lt;/ul&gt;
 &lt;p&gt;🔍 &lt;strong&gt;This study shows how AI and ML can be applied in stock forecasting, but financial markets remain highly unpredictable.&lt;/strong&gt;&lt;br&gt;
 🚀 &lt;strong&gt;Further research and model improvements are necessary for practical use!&lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;6. Conclusion&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;6-conclusion&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#6-conclusion&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Machine learning and AI have come a long way, drawing inspiration from the intricate workings of the human brain. From their early theoretical roots to practical applications across industries, AI continues to shape our world. However, challenges like hardware demands, energy consumption, and ethical considerations must be addressed to ensure responsible AI development.&lt;/p&gt;
-&lt;p&gt;As we move forward, AI holds the promise of solving real-world problems, making life more efficient, and unlocking new possibilities. Through small experiments like stock price prediction with LSTM, we can appreciate both the potential and limitations of AI, pushing us to refine and innovate further. Just like us, machines are learning—and their journey has only just begun.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;5. Conclusion&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;5-conclusion&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-conclusion&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;In my &lt;a href=&#34;https://github.com/kangifaz/repo/blob/main/machine-also-can-learn/Machine%20Also%20Can%20Learn.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;recent project&lt;/a&gt;, &lt;code&gt;I explored how AI can learn from large amounts of data&lt;/code&gt; by attempting to predict stock prices using models like LSTM. &lt;code&gt;This experiment highlighted AI’s impressive capabilities&lt;/code&gt; but also underscored &lt;code&gt;challenges&lt;/code&gt; such as &lt;code&gt;high energy consumption&lt;/code&gt;, the need for &lt;code&gt;specialized hardware&lt;/code&gt;, and &lt;code&gt;concerns about accuracy&lt;/code&gt;. Moreover, &lt;code&gt;ethical issues&lt;/code&gt;, including potential legal and moral implications, remain significant hurdles in AI development.&lt;/p&gt;
+&lt;p&gt;As someone passionate about ICT, data, and finance, I am committed to &lt;code&gt;continually exploring and learning in these fields&lt;/code&gt;. Through this blog, I aim to share insights and developments on how we can harness AI and machine learning to improve our lives, while being mindful of the associated challenges.&lt;/p&gt;
 
       </description>
     </item>
