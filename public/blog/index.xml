@@ -1,11 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Alexandria - Kang Ifaz – Blog</title>
+    <title>Alexandria - Kang Ifaz – Alexa Notes</title>
     <link>http://localhost:1313/blog/</link>
-    <description>Recent content in Blog on Alexandria - Kang Ifaz</description>
+    <description>Recent content in Alexa Notes on Alexandria - Kang Ifaz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Jan 2025 20:00:57 +0700</lastBuildDate>
+    <copyright>© 2025 Kang Ifaz</copyright>
+    <lastBuildDate>Sun, 19 Jan 2025 08:03:12 +0700</lastBuildDate>
     
 	  <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     

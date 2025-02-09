@@ -1,0 +1,36 @@
+baseURL: https://kangifaz.com/
+# canonifyURLs: true
+languageCode: en-us
+title: Alexandria - Kang Ifaz
+module:
+  imports:
+    - path: github.com/imfing/hextra
+params:
+  themeMode: light # Set default theme mode to light
+menu:
+  main:
+    - name: "Documentation"
+      url: "/Docs/"
+      weight: 1
+    - name: "ICT Infrastructure"
+      url: "/blog/ict-infrastructure/"
+      weight: 2
+    - name: "Insight Data and Research"
+      url: "/blog/insight-data-and-research/"
+      weight: 3
+    - name: "Data Repository"
+      url: "https://github.com/kangifaz/repo/tree/main"
+      weight: 4
+    - name: Search
+      weight: 5
+      params:
+        type: search
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block: [['\[', '\]'], ['$$', '$$']]
+          inline: [['\(', '\)']]
+        enable: true
+copyright: "© 2025 Kang Ifaz"
