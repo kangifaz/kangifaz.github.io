@@ -1,0 +1,184 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexandria - Kang Ifaz – MIT 15.401-Finance Theory I</title>
+    <link>http://localhost:1313/docs/finances/mit-15.401-finance-theory-i/</link>
+    <description>Recent content in MIT 15.401-Finance Theory I on Alexandria - Kang Ifaz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 Kang Ifaz</copyright>
+    <lastBuildDate>Sun, 16 Feb 2025 13:00:15 +0700</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/docs/finances/mit-15.401-finance-theory-i/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>1 Present Value (PV) Relations</title>
+      <link>http://localhost:1313/docs/finances/mit-15.401-finance-theory-i/1-present-value-pv-relations/</link>
+      <pubDate>Sun, 16 Feb 2025 20:26:54 +0700</pubDate>
+      
+      <guid>http://localhost:1313/docs/finances/mit-15.401-finance-theory-i/1-present-value-pv-relations/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;📘 Catatan Kuliah: 15.401 Finance Theory&lt;/h1&gt;&lt;h2&gt;Konsep Kritis dalam Finance&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;konsep-kritis-dalam-finance&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#konsep-kritis-dalam-finance&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;1. &lt;strong&gt;Cashflows dan Aset&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-cashflows-dan-aset&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-cashflows-dan-aset&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Apa Itu Aset?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;apa-itu-aset&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#apa-itu-aset&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Dalam bisnis, aset adalah segala sesuatu yang memiliki nilai ekonomi dan dapat memberikan manfaat di masa depan. Beberapa contoh aset:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Entitas bisnis&lt;/strong&gt; (misalnya perusahaan)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Properti, pabrik, dan peralatan&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hak paten dan R&amp;amp;D&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Saham, obligasi, opsi, dll.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pengetahuan, reputasi, dan peluang bisnis&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dari perspektif bisnis, aset dapat dipandang sebagai &lt;em&gt;urutan arus kas&lt;/em&gt; (&lt;em&gt;sequence of cashflows&lt;/em&gt;). Secara matematis:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;Asset_t ≡ {CF_t, CF_t&amp;#43;1, CF_t&amp;#43;2, …}&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;🔹 &lt;strong&gt;Penjelasan:&lt;/strong&gt; Ini berarti bahwa nilai suatu aset dapat direpresentasikan sebagai serangkaian arus kas (&lt;em&gt;cashflows&lt;/em&gt;) yang dihasilkannya dari waktu ke waktu.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Contoh Aset Sebagai Cashflows&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;contoh-aset-sebagai-cashflows&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#contoh-aset-sebagai-cashflows&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Beberapa contoh bagaimana aset menghasilkan arus kas dalam kehidupan nyata:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Boeing&lt;/strong&gt;: Dalam pengembangan pesawat regional jet baru, Boeing harus menginvestasikan sekitar $850 juta selama 3 tahun. Setelah produksi, diperkirakan mereka bisa menjual 30 pesawat per tahun dengan harga rata-rata $41 juta. Ini mencerminkan bagaimana aset Boeing (pesawat) menghasilkan arus kas melalui penjualan.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;S&amp;amp;P 500&lt;/strong&gt;: Perusahaan dalam indeks S&amp;amp;P 500 menghasilkan laba kolektif $66 dan membayar dividen $24 per saham. Sejak 1926, dividen dan pendapatan tumbuh rata-rata 6,6% per tahun. Ini menunjukkan bagaimana saham sebagai aset dapat menghasilkan arus kas dalam bentuk dividen dan pertumbuhan nilai saham.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;HP Stock Options&lt;/strong&gt;: Jika seseorang dipekerjakan oleh HP dan menerima opsi saham sebanyak 50.000 unit dengan harga eksekusi $24.92 dan masa berlaku 10 tahun, nilai opsi akan bergantung pada harga saham di masa depan yang telah bervariasi antara $16.08 hingga $26.03 selama dua tahun terakhir.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;2. &lt;strong&gt;The Present Value Operator&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-the-present-value-operator&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-the-present-value-operator&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Konsep nilai sekarang (&lt;em&gt;Present Value / PV&lt;/em&gt;) sangat penting dalam analisis keuangan. PV adalah cara menilai nilai uang yang akan diterima di masa depan dalam satuan nilai hari ini.&lt;/p&gt;
+&lt;h4&gt;Formula Nilai Sekarang:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;formula-nilai-sekarang&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#formula-nilai-sekarang&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;\[
+PV = \frac{CF_t}{(1+r)^t}
+\]&lt;p&gt;Di mana:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( CF_t \) = arus kas pada waktu \( t \)&lt;/li&gt;
+&lt;li&gt;\( r \) = tingkat diskonto (&lt;em&gt;discount rate&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;\( t \) = periode waktu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🔹 &lt;strong&gt;Penjelasan:&lt;/strong&gt; Semakin jauh arus kas di masa depan, semakin kecil nilai sekarangnya karena uang memiliki nilai waktu (&lt;em&gt;time value of money&lt;/em&gt;).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;3. &lt;strong&gt;The Time Value of Money&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-the-time-value-of-money&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-the-time-value-of-money&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Konsep ini menyatakan bahwa &lt;strong&gt;uang saat ini lebih berharga daripada uang di masa depan&lt;/strong&gt; karena uang yang dimiliki sekarang dapat diinvestasikan untuk menghasilkan keuntungan.&lt;/p&gt;
+&lt;p&gt;Contoh sederhana:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jika Anda memiliki Rp1.000.000 hari ini dan menaruhnya di deposito dengan bunga 5% per tahun, maka dalam setahun akan menjadi Rp1.050.000.&lt;/li&gt;
+&lt;li&gt;Namun, jika Anda baru menerima Rp1.000.000 setahun lagi, nilainya akan lebih kecil dari Rp1.050.000 jika dibandingkan dengan skenario pertama.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🔹 &lt;strong&gt;Kesimpulan:&lt;/strong&gt; Uang sekarang lebih bernilai dibandingkan uang yang sama di masa depan karena dapat diinvestasikan untuk menghasilkan keuntungan.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;4. &lt;strong&gt;Valuing An Asset as a Sequence of Cashflows&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4-valuing-an-asset-as-a-sequence-of-cashflows&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-valuing-an-asset-as-a-sequence-of-cashflows&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Untuk menilai suatu aset, kita harus melihat aliran arus kasnya sepanjang waktu.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Representasi Matematis:&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;representasi-matematis&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#representasi-matematis&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;\[
+Value \ of \ Asset_t ≡ V_t(CF_t, CF_{t+1}, CF_{t+2}, ...)
+\]&lt;p&gt;💡 &lt;strong&gt;Selalu Buat Timeline Untuk Memvisualisasikan Timing Arus Kas!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;🔹 &lt;strong&gt;Penjelasan:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setiap aset memiliki arus kas yang tersebar dalam rentang waktu tertentu.&lt;/li&gt;
+&lt;li&gt;Dengan menggambar garis waktu (&lt;em&gt;timeline&lt;/em&gt;), kita bisa lebih mudah memahami kapan arus kas akan diterima.&lt;/li&gt;
+&lt;li&gt;Misalnya, pembayaran dividen tahunan dari saham dapat dipetakan dalam bentuk arus kas yang diterima setiap tahun.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;5. &lt;strong&gt;Special Cashflows: The Perpetuity&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;5-special-cashflows-the-perpetuity&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-special-cashflows-the-perpetuity&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;em&gt;Perpetuity&lt;/em&gt; adalah arus kas yang berlangsung &lt;strong&gt;selamanya&lt;/strong&gt; dengan jumlah tetap setiap periode.&lt;/p&gt;
+&lt;h4&gt;Rumus Nilai Sekarang untuk Perpetuity:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;rumus-nilai-sekarang-untuk-perpetuity&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#rumus-nilai-sekarang-untuk-perpetuity&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;\[
+PV = \frac{C}{r}
+\]&lt;p&gt;Di mana:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( C \) = arus kas per periode&lt;/li&gt;
+&lt;li&gt;\( r \) = tingkat diskonto&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🔹 &lt;strong&gt;Penjelasan:&lt;/strong&gt; Model ini sering digunakan untuk menilai aset yang menghasilkan pendapatan tetap dalam jangka waktu tak terbatas, seperti obligasi dengan bunga tetap atau dana abadi (&lt;em&gt;endowments&lt;/em&gt;).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;6. &lt;strong&gt;Special Cashflows: The Annuity&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;6-special-cashflows-the-annuity&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6-special-cashflows-the-annuity&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;em&gt;Annuity&lt;/em&gt; adalah serangkaian arus kas tetap yang berlangsung untuk jangka waktu terbatas.&lt;/p&gt;
+&lt;h4&gt;Rumus Nilai Sekarang untuk Annuity:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;rumus-nilai-sekarang-untuk-annuity&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#rumus-nilai-sekarang-untuk-annuity&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;\[
+PV = C \times \left( 1 - \frac{1}{(1+r)^t} \right) \div r
+\]&lt;p&gt;🔹 &lt;strong&gt;Penjelasan:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Berbeda dengan perpetuity, annuity memiliki periode terbatas.&lt;/li&gt;
+&lt;li&gt;Contoh penggunaan annuity adalah pinjaman rumah, di mana pembayaran dilakukan secara tetap selama beberapa tahun.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;7. &lt;strong&gt;Compounding&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;7-compounding&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#7-compounding&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;em&gt;Komponding&lt;/em&gt; adalah proses di mana bunga yang diperoleh diinvestasikan kembali untuk menghasilkan lebih banyak bunga.&lt;/p&gt;
+&lt;h4&gt;Formula Future Value (&lt;em&gt;Nilai Masa Depan&lt;/em&gt;):&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;formula-future-value-_nilai-masa-depan_&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#formula-future-value-_nilai-masa-depan_&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;\[
+FV = PV (1 + r)^t
+\]&lt;p&gt;🔹 &lt;strong&gt;Penjelasan:&lt;/strong&gt; Semakin sering bunga dikapitalisasi, semakin besar pertumbuhannya. Inilah alasan mengapa investasi jangka panjang bisa menghasilkan keuntungan besar.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;8. &lt;strong&gt;Inflation&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;8-inflation&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#8-inflation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Inflasi adalah kenaikan harga barang dan jasa secara umum dalam suatu perekonomian, yang menyebabkan daya beli uang menurun.&lt;/p&gt;
+&lt;h4&gt;Formula Hubungan Inflasi dan Nilai Riil:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;formula-hubungan-inflasi-dan-nilai-riil&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#formula-hubungan-inflasi-dan-nilai-riil&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;\[
+Real Rate = \frac{1 + Nominal Rate}{1 + Inflation Rate} - 1
+\]&lt;p&gt;🔹 &lt;strong&gt;Penjelasan:&lt;/strong&gt; Jika inflasi lebih tinggi dari tingkat bunga tabungan, maka nilai riil tabungan Anda sebenarnya berkurang.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 Bacaan Tambahan:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-bacaan-tambahan&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-bacaan-tambahan&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Brealey, Myers, dan Allen &lt;strong&gt;Bab 2 – 3&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;💡 &lt;strong&gt;Kesimpulan:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Aset dapat direpresentasikan sebagai serangkaian arus kas.&lt;/li&gt;
+&lt;li&gt;Nilai waktu dari uang menentukan bagaimana kita menilai arus kas di masa depan.&lt;/li&gt;
+&lt;li&gt;Perpetuity dan annuity adalah contoh pola arus kas yang sering digunakan dalam keuangan.&lt;/li&gt;
+&lt;li&gt;Inflasi dan bunga majemuk mempengaruhi nilai aset dalam jangka panjang.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Catatan:&lt;/strong&gt; Jika ada istilah yang masih kurang jelas, silakan tanyakan di komentar atau diskusi blog ini! 🚀&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>2 Fixed Income Securities</title>
+      <link>http://localhost:1313/docs/finances/mit-15.401-finance-theory-i/2-fixed-income-securities/</link>
+      <pubDate>Sun, 16 Feb 2025 20:27:09 +0700</pubDate>
+      
+      <guid>http://localhost:1313/docs/finances/mit-15.401-finance-theory-i/2-fixed-income-securities/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>3 Equities</title>
+      <link>http://localhost:1313/docs/finances/mit-15.401-finance-theory-i/3-equities/</link>
+      <pubDate>Sun, 16 Feb 2025 20:27:21 +0700</pubDate>
+      
+      <guid>http://localhost:1313/docs/finances/mit-15.401-finance-theory-i/3-equities/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

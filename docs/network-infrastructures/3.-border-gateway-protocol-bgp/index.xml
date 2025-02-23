@@ -1,0 +1,20 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexandria - Kang Ifaz – 3. Border Gateway Protocol (BGP)</title>
+    <link>http://localhost:1313/docs/network-infrastructures/3.-border-gateway-protocol-bgp/</link>
+    <description>Recent content in 3. Border Gateway Protocol (BGP) on Alexandria - Kang Ifaz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 Kang Ifaz</copyright>
+    <lastBuildDate>Sun, 23 Feb 2025 16:47:29 +0700</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/docs/network-infrastructures/3.-border-gateway-protocol-bgp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>

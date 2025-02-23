@@ -2,16 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kangifaz.com/docs/olympus-data-center/dc-du-pcb-design/</loc>
-    <lastmod>2025-02-16T01:04:37+07:00</lastmod>
+    <loc>https://kangifaz.com/docs/network-infrastructures/1.-network-fundamentals/</loc>
+    <lastmod>2025-02-23T16:42:12+07:00</lastmod>
+  </url><url>
+    <loc>https://kangifaz.com/docs/network-infrastructures/2.-interior-gateway-protocol-igp/</loc>
+    <lastmod>2025-02-23T16:47:29+07:00</lastmod>
+  </url><url>
+    <loc>https://kangifaz.com/docs/finance/</loc>
+    <lastmod>2025-02-23T16:55:59+07:00</lastmod>
   </url><url>
     <loc>https://kangifaz.com/</loc>
+    <lastmod>2025-02-23T16:55:59+07:00</lastmod>
+  </url><url>
+    <loc>https://kangifaz.com/docs/finance/risk-calculation/</loc>
+    <lastmod>2025-02-23T16:55:25+07:00</lastmod>
+  </url><url>
+    <loc>https://kangifaz.com/docs/network-infrastructures/</loc>
+    <lastmod>2025-02-23T16:48:28+07:00</lastmod>
+  </url><url>
+    <loc>https://kangifaz.com/docs/olympus-dc/</loc>
+    <lastmod>2025-02-23T16:32:26+07:00</lastmod>
+  </url><url>
+    <loc>https://kangifaz.com/docs/finance/mit-15.401-finance-theory-i/</loc>
+    <lastmod>2025-02-16T13:00:15+07:00</lastmod>
+  </url><url>
+    <loc>https://kangifaz.com/docs/olympus-dc/dc-du-pcb-design/</loc>
     <lastmod>2025-02-16T01:04:37+07:00</lastmod>
   </url><url>
     <loc>https://kangifaz.com/blog/insight-data-and-research/ai-personal-assistant/</loc>
     <lastmod>2025-01-27T23:29:38+07:00</lastmod>
   </url><url>
-    <loc>https://kangifaz.com/docs/olympus-data-center/stb-commissioning/</loc>
+    <loc>https://kangifaz.com/docs/olympus-dc/stb-commissioning/</loc>
     <lastmod>2025-01-19T11:00:28+07:00</lastmod>
   </url><url>
     <loc>https://kangifaz.com/blog/insight-data-and-research/data-center-market-landscape/</loc>

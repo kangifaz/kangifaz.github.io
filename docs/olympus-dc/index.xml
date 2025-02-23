@@ -1,0 +1,373 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexandria - Kang Ifaz – Olympus Data Centers</title>
+    <link>https://kangifaz.com/docs/olympus-dc/</link>
+    <description>Recent content in Olympus Data Centers on Alexandria - Kang Ifaz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 Kang Ifaz</copyright>
+    <lastBuildDate>Sun, 23 Feb 2025 16:32:26 +0700</lastBuildDate>
+    
+	  <atom:link href="https://kangifaz.com/docs/olympus-dc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>DC DU PCB Design Using EasyEDA</title>
+      <link>https://kangifaz.com/docs/olympus-dc/dc-du-pcb-design/</link>
+      <pubDate>Sun, 16 Feb 2025 01:04:37 +0700</pubDate>
+      
+      <guid>https://kangifaz.com/docs/olympus-dc/dc-du-pcb-design/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Designing a PCB has never been easier with &lt;a href=&#34;https://easyeda.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EasyEDA&lt;/a&gt;. It is a free and powerful tool that enables engineers and hobbyists to design schematics, create PCB layouts, and even order manufactured boards directly.&lt;/p&gt;
+&lt;h2&gt;Getting Started&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;getting-started&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#getting-started&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;1. Choose Online Design Mode&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-choose-online-design-mode&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-choose-online-design-mode&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Go to &lt;a href=&#34;https://easyeda.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EasyEDA&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;&amp;ldquo;Design Online&amp;rdquo;&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;&amp;ldquo;Free&amp;rdquo;&lt;/strong&gt; to start using the online editor.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;img/image.png&#34; alt=&#34;Choose Design Online&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h3&gt;2. Create a New Project&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-create-a-new-project&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-create-a-new-project&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Click &lt;strong&gt;&amp;ldquo;New Project&amp;rdquo;&lt;/strong&gt; to start a new PCB design.&lt;/li&gt;
+&lt;li&gt;Enter the project name and description.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;&amp;ldquo;Create&amp;rdquo;&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;img/image-1.png&#34; alt=&#34;Create New Project&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h3&gt;3. Create a Schematic Diagram&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-create-a-schematic-diagram&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-create-a-schematic-diagram&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Open the &lt;strong&gt;Schematic Editor&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Add components from the &lt;strong&gt;Library&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Connect components using &lt;strong&gt;wires&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;img/image-2.png&#34; alt=&#34;Schematic Design&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h3&gt;4. Choose the Right Library Components&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4-choose-the-right-library-components&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-choose-the-right-library-components&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Open the &lt;strong&gt;Library&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Search for the required components.&lt;/li&gt;
+&lt;li&gt;Ensure the material type matches the intended PCB design.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;img/image-3.png&#34; alt=&#34;Library Selection&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h3&gt;5. Convert Schematic to PCB Layout&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;5-convert-schematic-to-pcb-layout&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-convert-schematic-to-pcb-layout&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Once the schematic is complete, click &lt;strong&gt;&amp;ldquo;Convert to PCB&amp;rdquo;&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Adjust component placement on the PCB board.&lt;/li&gt;
+&lt;li&gt;Define board outline and layer settings.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;img/image-4.png&#34; alt=&#34;Convert to PCB&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h3&gt;6. Design PCB Routing&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;6-design-pcb-routing&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6-design-pcb-routing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Use the &lt;strong&gt;Auto Router&lt;/strong&gt; for automatic trace routing.&lt;/li&gt;
+&lt;li&gt;Adjust the trace width and clearance as per the PCB design rules.&lt;/li&gt;
+&lt;li&gt;Place &lt;strong&gt;vias&lt;/strong&gt; if needed for multi-layer routing.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;img/image-5.png&#34; alt=&#34;PCB Routing&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h3&gt;7. View in 2D and 3D Mode&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;7-view-in-2d-and-3d-mode&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#7-view-in-2d-and-3d-mode&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Switch to &lt;strong&gt;2D view&lt;/strong&gt; to inspect the PCB layout.&lt;/li&gt;
+&lt;li&gt;Switch to &lt;strong&gt;3D view&lt;/strong&gt; to visualize the final design.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;img/image-6.png&#34; alt=&#34;2D PCB View&#34; loading=&#34;lazy&#34; /&gt;
+&lt;img src=&#34;img/image-7.png&#34; alt=&#34;3D PCB View&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;Final Steps&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;final-steps&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#final-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Run a DRC (Design Rule Check)&lt;/strong&gt; to verify errors in the layout.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Generate Gerber Files&lt;/strong&gt; for PCB manufacturing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Order PCB&lt;/strong&gt; directly from EasyEDA or export the design for another manufacturer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Sample Project&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;sample-project&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#sample-project&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Here&amp;rsquo;s my sample project, which can be downloaded from my &lt;a href=&#34;https://github.com/kangifaz/repo/tree/main/pcb-dc-du-12v-with-esp32&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;repository on DC DU with ESP32&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;main idea behind this project is to expand the capabilities and improve the reliability&lt;/code&gt; of my home data center network. Currently, the data center relies on PLN (the main power grid). In the event of an outage, the entire system goes down. Another critical issue is the unstable output from my PSU, which poses a significant risk to my devices.&lt;/p&gt;
+&lt;p&gt;To address these problems, I plan to switch the PSU source to a &lt;strong&gt;DC UPS&lt;/strong&gt;. The UPS capacity will be calculated based on Jakarta&amp;rsquo;s power outage frequency, which is rare, with a maximum downtime of approximately two hours. The UPS will be sized accordingly to ensure sufficient backup power during outages.&lt;/p&gt;
+&lt;p&gt;Additionally, I have multiple IoT sensors deployed in my system. I will use &lt;strong&gt;ESP32&lt;/strong&gt; as the microcontroller to collect and manage data, sending it to specific servers for monitoring. The ESP32 will play a key role in overseeing the IoT devices, ensuring real-time data tracking and enhanced monitoring.&lt;/p&gt;
+&lt;p&gt;In summary, this project aims to &lt;code&gt;resolve multiple challenges&lt;/code&gt;, including &lt;code&gt;backup power&lt;/code&gt; &lt;code&gt;reliability&lt;/code&gt;, &lt;code&gt;power stability&lt;/code&gt;, and &lt;code&gt;improved monitoring capabilities&lt;/code&gt; for my infrastructure.&lt;/p&gt;
+&lt;h2&gt;Design using EasyEDA&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;design-using-easyeda&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#design-using-easyeda&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;For more details, visit the &lt;a href=&#34;https://docs.easyeda.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EasyEDA Documentation&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>STB ZTE Commissioning</title>
+      <link>https://kangifaz.com/docs/olympus-dc/stb-commissioning/</link>
+      <pubDate>Sun, 19 Jan 2025 11:00:28 +0700</pubDate>
+      
+      <guid>https://kangifaz.com/docs/olympus-dc/stb-commissioning/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;ARP Duplication Analysis due to Duplicate VM&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;arp-duplication-analysis-due-to-duplicate-vm&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#arp-duplication-analysis-due-to-duplicate-vm&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;My Armbian&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;    _             _    _              ___  ___ 
+   /_\  _ _ _ __ | |__(_)__ _ _ _    / _ \/ __|
+  / _ \| &amp;#39;_| &amp;#39;  \| &amp;#39;_ \ / _` | &amp;#39; \  | (_) \__ \
+ /_/ \_\_| |_|_|_|_.__/_\__,_|_||_|  \___/|___/
+                                               
+ v24.11.0 for Aml.S905x running Armbian Linux 5.15.169-ophub
+
+ Packages:     Debian stable (bullseye)
+ Updates:      Kernel upgrade enabled and 4 packages available for upgrade 
+ IP addresses: (LAN) IPv4: XXX.XXX.XXX.XXX
+ Performance:  
+
+ Load:         2%               Up time:       4 days 9:14
+ Memory usage: 9% of 1.76G  
+ CPU temp:     50°C             Usage of /:    37% of 6.5G   
+ RX today:     8 MiB     &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;Symptoms&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;symptoms&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#symptoms&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;
+root: ping 100.0.0.221
+PING 100.0.0.221 (100.0.0.221): 56 data bytes
+92 bytes from 100.0.0.223: Redirect Host(New addr: 100.0.0.221)
+Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+ 4  5  00 0054 7d8d   0 0000  3f  01 353e 100.0.0.1  100.0.0.221 
+
+92 bytes from 100.0.0.223: Redirect Host(New addr: 100.0.0.221)
+Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+ 4  5  00 0054 d648   0 0000  3f  01 dc82 100.0.0.1  100.0.0.221 
+
+92 bytes from 100.0.0.223: Redirect Host(New addr: 100.0.0.221)
+Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+ 4  5  00 0054 b29b   0 0000  3f  01 0030 100.0.0.1  100.0.0.221 
+
+92 bytes from 100.0.0.223: Redirect Host(New addr: 100.0.0.221)
+Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+ 4  5  00 0054 bb98   0 0000  3f  01 f732 100.0.0.1  100.0.0.221 
+
+92 bytes from 100.0.0.223: Redirect Host(New addr: 100.0.0.221)
+Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+ 4  5  00 0054 6240   0 0000  3f  01 508b 100.0.0.1  100.0.0.221 
+
+92 bytes from 100.0.0.223: Redirect Host(New addr: 100.0.0.221)
+Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+ 4  5  00 0054 e19e   0 0000  3f  01 d12c 100.0.0.1  100.0.0.221 
+
+92 bytes from 100.0.0.223: Redirect Host(New addr: 100.0.0.221)
+Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+ 4  5  00 0054 d335   0 0000  3f  01 df95 100.0.0.1  100.0.0.221 
+
+64 bytes from 100.0.0.221: icmp_seq=10 ttl=64 time=0.729 ms
+64 bytes from 100.0.0.221: icmp_seq=11 ttl=64 time=0.912 ms
+64 bytes from 100.0.0.221: icmp_seq=12 ttl=64 time=0.961 ms
+64 bytes from 100.0.0.221: icmp_seq=13 ttl=64 time=1.045 ms
+64 bytes from 100.0.0.221: icmp_seq=14 ttl=64 time=0.733 ms
+64 bytes from 100.0.0.221: icmp_seq=15 ttl=64 time=0.992 ms
+64 bytes from 100.0.0.221: icmp_seq=16 ttl=64 time=0.635 ms
+64 bytes from 100.0.0.221: icmp_seq=17 ttl=64 time=0.950 ms
+64 bytes from 100.0.0.221: icmp_seq=18 ttl=64 time=0.498 ms
+64 bytes from 100.0.0.221: icmp_seq=19 ttl=64 time=0.538 ms
+92 bytes from 100.0.0.223: Redirect Host(New addr: 100.0.0.221)&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;ARP Table&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;pool-100-0-0-221.bstnma.fios.verizon.net (100.0.0.221) at 00:15:18:01:81:31 on vtnet1
+pool-100-0-0-222.bstnma.fios.verizon.net (100.0.0.222) at 00:15:18:01:81:31 on vtnet1
+pool-100-0-0-223.bstnma.fios.verizon.net (100.0.0.223) at 00:15:18:01:81:31 on vtnet1&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;Ask GPT&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ask-gpt&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#ask-gpt&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Use of Virtual IP or Load Balancer
+Virtual IP (VIP): If 100.0.0.221, 100.0.0.222, and 100.0.0.223 are Virtual IP addresses managed by devices such as a Load Balancer or High Availability Cluster, then using the same MAC address is expected. VIP allows multiple IP addresses to point to a single physical MAC address, enabling failover and load balancing.
+Configuration Issues: If the VIP or load balancer is misconfigured, such as incorrect routing or ARP settings, it may cause packet delivery confusion, resulting in ICMP Redirect messages.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Incorrect Routing Configuration
+Conflicting Routing Tables: If there are conflicting or inconsistent routes on the switch or router connecting your server, the device may send redirect messages to attempt to reroute traffic more efficiently.
+Default Gateway: Ensure that the default gateway on your Armbian server is configured correctly. Incorrect default gateway configurations can lead to other network devices sending ICMP Redirect messages.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Network Loop
+Physical or Logical Loop: The presence of a loop in the network, either physical (e.g., redundant cable connections without proper configuration) or logical (e.g., routing that creates a loop), can cause packets to circulate endlessly. Network devices may send ICMP Redirect messages in an attempt to resolve the loop.
+Spanning Tree Protocol (STP): If the switch you are using supports STP, ensure that it is enabled and correctly configured to prevent network loops.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;IP Conflict
+Duplicate IP Addresses: If another device on the network is accidentally using IP addresses 100.0.0.221, 100.0.0.222, or 100.0.0.223, it can cause conflicts, leading to ICMP Redirect messages.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ARP Cache Issues
+Inconsistent ARP Cache: Although no duplication was observed in the ARP output you provided, issues such as inconsistent or stale entries in the ARP cache could still cause devices to send redirect messages.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These potential causes should be investigated to identify and resolve the source of the ICMP Redirect messages in your network.&lt;/p&gt;
+&lt;h3&gt;Solution&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;solution&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#solution&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Set mac address temp&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo ip link set dev eth0 address AA:BB:CC:DD:EE:FF&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;Make it Permanent&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;make-it-permanent&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#make-it-permanent&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;run command&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;nmcli connection show&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;sample&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;atomos-02:~:# nmcli connection show
+
+NAME                UUID                                  TYPE      DEVICE 
+Wired connection 1  1eb2e9d9-b6da-39ce-96cc-9a197a8854c3  ethernet  eth0   
+atomos-02:~:# &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;result is &lt;code&gt;Wired connection 1&lt;/code&gt;, then run command&lt;/p&gt;
+&lt;p&gt;edit the file&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;atomos-02:~:# nano &amp;#34;/etc/NetworkManager/system-connections/Wired connection 1.nmconnection&amp;#34;&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;and the content is&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;...
+[ethernet]
+mac-address-blacklist=
+cloned-mac-address=AA:BB:CC:DD:EE:FF # &amp;lt;- edit here
+[ipv4]
+address1=XXX.XXX.XXX.XXX/YY,XXX.XXX.XXX.XXX # IP Address, Gatway IP
+dns=XXX.XXX.XXX.XXX; # IP Address of DNS Server
+dns-search=
+method=manual
+
+...&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Restart Service&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo systemctl restart NetworkManager&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;Verification&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;verification&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#verification&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;run command&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;ifconfig ethX
+ip link show ethX &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Ensure after reboot still on same mac address
+reboot&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo reboot&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;ifconfig ethX
+ip link show ethX &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

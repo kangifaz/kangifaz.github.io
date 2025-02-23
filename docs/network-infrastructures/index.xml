@@ -1,0 +1,46 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexandria - Kang Ifaz – Network Infrastructures</title>
+    <link>https://kangifaz.com/docs/network-infrastructures/</link>
+    <description>Recent content in Network Infrastructures on Alexandria - Kang Ifaz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 Kang Ifaz</copyright>
+    <lastBuildDate>Sun, 23 Feb 2025 16:48:28 +0700</lastBuildDate>
+    
+	  <atom:link href="https://kangifaz.com/docs/network-infrastructures/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>1. Network FUNdamentals</title>
+      <link>https://kangifaz.com/docs/network-infrastructures/1.-network-fundamentals/</link>
+      <pubDate>Sun, 23 Feb 2025 16:42:12 +0700</pubDate>
+      
+      <guid>https://kangifaz.com/docs/network-infrastructures/1.-network-fundamentals/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>2. Interior Gateway Protocol (IGP)</title>
+      <link>https://kangifaz.com/docs/network-infrastructures/2.-interior-gateway-protocol-igp/</link>
+      <pubDate>Sun, 23 Feb 2025 16:47:29 +0700</pubDate>
+      
+      <guid>https://kangifaz.com/docs/network-infrastructures/2.-interior-gateway-protocol-igp/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
