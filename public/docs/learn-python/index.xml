@@ -1,0 +1,109 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexandria - Kang Ifaz – Learn Python</title>
+    <link>http://localhost:1313/docs/learn-python/</link>
+    <description>Recent content in Learn Python on Alexandria - Kang Ifaz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 Kang Ifaz</copyright>
+    <lastBuildDate>Sun, 16 Mar 2025 15:05:09 +0700</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/docs/learn-python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Fundamentals Python</title>
+      <link>http://localhost:1313/docs/learn-python/fundamentals/</link>
+      <pubDate>Sun, 16 Mar 2025 15:10:39 +0700</pubDate>
+      
+      <guid>http://localhost:1313/docs/learn-python/fundamentals/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;🐍 Overview&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-overview&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-overview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The fundamentals are your entry point into Python programming, laying the groundwork for more advanced topics.&lt;/p&gt;
+&lt;h3&gt;🧩 What You&amp;rsquo;ll Learn:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-what-youll-learn&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-what-youll-learn&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Basic Syntax &amp;amp; Data Types:&lt;/strong&gt; Variables, arithmetic operations, and input/output.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Control Structures:&lt;/strong&gt; Decision-making (conditionals) and iterative processes (loops).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Functions &amp;amp; Modules:&lt;/strong&gt; Modular programming, reusable code, and organizing your programs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mastering these basics is essential for progressing to more advanced Python concepts.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Intermediate Python</title>
+      <link>http://localhost:1313/docs/learn-python/intermediate/</link>
+      <pubDate>Sun, 16 Mar 2025 15:10:53 +0700</pubDate>
+      
+      <guid>http://localhost:1313/docs/learn-python/intermediate/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;🚧 Overview&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-overview&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-overview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This intermediate level bridges the gap between Python fundamentals and advanced concepts.&lt;/p&gt;
+&lt;h3&gt;🔧 What You&amp;rsquo;ll Learn:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-what-youll-learn&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-what-youll-learn&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Data Structures:&lt;/strong&gt; Efficiently store and manipulate data with lists, dictionaries, and sets.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Object-Oriented Programming (OOP):&lt;/strong&gt; Develop structured, reusable, and maintainable code.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;File Handling &amp;amp; Exceptions:&lt;/strong&gt; Manage files and handle errors gracefully.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Building these skills prepares you for data analysis, web development, and more complex programming tasks.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
+      <link>http://localhost:1313/docs/learn-python/data-science/</link>
+      <pubDate>Sun, 16 Mar 2025 15:11:12 +0700</pubDate>
+      
+      <guid>http://localhost:1313/docs/learn-python/data-science/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;📊 Overview&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-overview&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-overview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Data Science involves extracting meaningful insights from data. Python offers powerful libraries that simplify this process.&lt;/p&gt;
+&lt;h3&gt;📌 What You&amp;rsquo;ll Learn:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-what-youll-learn&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-what-youll-learn&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;NumPy:&lt;/strong&gt; Numerical computations and efficient data manipulation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pandas:&lt;/strong&gt; Data cleaning, filtering, and aggregation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Visualization:&lt;/strong&gt; Creating insightful visualizations using Matplotlib and Seaborn.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This knowledge is crucial for anyone aiming to analyze data professionally and efficiently visualize their findings.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>API &amp; Machine Learning</title>
+      <link>http://localhost:1313/docs/learn-python/api--machine-learning/</link>
+      <pubDate>Sun, 16 Mar 2025 15:11:31 +0700</pubDate>
+      
+      <guid>http://localhost:1313/docs/learn-python/api--machine-learning/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;📘 Overview&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-overview&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-overview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In this section, you&amp;rsquo;ll explore advanced topics in Python, specifically APIs (Application Programming Interfaces) and Machine Learning.&lt;/p&gt;
+&lt;h3&gt;🚀 What You&amp;rsquo;ll Learn:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-what-youll-learn&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-what-youll-learn&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Understanding and consuming REST APIs using Python.&lt;/li&gt;
+&lt;li&gt;Fundamental concepts of Machine Learning (Supervised &amp;amp; Unsupervised Learning).&lt;/li&gt;
+&lt;li&gt;Building and evaluating Machine Learning models using Scikit-Learn.&lt;/li&gt;
+&lt;li&gt;Introduction to Deep Learning frameworks like TensorFlow and PyTorch.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This knowledge enables you to build intelligent applications that interact seamlessly with external data sources and perform sophisticated data analysis and predictions.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

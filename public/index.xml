@@ -1,19 +1,103 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alexandria - Kang Ifaz – Welcome to Alexa</title>
-    <link>https://kangifaz.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Welcome to Alexa on Alexandria - Kang Ifaz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2025 Kang Ifaz</copyright>
-    <lastBuildDate>Sun, 09 Feb 2025 23:55:52 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 16 Mar 2025 15:25:02 +0700</lastBuildDate>
     
-	  <atom:link href="https://kangifaz.com/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
       
       
     
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/blog/_nganu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/_nganu/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;Ifaz Fachrul Hindami, S.T&lt;/h1&gt;&lt;h2&gt;Technical Director | IP &amp;amp; Network Solutions Expert&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;technical-director--ip--network-solutions-expert&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#technical-director--ip--network-solutions-expert&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;An accomplished Technical Director and Network Specialist with over five years of experience in the telecommunications industry. Proven expertise in IP network design, digital transformation, and team leadership. Certified Juniper Networks Certified Professional Service Provider (JNCIP-SP). Passionate about network architecture, automation, and data-driven decision-making.&lt;/p&gt;
+&lt;p&gt;📍 South Jakarta, Indonesia&lt;br&gt;
+📧 &lt;a href=&#34;mailto:ifazfachrul@gmail.com&#34; &gt;ifazfachrul@gmail.com&lt;/a&gt;&lt;br&gt;
+🌐 &lt;a href=&#34;https://kangifaz.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kangifaz.com&lt;/a&gt;&lt;br&gt;
+🔗 &lt;a href=&#34;https://linkedin.com/in/ifazfh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LinkedIn&lt;/a&gt; | &lt;a href=&#34;https://github.com/kangifaz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;br&gt;
+📞 +62 878-0406-0592&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;&lt;strong&gt;Work Experience&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;work-experience&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#work-experience&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;&lt;strong&gt;Technical Director - IP RAN &amp;amp; IP Leader, Regional Service Center&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;technical-director---ip-ran--ip-leader-regional-service-center&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#technical-director---ip-ran--ip-leader-regional-service-center&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Huawei Tech Investment&lt;/strong&gt; | Jakarta, Indonesia&lt;br&gt;
+&lt;strong&gt;05/2023 - Present&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Led digitalization initiatives, reducing document creation time from 200 days to 10 days while improving accuracy by 95%.&lt;/li&gt;
+&lt;li&gt;Collaborated with cross-functional stakeholders, including Project Management teams, customers, and resource pools, to achieve efficiency targets and streamline operations across projects.&lt;/li&gt;
+&lt;li&gt;Delivered and minimized technical risks across all projects, completing new integrations, router swaps, and system improvements for over 15,000+ devices with zero incidents or customer complaints.&lt;/li&gt;
+&lt;li&gt;Built and maintained strong relationships with clients, vendors, and senior management, increasing client satisfaction and fostering long-term partnerships.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;IP Engineer&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ip-engineer&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#ip-engineer&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;PT Elabram System&lt;/strong&gt; | Jakarta, Indonesia&lt;br&gt;
+&lt;strong&gt;01/2020 - Present&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Led a team in the successful migration of over 500 routers from Juniper to Huawei.&lt;/li&gt;
+&lt;li&gt;Prepared more than 5,000 BoQ, Design, Port Mapping, Low-Level Design (LLD), and Method of Procedure (MOP) for router swap implementations.&lt;/li&gt;
+&lt;li&gt;Integrated Network Cloud Engine IP (NCE-IP) for SDN Controller—the first deployment in Indonesia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;IP Transmission &amp;amp; Microwave Engineer&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ip-transmission--microwave-engineer&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#ip-transmission--microwave-engineer&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;PT DGE&lt;/strong&gt; | Jakarta, Indonesia&lt;br&gt;
+&lt;strong&gt;10/2018 - 12/2019&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed and managed IP addressing and VLAN configuration for over 1,500 network elements.&lt;/li&gt;
+&lt;li&gt;Monitored and reported DB IP VLAN Design to stakeholders, including customers, engineers, and the PM team.&lt;/li&gt;
+&lt;li&gt;Conducted performance analysis of the IP transmission network, improving efficiency by 20% through optimized configurations and reduced downtime.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;IP Backhaul Engineer&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ip-backhaul-engineer&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#ip-backhaul-engineer&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;XL Axiata Tbk&lt;/strong&gt; | Jakarta, Indonesia&lt;br&gt;
+&lt;strong&gt;12/2017 - 09/2018&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Led migration planning for over 750 NE from TDM to IP networks, optimizing Abis Network.&lt;/li&gt;
+&lt;li&gt;Developed MOPs for seamless service migration, improving IP Backhaul network efficiency.&lt;/li&gt;
+&lt;li&gt;Completed planning and MOP for over 300 NE MBTS for mudik lebaran.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;&lt;strong&gt;Education&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;education&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#education&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;&lt;strong&gt;Bachelor of Telecommunication Engineering&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;bachelor-of-telecommunication-engineering&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#bachelor-of-telecommunication-engineering&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;IT Telkom Purwokerto&lt;/strong&gt; | Indonesia&lt;br&gt;
+&lt;strong&gt;09/2013 - 08/2017&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;GPA:&lt;/strong&gt; 3.15 / 4.0&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;&lt;strong&gt;Certifications &amp;amp; Achievements&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;certifications--achievements&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#certifications--achievements&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Huawei Future Star&lt;/strong&gt; | Recognized for exceptional contributions to IP &amp;amp; RAN projects &lt;em&gt;(10/2023)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Digitalization &amp;amp; Automation in Acceptance Process&lt;/strong&gt; | Led implementation of an automated process &lt;em&gt;(03/2023 - 06/2023)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Finished Delivery IPRAN NNI and IPBB Development in Q4 2024&lt;/strong&gt; &lt;em&gt;(01/2025)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;&lt;strong&gt;Technical Skills&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;technical-skills&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#technical-skills&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Networking &amp;amp; Protocols:&lt;/strong&gt; MPLS, OSPF, BGP, ISIS, EVPN, L2/L3 VPN&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cloud &amp;amp; DevOps:&lt;/strong&gt; Cloud Computing, Linux System Administration, DevOps&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enterprise IT &amp;amp; Business:&lt;/strong&gt; Database Management, Business Intelligence, Investment Analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Leadership &amp;amp; Strategy:&lt;/strong&gt; Team Leadership, Project Management, Process Improvement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;&lt;strong&gt;Interests&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;interests&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#interests&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Digital Transformation &amp;amp; Automation&lt;/li&gt;
+&lt;li&gt;Data Science &amp;amp; Business Intelligence&lt;/li&gt;
+&lt;li&gt;Photography&lt;/li&gt;
+&lt;li&gt;Business Insight &amp;amp; Writing&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
     
   </channel>
 </rss>

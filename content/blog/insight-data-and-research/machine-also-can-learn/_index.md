@@ -6,9 +6,11 @@ math: true
 ---
 
 ## **1. The Inspiration Behind Machine Learning: A Nobel Prize Story**
-In 2004, the [Nobel Prize](https://www.nobelprize.org/prizes/physics/2024/press-release/) in Physics was awarded to `David J. Gross`, `H. David Politzer`, and `Frank Wilczek` for their discoveries concerning the strong interaction in quantum chromodynamics. While their work was rooted in particle physics, the advancements in understanding complex interactions inspired research in various fields, including `artificial intelligence (AI)` and `machine learning (ML)`. Around the same time, researchers were diving deeper into the concept of artificial neural networks, mimicking the human brain's ability to process information. Just as neurons in our brain store and transmit signals to learn and adapt, machine learning models began leveraging similar structures to improve memory, recognition, and decision-making.
+In 2004, the [Nobel Prize](https://www.nobelprize.org/prizes/physics/2024/press-release/) in Physics was awarded to `John J. Hopfield` and `Geoffrey Hinton` for their foundational discoveries and inventions that enable `machine learning with artificial neural networks`. 
 
-The idea of [neural networks](https://www.nobelprize.org/uploads/2024/10/fig2_fy_pop_en_241009_neuronVSnod-2.pdf) dates back even further to the 1940s, but it wasn’t until computational power caught up that these models could be effectively trained. Inspired by how the human brain processes and recalls information, researchers aimed to replicate cognitive functions in machines, giving rise to deep learning models that continue to evolve today.
+Their work has significantly influenced the development of artificial intelligence (AI) and machine learning (ML), leading to practical applications across various industries. For instance, in the finance sector, AI models are now used to analyze stock trends, detect fraud, and optimize trading strategies.
+
+The idea of [Neural Networks](https://www.nobelprize.org/uploads/2024/10/fig2_fy_pop_en_241009_neuronVSnod-2.pdf) dates back even further to the 1940s, but it wasn’t until computational power caught up that these models could be effectively trained. Inspired by how the human brain processes and recalls information, researchers aimed to replicate cognitive functions in machines, giving rise to deep learning models that continue to evolve today.
 ![alt text](img/image.png)
 
 ## **2. The Expanding Role of ML and AI Across Industries**
@@ -47,7 +49,7 @@ The purpose of this study was not to create a perfect forecasting model but to *
 
 ---
 
-### **a. Data Collection and Preprocessing**
+### **4.1. Data Collection and Preprocessing**
 Before we begin forecasting, **data preparation is crucial**. The data used in this experiment consists of:
 1. **BBCA_history_price.csv** – Containing historical price data (Open, High, Low, Close, Volume).
 2. **BBCA-financials.xlsx** – Containing financial ratios and performance metrics.
@@ -60,7 +62,7 @@ Before we begin forecasting, **data preparation is crucial**. The data used in t
 
 ---
 
-### **b. Exploratory Data Analysis (EDA)**
+### **4.2. Exploratory Data Analysis (EDA)**
 Exploratory Data Analysis (EDA) is **one of the most important steps in data science** because it allows us to identify **patterns, trends, and anomalies** before applying any machine learning models.
 
 #### **EDA Process:**
@@ -78,7 +80,7 @@ Exploratory Data Analysis (EDA) is **one of the most important steps in data sci
 
 ---
 
-### **c. Forecasting Using LSTM (Deep Learning)**
+### **4.3. Forecasting Using LSTM (Deep Learning)**
 #### **What is LSTM?**
 LSTM (**Long Short-Term Memory**) is a **special type of Recurrent Neural Network (RNN)** designed to **handle time-series data**. Unlike traditional neural networks, LSTM has **memory cells** that allow it to learn long-term dependencies.
 
@@ -102,7 +104,7 @@ LSTM (**Long Short-Term Memory**) is a **special type of Recurrent Neural Networ
 
 ---
 
-### **d. Forecasting Using ARIMA (Traditional Statistical Model)**
+### **4.4. Forecasting Using ARIMA (Traditional Statistical Model)**
 #### **What is ARIMA?**
 ARIMA (**AutoRegressive Integrated Moving Average**) is a **time-series forecasting model** that assumes stock prices are influenced by **past values and error terms**.
 
@@ -124,7 +126,7 @@ ARIMA (**AutoRegressive Integrated Moving Average**) is a **time-series forecast
 
 ---
 
-### **e. Combining the Forecasts (Ensemble Model)**
+### **4.5. Combining the Forecasts (Ensemble Model)**
 Since LSTM and ARIMA have **different strengths**, I combined them into an **ensemble forecast** by averaging predictions.
 
 #### **Why Ensemble Forecasting?**
@@ -139,7 +141,7 @@ Since LSTM and ARIMA have **different strengths**, I combined them into an **ens
 
 ---
 
-### **f. Results and Insights**
+### **4.6. Results and Insights**
 #### **1. LSTM Performance on Test Data**
 📌 **Comparison of Actual vs. Predicted Prices (Test Set)**  
 ![alt text](img/image-2.png)
@@ -157,7 +159,7 @@ Since LSTM and ARIMA have **different strengths**, I combined them into an **ens
 
 ---
 
-### **g. Conclusion**
+### **4.7. Summary of the Research**
 1. **LSTM performed well for short-term predictions** but showed **limitations in long-term forecasting**.
 2. **ARIMA worked for basic trend-following but lacked complexity**.
 3. **The ensemble forecast provided the most stable prediction**, balancing **trend and volatility**.
@@ -166,7 +168,7 @@ Since LSTM and ARIMA have **different strengths**, I combined them into an **ens
 
 ---
 
-### **h. Limitations and Disclaimer**
+### **4.8. Limitations and Disclaimer**
 🛑 **Disclaimer:**  
 🚨 **This study is purely for research and educational purposes.**  
 📉 **It is NOT financial advice and should NOT be used for trading or investment decisions.**  
@@ -180,7 +182,7 @@ Since LSTM and ARIMA have **different strengths**, I combined them into an **ens
 
 ---
 
-### **i. Future Improvements**
+### **4.9. Future Improvements**
 - 📌 **Integrate fundamental analysis** (revenue, earnings, interest rates).
 - 📌 **Experiment with hybrid models** (LSTM + ARIMA + XGBoost).
 - 📌 **Use sentiment analysis on news and social media**.
@@ -189,7 +191,7 @@ Since LSTM and ARIMA have **different strengths**, I combined them into an **ens
 🔍 **This study shows how AI and ML can be applied in stock forecasting, but financial markets remain highly unpredictable.**  
 🚀 **Further research and model improvements are necessary for practical use!**  
 
-### **6. Conclusion**
+### **5. Conclusion**
 In my [recent project](https://github.com/kangifaz/repo/blob/main/machine-also-can-learn/Machine%20Also%20Can%20Learn.ipynb), `I explored how AI can learn from large amounts of data` by attempting to predict stock prices using models like LSTM. `This experiment highlighted AI’s impressive capabilities` but also underscored `challenges` such as `high energy consumption`, the need for `specialized hardware`, and `concerns about accuracy`. Moreover, `ethical issues`, including potential legal and moral implications, remain significant hurdles in AI development.
 
 As someone passionate about ICT, data, and finance, I am committed to `continually exploring and learning in these fields`. Through this blog, I aim to share insights and developments on how we can harness AI and machine learning to improve our lives, while being mindful of the associated challenges.
