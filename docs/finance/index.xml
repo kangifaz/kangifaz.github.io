@@ -17,19 +17,6 @@
     
     
     <item>
-      <title>Risk Calculation</title>
-      <link>https://kangifaz.com/docs/finance/risk-calculation/</link>
-      <pubDate>Sun, 23 Feb 2025 16:55:25 +0700</pubDate>
-      
-      <guid>https://kangifaz.com/docs/finance/risk-calculation/</guid>
-      <description>
-        
-        
-        
-      </description>
-    </item>
-    
-    <item>
       <title>MIT 15.401-Finance Theory I</title>
       <link>https://kangifaz.com/docs/finance/mit-15.401-finance-theory-i/</link>
       <pubDate>Sun, 16 Feb 2025 13:00:15 +0700</pubDate>
@@ -168,6 +155,66 @@
   &lt;p&gt;Link Materials &lt;a href=&#34;https://www.youtube.com/watch?v=P03PfYgNjmw&amp;amp;list=PLUl4u3cNGP63B2lDhyKOsImI7FjCf6eDW&amp;amp;index=20&amp;amp;pp=iAQB&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;YouTube Link&lt;/a&gt;&lt;/p&gt;
 
 &lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Risk Calculation</title>
+      <link>https://kangifaz.com/docs/finance/risk-calculation/</link>
+      <pubDate>Sun, 23 Feb 2025 16:55:25 +0700</pubDate>
+      
+      <guid>https://kangifaz.com/docs/finance/risk-calculation/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Financial risk calculation involves quantifying the potential for financial losses in investment portfolios. It is an essential process for investors, financial managers, and institutions to measure, manage, and mitigate risks associated with their financial assets.&lt;/p&gt;
+&lt;h2&gt;Why Risk Calculation Matters&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;why-risk-calculation-matters&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#why-risk-calculation-matters&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Effective risk calculation helps investors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Identify potential losses and manage them proactively.&lt;/li&gt;
+&lt;li&gt;Optimize portfolios by balancing risk and return.&lt;/li&gt;
+&lt;li&gt;Comply with regulatory standards and internal risk management protocols.&lt;/li&gt;
+&lt;li&gt;Improve decision-making under uncertainty.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Common Risk Calculation Methods&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;common-risk-calculation-methods&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#common-risk-calculation-methods&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;1. Value at Risk (VaR)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-value-at-risk-var&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-value-at-risk-var&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;VaR estimates the maximum loss expected over a specific period at a given confidence level. It helps investors understand the worst-case scenario within normal market conditions.&lt;/p&gt;
+&lt;h4&gt;How VaR Works&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-var-works&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#how-var-works&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;VaR typically answers a question such as:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&amp;ldquo;What is the maximum expected loss with a 95% confidence over one day?&amp;rdquo;&lt;/p&gt;
+
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Formula (Historical VaR):&lt;/strong&gt;&lt;/p&gt;
+\[
+VaR_{\alpha}(X) = - \text{Quantile}_{\alpha}(X)
+\]&lt;ul&gt;
+&lt;li&gt;\( \alpha \): Confidence level (e.g., 95%, 99%)&lt;/li&gt;
+&lt;li&gt;\( X \): Loss distribution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. Conditional Value at Risk (CVaR)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-conditional-value-at-risk-cvar&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-conditional-value-at-risk-cvar&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;CVaR (also known as Expected Shortfall) calculates the expected loss in the worst-case scenarios beyond the VaR threshold. It provides additional insights by focusing on extreme losses, making it particularly useful for managing tail risks.&lt;/p&gt;
+&lt;h4&gt;How CVaR Works&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-cvar-works&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#how-cvar-works&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;CVaR answers questions such as:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&amp;ldquo;Given a VaR of 95%, what&amp;rsquo;s the average loss if losses exceed this threshold?&amp;rdquo;&lt;/p&gt;
+
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Formula (CVaR):&lt;/strong&gt;&lt;/p&gt;
+\[
+CVaR_{\alpha}(X) = \mathbb{E}[X | X \geq VaR_{\alpha}(X)]
+\]&lt;h2&gt;Importance in Investment&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;importance-in-investment&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#importance-in-investment&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Both VaR and CVaR are widely utilized in the financial industry for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Portfolio risk management&lt;/li&gt;
+&lt;li&gt;Regulatory compliance (Basel III)&lt;/li&gt;
+&lt;li&gt;Stress testing&lt;/li&gt;
+&lt;li&gt;Strategic risk allocation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Using these measures, investors and institutions can better understand potential risks, establish clear boundaries, and take appropriate steps to manage their exposure.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;This documentation will further expand to cover advanced methods, practical examples, and computational techniques integrating IT and quantitative analysis.&lt;/p&gt;
 
       </description>
     </item>
