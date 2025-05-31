@@ -295,6 +295,60 @@ tickers_input = [&amp;#39;BBCA&amp;#39;, &amp;#39;BMRI&amp;#39;, &amp;#39;TLKM&a
 &lt;img src=&#34;img/image-3.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Also check the file output as below
 &lt;img src=&#34;img/image-4.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Results from
+&lt;img src=&#34;image-2.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;
+&lt;img src=&#34;image.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;
+&lt;img src=&#34;image-1.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;rive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount(&amp;#34;/content/drive&amp;#34;, force_remount=True).
+
+===== Processing BBCA.JK =====
+✔️ Historical data saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BBCA.JK_history.csv
+
+✔️ Annual financials saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BBCA.JK_financials.csv
+✔️ Annual balance sheet saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BBCA.JK_balance_sheet.csv
+✔️ Annual cash flow saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BBCA.JK_cashflow.csv
+✔️ Dividends saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BBCA.JK_dividends.csv
+✔️ Analyst recommendations saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BBCA.JK_recommendations.csv
+✔️ Quarterly financials saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BBCA.JK_quarterly_financials.csv
+✔️ Quarterly balance sheet saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BBCA.JK_quarterly_balance_sheet.csv
+✔️ Quarterly cash flow saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BBCA.JK_quarterly_cashflow.csv
+
+===== Processing BMRI.JK =====
+✔️ Historical data saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BMRI.JK_history.csv
+
+✔️ Annual financials saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BMRI.JK_financials.csv
+✔️ Annual balance sheet saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BMRI.JK_balance_sheet.csv
+✔️ Annual cash flow saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BMRI.JK_cashflow.csv
+✔️ Dividends saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BMRI.JK_dividends.csv
+✔️ Analyst recommendations saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BMRI.JK_recommendations.csv
+✔️ Quarterly financials saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BMRI.JK_quarterly_financials.csv
+✔️ Quarterly balance sheet saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BMRI.JK_quarterly_balance_sheet.csv
+✔️ Quarterly cash flow saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BMRI.JK_quarterly_cashflow.csv
+
+===== Processing TLKM.JK =====
+✔️ Historical data saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/TLKM.JK_history.csv
+
+✔️ Annual financials saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/TLKM.JK_financials.csv
+✔️ Annual balance sheet saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/TLKM.JK_balance_sheet.csv
+✔️ Annual cash flow saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/TLKM.JK_cashflow.csv
+✔️ Dividends saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/TLKM.JK_dividends.csv
+✔️ Analyst recommendations saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/TLKM.JK_recommendations.csv
+✔️ Quarterly financials saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/TLKM.JK_quarterly_financials.csv
+✔️ Quarterly balance sheet saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/TLKM.JK_quarterly_balance_sheet.csv
+✔️ Quarterly cash flow saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/TLKM.JK_quarterly_cashflow.csv
+
+✅ Finished processing all tickers. Check your Google Drive folder for the CSV files.&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;h3&gt;6. Note&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;6-note&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#6-note&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;If you found any error, just copy the error and paste on the AI, let&amp;rsquo;s AI fix the program by itself&lt;/li&gt;
