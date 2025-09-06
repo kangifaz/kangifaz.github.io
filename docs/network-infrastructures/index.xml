@@ -1,14 +1,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alexandria - Kang Ifaz – Network Infrastructures</title>
-    <link>https://kangifaz.com/docs/network-infrastructures/</link>
+    <link>http://localhost:1313/docs/network-infrastructures/</link>
     <description>Recent content in Network Infrastructures on Alexandria - Kang Ifaz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2025 Kang Ifaz</copyright>
     <lastBuildDate>Sun, 23 Feb 2025 16:48:28 +0700</lastBuildDate>
     
-	  <atom:link href="https://kangifaz.com/docs/network-infrastructures/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/docs/network-infrastructures/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -18,10 +18,10 @@
     
     <item>
       <title>Network FUNdamentals</title>
-      <link>https://kangifaz.com/docs/network-infrastructures/network-fundamentals/</link>
+      <link>http://localhost:1313/docs/network-infrastructures/network-fundamentals/</link>
       <pubDate>Sun, 23 Feb 2025 16:42:12 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/network-infrastructures/network-fundamentals/</guid>
+      <guid>http://localhost:1313/docs/network-infrastructures/network-fundamentals/</guid>
       <description>
         
         
@@ -127,10 +127,10 @@ description: &amp;ldquo;Detailed guide covering essential networking concepts, I
     
     <item>
       <title>Interior Gateway Protocol (IGP)</title>
-      <link>https://kangifaz.com/docs/network-infrastructures/interior-gateway-protocol-igp/</link>
+      <link>http://localhost:1313/docs/network-infrastructures/interior-gateway-protocol-igp/</link>
       <pubDate>Sun, 23 Feb 2025 16:47:29 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/network-infrastructures/interior-gateway-protocol-igp/</guid>
+      <guid>http://localhost:1313/docs/network-infrastructures/interior-gateway-protocol-igp/</guid>
       <description>
         
         
@@ -188,10 +188,10 @@ description: &amp;ldquo;Detailed guide covering essential networking concepts, I
     
     <item>
       <title>Border Gateway Protocol (BGP)</title>
-      <link>https://kangifaz.com/docs/network-infrastructures/border-gateway-protocol-bgp/</link>
+      <link>http://localhost:1313/docs/network-infrastructures/border-gateway-protocol-bgp/</link>
       <pubDate>Sun, 23 Feb 2025 16:47:29 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/network-infrastructures/border-gateway-protocol-bgp/</guid>
+      <guid>http://localhost:1313/docs/network-infrastructures/border-gateway-protocol-bgp/</guid>
       <description>
         
         
@@ -249,10 +249,10 @@ description: &amp;ldquo;Detailed guide covering essential networking concepts, I
     
     <item>
       <title>Multiprotocol Labelling Switching (MPLS)</title>
-      <link>https://kangifaz.com/docs/network-infrastructures/multiprotocol-labelling-switching-mpls/</link>
+      <link>http://localhost:1313/docs/network-infrastructures/multiprotocol-labelling-switching-mpls/</link>
       <pubDate>Sun, 23 Feb 2025 16:47:29 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/network-infrastructures/multiprotocol-labelling-switching-mpls/</guid>
+      <guid>http://localhost:1313/docs/network-infrastructures/multiprotocol-labelling-switching-mpls/</guid>
       <description>
         
         
@@ -309,10 +309,10 @@ description: &amp;ldquo;Detailed guide covering essential networking concepts, I
     
     <item>
       <title>Layer 2 VPN Services</title>
-      <link>https://kangifaz.com/docs/network-infrastructures/layer-2-vpn-services/</link>
+      <link>http://localhost:1313/docs/network-infrastructures/layer-2-vpn-services/</link>
       <pubDate>Sun, 23 Feb 2025 16:47:29 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/network-infrastructures/layer-2-vpn-services/</guid>
+      <guid>http://localhost:1313/docs/network-infrastructures/layer-2-vpn-services/</guid>
       <description>
         
         
@@ -369,10 +369,10 @@ description: &amp;ldquo;Detailed guide covering essential networking concepts, I
     
     <item>
       <title>Layer 3 VPN Service</title>
-      <link>https://kangifaz.com/docs/network-infrastructures/layer-3-vpn-service/</link>
+      <link>http://localhost:1313/docs/network-infrastructures/layer-3-vpn-service/</link>
       <pubDate>Sun, 23 Feb 2025 16:47:30 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/network-infrastructures/layer-3-vpn-service/</guid>
+      <guid>http://localhost:1313/docs/network-infrastructures/layer-3-vpn-service/</guid>
       <description>
         
         
@@ -429,10 +429,10 @@ description: &amp;ldquo;Detailed guide covering essential networking concepts, I
     
     <item>
       <title>Inter as VPN</title>
-      <link>https://kangifaz.com/docs/network-infrastructures/inter-as-vpn/</link>
+      <link>http://localhost:1313/docs/network-infrastructures/inter-as-vpn/</link>
       <pubDate>Sun, 23 Feb 2025 16:47:30 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/network-infrastructures/inter-as-vpn/</guid>
+      <guid>http://localhost:1313/docs/network-infrastructures/inter-as-vpn/</guid>
       <description>
         
         

@@ -1,14 +1,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alexandria - Kang Ifaz – Intermediate Python</title>
-    <link>https://kangifaz.com/docs/learn-python/intermediate/</link>
+    <link>http://localhost:1313/docs/learn-python/intermediate/</link>
     <description>Recent content in Intermediate Python on Alexandria - Kang Ifaz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2025 Kang Ifaz</copyright>
     <lastBuildDate>Sun, 16 Mar 2025 15:10:53 +0700</lastBuildDate>
     
-	  <atom:link href="https://kangifaz.com/docs/learn-python/intermediate/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/docs/learn-python/intermediate/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -18,10 +18,10 @@
     
     <item>
       <title>Data Structures</title>
-      <link>https://kangifaz.com/docs/learn-python/intermediate/data-structures/</link>
+      <link>http://localhost:1313/docs/learn-python/intermediate/data-structures/</link>
       <pubDate>Sun, 16 Mar 2025 15:08:20 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/learn-python/intermediate/data-structures/</guid>
+      <guid>http://localhost:1313/docs/learn-python/intermediate/data-structures/</guid>
       <description>
         
         
@@ -52,10 +52,10 @@
     
     <item>
       <title>Object Oriented Programming (OOP)</title>
-      <link>https://kangifaz.com/docs/learn-python/intermediate/object-oriented-programming-oop/</link>
+      <link>http://localhost:1313/docs/learn-python/intermediate/object-oriented-programming-oop/</link>
       <pubDate>Sun, 16 Mar 2025 15:22:56 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/learn-python/intermediate/object-oriented-programming-oop/</guid>
+      <guid>http://localhost:1313/docs/learn-python/intermediate/object-oriented-programming-oop/</guid>
       <description>
         
         
@@ -92,10 +92,10 @@
     
     <item>
       <title>File Handling and Exceptions</title>
-      <link>https://kangifaz.com/docs/learn-python/intermediate/file-handling-and-exceptions/</link>
+      <link>http://localhost:1313/docs/learn-python/intermediate/file-handling-and-exceptions/</link>
       <pubDate>Sun, 16 Mar 2025 15:23:16 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/learn-python/intermediate/file-handling-and-exceptions/</guid>
+      <guid>http://localhost:1313/docs/learn-python/intermediate/file-handling-and-exceptions/</guid>
       <description>
         
         

@@ -1,14 +1,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alexandria - Kang Ifaz – Finance</title>
-    <link>https://kangifaz.com/docs/finance/</link>
+    <link>http://localhost:1313/docs/finance/</link>
     <description>Recent content in Finance on Alexandria - Kang Ifaz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2025 Kang Ifaz</copyright>
     <lastBuildDate>Sun, 23 Feb 2025 16:55:59 +0700</lastBuildDate>
     
-	  <atom:link href="https://kangifaz.com/docs/finance/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/docs/finance/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -18,10 +18,10 @@
     
     <item>
       <title>MIT 15.401-Finance Theory I</title>
-      <link>https://kangifaz.com/docs/finance/mit-15.401-finance-theory-i/</link>
+      <link>http://localhost:1313/docs/finance/mit-15.401-finance-theory-i/</link>
       <pubDate>Sun, 16 Feb 2025 13:00:15 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/finance/mit-15.401-finance-theory-i/</guid>
+      <guid>http://localhost:1313/docs/finance/mit-15.401-finance-theory-i/</guid>
       <description>
         
         
@@ -161,10 +161,10 @@
     
     <item>
       <title>Risk Calculation</title>
-      <link>https://kangifaz.com/docs/finance/risk-calculation/</link>
+      <link>http://localhost:1313/docs/finance/risk-calculation/</link>
       <pubDate>Sun, 23 Feb 2025 16:55:25 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/finance/risk-calculation/</guid>
+      <guid>http://localhost:1313/docs/finance/risk-calculation/</guid>
       <description>
         
         

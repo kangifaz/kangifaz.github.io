@@ -17,6 +17,64 @@
     
     
     <item>
+      <title>Benefit of Cloud</title>
+      <link>http://localhost:1313/blog/ict-infrastructure/benefit-of-cloud/</link>
+      <pubDate>Wed, 03 Sep 2025 01:06:55 +0700</pubDate>
+      
+      <guid>http://localhost:1313/blog/ict-infrastructure/benefit-of-cloud/</guid>
+      <description>
+        
+        
+        &lt;p&gt;hubahuba&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;root@Hydra:/home# df
+Filesystem                       1K-blocks    Used Available Use% Mounted on
+/dev/mapper/pve-vm--102--disk--0  10218772 8947904    730196  93% /
+none                                   492       4       488   1% /dev
+efivarfs                               192      38       150  20% /sys/firmware/efi/efivars
+tmpfs                             20455780       0  20455780   0% /dev/shm
+tmpfs                              8182312     112   8182200   1% /run
+tmpfs                                 5120       0      5120   0% /run/lock
+tmpfs                              4091156       4   4091152   1% /run/user/0
+root@Hydra:/home# &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;After&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;root@Hydra:~# df
+Filesystem                       1K-blocks    Used Available Use% Mounted on
+/dev/mapper/pve-vm--102--disk--0  17435452 8947948   7579832  55% /
+none                                   492       4       488   1% /dev
+efivarfs                               192      38       150  20% /sys/firmware/efi/efivars
+tmpfs                             20455780       0  20455780   0% /dev/shm
+tmpfs                              8182312     108   8182204   1% /run
+tmpfs                                 5120       0      5120   0% /run/lock
+tmpfs                              4091156       4   4091152   1% /run/user/0
+root@Hydra:~# &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;focus on&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Home Data Center</title>
       <link>http://localhost:1313/blog/ict-infrastructure/home_data_center/</link>
       <pubDate>Sun, 12 Jan 2025 18:05:31 +0700</pubDate>

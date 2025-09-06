@@ -1,14 +1,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alexandria - Kang Ifaz – Data Science</title>
-    <link>https://kangifaz.com/docs/learn-python/data-science/</link>
+    <link>http://localhost:1313/docs/learn-python/data-science/</link>
     <description>Recent content in Data Science on Alexandria - Kang Ifaz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2025 Kang Ifaz</copyright>
     <lastBuildDate>Sun, 16 Mar 2025 15:11:12 +0700</lastBuildDate>
     
-	  <atom:link href="https://kangifaz.com/docs/learn-python/data-science/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/docs/learn-python/data-science/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -18,10 +18,10 @@
     
     <item>
       <title>NumPy</title>
-      <link>https://kangifaz.com/docs/learn-python/data-science/numpy/</link>
+      <link>http://localhost:1313/docs/learn-python/data-science/numpy/</link>
       <pubDate>Sun, 16 Mar 2025 15:08:44 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/learn-python/data-science/numpy/</guid>
+      <guid>http://localhost:1313/docs/learn-python/data-science/numpy/</guid>
       <description>
         
         
@@ -50,10 +50,10 @@
     
     <item>
       <title>Pandas</title>
-      <link>https://kangifaz.com/docs/learn-python/data-science/pandas/</link>
+      <link>http://localhost:1313/docs/learn-python/data-science/pandas/</link>
       <pubDate>Sun, 16 Mar 2025 15:23:56 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/learn-python/data-science/pandas/</guid>
+      <guid>http://localhost:1313/docs/learn-python/data-science/pandas/</guid>
       <description>
         
         
@@ -83,10 +83,10 @@
     
     <item>
       <title>Data Visualization</title>
-      <link>https://kangifaz.com/docs/learn-python/data-science/data-visualization/</link>
+      <link>http://localhost:1313/docs/learn-python/data-science/data-visualization/</link>
       <pubDate>Sun, 16 Mar 2025 15:24:16 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/learn-python/data-science/data-visualization/</guid>
+      <guid>http://localhost:1313/docs/learn-python/data-science/data-visualization/</guid>
       <description>
         
         

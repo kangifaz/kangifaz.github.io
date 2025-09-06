@@ -1,14 +1,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alexandria - Kang Ifaz – Welcome to Alexa</title>
-    <link>https://kangifaz.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Welcome to Alexa on Alexandria - Kang Ifaz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2025 Kang Ifaz</copyright>
-    <lastBuildDate>Sun, 01 Jun 2025 01:28:09 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 03 Sep 2025 01:07:38 +0700</lastBuildDate>
     
-	  <atom:link href="https://kangifaz.com/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title></title>
-      <link>https://kangifaz.com/blog/_nganu/</link>
+      <link>http://localhost:1313/blog/_nganu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kangifaz.com/blog/_nganu/</guid>
+      <guid>http://localhost:1313/blog/_nganu/</guid>
       <description>
         
         

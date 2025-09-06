@@ -1,14 +1,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alexandria - Kang Ifaz – MIT 15.401-Finance Theory I</title>
-    <link>https://kangifaz.com/docs/finance/mit-15.401-finance-theory-i/</link>
+    <link>http://localhost:1313/docs/finance/mit-15.401-finance-theory-i/</link>
     <description>Recent content in MIT 15.401-Finance Theory I on Alexandria - Kang Ifaz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2025 Kang Ifaz</copyright>
     <lastBuildDate>Sun, 16 Feb 2025 13:00:15 +0700</lastBuildDate>
     
-	  <atom:link href="https://kangifaz.com/docs/finance/mit-15.401-finance-theory-i/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/docs/finance/mit-15.401-finance-theory-i/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -18,10 +18,10 @@
     
     <item>
       <title>1 Present Value (PV) Relations</title>
-      <link>https://kangifaz.com/docs/finance/mit-15.401-finance-theory-i/1-present-value-pv-relations/</link>
+      <link>http://localhost:1313/docs/finance/mit-15.401-finance-theory-i/1-present-value-pv-relations/</link>
       <pubDate>Sun, 16 Feb 2025 20:26:54 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/finance/mit-15.401-finance-theory-i/1-present-value-pv-relations/</guid>
+      <guid>http://localhost:1313/docs/finance/mit-15.401-finance-theory-i/1-present-value-pv-relations/</guid>
       <description>
         
         
@@ -156,10 +156,10 @@ Real Rate = \frac{1 + Nominal Rate}{1 + Inflation Rate} - 1
     
     <item>
       <title>2 Fixed Income Securities</title>
-      <link>https://kangifaz.com/docs/finance/mit-15.401-finance-theory-i/2-fixed-income-securities/</link>
+      <link>http://localhost:1313/docs/finance/mit-15.401-finance-theory-i/2-fixed-income-securities/</link>
       <pubDate>Sun, 16 Feb 2025 20:27:09 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/finance/mit-15.401-finance-theory-i/2-fixed-income-securities/</guid>
+      <guid>http://localhost:1313/docs/finance/mit-15.401-finance-theory-i/2-fixed-income-securities/</guid>
       <description>
         
         
@@ -169,10 +169,10 @@ Real Rate = \frac{1 + Nominal Rate}{1 + Inflation Rate} - 1
     
     <item>
       <title>3 Equities</title>
-      <link>https://kangifaz.com/docs/finance/mit-15.401-finance-theory-i/3-equities/</link>
+      <link>http://localhost:1313/docs/finance/mit-15.401-finance-theory-i/3-equities/</link>
       <pubDate>Sun, 16 Feb 2025 20:27:21 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/finance/mit-15.401-finance-theory-i/3-equities/</guid>
+      <guid>http://localhost:1313/docs/finance/mit-15.401-finance-theory-i/3-equities/</guid>
       <description>
         
         

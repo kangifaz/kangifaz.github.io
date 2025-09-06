@@ -1,14 +1,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alexandria - Kang Ifaz – Fundamentals Python</title>
-    <link>https://kangifaz.com/docs/learn-python/fundamentals/</link>
+    <link>http://localhost:1313/docs/learn-python/fundamentals/</link>
     <description>Recent content in Fundamentals Python on Alexandria - Kang Ifaz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2025 Kang Ifaz</copyright>
     <lastBuildDate>Sun, 16 Mar 2025 15:10:39 +0700</lastBuildDate>
     
-	  <atom:link href="https://kangifaz.com/docs/learn-python/fundamentals/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/docs/learn-python/fundamentals/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -18,10 +18,10 @@
     
     <item>
       <title>Basic Syntax &amp; Data Types</title>
-      <link>https://kangifaz.com/docs/learn-python/fundamentals/basic-syntax--data-types/</link>
+      <link>http://localhost:1313/docs/learn-python/fundamentals/basic-syntax--data-types/</link>
       <pubDate>Sun, 16 Mar 2025 15:06:00 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/learn-python/fundamentals/basic-syntax--data-types/</guid>
+      <guid>http://localhost:1313/docs/learn-python/fundamentals/basic-syntax--data-types/</guid>
       <description>
         
         
@@ -53,10 +53,10 @@
     
     <item>
       <title>Control Structures</title>
-      <link>https://kangifaz.com/docs/learn-python/fundamentals/control-structures/</link>
+      <link>http://localhost:1313/docs/learn-python/fundamentals/control-structures/</link>
       <pubDate>Sun, 16 Mar 2025 15:21:22 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/learn-python/fundamentals/control-structures/</guid>
+      <guid>http://localhost:1313/docs/learn-python/fundamentals/control-structures/</guid>
       <description>
         
         
@@ -86,10 +86,10 @@
     
     <item>
       <title>Functions &amp; Modules</title>
-      <link>https://kangifaz.com/docs/learn-python/fundamentals/functions--modules/</link>
+      <link>http://localhost:1313/docs/learn-python/fundamentals/functions--modules/</link>
       <pubDate>Sun, 16 Mar 2025 15:21:38 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/learn-python/fundamentals/functions--modules/</guid>
+      <guid>http://localhost:1313/docs/learn-python/fundamentals/functions--modules/</guid>
       <description>
         
         

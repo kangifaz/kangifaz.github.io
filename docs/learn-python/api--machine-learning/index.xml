@@ -1,14 +1,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alexandria - Kang Ifaz – API &amp; Machine Learning</title>
-    <link>https://kangifaz.com/docs/learn-python/api--machine-learning/</link>
+    <link>http://localhost:1313/docs/learn-python/api--machine-learning/</link>
     <description>Recent content in API &amp; Machine Learning on Alexandria - Kang Ifaz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2025 Kang Ifaz</copyright>
     <lastBuildDate>Sun, 16 Mar 2025 15:11:31 +0700</lastBuildDate>
     
-	  <atom:link href="https://kangifaz.com/docs/learn-python/api--machine-learning/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/docs/learn-python/api--machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -18,10 +18,10 @@
     
     <item>
       <title>API Concept</title>
-      <link>https://kangifaz.com/docs/learn-python/api--machine-learning/api-concept/</link>
+      <link>http://localhost:1313/docs/learn-python/api--machine-learning/api-concept/</link>
       <pubDate>Sun, 16 Mar 2025 15:09:22 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/learn-python/api--machine-learning/api-concept/</guid>
+      <guid>http://localhost:1313/docs/learn-python/api--machine-learning/api-concept/</guid>
       <description>
         
         
@@ -52,10 +52,10 @@
     
     <item>
       <title>Machine Learning</title>
-      <link>https://kangifaz.com/docs/learn-python/api--machine-learning/machine-learning/</link>
+      <link>http://localhost:1313/docs/learn-python/api--machine-learning/machine-learning/</link>
       <pubDate>Sun, 16 Mar 2025 15:24:49 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/learn-python/api--machine-learning/machine-learning/</guid>
+      <guid>http://localhost:1313/docs/learn-python/api--machine-learning/machine-learning/</guid>
       <description>
         
         
@@ -93,10 +93,10 @@
     
     <item>
       <title>Deep Learning</title>
-      <link>https://kangifaz.com/docs/learn-python/api--machine-learning/deep-learning/</link>
+      <link>http://localhost:1313/docs/learn-python/api--machine-learning/deep-learning/</link>
       <pubDate>Sun, 16 Mar 2025 15:25:02 +0700</pubDate>
       
-      <guid>https://kangifaz.com/docs/learn-python/api--machine-learning/deep-learning/</guid>
+      <guid>http://localhost:1313/docs/learn-python/api--machine-learning/deep-learning/</guid>
       <description>
         
         
