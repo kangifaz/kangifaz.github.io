@@ -17,59 +17,140 @@
     
     
     <item>
-      <title>Benefit of Cloud</title>
-      <link>http://localhost:1313/blog/ict-infrastructure/benefit-of-cloud/</link>
-      <pubDate>Wed, 03 Sep 2025 01:06:55 +0700</pubDate>
+      <title>Cloud Computing Liquefied Everything</title>
+      <link>http://localhost:1313/blog/ict-infrastructure/cloud-computing-liquefied-everything/</link>
+      <pubDate>Sun, 07 Sep 2025 11:06:54 +0700</pubDate>
       
-      <guid>http://localhost:1313/blog/ict-infrastructure/benefit-of-cloud/</guid>
+      <guid>http://localhost:1313/blog/ict-infrastructure/cloud-computing-liquefied-everything/</guid>
       <description>
         
         
-        &lt;p&gt;hubahuba&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;pre&gt;&lt;code&gt;root@Hydra:/home# df
-Filesystem                       1K-blocks    Used Available Use% Mounted on
-/dev/mapper/pve-vm--102--disk--0  10218772 8947904    730196  93% /
-none                                   492       4       488   1% /dev
-efivarfs                               192      38       150  20% /sys/firmware/efi/efivars
-tmpfs                             20455780       0  20455780   0% /dev/shm
-tmpfs                              8182312     112   8182200   1% /run
-tmpfs                                 5120       0      5120   0% /run/lock
-tmpfs                              4091156       4   4091152   1% /run/user/0
-root@Hydra:/home# &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;After&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;pre&gt;&lt;code&gt;root@Hydra:~# df
-Filesystem                       1K-blocks    Used Available Use% Mounted on
-/dev/mapper/pve-vm--102--disk--0  17435452 8947948   7579832  55% /
-none                                   492       4       488   1% /dev
-efivarfs                               192      38       150  20% /sys/firmware/efi/efivars
-tmpfs                             20455780       0  20455780   0% /dev/shm
-tmpfs                              8182312     108   8182204   1% /run
-tmpfs                                 5120       0      5120   0% /run/lock
-tmpfs                              4091156       4   4091152   1% /run/user/0
-root@Hydra:~# &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;focus on&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;img/image-2.png&#34; alt=&#34;Cloud Computing&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;When we talk about &lt;strong&gt;Cloud Computing&lt;/strong&gt;, one powerful way to imagine it is: &lt;strong&gt;liquefying everything&lt;/strong&gt;. Just like water can take any shape, cloud computing allows computing resources to be flexible, scalable, and efficient. Instead of being locked inside a single server, resources can flow to where they are needed most.&lt;/p&gt;
+&lt;p&gt;Today, we see two major directions in computing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Retail and personal computing:&lt;/strong&gt; Devices that are smaller, cheaper, and extremely power-efficient.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industrial and enterprise computing:&lt;/strong&gt; Huge data centers with massive computing power, but designed for efficiency and scalability.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;At first, it may seem like a contradiction—how can huge power also be efficient? The answer is virtualization and cloud computing.&lt;/p&gt;
+&lt;h2&gt;From Bare Metal to Cloud&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;from-bare-metal-to-cloud&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#from-bare-metal-to-cloud&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In the &lt;strong&gt;1970s&lt;/strong&gt;, IBM introduced the concept of virtualization. At that time, it was only for research, and not stable for big industries. In the &lt;strong&gt;1990s and early 2000s&lt;/strong&gt;, companies still preferred &lt;strong&gt;bare-metal servers&lt;/strong&gt; for stability:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Bare metal&lt;/strong&gt; = one server, one workload.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Virtualization&lt;/strong&gt; = dividing one server into many smaller workloads.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The real breakthrough came in the &lt;strong&gt;mid-2000s&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Amazon Web Services (AWS)&lt;/strong&gt; launched in &lt;strong&gt;2006&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Cloud&lt;/strong&gt; launched in &lt;strong&gt;2008&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Microsoft Azure&lt;/strong&gt; in &lt;strong&gt;2010&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Alibaba Cloud&lt;/strong&gt; in &lt;strong&gt;2009&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Huawei Cloud&lt;/strong&gt; in &lt;strong&gt;2017&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These services showed that virtualization was not only possible, but also profitable.&lt;/p&gt;
+&lt;h2&gt;Cloud Computing = Liquefied Resources&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cloud-computing--liquefied-resources&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#cloud-computing--liquefied-resources&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Think of a server with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;32 CPU cores&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;128 GB RAM&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;4 TB storage&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you run it bare metal, only one system uses all of it. If the workload doesn’t need everything, the rest is wasted. With virtualization, you can divide it into smaller virtual machines (VMs), each with its own resources. This is like pouring water into multiple cups from one big container.&lt;/p&gt;
+&lt;p&gt;This concept works not only for CPU and RAM, but also for &lt;strong&gt;storage and GPU&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;Scalability is the Key&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;scalability-is-the-key&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#scalability-is-the-key&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Scalability is one of the biggest reasons cloud computing is successful. Companies can start small and grow without buying new hardware. For example, consider &lt;strong&gt;Figma&lt;/strong&gt;:&lt;/p&gt;
+&lt;h1&gt;Cloud Computing Liquefied Everything: The Future of Computing&lt;/h1&gt;&lt;h2&gt;Introduction&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;introduction&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#introduction&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;When we talk about &lt;strong&gt;Cloud Computing&lt;/strong&gt;, one powerful way to imagine it is: &lt;strong&gt;liquefying everything&lt;/strong&gt;. Just like water can take any shape, cloud computing allows computing resources to be flexible, scalable, and efficient. Instead of being locked inside a single server, resources can flow to where they are needed most, adapting to the shape and size of the demand.&lt;/p&gt;
+&lt;p&gt;Today, we see two major directions in computing. On one side, we have &lt;strong&gt;retail and personal computing&lt;/strong&gt;, where the focus is on small, low-power devices that are cheap but powerful enough to handle daily tasks. On the other side, there is &lt;strong&gt;industrial and enterprise computing&lt;/strong&gt;, where huge data centers and servers provide massive amounts of computing power, but with an emphasis on efficiency, scalability, and cost control. At first, it seems like these two directions are in conflict. How can massive computing power also be efficient? The answer is virtualization and cloud computing.&lt;/p&gt;
+&lt;h2&gt;From Bare Metal to Cloud&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;from-bare-metal-to-cloud-1&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#from-bare-metal-to-cloud-1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;img/image.png&#34; alt=&#34;Openstack Cloud Computing&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Back in the &lt;strong&gt;1970s&lt;/strong&gt;, IBM introduced the concept of virtualization. The idea was revolutionary: instead of dedicating one machine to a single workload, you could split the machine into many smaller parts. Each part could run its own workload independently. But in those early days, virtualization was still only for research and wasn’t stable enough for industries to adopt.&lt;/p&gt;
+&lt;p&gt;In the &lt;strong&gt;1990s and early 2000s&lt;/strong&gt;, most companies still used &lt;strong&gt;bare-metal servers&lt;/strong&gt;. These are physical servers where one machine is tied to one workload. The benefit was reliability and stability, but the drawback was inefficiency. If the workload didn’t use all the available resources, the rest was wasted. Virtualization was known, but it wasn’t trusted enough yet for large industries that required stability above everything else.&lt;/p&gt;
+&lt;p&gt;The turning point came in the &lt;strong&gt;mid-2000s&lt;/strong&gt;, when cloud providers began to emerge:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amazon Web Services (AWS)&lt;/a&gt; launched in &lt;strong&gt;2006&lt;/strong&gt;, pioneering the pay-as-you-go cloud model.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloud.google.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Cloud&lt;/a&gt; launched in &lt;strong&gt;2008&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://azure.microsoft.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Microsoft Azure&lt;/a&gt; arrived in &lt;strong&gt;2010&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.alibabacloud.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Alibaba Cloud&lt;/a&gt; entered the market in &lt;strong&gt;2009&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.huaweicloud.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Huawei Cloud&lt;/a&gt; followed in &lt;strong&gt;2017&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These services proved that virtualization could be trusted. More importantly, they showed that virtualization wasn’t just a technology—it was a business model that could change how companies operate.&lt;/p&gt;
+&lt;h2&gt;Cloud Computing = Liquefied Resources&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cloud-computing--liquefied-resources-1&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#cloud-computing--liquefied-resources-1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Imagine you have a powerful server with &lt;strong&gt;32 CPU cores&lt;/strong&gt;, &lt;strong&gt;128 GB RAM&lt;/strong&gt;, and &lt;strong&gt;4 TB storage&lt;/strong&gt;. If you dedicate all of this to one workload (bare metal), then only that workload benefits. If the workload doesn’t fully use the resources, the extra capacity is wasted.&lt;/p&gt;
+&lt;p&gt;With &lt;strong&gt;virtualization&lt;/strong&gt;, the same server can be split into smaller &lt;strong&gt;virtual machines (VMs)&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;VM1: 4 CPU cores, 16 GB RAM, 500 GB storage&lt;/li&gt;
+&lt;li&gt;VM2: 8 CPU cores, 32 GB RAM, 1 TB storage&lt;/li&gt;
+&lt;li&gt;VM3: 2 CPU cores, 8 GB RAM, 250 GB storage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each VM feels like an independent computer. They can run different operating systems, applications, or even serve different clients. The server is now being used much more efficiently. This is why we call cloud computing “liquefied resources.” Just like liquid, resources can be reshaped into any form depending on the demand.&lt;/p&gt;
+&lt;h2&gt;Scalability: The Real Power&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;scalability-the-real-power&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#scalability-the-real-power&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;One of the most important advantages of cloud computing is &lt;strong&gt;scalability&lt;/strong&gt;. A company doesn’t need to predict its exact resource needs years in advance. Instead, it can start small and grow step by step as demand increases.&lt;/p&gt;
+&lt;p&gt;Take &lt;strong&gt;Figma&lt;/strong&gt; as an example:
+&lt;img src=&#34;img/image-1.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Today, &lt;a href=&#34;https://thefinancestory.com/figma-100mn-aws-bill-cloud-costs-rising&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Figma spends over $300,000 per day on AWS&lt;/a&gt;. That’s more than &lt;strong&gt;$100 million every year&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;But when Figma first started, its cloud bill was tiny. The company only paid for the small resources it needed to support its early users.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This flexibility is what makes cloud computing so powerful. Without scalability, startups like Figma would have needed huge upfront investments in hardware. Most of them wouldn’t have survived. Instead, cloud computing allowed them to grow naturally, adding more resources only as their user base and revenue increased.&lt;/p&gt;
+&lt;p&gt;Scalability is not just about saving money—it’s about enabling innovation. Developers can experiment with ideas without worrying about wasting large investments. If the idea grows, the infrastructure can grow with it.&lt;/p&gt;
+&lt;h2&gt;Storage Virtualization Explained&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;storage-virtualization-explained&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#storage-virtualization-explained&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Storage is not as simple as just dividing space. It comes with unique challenges because data needs to be reliable, available, and easy to manage. Storage virtualization deals with three main problems:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Integrity:&lt;/strong&gt; Data must remain correct and not corrupted.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Replication:&lt;/strong&gt; Data should exist in more than one place for safety.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Maintenance:&lt;/strong&gt; Disks and drives fail, so the system must allow for easy repair and replacement.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Technologies like &lt;a href=&#34;https://ceph.io/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ceph&lt;/a&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/ZFS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZFS&lt;/a&gt; provide solutions to these problems. For example, Ceph distributes data across many servers. If one disk fails, the system continues running without losing data. ZFS uses advanced methods like checksums to detect and repair corrupted data.&lt;/p&gt;
+&lt;p&gt;To visualize this, imagine pouring water into multiple containers. If one container cracks, the water is still safe in the other containers. That’s what storage virtualization does for data—it spreads it around so it can survive failures and continue flowing.&lt;/p&gt;
+&lt;h2&gt;GPU Virtualization Explained&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;gpu-virtualization-explained&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#gpu-virtualization-explained&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;img/image-3.png&#34; alt=&#34;GPU&#34; loading=&#34;lazy&#34; /&gt;
+GPUs are designed for parallel processing and are extremely powerful, but also very expensive. Traditionally, one GPU was used by one workload. But most workloads don’t always need the full power of a GPU. This created inefficiency.
+&lt;img src=&#34;img/image-4.png&#34; alt=&#34;GPU Virtualization&#34; loading=&#34;lazy&#34; /&gt;
+&lt;strong&gt;GPU virtualization&lt;/strong&gt; solves this by allowing multiple workloads to share a single GPU. This is like cutting a large cake into slices so multiple people can enjoy it, instead of one person eating the whole cake. It makes GPU resources accessible to more users at a lower cost.&lt;/p&gt;
+&lt;p&gt;Modern solutions include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.nvidia.com/vgpu/sizing/virtual-workstation/latest/right-gpu-vsoftware.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NVIDIA vGPU&lt;/a&gt;, which lets virtual desktops and AI workloads share a GPU.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/blogs/containers/gpu-sharing-on-amazon-eks-with-nvidia-time-slicing-and-accelerated-ec2-instances/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AWS GPU time-slicing&lt;/a&gt;, where expensive GPUs can be divided among many cloud users.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/gpu-partitioning&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Microsoft Hyper-V GPU partitioning&lt;/a&gt;, which partitions GPUs in Windows Server.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.openstack.org/charm-guide/latest/admin/vgpu.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenStack vGPU&lt;/a&gt;, widely used by vendors like Huawei and ZTE.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;GPU virtualization is technically more difficult than CPU or RAM virtualization because of how GPUs handle parallel tasks. But the payoff is huge: AI researchers, designers, and businesses can all share expensive GPU resources without each needing to buy dedicated hardware.&lt;/p&gt;
+&lt;h2&gt;Open Source and Vendor Support&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;open-source-and-vendor-support&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#open-source-and-vendor-support&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The growth of cloud computing wasn’t only driven by big tech companies. Open-source projects also played a critical role. &lt;a href=&#34;https://www.openstack.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenStack&lt;/a&gt;, first released in &lt;strong&gt;2010&lt;/strong&gt;, gave organizations a way to build their own private or public clouds. Companies like Huawei and ZTE used OpenStack to launch their own cloud services. This made cloud adoption accessible globally, not just in Silicon Valley.&lt;/p&gt;
+&lt;p&gt;Other vendors contributed as well:
+&lt;img src=&#34;img/image-5.png&#34; alt=&#34;Huawei Cloud&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;VMware&lt;/strong&gt; set the standard for enterprise virtualization.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Red Hat OpenShift&lt;/strong&gt; connected cloud computing with containers and Kubernetes.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openmetal.io/resources/blog/vgpus-with-openstack-nova/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenMetal&lt;/a&gt; extended GPU virtualization to OpenStack Nova.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Together, these ecosystems made cloud computing not only a service but also a global infrastructure.&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;conclusion&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#conclusion&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Cloud Computing truly &lt;strong&gt;liquefies everything&lt;/strong&gt;. From CPU and RAM to storage and GPU, all resources can be divided, shared, and reshaped. This flexibility means:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Companies can save money by using only what they need.&lt;/li&gt;
+&lt;li&gt;Startups can grow step by step, scaling resources as they succeed, just like Figma.&lt;/li&gt;
+&lt;li&gt;Enterprises can run huge workloads efficiently without wasting power or money.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The future will likely push this concept even further. More components of computing will become “liquefied,” giving industries and individuals new levels of flexibility and efficiency.&lt;/p&gt;
+&lt;p&gt;In the end, cloud computing is not just about technology. It’s about transforming computing power into a liquid form—flowing wherever it is needed, scaling smoothly as demands grow, and always balancing efficiency with profitability.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/blogs/containers/gpu-sharing-on-amazon-eks-with-nvidia-time-slicing-and-accelerated-ec2-instances/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AWS GPU Sharing on Amazon EKS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/gpu-partitioning&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Microsoft Hyper-V GPU Partitioning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.nvidia.com/vgpu/sizing/virtual-workstation/latest/right-gpu-vsoftware.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NVIDIA vGPU Sizing Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.vmware.com/docs/vmware-ai-ml-ra-ma&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VMware AI/ML Reference Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudeka.id/id/berita/gpu/gpu-virtualization-definisi-keuntungan-dan-implementasinya/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cloudeka: GPU Virtualization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.openstack.org/charm-guide/latest/admin/vgpu.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenStack vGPU Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openmetal.io/resources/blog/vgpus-with-openstack-nova/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenMetal: vGPU with OpenStack Nova&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.nvidia.com/networking/display/public/sol/howto&amp;#43;create&amp;#43;openstack&amp;#43;cloud&amp;#43;image&amp;#43;with&amp;#43;nvidia&amp;#43;gpu&amp;#43;and&amp;#43;network&amp;#43;drivers&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NVIDIA OpenStack Cloud Image Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://thefinancestory.com/figma-100mn-aws-bill-cloud-costs-rising&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Figma’s $100mn AWS Bill&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ceph.io/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ceph Distributed Storage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/ZFS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZFS Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.openstack.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenStack&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>
