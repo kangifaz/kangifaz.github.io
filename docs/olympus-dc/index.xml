@@ -263,25 +263,6 @@
     </item>
     
     <item>
-      <title>Setup Vpn Tailscale</title>
-      <link>http://localhost:1313/docs/olympus-dc/setup-vpn-tailscale/</link>
-      <pubDate>Sun, 01 Jun 2025 23:45:16 +0700</pubDate>
-      
-      <guid>http://localhost:1313/docs/olympus-dc/setup-vpn-tailscale/</guid>
-      <description>
-        
-        
-        &lt;p&gt;create device
-&lt;img src=&#34;image.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;image-1.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;image-2.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;image-3.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;image-4.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
       <title>DC DU PCB Design Using EasyEDA</title>
       <link>http://localhost:1313/docs/olympus-dc/dc-du-pcb-design/</link>
       <pubDate>Sun, 16 Feb 2025 01:04:37 +0700</pubDate>
