@@ -10,7 +10,7 @@ params:
 menu:
   main:
     - name: "Documentation"
-      url: "/Docs/"
+      url: "/docs/"
       weight: 1
     - name: "ICT Infrastructure"
       url: "/blog/ict-infrastructure/"
