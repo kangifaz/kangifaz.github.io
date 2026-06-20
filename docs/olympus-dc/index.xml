@@ -1,417 +1,341 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Alexandria - Kang Ifaz – Olympus Data Centers</title>
-    <link>http://localhost:1313/docs/olympus-dc/</link>
-    <description>Recent content in Olympus Data Centers on Alexandria - Kang Ifaz</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>© 2025 Kang Ifaz</copyright>
-    <lastBuildDate>Sun, 23 Feb 2025 16:32:26 +0700</lastBuildDate>
-    
-	  <atom:link href="http://localhost:1313/docs/olympus-dc/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-    <item>
-      <title>NMS Development with CheckMK</title>
-      <link>http://localhost:1313/docs/olympus-dc/nms-development/</link>
-      <pubDate>Wed, 03 Sep 2025 01:07:38 +0700</pubDate>
-      
-      <guid>http://localhost:1313/docs/olympus-dc/nms-development/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;System Update&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;system-update&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#system-update&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;First, update your system packages to ensure you have the latest security patches and dependencies:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt update -y &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; apt upgrade -y&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;The &lt;code&gt;-y&lt;/code&gt; flag automatically confirms &amp;ldquo;yes&amp;rdquo; to any prompts during the update process.&lt;/p&gt;
-&lt;p&gt;Example output:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;root@Apollo:/home# apt update -y &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; apt upgrade -y
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Get:1 http://archive.ubuntu.com/ubuntu jammy InRelease &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;270&lt;/span&gt; kB&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Get:2 http://archive.ubuntu.com/ubuntu jammy-updates InRelease &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;128&lt;/span&gt; kB&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Get:3 http://archive.ubuntu.com/ubuntu jammy-security InRelease &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;129&lt;/span&gt; kB&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Get:4 http://archive.ubuntu.com/ubuntu jammy/main Translation-en &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;510&lt;/span&gt; kB&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;...&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h2&gt;Download Checkmk&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;download-checkmk&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#download-checkmk&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Pull in the Checkmk package using wget:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wget https://download.checkmk.com/checkmk/2.4.0p10/check-mk-raw-2.4.0p10_0.jammy_amd64.deb&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Example output:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;--2025-09-02 17:51:13--  https://download.checkmk.com/checkmk/2.4.0p10/check-mk-raw-2.4.0p10_0.jammy_amd64.deb
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Resolving download.checkmk.com &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;download.checkmk.com&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;... 45.133.11.29
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Connecting to download.checkmk.com &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;download.checkmk.com&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;|45.133.11.29|:443... connected.
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HTTP request sent, awaiting response... &lt;span style=&#34;color:#ae81ff&#34;&gt;200&lt;/span&gt; OK
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Length: &lt;span style=&#34;color:#ae81ff&#34;&gt;280537678&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;268M&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;application/x-debian-package&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Saving to: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;check-mk-raw-2.4.0p10_0.jammy_amd64.deb&amp;#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;check-mk-raw-2.4.0p10_0.jammy_amd64.deb 100%&lt;span style=&#34;color:#f92672&#34;&gt;[=================================================================&lt;/span&gt;&amp;gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; 267.54M  4.18MB/s    in 58s
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;2025-09-02 17:52:12 &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;4.62 MB/s&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; - &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;check-mk-raw-2.4.0p10_0.jammy_amd64.deb&amp;#39;&lt;/span&gt; saved &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;280537678/280537678&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: By downloading Checkmk, you agree to the End User License Agreement and General Terms &amp;amp; Conditions. The SHA-256 file hash for verification is:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;pre&gt;&lt;code&gt;bef1c7be6dc779503962e0c4c7c73076d6d524abc6af055e9682ae8197a6753a&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h2&gt;Install the Checkmk Package&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;install-the-checkmk-package&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#install-the-checkmk-package&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Install the package including all dependencies:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt install ./check-mk-raw-2.4.0p10_0.jammy_amd64.deb&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Verify the installation was successful by checking the OMD version:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;omd version&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Expected output:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;OMD - Open Monitoring Distribution Version 2.4.0p10.cre&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h2&gt;Create a Checkmk Monitoring Site&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;create-a-checkmk-monitoring-site&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#create-a-checkmk-monitoring-site&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Create a new Checkmk site (we&amp;rsquo;ll name it &lt;code&gt;Apollo&lt;/code&gt; in this example):&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;omd create Apollo&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Example output:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Adding /opt/omd/sites/Apollo/tmp to /etc/fstab.
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Creating temporary filesystem /omd/sites/Apollo/tmp...OK
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Updating core configuration...
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Generating configuration &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; core &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;type nagios&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;...
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Precompiling host checks...OK
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Executing post-create script &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;01_create-sample-config.py&amp;#34;&lt;/span&gt;...OK
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Executing post-create script &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;02_cmk-compute-api-spec&amp;#34;&lt;/span&gt;...OK
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Executing post-create script &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;03_message-broker-certs&amp;#34;&lt;/span&gt;...OK
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Restarting Apache...OK
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Created new site Apollo with version 2.4.0p10.cre.
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;The site can be started with omd start Apollo.
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;The default web UI is available at http://Apollo/Apollo/
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;The admin user &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; the web applications is cmkadmin with password: xxxxxxxxxx
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;For command line administration of the site, log in with &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;omd su Apollo&amp;#39;&lt;/span&gt;.
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;After logging in, you can change the password &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; cmkadmin with &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;cmk-passwd cmkadmin&amp;#39;&lt;/span&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h2&gt;Start the Checkmk Site&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;start-the-checkmk-site&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#start-the-checkmk-site&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Start your newly created monitoring site:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;omd start&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Example output:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Doing &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;start&amp;#39;&lt;/span&gt; on site Apollo:
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Starting agent-receiver...OK
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Starting mkeventd...OK
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Starting rrdcached...OK
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Starting redis...OK
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Starting npcd...OK
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Starting automation-helper...OK
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Starting ui-job-scheduler...OK
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Starting nagios...OK
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Starting apache...OK
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Starting crontab...OK&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h2&gt;Accessing the Web Interface&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;accessing-the-web-interface&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#accessing-the-web-interface&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Your Checkmk site is now up and running! You can access the web interface at the URL provided in the creation output (e.g., &lt;code&gt;http://your-server/Apollo/&lt;/code&gt;).&lt;/p&gt;
-&lt;h2&gt;Initial Setup and Configuration&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;initial-setup-and-configuration&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#initial-setup-and-configuration&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Adding Monitoring Hosts&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;adding-monitoring-hosts&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#adding-monitoring-hosts&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Once logged into the web interface, you can begin adding hosts to monitor:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Navigate to &lt;strong&gt;Setup &amp;gt; Hosts &amp;gt; Add host&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Follow the step-by-step wizard to configure your monitoring targets&lt;/li&gt;
-&lt;li&gt;Add new host and follow the steps&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;img/image-3.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;
-&lt;img src=&#34;img/image-4.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h3&gt;Exploring the Dashboard&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;exploring-the-dashboard&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#exploring-the-dashboard&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Checkmk provides a comprehensive default dashboard that gives you immediate visibility into your monitoring environment:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/image.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h3&gt;Exploring Topology View&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;exploring-topology-view&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#exploring-topology-view&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;img/image-5.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h3&gt;Rich Configuration Options&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;rich-configuration-options&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#rich-configuration-options&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The Setup menu offers extensive configuration capabilities for customizing your monitoring environment:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/image-1.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h3&gt;Comprehensive Monitoring Features&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;comprehensive-monitoring-features&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#comprehensive-monitoring-features&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Checkmk provides a wealth of monitoring tools and views to help you maintain optimal system performance:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/image-2.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h2&gt;Next Steps&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;Change the default cmkadmin password for security&lt;/li&gt;
-&lt;li&gt;Configure email/SMS notifications for alerts&lt;/li&gt;
-&lt;li&gt;Set up additional monitoring plugins and checks&lt;/li&gt;
-&lt;li&gt;Explore the extensive documentation for advanced configurations&lt;/li&gt;
-&lt;li&gt;Consider setting up distributed monitoring for larger environments&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Checkmk offers enterprise-grade monitoring capabilities with an intuitive interface, making it an excellent choice for both small and large-scale monitoring deployments.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>DC DU PCB Design Using EasyEDA</title>
-      <link>http://localhost:1313/docs/olympus-dc/dc-du-pcb-design/</link>
-      <pubDate>Sun, 16 Feb 2025 01:04:37 +0700</pubDate>
-      
-      <guid>http://localhost:1313/docs/olympus-dc/dc-du-pcb-design/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Designing a PCB has never been easier with &lt;a href=&#34;https://easyeda.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EasyEDA&lt;/a&gt;. It is a free and powerful tool that enables engineers and hobbyists to design schematics, create PCB layouts, and even order manufactured boards directly.&lt;/p&gt;
-&lt;h2&gt;Getting Started&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;getting-started&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#getting-started&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;1. Choose Online Design Mode&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-choose-online-design-mode&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#1-choose-online-design-mode&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;Go to &lt;a href=&#34;https://easyeda.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EasyEDA&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Click &lt;strong&gt;&amp;ldquo;Design Online&amp;rdquo;&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Click &lt;strong&gt;&amp;ldquo;Free&amp;rdquo;&lt;/strong&gt; to start using the online editor.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;img/image.png&#34; alt=&#34;Choose Design Online&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h3&gt;2. Create a New Project&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-create-a-new-project&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#2-create-a-new-project&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;Click &lt;strong&gt;&amp;ldquo;New Project&amp;rdquo;&lt;/strong&gt; to start a new PCB design.&lt;/li&gt;
-&lt;li&gt;Enter the project name and description.&lt;/li&gt;
-&lt;li&gt;Click &lt;strong&gt;&amp;ldquo;Create&amp;rdquo;&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;img/image-1.png&#34; alt=&#34;Create New Project&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h3&gt;3. Create a Schematic Diagram&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-create-a-schematic-diagram&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#3-create-a-schematic-diagram&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;Open the &lt;strong&gt;Schematic Editor&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Add components from the &lt;strong&gt;Library&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Connect components using &lt;strong&gt;wires&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;img/image-2.png&#34; alt=&#34;Schematic Design&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h3&gt;4. Choose the Right Library Components&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4-choose-the-right-library-components&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#4-choose-the-right-library-components&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;Open the &lt;strong&gt;Library&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Search for the required components.&lt;/li&gt;
-&lt;li&gt;Ensure the material type matches the intended PCB design.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;img/image-3.png&#34; alt=&#34;Library Selection&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h3&gt;5. Convert Schematic to PCB Layout&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;5-convert-schematic-to-pcb-layout&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#5-convert-schematic-to-pcb-layout&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;Once the schematic is complete, click &lt;strong&gt;&amp;ldquo;Convert to PCB&amp;rdquo;&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Adjust component placement on the PCB board.&lt;/li&gt;
-&lt;li&gt;Define board outline and layer settings.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;img/image-4.png&#34; alt=&#34;Convert to PCB&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h3&gt;6. Design PCB Routing&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;6-design-pcb-routing&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#6-design-pcb-routing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;Use the &lt;strong&gt;Auto Router&lt;/strong&gt; for automatic trace routing.&lt;/li&gt;
-&lt;li&gt;Adjust the trace width and clearance as per the PCB design rules.&lt;/li&gt;
-&lt;li&gt;Place &lt;strong&gt;vias&lt;/strong&gt; if needed for multi-layer routing.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;img/image-5.png&#34; alt=&#34;PCB Routing&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h3&gt;7. View in 2D and 3D Mode&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;7-view-in-2d-and-3d-mode&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#7-view-in-2d-and-3d-mode&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;Switch to &lt;strong&gt;2D view&lt;/strong&gt; to inspect the PCB layout.&lt;/li&gt;
-&lt;li&gt;Switch to &lt;strong&gt;3D view&lt;/strong&gt; to visualize the final design.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;img/image-6.png&#34; alt=&#34;2D PCB View&#34; loading=&#34;lazy&#34; /&gt;
-&lt;img src=&#34;img/image-7.png&#34; alt=&#34;3D PCB View&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h2&gt;Final Steps&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;final-steps&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#final-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Run a DRC (Design Rule Check)&lt;/strong&gt; to verify errors in the layout.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Generate Gerber Files&lt;/strong&gt; for PCB manufacturing.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Order PCB&lt;/strong&gt; directly from EasyEDA or export the design for another manufacturer.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Sample Project&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;sample-project&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#sample-project&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Here&amp;rsquo;s my sample project, which can be downloaded from my &lt;a href=&#34;https://github.com/kangifaz/repo/tree/main/pcb-dc-du-12v-with-esp32&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;repository on DC DU with ESP32&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The &lt;code&gt;main idea behind this project is to expand the capabilities and improve the reliability&lt;/code&gt; of my home data center network. Currently, the data center relies on PLN (the main power grid). In the event of an outage, the entire system goes down. Another critical issue is the unstable output from my PSU, which poses a significant risk to my devices.&lt;/p&gt;
-&lt;p&gt;To address these problems, I plan to switch the PSU source to a &lt;strong&gt;DC UPS&lt;/strong&gt;. The UPS capacity will be calculated based on Jakarta&amp;rsquo;s power outage frequency, which is rare, with a maximum downtime of approximately two hours. The UPS will be sized accordingly to ensure sufficient backup power during outages.&lt;/p&gt;
-&lt;p&gt;Additionally, I have multiple IoT sensors deployed in my system. I will use &lt;strong&gt;ESP32&lt;/strong&gt; as the microcontroller to collect and manage data, sending it to specific servers for monitoring. The ESP32 will play a key role in overseeing the IoT devices, ensuring real-time data tracking and enhanced monitoring.&lt;/p&gt;
-&lt;p&gt;In summary, this project aims to &lt;code&gt;resolve multiple challenges&lt;/code&gt;, including &lt;code&gt;backup power&lt;/code&gt; &lt;code&gt;reliability&lt;/code&gt;, &lt;code&gt;power stability&lt;/code&gt;, and &lt;code&gt;improved monitoring capabilities&lt;/code&gt; for my infrastructure.&lt;/p&gt;
-&lt;h2&gt;Design using EasyEDA&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;design-using-easyeda&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#design-using-easyeda&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;For more details, visit the &lt;a href=&#34;https://docs.easyeda.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EasyEDA Documentation&lt;/a&gt;.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>STB ZTE Commissioning</title>
-      <link>http://localhost:1313/docs/olympus-dc/stb-commissioning/</link>
-      <pubDate>Sun, 19 Jan 2025 11:00:28 +0700</pubDate>
-      
-      <guid>http://localhost:1313/docs/olympus-dc/stb-commissioning/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;ARP Duplication Analysis due to Duplicate VM&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;arp-duplication-analysis-due-to-duplicate-vm&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#arp-duplication-analysis-due-to-duplicate-vm&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;My Armbian&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;pre&gt;&lt;code&gt;    _             _    _              ___  ___ 
-   /_\  _ _ _ __ | |__(_)__ _ _ _    / _ \/ __|
-  / _ \| &amp;#39;_| &amp;#39;  \| &amp;#39;_ \ / _` | &amp;#39; \  | (_) \__ \
- /_/ \_\_| |_|_|_|_.__/_\__,_|_||_|  \___/|___/
-                                               
- v24.11.0 for Aml.S905x running Armbian Linux 5.15.169-ophub
-
- Packages:     Debian stable (bullseye)
- Updates:      Kernel upgrade enabled and 4 packages available for upgrade 
- IP addresses: (LAN) IPv4: XXX.XXX.XXX.XXX
- Performance:  
-
- Load:         2%               Up time:       4 days 9:14
- Memory usage: 9% of 1.76G  
- CPU temp:     50°C             Usage of /:    37% of 6.5G   
- RX today:     8 MiB     &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3&gt;Symptoms&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;symptoms&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#symptoms&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;pre&gt;&lt;code&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alexandria - Kang Ifaz – Olympus Data Centers</title><link>https://kangifaz.com/docs/olympus-dc/</link><description>Recent content in Olympus Data Centers on Alexandria - Kang Ifaz</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© 2025 Kang Ifaz</copyright><lastBuildDate>Sun, 23 Feb 2025 16:32:26 +0700</lastBuildDate><atom:link href="https://kangifaz.com/docs/olympus-dc/index.xml" rel="self" type="application/rss+xml"/><item><title>NMS Development with CheckMK</title><link>https://kangifaz.com/docs/olympus-dc/nms-development/</link><pubDate>Wed, 03 Sep 2025 01:07:38 +0700</pubDate><guid>https://kangifaz.com/docs/olympus-dc/nms-development/</guid><description>
+&lt;h2>System Update&lt;span class="hx-absolute -hx-mt-20" id="system-update">&lt;/span>
+&lt;a href="#system-update" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>First, update your system packages to ensure you have the latest security patches and dependencies:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>apt update -y &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> apt upgrade -y&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>The &lt;code>-y&lt;/code> flag automatically confirms &amp;ldquo;yes&amp;rdquo; to any prompts during the update process.&lt;/p>
+&lt;p>Example output:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>root@Apollo:/home# apt update -y &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> apt upgrade -y
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Get:1 http://archive.ubuntu.com/ubuntu jammy InRelease &lt;span style="color:#f92672">[&lt;/span>&lt;span style="color:#ae81ff">270&lt;/span> kB&lt;span style="color:#f92672">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Get:2 http://archive.ubuntu.com/ubuntu jammy-updates InRelease &lt;span style="color:#f92672">[&lt;/span>&lt;span style="color:#ae81ff">128&lt;/span> kB&lt;span style="color:#f92672">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Get:3 http://archive.ubuntu.com/ubuntu jammy-security InRelease &lt;span style="color:#f92672">[&lt;/span>&lt;span style="color:#ae81ff">129&lt;/span> kB&lt;span style="color:#f92672">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Get:4 http://archive.ubuntu.com/ubuntu jammy/main Translation-en &lt;span style="color:#f92672">[&lt;/span>&lt;span style="color:#ae81ff">510&lt;/span> kB&lt;span style="color:#f92672">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>...&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h2>Download Checkmk&lt;span class="hx-absolute -hx-mt-20" id="download-checkmk">&lt;/span>
+&lt;a href="#download-checkmk" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Pull in the Checkmk package using wget:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>wget https://download.checkmk.com/checkmk/2.4.0p10/check-mk-raw-2.4.0p10_0.jammy_amd64.deb&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Example output:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>--2025-09-02 17:51:13-- https://download.checkmk.com/checkmk/2.4.0p10/check-mk-raw-2.4.0p10_0.jammy_amd64.deb
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Resolving download.checkmk.com &lt;span style="color:#f92672">(&lt;/span>download.checkmk.com&lt;span style="color:#f92672">)&lt;/span>... 45.133.11.29
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Connecting to download.checkmk.com &lt;span style="color:#f92672">(&lt;/span>download.checkmk.com&lt;span style="color:#f92672">)&lt;/span>|45.133.11.29|:443... connected.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>HTTP request sent, awaiting response... &lt;span style="color:#ae81ff">200&lt;/span> OK
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Length: &lt;span style="color:#ae81ff">280537678&lt;/span> &lt;span style="color:#f92672">(&lt;/span>268M&lt;span style="color:#f92672">)&lt;/span> &lt;span style="color:#f92672">[&lt;/span>application/x-debian-package&lt;span style="color:#f92672">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Saving to: &lt;span style="color:#e6db74">&amp;#39;check-mk-raw-2.4.0p10_0.jammy_amd64.deb&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>check-mk-raw-2.4.0p10_0.jammy_amd64.deb 100%&lt;span style="color:#f92672">[=================================================================&lt;/span>&amp;gt;&lt;span style="color:#f92672">]&lt;/span> 267.54M 4.18MB/s in 58s
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>2025-09-02 17:52:12 &lt;span style="color:#f92672">(&lt;/span>4.62 MB/s&lt;span style="color:#f92672">)&lt;/span> - &lt;span style="color:#e6db74">&amp;#39;check-mk-raw-2.4.0p10_0.jammy_amd64.deb&amp;#39;&lt;/span> saved &lt;span style="color:#f92672">[&lt;/span>280537678/280537678&lt;span style="color:#f92672">]&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Note&lt;/strong>: By downloading Checkmk, you agree to the End User License Agreement and General Terms &amp;amp; Conditions. The SHA-256 file hash for verification is:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>bef1c7be6dc779503962e0c4c7c73076d6d524abc6af055e9682ae8197a6753a&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h2>Install the Checkmk Package&lt;span class="hx-absolute -hx-mt-20" id="install-the-checkmk-package">&lt;/span>
+&lt;a href="#install-the-checkmk-package" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Install the package including all dependencies:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install ./check-mk-raw-2.4.0p10_0.jammy_amd64.deb&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Verify the installation was successful by checking the OMD version:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>omd version&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Expected output:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>OMD - Open Monitoring Distribution Version 2.4.0p10.cre&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h2>Create a Checkmk Monitoring Site&lt;span class="hx-absolute -hx-mt-20" id="create-a-checkmk-monitoring-site">&lt;/span>
+&lt;a href="#create-a-checkmk-monitoring-site" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Create a new Checkmk site (we&amp;rsquo;ll name it &lt;code>Apollo&lt;/code> in this example):&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>omd create Apollo&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Example output:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>Adding /opt/omd/sites/Apollo/tmp to /etc/fstab.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Creating temporary filesystem /omd/sites/Apollo/tmp...OK
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Updating core configuration...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Generating configuration &lt;span style="color:#66d9ef">for&lt;/span> core &lt;span style="color:#f92672">(&lt;/span>type nagios&lt;span style="color:#f92672">)&lt;/span>...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Precompiling host checks...OK
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Executing post-create script &lt;span style="color:#e6db74">&amp;#34;01_create-sample-config.py&amp;#34;&lt;/span>...OK
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Executing post-create script &lt;span style="color:#e6db74">&amp;#34;02_cmk-compute-api-spec&amp;#34;&lt;/span>...OK
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Executing post-create script &lt;span style="color:#e6db74">&amp;#34;03_message-broker-certs&amp;#34;&lt;/span>...OK
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Restarting Apache...OK
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Created new site Apollo with version 2.4.0p10.cre.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>The site can be started with omd start Apollo.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>The default web UI is available at http://Apollo/Apollo/
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>The admin user &lt;span style="color:#66d9ef">for&lt;/span> the web applications is cmkadmin with password: xxxxxxxxxx
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>For command line administration of the site, log in with &lt;span style="color:#e6db74">&amp;#39;omd su Apollo&amp;#39;&lt;/span>.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>After logging in, you can change the password &lt;span style="color:#66d9ef">for&lt;/span> cmkadmin with &lt;span style="color:#e6db74">&amp;#39;cmk-passwd cmkadmin&amp;#39;&lt;/span>.&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h2>Start the Checkmk Site&lt;span class="hx-absolute -hx-mt-20" id="start-the-checkmk-site">&lt;/span>
+&lt;a href="#start-the-checkmk-site" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Start your newly created monitoring site:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>omd start&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Example output:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>Doing &lt;span style="color:#e6db74">&amp;#39;start&amp;#39;&lt;/span> on site Apollo:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Starting agent-receiver...OK
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Starting mkeventd...OK
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Starting rrdcached...OK
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Starting redis...OK
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Starting npcd...OK
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Starting automation-helper...OK
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Starting ui-job-scheduler...OK
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Starting nagios...OK
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Starting apache...OK
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Starting crontab...OK&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h2>Accessing the Web Interface&lt;span class="hx-absolute -hx-mt-20" id="accessing-the-web-interface">&lt;/span>
+&lt;a href="#accessing-the-web-interface" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Your Checkmk site is now up and running! You can access the web interface at the URL provided in the creation output (e.g., &lt;code>http://your-server/Apollo/&lt;/code>).&lt;/p>
+&lt;h2>Initial Setup and Configuration&lt;span class="hx-absolute -hx-mt-20" id="initial-setup-and-configuration">&lt;/span>
+&lt;a href="#initial-setup-and-configuration" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>Adding Monitoring Hosts&lt;span class="hx-absolute -hx-mt-20" id="adding-monitoring-hosts">&lt;/span>
+&lt;a href="#adding-monitoring-hosts" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Once logged into the web interface, you can begin adding hosts to monitor:&lt;/p>
+&lt;ul>
+&lt;li>Navigate to &lt;strong>Setup &amp;gt; Hosts &amp;gt; Add host&lt;/strong>&lt;/li>
+&lt;li>Follow the step-by-step wizard to configure your monitoring targets&lt;/li>
+&lt;li>Add new host and follow the steps&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="img/image-3.png" alt="alt text" loading="lazy" />
+&lt;img src="img/image-4.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;h3>Exploring the Dashboard&lt;span class="hx-absolute -hx-mt-20" id="exploring-the-dashboard">&lt;/span>
+&lt;a href="#exploring-the-dashboard" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Checkmk provides a comprehensive default dashboard that gives you immediate visibility into your monitoring environment:&lt;/p>
+&lt;p>&lt;img src="img/image.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;h3>Exploring Topology View&lt;span class="hx-absolute -hx-mt-20" id="exploring-topology-view">&lt;/span>
+&lt;a href="#exploring-topology-view" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;img src="img/image-5.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;h3>Rich Configuration Options&lt;span class="hx-absolute -hx-mt-20" id="rich-configuration-options">&lt;/span>
+&lt;a href="#rich-configuration-options" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The Setup menu offers extensive configuration capabilities for customizing your monitoring environment:&lt;/p>
+&lt;p>&lt;img src="img/image-1.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;h3>Comprehensive Monitoring Features&lt;span class="hx-absolute -hx-mt-20" id="comprehensive-monitoring-features">&lt;/span>
+&lt;a href="#comprehensive-monitoring-features" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Checkmk provides a wealth of monitoring tools and views to help you maintain optimal system performance:&lt;/p>
+&lt;p>&lt;img src="img/image-2.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;h2>Next Steps&lt;span class="hx-absolute -hx-mt-20" id="next-steps">&lt;/span>
+&lt;a href="#next-steps" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Change the default cmkadmin password for security&lt;/li>
+&lt;li>Configure email/SMS notifications for alerts&lt;/li>
+&lt;li>Set up additional monitoring plugins and checks&lt;/li>
+&lt;li>Explore the extensive documentation for advanced configurations&lt;/li>
+&lt;li>Consider setting up distributed monitoring for larger environments&lt;/li>
+&lt;/ul>
+&lt;p>Checkmk offers enterprise-grade monitoring capabilities with an intuitive interface, making it an excellent choice for both small and large-scale monitoring deployments.&lt;/p></description></item><item><title>DC DU PCB Design Using EasyEDA</title><link>https://kangifaz.com/docs/olympus-dc/dc-du-pcb-design/</link><pubDate>Sun, 16 Feb 2025 01:04:37 +0700</pubDate><guid>https://kangifaz.com/docs/olympus-dc/dc-du-pcb-design/</guid><description>
+&lt;p>Designing a PCB has never been easier with &lt;a href="https://easyeda.com/" target="_blank" rel="noopener">EasyEDA&lt;/a>. It is a free and powerful tool that enables engineers and hobbyists to design schematics, create PCB layouts, and even order manufactured boards directly.&lt;/p>
+&lt;h2>Getting Started&lt;span class="hx-absolute -hx-mt-20" id="getting-started">&lt;/span>
+&lt;a href="#getting-started" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>1. Choose Online Design Mode&lt;span class="hx-absolute -hx-mt-20" id="1-choose-online-design-mode">&lt;/span>
+&lt;a href="#1-choose-online-design-mode" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>Go to &lt;a href="https://easyeda.com/" target="_blank" rel="noopener">EasyEDA&lt;/a>.&lt;/li>
+&lt;li>Click &lt;strong>&amp;ldquo;Design Online&amp;rdquo;&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>&amp;ldquo;Free&amp;rdquo;&lt;/strong> to start using the online editor.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="img/image.png" alt="Choose Design Online" loading="lazy" />&lt;/p>
+&lt;h3>2. Create a New Project&lt;span class="hx-absolute -hx-mt-20" id="2-create-a-new-project">&lt;/span>
+&lt;a href="#2-create-a-new-project" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>Click &lt;strong>&amp;ldquo;New Project&amp;rdquo;&lt;/strong> to start a new PCB design.&lt;/li>
+&lt;li>Enter the project name and description.&lt;/li>
+&lt;li>Click &lt;strong>&amp;ldquo;Create&amp;rdquo;&lt;/strong>.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="img/image-1.png" alt="Create New Project" loading="lazy" />&lt;/p>
+&lt;h3>3. Create a Schematic Diagram&lt;span class="hx-absolute -hx-mt-20" id="3-create-a-schematic-diagram">&lt;/span>
+&lt;a href="#3-create-a-schematic-diagram" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>Open the &lt;strong>Schematic Editor&lt;/strong>.&lt;/li>
+&lt;li>Add components from the &lt;strong>Library&lt;/strong>.&lt;/li>
+&lt;li>Connect components using &lt;strong>wires&lt;/strong>.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="img/image-2.png" alt="Schematic Design" loading="lazy" />&lt;/p>
+&lt;h3>4. Choose the Right Library Components&lt;span class="hx-absolute -hx-mt-20" id="4-choose-the-right-library-components">&lt;/span>
+&lt;a href="#4-choose-the-right-library-components" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>Open the &lt;strong>Library&lt;/strong>.&lt;/li>
+&lt;li>Search for the required components.&lt;/li>
+&lt;li>Ensure the material type matches the intended PCB design.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="img/image-3.png" alt="Library Selection" loading="lazy" />&lt;/p>
+&lt;h3>5. Convert Schematic to PCB Layout&lt;span class="hx-absolute -hx-mt-20" id="5-convert-schematic-to-pcb-layout">&lt;/span>
+&lt;a href="#5-convert-schematic-to-pcb-layout" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>Once the schematic is complete, click &lt;strong>&amp;ldquo;Convert to PCB&amp;rdquo;&lt;/strong>.&lt;/li>
+&lt;li>Adjust component placement on the PCB board.&lt;/li>
+&lt;li>Define board outline and layer settings.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="img/image-4.png" alt="Convert to PCB" loading="lazy" />&lt;/p>
+&lt;h3>6. Design PCB Routing&lt;span class="hx-absolute -hx-mt-20" id="6-design-pcb-routing">&lt;/span>
+&lt;a href="#6-design-pcb-routing" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>Use the &lt;strong>Auto Router&lt;/strong> for automatic trace routing.&lt;/li>
+&lt;li>Adjust the trace width and clearance as per the PCB design rules.&lt;/li>
+&lt;li>Place &lt;strong>vias&lt;/strong> if needed for multi-layer routing.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="img/image-5.png" alt="PCB Routing" loading="lazy" />&lt;/p>
+&lt;h3>7. View in 2D and 3D Mode&lt;span class="hx-absolute -hx-mt-20" id="7-view-in-2d-and-3d-mode">&lt;/span>
+&lt;a href="#7-view-in-2d-and-3d-mode" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>Switch to &lt;strong>2D view&lt;/strong> to inspect the PCB layout.&lt;/li>
+&lt;li>Switch to &lt;strong>3D view&lt;/strong> to visualize the final design.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="img/image-6.png" alt="2D PCB View" loading="lazy" />
+&lt;img src="img/image-7.png" alt="3D PCB View" loading="lazy" />&lt;/p>
+&lt;h2>Final Steps&lt;span class="hx-absolute -hx-mt-20" id="final-steps">&lt;/span>
+&lt;a href="#final-steps" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Run a DRC (Design Rule Check)&lt;/strong> to verify errors in the layout.&lt;/li>
+&lt;li>&lt;strong>Generate Gerber Files&lt;/strong> for PCB manufacturing.&lt;/li>
+&lt;li>&lt;strong>Order PCB&lt;/strong> directly from EasyEDA or export the design for another manufacturer.&lt;/li>
+&lt;/ul>
+&lt;h2>Sample Project&lt;span class="hx-absolute -hx-mt-20" id="sample-project">&lt;/span>
+&lt;a href="#sample-project" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Here&amp;rsquo;s my sample project, which can be downloaded from my &lt;a href="https://github.com/kangifaz/repo/tree/main/pcb-dc-du-12v-with-esp32" target="_blank" rel="noopener">repository on DC DU with ESP32&lt;/a>.&lt;/p>
+&lt;p>The &lt;code>main idea behind this project is to expand the capabilities and improve the reliability&lt;/code> of my home data center network. Currently, the data center relies on PLN (the main power grid). In the event of an outage, the entire system goes down. Another critical issue is the unstable output from my PSU, which poses a significant risk to my devices.&lt;/p>
+&lt;p>To address these problems, I plan to switch the PSU source to a &lt;strong>DC UPS&lt;/strong>. The UPS capacity will be calculated based on Jakarta&amp;rsquo;s power outage frequency, which is rare, with a maximum downtime of approximately two hours. The UPS will be sized accordingly to ensure sufficient backup power during outages.&lt;/p>
+&lt;p>Additionally, I have multiple IoT sensors deployed in my system. I will use &lt;strong>ESP32&lt;/strong> as the microcontroller to collect and manage data, sending it to specific servers for monitoring. The ESP32 will play a key role in overseeing the IoT devices, ensuring real-time data tracking and enhanced monitoring.&lt;/p>
+&lt;p>In summary, this project aims to &lt;code>resolve multiple challenges&lt;/code>, including &lt;code>backup power&lt;/code> &lt;code>reliability&lt;/code>, &lt;code>power stability&lt;/code>, and &lt;code>improved monitoring capabilities&lt;/code> for my infrastructure.&lt;/p>
+&lt;h2>Design using EasyEDA&lt;span class="hx-absolute -hx-mt-20" id="design-using-easyeda">&lt;/span>
+&lt;a href="#design-using-easyeda" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>For more details, visit the &lt;a href="https://docs.easyeda.com/" target="_blank" rel="noopener">EasyEDA Documentation&lt;/a>.&lt;/p></description></item><item><title>STB ZTE Commissioning</title><link>https://kangifaz.com/docs/olympus-dc/stb-commissioning/</link><pubDate>Sun, 19 Jan 2025 11:00:28 +0700</pubDate><guid>https://kangifaz.com/docs/olympus-dc/stb-commissioning/</guid><description>
+&lt;h2>ARP Duplication Analysis due to Duplicate VM&lt;span class="hx-absolute -hx-mt-20" id="arp-duplication-analysis-due-to-duplicate-vm">&lt;/span>
+&lt;a href="#arp-duplication-analysis-due-to-duplicate-vm" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>My Armbian&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code> _ _ _ ___ ___
+/_\ _ _ _ __ | |__(_)__ _ _ _ / _ \/ __|
+/ _ \| &amp;#39;_| &amp;#39; \| &amp;#39;_ \ / _` | &amp;#39; \ | (_) \__ \
+/_/ \_\_| |_|_|_|_.__/_\__,_|_||_| \___/|___/
+v24.11.0 for Aml.S905x running Armbian Linux 5.15.169-ophub
+Packages: Debian stable (bullseye)
+Updates: Kernel upgrade enabled and 4 packages available for upgrade
+IP addresses: (LAN) IPv4: XXX.XXX.XXX.XXX
+Performance:
+Load: 2% Up time: 4 days 9:14
+Memory usage: 9% of 1.76G
+CPU temp: 50°C Usage of /: 37% of 6.5G
+RX today: 8 MiB &lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h3>Symptoms&lt;span class="hx-absolute -hx-mt-20" id="symptoms">&lt;/span>
+&lt;a href="#symptoms" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>
 root: ping 100.0.0.221
 PING 100.0.0.221 (100.0.0.221): 56 data bytes
 92 bytes from 100.0.0.223: Redirect Host(New addr: 100.0.0.221)
-Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
- 4  5  00 0054 7d8d   0 0000  3f  01 353e 100.0.0.1  100.0.0.221 
-
+Vr HL TOS Len ID Flg off TTL Pro cks Src Dst
+4 5 00 0054 7d8d 0 0000 3f 01 353e 100.0.0.1 100.0.0.221
 92 bytes from 100.0.0.223: Redirect Host(New addr: 100.0.0.221)
-Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
- 4  5  00 0054 d648   0 0000  3f  01 dc82 100.0.0.1  100.0.0.221 
-
+Vr HL TOS Len ID Flg off TTL Pro cks Src Dst
+4 5 00 0054 d648 0 0000 3f 01 dc82 100.0.0.1 100.0.0.221
 92 bytes from 100.0.0.223: Redirect Host(New addr: 100.0.0.221)
-Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
- 4  5  00 0054 b29b   0 0000  3f  01 0030 100.0.0.1  100.0.0.221 
-
+Vr HL TOS Len ID Flg off TTL Pro cks Src Dst
+4 5 00 0054 b29b 0 0000 3f 01 0030 100.0.0.1 100.0.0.221
 92 bytes from 100.0.0.223: Redirect Host(New addr: 100.0.0.221)
-Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
- 4  5  00 0054 bb98   0 0000  3f  01 f732 100.0.0.1  100.0.0.221 
-
+Vr HL TOS Len ID Flg off TTL Pro cks Src Dst
+4 5 00 0054 bb98 0 0000 3f 01 f732 100.0.0.1 100.0.0.221
 92 bytes from 100.0.0.223: Redirect Host(New addr: 100.0.0.221)
-Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
- 4  5  00 0054 6240   0 0000  3f  01 508b 100.0.0.1  100.0.0.221 
-
+Vr HL TOS Len ID Flg off TTL Pro cks Src Dst
+4 5 00 0054 6240 0 0000 3f 01 508b 100.0.0.1 100.0.0.221
 92 bytes from 100.0.0.223: Redirect Host(New addr: 100.0.0.221)
-Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
- 4  5  00 0054 e19e   0 0000  3f  01 d12c 100.0.0.1  100.0.0.221 
-
+Vr HL TOS Len ID Flg off TTL Pro cks Src Dst
+4 5 00 0054 e19e 0 0000 3f 01 d12c 100.0.0.1 100.0.0.221
 92 bytes from 100.0.0.223: Redirect Host(New addr: 100.0.0.221)
-Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
- 4  5  00 0054 d335   0 0000  3f  01 df95 100.0.0.1  100.0.0.221 
-
+Vr HL TOS Len ID Flg off TTL Pro cks Src Dst
+4 5 00 0054 d335 0 0000 3f 01 df95 100.0.0.1 100.0.0.221
 64 bytes from 100.0.0.221: icmp_seq=10 ttl=64 time=0.729 ms
 64 bytes from 100.0.0.221: icmp_seq=11 ttl=64 time=0.912 ms
 64 bytes from 100.0.0.221: icmp_seq=12 ttl=64 time=0.961 ms
@@ -422,121 +346,114 @@ Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
 64 bytes from 100.0.0.221: icmp_seq=17 ttl=64 time=0.950 ms
 64 bytes from 100.0.0.221: icmp_seq=18 ttl=64 time=0.498 ms
 64 bytes from 100.0.0.221: icmp_seq=19 ttl=64 time=0.538 ms
-92 bytes from 100.0.0.223: Redirect Host(New addr: 100.0.0.221)&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;ARP Table&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;pre&gt;&lt;code&gt;pool-100-0-0-221.bstnma.fios.verizon.net (100.0.0.221) at 00:15:18:01:81:31 on vtnet1
+92 bytes from 100.0.0.223: Redirect Host(New addr: 100.0.0.221)&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>ARP Table&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>pool-100-0-0-221.bstnma.fios.verizon.net (100.0.0.221) at 00:15:18:01:81:31 on vtnet1
 pool-100-0-0-222.bstnma.fios.verizon.net (100.0.0.222) at 00:15:18:01:81:31 on vtnet1
-pool-100-0-0-223.bstnma.fios.verizon.net (100.0.0.223) at 00:15:18:01:81:31 on vtnet1&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3&gt;Ask GPT&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ask-gpt&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#ask-gpt&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Use of Virtual IP or Load Balancer
+pool-100-0-0-223.bstnma.fios.verizon.net (100.0.0.223) at 00:15:18:01:81:31 on vtnet1&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h3>Ask GPT&lt;span class="hx-absolute -hx-mt-20" id="ask-gpt">&lt;/span>
+&lt;a href="#ask-gpt" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>
+&lt;p>Use of Virtual IP or Load Balancer
 Virtual IP (VIP): If 100.0.0.221, 100.0.0.222, and 100.0.0.223 are Virtual IP addresses managed by devices such as a Load Balancer or High Availability Cluster, then using the same MAC address is expected. VIP allows multiple IP addresses to point to a single physical MAC address, enabling failover and load balancing.
-Configuration Issues: If the VIP or load balancer is misconfigured, such as incorrect routing or ARP settings, it may cause packet delivery confusion, resulting in ICMP Redirect messages.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Incorrect Routing Configuration
+Configuration Issues: If the VIP or load balancer is misconfigured, such as incorrect routing or ARP settings, it may cause packet delivery confusion, resulting in ICMP Redirect messages.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Incorrect Routing Configuration
 Conflicting Routing Tables: If there are conflicting or inconsistent routes on the switch or router connecting your server, the device may send redirect messages to attempt to reroute traffic more efficiently.
-Default Gateway: Ensure that the default gateway on your Armbian server is configured correctly. Incorrect default gateway configurations can lead to other network devices sending ICMP Redirect messages.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Network Loop
+Default Gateway: Ensure that the default gateway on your Armbian server is configured correctly. Incorrect default gateway configurations can lead to other network devices sending ICMP Redirect messages.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Network Loop
 Physical or Logical Loop: The presence of a loop in the network, either physical (e.g., redundant cable connections without proper configuration) or logical (e.g., routing that creates a loop), can cause packets to circulate endlessly. Network devices may send ICMP Redirect messages in an attempt to resolve the loop.
-Spanning Tree Protocol (STP): If the switch you are using supports STP, ensure that it is enabled and correctly configured to prevent network loops.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;IP Conflict
-Duplicate IP Addresses: If another device on the network is accidentally using IP addresses 100.0.0.221, 100.0.0.222, or 100.0.0.223, it can cause conflicts, leading to ICMP Redirect messages.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ARP Cache Issues
-Inconsistent ARP Cache: Although no duplication was observed in the ARP output you provided, issues such as inconsistent or stale entries in the ARP cache could still cause devices to send redirect messages.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These potential causes should be investigated to identify and resolve the source of the ICMP Redirect messages in your network.&lt;/p&gt;
-&lt;h3&gt;Solution&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;solution&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#solution&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Set mac address temp&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo ip link set dev eth0 address AA:BB:CC:DD:EE:FF&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3&gt;Make it Permanent&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;make-it-permanent&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#make-it-permanent&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;run command&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;pre&gt;&lt;code&gt;nmcli connection show&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;sample&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;pre&gt;&lt;code&gt;atomos-02:~:# nmcli connection show
-
-NAME                UUID                                  TYPE      DEVICE 
-Wired connection 1  1eb2e9d9-b6da-39ce-96cc-9a197a8854c3  ethernet  eth0   
-atomos-02:~:# &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;result is &lt;code&gt;Wired connection 1&lt;/code&gt;, then run command&lt;/p&gt;
-&lt;p&gt;edit the file&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;pre&gt;&lt;code&gt;atomos-02:~:# nano &amp;#34;/etc/NetworkManager/system-connections/Wired connection 1.nmconnection&amp;#34;&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;and the content is&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;pre&gt;&lt;code&gt;...
+Spanning Tree Protocol (STP): If the switch you are using supports STP, ensure that it is enabled and correctly configured to prevent network loops.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>IP Conflict
+Duplicate IP Addresses: If another device on the network is accidentally using IP addresses 100.0.0.221, 100.0.0.222, or 100.0.0.223, it can cause conflicts, leading to ICMP Redirect messages.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>ARP Cache Issues
+Inconsistent ARP Cache: Although no duplication was observed in the ARP output you provided, issues such as inconsistent or stale entries in the ARP cache could still cause devices to send redirect messages.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>These potential causes should be investigated to identify and resolve the source of the ICMP Redirect messages in your network.&lt;/p>
+&lt;h3>Solution&lt;span class="hx-absolute -hx-mt-20" id="solution">&lt;/span>
+&lt;a href="#solution" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Set mac address temp&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>sudo ip link set dev eth0 address AA:BB:CC:DD:EE:FF&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h3>Make it Permanent&lt;span class="hx-absolute -hx-mt-20" id="make-it-permanent">&lt;/span>
+&lt;a href="#make-it-permanent" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>run command&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>nmcli connection show&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>sample&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>atomos-02:~:# nmcli connection show
+NAME UUID TYPE DEVICE
+Wired connection 1 1eb2e9d9-b6da-39ce-96cc-9a197a8854c3 ethernet eth0
+atomos-02:~:# &lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>result is &lt;code>Wired connection 1&lt;/code>, then run command&lt;/p>
+&lt;p>edit the file&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>atomos-02:~:# nano &amp;#34;/etc/NetworkManager/system-connections/Wired connection 1.nmconnection&amp;#34;&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>and the content is&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>...
 [ethernet]
 mac-address-blacklist=
 cloned-mac-address=AA:BB:CC:DD:EE:FF # &amp;lt;- edit here
@@ -545,75 +462,64 @@ address1=XXX.XXX.XXX.XXX/YY,XXX.XXX.XXX.XXX # IP Address, Gatway IP
 dns=XXX.XXX.XXX.XXX; # IP Address of DNS Server
 dns-search=
 method=manual
-
-...&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Restart Service&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo systemctl restart NetworkManager&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3&gt;Verification&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;verification&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#verification&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;run command&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;pre&gt;&lt;code&gt;ifconfig ethX
-ip link show ethX &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Ensure after reboot still on same mac address
-reboot&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo reboot&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;pre&gt;&lt;code&gt;ifconfig ethX
-ip link show ethX &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+...&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Restart Service&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>sudo systemctl restart NetworkManager&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h3>Verification&lt;span class="hx-absolute -hx-mt-20" id="verification">&lt;/span>
+&lt;a href="#verification" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>run command&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>ifconfig ethX
+ip link show ethX &lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Ensure after reboot still on same mac address
+reboot&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>sudo reboot&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>ifconfig ethX
+ip link show ethX &lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

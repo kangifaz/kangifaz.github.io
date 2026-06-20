@@ -1,311 +1,212 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Alexandria - Kang Ifaz – Learn Python</title>
-    <link>http://localhost:1313/docs/learn-python/</link>
-    <description>Recent content in Learn Python on Alexandria - Kang Ifaz</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>© 2025 Kang Ifaz</copyright>
-    <lastBuildDate>Sun, 16 Mar 2025 15:05:09 +0700</lastBuildDate>
-    
-	  <atom:link href="http://localhost:1313/docs/learn-python/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-    <item>
-      <title>Fundamentals Python</title>
-      <link>http://localhost:1313/docs/learn-python/fundamentals/</link>
-      <pubDate>Sun, 16 Mar 2025 15:10:39 +0700</pubDate>
-      
-      <guid>http://localhost:1313/docs/learn-python/fundamentals/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;🐍 Overview&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-overview&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#-overview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The fundamentals are your entry point into Python programming, laying the groundwork for more advanced topics.&lt;/p&gt;
-&lt;h3&gt;🧩 What You&amp;rsquo;ll Learn:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-what-youll-learn&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#-what-youll-learn&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Basic Syntax &amp;amp; Data Types:&lt;/strong&gt; Variables, arithmetic operations, and input/output.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Control Structures:&lt;/strong&gt; Decision-making (conditionals) and iterative processes (loops).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Functions &amp;amp; Modules:&lt;/strong&gt; Modular programming, reusable code, and organizing your programs.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Mastering these basics is essential for progressing to more advanced Python concepts.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Intermediate Python</title>
-      <link>http://localhost:1313/docs/learn-python/intermediate/</link>
-      <pubDate>Sun, 16 Mar 2025 15:10:53 +0700</pubDate>
-      
-      <guid>http://localhost:1313/docs/learn-python/intermediate/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;🚧 Overview&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-overview&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#-overview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This intermediate level bridges the gap between Python fundamentals and advanced concepts.&lt;/p&gt;
-&lt;h3&gt;🔧 What You&amp;rsquo;ll Learn:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-what-youll-learn&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#-what-youll-learn&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Data Structures:&lt;/strong&gt; Efficiently store and manipulate data with lists, dictionaries, and sets.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Object-Oriented Programming (OOP):&lt;/strong&gt; Develop structured, reusable, and maintainable code.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;File Handling &amp;amp; Exceptions:&lt;/strong&gt; Manage files and handle errors gracefully.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Building these skills prepares you for data analysis, web development, and more complex programming tasks.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Data Science</title>
-      <link>http://localhost:1313/docs/learn-python/data-science/</link>
-      <pubDate>Sun, 16 Mar 2025 15:11:12 +0700</pubDate>
-      
-      <guid>http://localhost:1313/docs/learn-python/data-science/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;📊 Overview&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-overview&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#-overview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Data Science involves extracting meaningful insights from data. Python offers powerful libraries that simplify this process.&lt;/p&gt;
-&lt;h3&gt;📌 What You&amp;rsquo;ll Learn:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-what-youll-learn&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#-what-youll-learn&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;NumPy:&lt;/strong&gt; Numerical computations and efficient data manipulation.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Pandas:&lt;/strong&gt; Data cleaning, filtering, and aggregation.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Visualization:&lt;/strong&gt; Creating insightful visualizations using Matplotlib and Seaborn.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This knowledge is crucial for anyone aiming to analyze data professionally and efficiently visualize their findings.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>API &amp; Machine Learning</title>
-      <link>http://localhost:1313/docs/learn-python/api--machine-learning/</link>
-      <pubDate>Sun, 16 Mar 2025 15:11:31 +0700</pubDate>
-      
-      <guid>http://localhost:1313/docs/learn-python/api--machine-learning/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;📘 Overview&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-overview&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#-overview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In this section, you&amp;rsquo;ll explore advanced topics in Python, specifically APIs (Application Programming Interfaces) and Machine Learning.&lt;/p&gt;
-&lt;h3&gt;🚀 What You&amp;rsquo;ll Learn:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-what-youll-learn&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#-what-youll-learn&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Understanding and consuming REST APIs using Python.&lt;/li&gt;
-&lt;li&gt;Fundamental concepts of Machine Learning (Supervised &amp;amp; Unsupervised Learning).&lt;/li&gt;
-&lt;li&gt;Building and evaluating Machine Learning models using Scikit-Learn.&lt;/li&gt;
-&lt;li&gt;Introduction to Deep Learning frameworks like TensorFlow and PyTorch.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This knowledge enables you to build intelligent applications that interact seamlessly with external data sources and perform sophisticated data analysis and predictions.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Use Python Easily</title>
-      <link>http://localhost:1313/docs/learn-python/use-python-easily/</link>
-      <pubDate>Sun, 01 Jun 2025 01:28:09 +0700</pubDate>
-      
-      <guid>http://localhost:1313/docs/learn-python/use-python-easily/</guid>
-      <description>
-        
-        
-        &lt;p&gt;This article special write for my special partners, and all who need to use this kind of scenario to make easy any task. This article mainly focusing on &lt;code&gt;How to take data from&lt;/code&gt; &lt;a href=&#34;https://finance.yahoo.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yahoo finance or yfinance&lt;/a&gt; using &lt;code&gt;Python programming language without you need to learn deeply how programming is&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Of Course if you learn programming that&amp;rsquo;s much better, but in case you&amp;rsquo;re limited resources, time, basic knowledge of ICT or anything, I hope this article can be like sparks to motivate you to learn programming. Start to feels what&amp;rsquo;s benefit of programming language learning, than I hove can be a motivation to learn this.&lt;/p&gt;
-&lt;h3&gt;1. Create New Project on Google Drive - Google Colab&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-create-new-project-on-google-drive---google-colab&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#1-create-new-project-on-google-drive---google-colab&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Open any directory that you want to use for Google Colab. Google Colab is an enviroment using python programming language, with base similar with &lt;a href=&#34;https://jupyter.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jupyter Lab&lt;/a&gt;. So once you can use this enviroment, also can use your laptop using similar enviroments.&lt;/p&gt;
-&lt;h3&gt;2. Create new project&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-create-new-project&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#2-create-new-project&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Follow sample capture as below to open new project&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/image.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h3&gt;3. Setup the Enviroment&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-setup-the-enviroment&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#3-setup-the-enviroment&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Change file Name, and you can explore what inside of google colab feaatues, windows anythings My First sugestion is &lt;code&gt;Rename File or Project Name&lt;/code&gt;. This will help you to maintain your enviroment especially when you have various project on it.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/image-1.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;At field &lt;code&gt;Start coding or generate with AI&lt;/code&gt; actually you can start to write down your code by yourself.&lt;/p&gt;
-&lt;h3&gt;4. Start Prompting&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4-start-prompting&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#4-start-prompting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;As My promise, We try &lt;code&gt;not use programming language in advance&lt;/code&gt;, we try use our own language, human language like English or even in Bahasa Indonesia. In this case I&amp;rsquo;m using Another AI like Chat GPT, even you can use also Gemini from Google but let&amp;rsquo;s make a collaboration between AI. Sample that Used is &lt;a href=&#34;https://chatgpt.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ChatGPT&lt;/a&gt; with prompt I used as below :&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;pre&gt;&lt;code&gt;I just make a project using google colab, please help me to create a python programs, allow me to take financial data, history chart as much as possible that u can provide on yfinance API with specific ticker on the programs, and allow multiple ticker
-sample at the program must allow multiple ticker like BBCA, BMRI, TLKM etc&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;From the prompt then get result to released script as below :&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;pre&gt;&lt;code&gt;# 1) Install yfinance (if not present) and mount Google Drive
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alexandria - Kang Ifaz – Learn Python</title><link>https://kangifaz.com/docs/learn-python/</link><description>Recent content in Learn Python on Alexandria - Kang Ifaz</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© 2025 Kang Ifaz</copyright><lastBuildDate>Sun, 16 Mar 2025 15:05:09 +0700</lastBuildDate><atom:link href="https://kangifaz.com/docs/learn-python/index.xml" rel="self" type="application/rss+xml"/><item><title>Fundamentals Python</title><link>https://kangifaz.com/docs/learn-python/fundamentals/</link><pubDate>Sun, 16 Mar 2025 15:10:39 +0700</pubDate><guid>https://kangifaz.com/docs/learn-python/fundamentals/</guid><description>
+&lt;h2>🐍 Overview&lt;span class="hx-absolute -hx-mt-20" id="-overview">&lt;/span>
+&lt;a href="#-overview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The fundamentals are your entry point into Python programming, laying the groundwork for more advanced topics.&lt;/p>
+&lt;h3>🧩 What You&amp;rsquo;ll Learn:&lt;span class="hx-absolute -hx-mt-20" id="-what-youll-learn">&lt;/span>
+&lt;a href="#-what-youll-learn" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Basic Syntax &amp;amp; Data Types:&lt;/strong> Variables, arithmetic operations, and input/output.&lt;/li>
+&lt;li>&lt;strong>Control Structures:&lt;/strong> Decision-making (conditionals) and iterative processes (loops).&lt;/li>
+&lt;li>&lt;strong>Functions &amp;amp; Modules:&lt;/strong> Modular programming, reusable code, and organizing your programs.&lt;/li>
+&lt;/ul>
+&lt;p>Mastering these basics is essential for progressing to more advanced Python concepts.&lt;/p></description></item><item><title>Intermediate Python</title><link>https://kangifaz.com/docs/learn-python/intermediate/</link><pubDate>Sun, 16 Mar 2025 15:10:53 +0700</pubDate><guid>https://kangifaz.com/docs/learn-python/intermediate/</guid><description>
+&lt;h2>🚧 Overview&lt;span class="hx-absolute -hx-mt-20" id="-overview">&lt;/span>
+&lt;a href="#-overview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>This intermediate level bridges the gap between Python fundamentals and advanced concepts.&lt;/p>
+&lt;h3>🔧 What You&amp;rsquo;ll Learn:&lt;span class="hx-absolute -hx-mt-20" id="-what-youll-learn">&lt;/span>
+&lt;a href="#-what-youll-learn" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Data Structures:&lt;/strong> Efficiently store and manipulate data with lists, dictionaries, and sets.&lt;/li>
+&lt;li>&lt;strong>Object-Oriented Programming (OOP):&lt;/strong> Develop structured, reusable, and maintainable code.&lt;/li>
+&lt;li>&lt;strong>File Handling &amp;amp; Exceptions:&lt;/strong> Manage files and handle errors gracefully.&lt;/li>
+&lt;/ul>
+&lt;p>Building these skills prepares you for data analysis, web development, and more complex programming tasks.&lt;/p></description></item><item><title>Data Science</title><link>https://kangifaz.com/docs/learn-python/data-science/</link><pubDate>Sun, 16 Mar 2025 15:11:12 +0700</pubDate><guid>https://kangifaz.com/docs/learn-python/data-science/</guid><description>
+&lt;h2>📊 Overview&lt;span class="hx-absolute -hx-mt-20" id="-overview">&lt;/span>
+&lt;a href="#-overview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Data Science involves extracting meaningful insights from data. Python offers powerful libraries that simplify this process.&lt;/p>
+&lt;h3>📌 What You&amp;rsquo;ll Learn:&lt;span class="hx-absolute -hx-mt-20" id="-what-youll-learn">&lt;/span>
+&lt;a href="#-what-youll-learn" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>NumPy:&lt;/strong> Numerical computations and efficient data manipulation.&lt;/li>
+&lt;li>&lt;strong>Pandas:&lt;/strong> Data cleaning, filtering, and aggregation.&lt;/li>
+&lt;li>&lt;strong>Visualization:&lt;/strong> Creating insightful visualizations using Matplotlib and Seaborn.&lt;/li>
+&lt;/ul>
+&lt;p>This knowledge is crucial for anyone aiming to analyze data professionally and efficiently visualize their findings.&lt;/p></description></item><item><title>API &amp; Machine Learning</title><link>https://kangifaz.com/docs/learn-python/api--machine-learning/</link><pubDate>Sun, 16 Mar 2025 15:11:31 +0700</pubDate><guid>https://kangifaz.com/docs/learn-python/api--machine-learning/</guid><description>
+&lt;h2>📘 Overview&lt;span class="hx-absolute -hx-mt-20" id="-overview">&lt;/span>
+&lt;a href="#-overview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>In this section, you&amp;rsquo;ll explore advanced topics in Python, specifically APIs (Application Programming Interfaces) and Machine Learning.&lt;/p>
+&lt;h3>🚀 What You&amp;rsquo;ll Learn:&lt;span class="hx-absolute -hx-mt-20" id="-what-youll-learn">&lt;/span>
+&lt;a href="#-what-youll-learn" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Understanding and consuming REST APIs using Python.&lt;/li>
+&lt;li>Fundamental concepts of Machine Learning (Supervised &amp;amp; Unsupervised Learning).&lt;/li>
+&lt;li>Building and evaluating Machine Learning models using Scikit-Learn.&lt;/li>
+&lt;li>Introduction to Deep Learning frameworks like TensorFlow and PyTorch.&lt;/li>
+&lt;/ul>
+&lt;p>This knowledge enables you to build intelligent applications that interact seamlessly with external data sources and perform sophisticated data analysis and predictions.&lt;/p></description></item><item><title>Use Python Easily</title><link>https://kangifaz.com/docs/learn-python/use-python-easily/</link><pubDate>Sun, 01 Jun 2025 01:28:09 +0700</pubDate><guid>https://kangifaz.com/docs/learn-python/use-python-easily/</guid><description>
+&lt;p>This article special write for my special partners, and all who need to use this kind of scenario to make easy any task. This article mainly focusing on &lt;code>How to take data from&lt;/code> &lt;a href="https://finance.yahoo.com/" target="_blank" rel="noopener">Yahoo finance or yfinance&lt;/a> using &lt;code>Python programming language without you need to learn deeply how programming is&lt;/code>.&lt;/p>
+&lt;p>Of Course if you learn programming that&amp;rsquo;s much better, but in case you&amp;rsquo;re limited resources, time, basic knowledge of ICT or anything, I hope this article can be like sparks to motivate you to learn programming. Start to feels what&amp;rsquo;s benefit of programming language learning, than I hove can be a motivation to learn this.&lt;/p>
+&lt;h3>1. Create New Project on Google Drive - Google Colab&lt;span class="hx-absolute -hx-mt-20" id="1-create-new-project-on-google-drive---google-colab">&lt;/span>
+&lt;a href="#1-create-new-project-on-google-drive---google-colab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Open any directory that you want to use for Google Colab. Google Colab is an enviroment using python programming language, with base similar with &lt;a href="https://jupyter.org/" target="_blank" rel="noopener">Jupyter Lab&lt;/a>. So once you can use this enviroment, also can use your laptop using similar enviroments.&lt;/p>
+&lt;h3>2. Create new project&lt;span class="hx-absolute -hx-mt-20" id="2-create-new-project">&lt;/span>
+&lt;a href="#2-create-new-project" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Follow sample capture as below to open new project&lt;/p>
+&lt;p>&lt;img src="img/image.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;h3>3. Setup the Enviroment&lt;span class="hx-absolute -hx-mt-20" id="3-setup-the-enviroment">&lt;/span>
+&lt;a href="#3-setup-the-enviroment" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Change file Name, and you can explore what inside of google colab feaatues, windows anythings My First sugestion is &lt;code>Rename File or Project Name&lt;/code>. This will help you to maintain your enviroment especially when you have various project on it.&lt;/p>
+&lt;p>&lt;img src="img/image-1.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;p>At field &lt;code>Start coding or generate with AI&lt;/code> actually you can start to write down your code by yourself.&lt;/p>
+&lt;h3>4. Start Prompting&lt;span class="hx-absolute -hx-mt-20" id="4-start-prompting">&lt;/span>
+&lt;a href="#4-start-prompting" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>As My promise, We try &lt;code>not use programming language in advance&lt;/code>, we try use our own language, human language like English or even in Bahasa Indonesia. In this case I&amp;rsquo;m using Another AI like Chat GPT, even you can use also Gemini from Google but let&amp;rsquo;s make a collaboration between AI. Sample that Used is &lt;a href="https://chatgpt.com" target="_blank" rel="noopener">ChatGPT&lt;/a> with prompt I used as below :&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>I just make a project using google colab, please help me to create a python programs, allow me to take financial data, history chart as much as possible that u can provide on yfinance API with specific ticker on the programs, and allow multiple ticker
+sample at the program must allow multiple ticker like BBCA, BMRI, TLKM etc&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>From the prompt then get result to released script as below :&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code># 1) Install yfinance (if not present) and mount Google Drive
 !pip install yfinance --upgrade --quiet
-
 from google.colab import drive
-drive.mount(&amp;#39;/content/drive&amp;#39;) # 
-
+drive.mount(&amp;#39;/content/drive&amp;#39;) #
 import os
 import yfinance as yf
 import pandas as pd
 import matplotlib.pyplot as plt
-
 # 2) Create (or confirm) a folder in your Drive for saving CSVs
 save_dir = &amp;#39;/content/drive/MyDrive/financial_data&amp;#39;
 os.makedirs(save_dir, exist_ok=True)
-
 # -- EDIT THIS LIST: Add any tickers you want to fetch below (without .JK) --
 tickers_input = [&amp;#39;BBCA&amp;#39;, &amp;#39;BMRI&amp;#39;, &amp;#39;TLKM&amp;#39;]
 # --------------------------------------------------------------------------------
-
 # 3) Ensure each ticker ends with &amp;#39;.JK&amp;#39; (for IDX/Indonesia). You can remove this
-#    logic or adapt it if you’re fetching tickers from other exchanges.
+# logic or adapt it if you’re fetching tickers from other exchanges.
 formatted_tickers = []
 for t in tickers_input:
-    t = t.strip().upper()
-    if not t.endswith(&amp;#39;.JK&amp;#39;):
-        t = t &amp;#43; &amp;#39;.JK&amp;#39;
-    formatted_tickers.append(t)
-
+t = t.strip().upper()
+if not t.endswith(&amp;#39;.JK&amp;#39;):
+t = t &amp;#43; &amp;#39;.JK&amp;#39;
+formatted_tickers.append(t)
 # 4) Loop over each formatted ticker, fetch data, save CSVs, and plot history
 for ticker in formatted_tickers:
-    try:
-        print(f&amp;#39;\n===== Processing {ticker} =====&amp;#39;)
-        tk = yf.Ticker(ticker)
-
-        # --- A) Historical Price Data (Max available, daily) ---
-        hist = tk.history(period=&amp;#39;max&amp;#39;, interval=&amp;#39;1d&amp;#39;)
-        if hist.empty:
-            print(f&amp;#39;⚠️ No historical price data for {ticker}&amp;#39;)
-        else:
-            hist_path = os.path.join(save_dir, f&amp;#39;{ticker}_history.csv&amp;#39;)
-            hist.to_csv(hist_path)
-            print(f&amp;#39;✔️ Historical data saved to: {hist_path}&amp;#39;)
-
-            # Plot the closing-price history
-            plt.figure(figsize=(12, 4))
-            plt.plot(hist.index, hist[&amp;#39;Close&amp;#39;], label=&amp;#39;Close&amp;#39;)
-            plt.title(f&amp;#39;{ticker} – Historical Closing Price&amp;#39;)
-            plt.xlabel(&amp;#39;Date&amp;#39;)
-            plt.ylabel(&amp;#39;Price&amp;#39;)
-            plt.legend()
-            plt.grid(True)
-            plt.show()
-
-        # --- B) Annual Financial Statements &amp;amp; Related Data ---
-        financials      = tk.financials         # Income Statement (annual)
-        balance         = tk.balance_sheet      # Balance Sheet (annual)
-        cashflow        = tk.cashflow           # Cash Flow (annual)
-        dividends       = tk.dividends          # Dividends paid
-        recommendations = tk.recommendations    # Analyst recommendations
-
-        # --- C) Quarterly Financials ---
-        q_financials = tk.quarterly_financials
-        q_balance    = tk.quarterly_balance_sheet
-        q_cashflow   = tk.quarterly_cashflow
-
-        # --- D) Save each DataFrame if not empty ---
-        if not financials.empty:
-            path = os.path.join(save_dir, f&amp;#39;{ticker}_financials.csv&amp;#39;)
-            financials.to_csv(path)
-            print(f&amp;#39;✔️ Annual financials saved to: {path}&amp;#39;)
-        if not balance.empty:
-            path = os.path.join(save_dir, f&amp;#39;{ticker}_balance_sheet.csv&amp;#39;)
-            balance.to_csv(path)
-            print(f&amp;#39;✔️ Annual balance sheet saved to: {path}&amp;#39;)
-        if not cashflow.empty:
-            path = os.path.join(save_dir, f&amp;#39;{ticker}_cashflow.csv&amp;#39;)
-            cashflow.to_csv(path)
-            print(f&amp;#39;✔️ Annual cash flow saved to: {path}&amp;#39;)
-        if not dividends.empty:
-            path = os.path.join(save_dir, f&amp;#39;{ticker}_dividends.csv&amp;#39;)
-            dividends.to_csv(path)
-            print(f&amp;#39;✔️ Dividends saved to: {path}&amp;#39;)
-        if recommendations is not None and not recommendations.empty:
-            path = os.path.join(save_dir, f&amp;#39;{ticker}_recommendations.csv&amp;#39;)
-            recommendations.to_csv(path)
-            print(f&amp;#39;✔️ Analyst recommendations saved to: {path}&amp;#39;)
-
-        if not q_financials.empty:
-            path = os.path.join(save_dir, f&amp;#39;{ticker}_quarterly_financials.csv&amp;#39;)
-            q_financials.to_csv(path)
-            print(f&amp;#39;✔️ Quarterly financials saved to: {path}&amp;#39;)
-        if not q_balance.empty:
-            path = os.path.join(save_dir, f&amp;#39;{ticker}_quarterly_balance_sheet.csv&amp;#39;)
-            q_balance.to_csv(path)
-            print(f&amp;#39;✔️ Quarterly balance sheet saved to: {path}&amp;#39;)
-        if not q_cashflow.empty:
-            path = os.path.join(save_dir, f&amp;#39;{ticker}_quarterly_cashflow.csv&amp;#39;)
-            q_cashflow.to_csv(path)
-            print(f&amp;#39;✔️ Quarterly cash flow saved to: {path}&amp;#39;)
-
-    except Exception as e:
-        print(f&amp;#39;❌ Error processing {ticker}: {e}&amp;#39;)
-
-print(&amp;#34;\n✅ Finished processing all tickers. Check your Google Drive folder for the CSV files.&amp;#34;)  &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3&gt;5. Swim Over the Code Before Deep Dive On It!&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;5-swim-over-the-code-before-deep-dive-on-it&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#5-swim-over-the-code-before-deep-dive-on-it&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The script generated from AI basically is result of what we want as prompted. From the script also we already know some part is need to be adjust following what our purposes.&lt;/p&gt;
-&lt;h4&gt;Directory Part&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;directory-part&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#directory-part&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;At below part need ensure directory that u need to use for output file will save.&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;pre&gt;&lt;code&gt;# 2) Create (or confirm) a folder in your Drive for saving CSVs
+try:
+print(f&amp;#39;\n===== Processing {ticker} =====&amp;#39;)
+tk = yf.Ticker(ticker)
+# --- A) Historical Price Data (Max available, daily) ---
+hist = tk.history(period=&amp;#39;max&amp;#39;, interval=&amp;#39;1d&amp;#39;)
+if hist.empty:
+print(f&amp;#39;⚠️ No historical price data for {ticker}&amp;#39;)
+else:
+hist_path = os.path.join(save_dir, f&amp;#39;{ticker}_history.csv&amp;#39;)
+hist.to_csv(hist_path)
+print(f&amp;#39;✔️ Historical data saved to: {hist_path}&amp;#39;)
+# Plot the closing-price history
+plt.figure(figsize=(12, 4))
+plt.plot(hist.index, hist[&amp;#39;Close&amp;#39;], label=&amp;#39;Close&amp;#39;)
+plt.title(f&amp;#39;{ticker} – Historical Closing Price&amp;#39;)
+plt.xlabel(&amp;#39;Date&amp;#39;)
+plt.ylabel(&amp;#39;Price&amp;#39;)
+plt.legend()
+plt.grid(True)
+plt.show()
+# --- B) Annual Financial Statements &amp;amp; Related Data ---
+financials = tk.financials # Income Statement (annual)
+balance = tk.balance_sheet # Balance Sheet (annual)
+cashflow = tk.cashflow # Cash Flow (annual)
+dividends = tk.dividends # Dividends paid
+recommendations = tk.recommendations # Analyst recommendations
+# --- C) Quarterly Financials ---
+q_financials = tk.quarterly_financials
+q_balance = tk.quarterly_balance_sheet
+q_cashflow = tk.quarterly_cashflow
+# --- D) Save each DataFrame if not empty ---
+if not financials.empty:
+path = os.path.join(save_dir, f&amp;#39;{ticker}_financials.csv&amp;#39;)
+financials.to_csv(path)
+print(f&amp;#39;✔️ Annual financials saved to: {path}&amp;#39;)
+if not balance.empty:
+path = os.path.join(save_dir, f&amp;#39;{ticker}_balance_sheet.csv&amp;#39;)
+balance.to_csv(path)
+print(f&amp;#39;✔️ Annual balance sheet saved to: {path}&amp;#39;)
+if not cashflow.empty:
+path = os.path.join(save_dir, f&amp;#39;{ticker}_cashflow.csv&amp;#39;)
+cashflow.to_csv(path)
+print(f&amp;#39;✔️ Annual cash flow saved to: {path}&amp;#39;)
+if not dividends.empty:
+path = os.path.join(save_dir, f&amp;#39;{ticker}_dividends.csv&amp;#39;)
+dividends.to_csv(path)
+print(f&amp;#39;✔️ Dividends saved to: {path}&amp;#39;)
+if recommendations is not None and not recommendations.empty:
+path = os.path.join(save_dir, f&amp;#39;{ticker}_recommendations.csv&amp;#39;)
+recommendations.to_csv(path)
+print(f&amp;#39;✔️ Analyst recommendations saved to: {path}&amp;#39;)
+if not q_financials.empty:
+path = os.path.join(save_dir, f&amp;#39;{ticker}_quarterly_financials.csv&amp;#39;)
+q_financials.to_csv(path)
+print(f&amp;#39;✔️ Quarterly financials saved to: {path}&amp;#39;)
+if not q_balance.empty:
+path = os.path.join(save_dir, f&amp;#39;{ticker}_quarterly_balance_sheet.csv&amp;#39;)
+q_balance.to_csv(path)
+print(f&amp;#39;✔️ Quarterly balance sheet saved to: {path}&amp;#39;)
+if not q_cashflow.empty:
+path = os.path.join(save_dir, f&amp;#39;{ticker}_quarterly_cashflow.csv&amp;#39;)
+q_cashflow.to_csv(path)
+print(f&amp;#39;✔️ Quarterly cash flow saved to: {path}&amp;#39;)
+except Exception as e:
+print(f&amp;#39;❌ Error processing {ticker}: {e}&amp;#39;)
+print(&amp;#34;\n✅ Finished processing all tickers. Check your Google Drive folder for the CSV files.&amp;#34;) &lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h3>5. Swim Over the Code Before Deep Dive On It!&lt;span class="hx-absolute -hx-mt-20" id="5-swim-over-the-code-before-deep-dive-on-it">&lt;/span>
+&lt;a href="#5-swim-over-the-code-before-deep-dive-on-it" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The script generated from AI basically is result of what we want as prompted. From the script also we already know some part is need to be adjust following what our purposes.&lt;/p>
+&lt;h4>Directory Part&lt;span class="hx-absolute -hx-mt-20" id="directory-part">&lt;/span>
+&lt;a href="#directory-part" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>At below part need ensure directory that u need to use for output file will save.&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code># 2) Create (or confirm) a folder in your Drive for saving CSVs
 save_dir = &amp;#39;/content/drive/MyDrive/financial_data&amp;#39;
-os.makedirs(save_dir, exist_ok=True)&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h4&gt;Which Stock Code Ticker Will take&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;which-stock-code-ticker-will-take&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#which-stock-code-ticker-will-take&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;At Below part need to adjust which stock code need to take&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;pre&gt;&lt;code&gt;# -- EDIT THIS LIST: Add any tickers you want to fetch below (without .JK) --
-tickers_input = [&amp;#39;BBCA&amp;#39;, &amp;#39;BMRI&amp;#39;, &amp;#39;TLKM&amp;#39;]&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;after all is set and we&amp;rsquo;re ready to run, Click &lt;code&gt;Run&lt;/code&gt; can use button on left side of code, or also can use &lt;code&gt;Runtime &amp;gt; Run All&lt;/code&gt;. After run then the notification will pop up to ask access of Google Colab to save the output on your Drive&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;img/image-2.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Let the program finish and save an output on the drive as below
-&lt;img src=&#34;img/image-3.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Also check the file output as below
-&lt;img src=&#34;img/image-4.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Results from
-&lt;img src=&#34;image-2.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;
-&lt;img src=&#34;image.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;
-&lt;img src=&#34;image-1.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;pre&gt;&lt;code&gt;rive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount(&amp;#34;/content/drive&amp;#34;, force_remount=True).
-
+os.makedirs(save_dir, exist_ok=True)&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h4>Which Stock Code Ticker Will take&lt;span class="hx-absolute -hx-mt-20" id="which-stock-code-ticker-will-take">&lt;/span>
+&lt;a href="#which-stock-code-ticker-will-take" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>At Below part need to adjust which stock code need to take&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code># -- EDIT THIS LIST: Add any tickers you want to fetch below (without .JK) --
+tickers_input = [&amp;#39;BBCA&amp;#39;, &amp;#39;BMRI&amp;#39;, &amp;#39;TLKM&amp;#39;]&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>after all is set and we&amp;rsquo;re ready to run, Click &lt;code>Run&lt;/code> can use button on left side of code, or also can use &lt;code>Runtime &amp;gt; Run All&lt;/code>. After run then the notification will pop up to ask access of Google Colab to save the output on your Drive&lt;/p>
+&lt;p>&lt;img src="img/image-2.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;p>Let the program finish and save an output on the drive as below
+&lt;img src="img/image-3.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;p>Also check the file output as below
+&lt;img src="img/image-4.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;p>Results from
+&lt;img src="image-2.png" alt="alt text" loading="lazy" />
+&lt;img src="image.png" alt="alt text" loading="lazy" />
+&lt;img src="image-1.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>rive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount(&amp;#34;/content/drive&amp;#34;, force_remount=True).
 ===== Processing BBCA.JK =====
 ✔️ Historical data saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BBCA.JK_history.csv
-
 ✔️ Annual financials saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BBCA.JK_financials.csv
 ✔️ Annual balance sheet saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BBCA.JK_balance_sheet.csv
 ✔️ Annual cash flow saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BBCA.JK_cashflow.csv
@@ -314,10 +215,8 @@ tickers_input = [&amp;#39;BBCA&amp;#39;, &amp;#39;BMRI&amp;#39;, &amp;#39;TLKM&a
 ✔️ Quarterly financials saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BBCA.JK_quarterly_financials.csv
 ✔️ Quarterly balance sheet saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BBCA.JK_quarterly_balance_sheet.csv
 ✔️ Quarterly cash flow saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BBCA.JK_quarterly_cashflow.csv
-
 ===== Processing BMRI.JK =====
 ✔️ Historical data saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BMRI.JK_history.csv
-
 ✔️ Annual financials saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BMRI.JK_financials.csv
 ✔️ Annual balance sheet saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BMRI.JK_balance_sheet.csv
 ✔️ Annual cash flow saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BMRI.JK_cashflow.csv
@@ -326,10 +225,8 @@ tickers_input = [&amp;#39;BBCA&amp;#39;, &amp;#39;BMRI&amp;#39;, &amp;#39;TLKM&a
 ✔️ Quarterly financials saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BMRI.JK_quarterly_financials.csv
 ✔️ Quarterly balance sheet saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BMRI.JK_quarterly_balance_sheet.csv
 ✔️ Quarterly cash flow saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/BMRI.JK_quarterly_cashflow.csv
-
 ===== Processing TLKM.JK =====
 ✔️ Historical data saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/TLKM.JK_history.csv
-
 ✔️ Annual financials saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/TLKM.JK_financials.csv
 ✔️ Annual balance sheet saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/TLKM.JK_balance_sheet.csv
 ✔️ Annual cash flow saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/TLKM.JK_cashflow.csv
@@ -338,31 +235,24 @@ tickers_input = [&amp;#39;BBCA&amp;#39;, &amp;#39;BMRI&amp;#39;, &amp;#39;TLKM&a
 ✔️ Quarterly financials saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/TLKM.JK_quarterly_financials.csv
 ✔️ Quarterly balance sheet saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/TLKM.JK_quarterly_balance_sheet.csv
 ✔️ Quarterly cash flow saved to: /content/drive/MyDrive/Colab Notebooks/Ambil_Data_Saham/financial_data/TLKM.JK_quarterly_cashflow.csv
-
-✅ Finished processing all tickers. Check your Google Drive folder for the CSV files.&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3&gt;6. Note&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;6-note&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#6-note&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;If you found any error, just copy the error and paste on the AI, let&amp;rsquo;s AI fix the program by itself&lt;/li&gt;
-&lt;li&gt;If has any supporting team, partner, expert anyone who familiar with programming, can ask him/her directly to make easy to understand&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;7. Reference FIle&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;7-reference-file&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#7-reference-file&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Above experiment is alco can u see on the main refrence as below :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://chatgpt.com/share/683b4ebe-3c6c-8013-9304-e123cb097606&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GPT Prompt&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/drive/1LI2KKHKYGz7oyf6UmNoTK9dCoEsUMQ8K?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Colab Sample&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+✅ Finished processing all tickers. Check your Google Drive folder for the CSV files.&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h3>6. Note&lt;span class="hx-absolute -hx-mt-20" id="6-note">&lt;/span>
+&lt;a href="#6-note" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>If you found any error, just copy the error and paste on the AI, let&amp;rsquo;s AI fix the program by itself&lt;/li>
+&lt;li>If has any supporting team, partner, expert anyone who familiar with programming, can ask him/her directly to make easy to understand&lt;/li>
+&lt;/ul>
+&lt;h3>7. Reference FIle&lt;span class="hx-absolute -hx-mt-20" id="7-reference-file">&lt;/span>
+&lt;a href="#7-reference-file" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Above experiment is alco can u see on the main refrence as below :&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://chatgpt.com/share/683b4ebe-3c6c-8013-9304-e123cb097606" target="_blank" rel="noopener">GPT Prompt&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://colab.research.google.com/drive/1LI2KKHKYGz7oyf6UmNoTK9dCoEsUMQ8K?usp=sharing" target="_blank" rel="noopener">Google Colab Sample&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

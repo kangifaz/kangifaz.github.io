@@ -1,501 +1,391 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Alexandria - Kang Ifaz – Network Infrastructures</title>
-    <link>http://localhost:1313/docs/network-infrastructures/</link>
-    <description>Recent content in Network Infrastructures on Alexandria - Kang Ifaz</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>© 2025 Kang Ifaz</copyright>
-    <lastBuildDate>Sun, 23 Feb 2025 16:48:28 +0700</lastBuildDate>
-    
-	  <atom:link href="http://localhost:1313/docs/network-infrastructures/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-    <item>
-      <title>Network FUNdamentals</title>
-      <link>http://localhost:1313/docs/network-infrastructures/network-fundamentals/</link>
-      <pubDate>Sun, 23 Feb 2025 16:42:12 +0700</pubDate>
-      
-      <guid>http://localhost:1313/docs/network-infrastructures/network-fundamentals/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Welcome to the Network FUNdamentals section! This comprehensive guide covers foundational concepts crucial for understanding and mastering computer networking. Whether you&amp;rsquo;re a beginner or looking to refresh your knowledge, this section is designed to simplify complex topics clearly and concisely.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Key Topics Covered&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;key-topics-covered&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#key-topics-covered&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Networking Basics:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Understanding Networks&lt;/li&gt;
-&lt;li&gt;LAN, WAN, and MAN&lt;/li&gt;
-&lt;li&gt;Network Devices: Routers, Switches, Firewalls&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;IP Addressing and Subnetting:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;IPv4 vs. IPv6&lt;/li&gt;
-&lt;li&gt;Subnet Masks and CIDR Notation&lt;/li&gt;
-&lt;li&gt;Subnetting Examples and Exercises&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;OSI and TCP/IP Models:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Overview of OSI Model Layers&lt;/li&gt;
-&lt;li&gt;Detailed Explanation of TCP/IP Layers&lt;/li&gt;
-&lt;li&gt;Practical Applications and Differences&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Network Protocols:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Essential Protocols (TCP, UDP, ICMP)&lt;/li&gt;
-&lt;li&gt;ARP and DNS Basics&lt;/li&gt;
-&lt;li&gt;DHCP Configuration and Management&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Fundamental Network Principles:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Data Encapsulation and Packet Flow&lt;/li&gt;
-&lt;li&gt;Broadcast, Multicast, and Unicast Communication&lt;/li&gt;
-&lt;li&gt;Collision Domains and Broadcast Domains&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;Explore these fundamental topics to establish a solid foundation in networking, paving the way for advanced concepts and practical implementation.&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;explore-these-fundamental-topics-to-establish-a-solid-foundation-in-networking-paving-the-way-for-advanced-concepts-and-practical-implementation&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#explore-these-fundamental-topics-to-establish-a-solid-foundation-in-networking-paving-the-way-for-advanced-concepts-and-practical-implementation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h2&gt;title: &amp;ldquo;Network FUNdamentals&amp;rdquo;
-description: &amp;ldquo;Detailed guide covering essential networking concepts, IP addressing, OSI and TCP/IP models, and foundational networking principles.&amp;rdquo;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;description-detailed-guide-covering-essential-networking-concepts-ip-addressing-osi-and-tcpip-models-and-foundational-networking-principles&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#description-detailed-guide-covering-essential-networking-concepts-ip-addressing-osi-and-tcpip-models-and-foundational-networking-principles&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h1&gt;Network FUNdamentals&lt;/h1&gt;&lt;p&gt;Welcome to the Network FUNdamentals section! This comprehensive guide covers foundational concepts crucial for understanding and mastering computer networking. Whether you&amp;rsquo;re a beginner or looking to refresh your knowledge, this section is designed to simplify complex topics clearly and concisely.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Key Topics Covered&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;key-topics-covered-1&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#key-topics-covered-1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Networking Basics:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Understanding Networks&lt;/li&gt;
-&lt;li&gt;LAN, WAN, and MAN&lt;/li&gt;
-&lt;li&gt;Network Devices: Routers, Switches, Firewalls&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;IP Addressing and Subnetting:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;IPv4 vs. IPv6&lt;/li&gt;
-&lt;li&gt;Subnet Masks and CIDR Notation&lt;/li&gt;
-&lt;li&gt;Subnetting Examples and Exercises&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;OSI and TCP/IP Models:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Overview of OSI Model Layers&lt;/li&gt;
-&lt;li&gt;Detailed Explanation of TCP/IP Layers&lt;/li&gt;
-&lt;li&gt;Practical Applications and Differences&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Network Protocols:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Essential Protocols (TCP, UDP, ICMP)&lt;/li&gt;
-&lt;li&gt;ARP and DNS Basics&lt;/li&gt;
-&lt;li&gt;DHCP Configuration and Management&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Fundamental Network Principles:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Data Encapsulation and Packet Flow&lt;/li&gt;
-&lt;li&gt;Broadcast, Multicast, and Unicast Communication&lt;/li&gt;
-&lt;li&gt;Collision Domains and Broadcast Domains&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;Explore these fundamental topics to establish a solid foundation in networking, paving the way for advanced concepts and practical implementation.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Interior Gateway Protocol (IGP)</title>
-      <link>http://localhost:1313/docs/network-infrastructures/interior-gateway-protocol-igp/</link>
-      <pubDate>Sun, 23 Feb 2025 16:47:29 +0700</pubDate>
-      
-      <guid>http://localhost:1313/docs/network-infrastructures/interior-gateway-protocol-igp/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Welcome to the Interior Gateway Protocol (IGP) documentation. This section provides comprehensive coverage of routing protocols designed to operate within an autonomous system. Each protocol&amp;rsquo;s theory, operational details, configurations, and best practices are clearly presented to ensure ease of understanding.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Key Topics Covered&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;key-topics-covered&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#key-topics-covered&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Introduction to IGP:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Purpose and Importance of IGPs&lt;/li&gt;
-&lt;li&gt;Difference between IGP and EGP&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Routing Information Protocol (RIP):&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Overview and Operation&lt;/li&gt;
-&lt;li&gt;RIP v1 vs. RIP v2&lt;/li&gt;
-&lt;li&gt;Configuration Examples and Troubleshooting&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Open Shortest Path First (OSPF):&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Fundamentals of OSPF&lt;/li&gt;
-&lt;li&gt;OSPF Areas and Types (Backbone, Stub, NSSA)&lt;/li&gt;
-&lt;li&gt;OSPF LSA Types and Route Calculation&lt;/li&gt;
-&lt;li&gt;Practical Configuration Examples&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Intermediate System to Intermediate System (IS-IS):&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;IS-IS Protocol Fundamentals&lt;/li&gt;
-&lt;li&gt;Comparison with OSPF&lt;/li&gt;
-&lt;li&gt;Levels and Areas in IS-IS&lt;/li&gt;
-&lt;li&gt;Configurations and Optimization Techniques&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Best Practices and Advanced Concepts:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;IGP Scalability and Stability&lt;/li&gt;
-&lt;li&gt;Route Redistribution and Filtering&lt;/li&gt;
-&lt;li&gt;Troubleshooting Common IGP Issues&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;Deep dive into each protocol to effectively design, configure, and manage robust internal network routing solutions.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Border Gateway Protocol (BGP)</title>
-      <link>http://localhost:1313/docs/network-infrastructures/border-gateway-protocol-bgp/</link>
-      <pubDate>Sun, 23 Feb 2025 16:47:29 +0700</pubDate>
-      
-      <guid>http://localhost:1313/docs/network-infrastructures/border-gateway-protocol-bgp/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Welcome to the Border Gateway Protocol (BGP) section. As the protocol driving internet routing between autonomous systems (AS), BGP is essential for network professionals. This guide simplifies complex concepts and provides detailed insights, configuration examples, and best practices.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Key Topics Covered&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;key-topics-covered&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#key-topics-covered&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Introduction to BGP:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Understanding BGP and Its Role in Internet Routing&lt;/li&gt;
-&lt;li&gt;Differences between IGP and EGP&lt;/li&gt;
-&lt;li&gt;Autonomous Systems and AS Numbers&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;BGP Operation and Attributes:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Path Attributes (AS_PATH, NEXT_HOP, MED, Local Preference)&lt;/li&gt;
-&lt;li&gt;Route Selection Criteria&lt;/li&gt;
-&lt;li&gt;Path Vector Protocol Mechanism&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Configuring BGP:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Basic BGP Configuration&lt;/li&gt;
-&lt;li&gt;eBGP and iBGP Differences and Configurations&lt;/li&gt;
-&lt;li&gt;BGP Neighbor Establishment&lt;/li&gt;
-&lt;li&gt;Route Aggregation and Filtering&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Advanced BGP Features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Route Reflectors and Confederations&lt;/li&gt;
-&lt;li&gt;Multiprotocol BGP (MP-BGP)&lt;/li&gt;
-&lt;li&gt;BGP Communities and Route Policies&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;BGP Troubleshooting and Optimization:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Common Issues and Debugging Techniques&lt;/li&gt;
-&lt;li&gt;Best Practices for Stability and Scalability&lt;/li&gt;
-&lt;li&gt;Optimizing BGP Convergence and Performance&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;Master BGP concepts to confidently design, implement, and manage inter-AS routing solutions.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Multiprotocol Labelling Switching (MPLS)</title>
-      <link>http://localhost:1313/docs/network-infrastructures/multiprotocol-labelling-switching-mpls/</link>
-      <pubDate>Sun, 23 Feb 2025 16:47:29 +0700</pubDate>
-      
-      <guid>http://localhost:1313/docs/network-infrastructures/multiprotocol-labelling-switching-mpls/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Welcome to the Multiprotocol Label Switching (MPLS) documentation. MPLS is a widely used technology in modern networks, known for its efficient handling of packets and versatility in supporting various network services. This guide simplifies MPLS concepts, making it approachable for learners at all levels.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Key Topics Covered&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;key-topics-covered&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#key-topics-covered&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;MPLS Basics:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;What is MPLS?&lt;/li&gt;
-&lt;li&gt;MPLS Label Format and Label Stack&lt;/li&gt;
-&lt;li&gt;MPLS Operation and Label Switching&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;MPLS Architecture and Components:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Label Edge Router (LER) and Label Switch Router (LSR)&lt;/li&gt;
-&lt;li&gt;Forwarding Equivalence Class (FEC)&lt;/li&gt;
-&lt;li&gt;Label Distribution Protocol (LDP)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Practical MPLS Configurations:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;MPLS Basic Configuration&lt;/li&gt;
-&lt;li&gt;Label Distribution and Label Retention Modes&lt;/li&gt;
-&lt;li&gt;MPLS Troubleshooting Commands and Tools&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Advanced MPLS Applications:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;MPLS Virtual Private Networks (VPNs)&lt;/li&gt;
-&lt;li&gt;MPLS Traffic Engineering (TE)&lt;/li&gt;
-&lt;li&gt;MPLS Quality of Service (QoS)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Optimizing MPLS Networks:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;MPLS Traffic Engineering Tunnels&lt;/li&gt;
-&lt;li&gt;Fast Reroute and MPLS Resiliency&lt;/li&gt;
-&lt;li&gt;MPLS Network Management and Optimization&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;Explore this MPLS section to build a strong foundation and effectively leverage MPLS for efficient, secure, and scalable network solutions.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Layer 2 VPN Services</title>
-      <link>http://localhost:1313/docs/network-infrastructures/layer-2-vpn-services/</link>
-      <pubDate>Sun, 23 Feb 2025 16:47:29 +0700</pubDate>
-      
-      <guid>http://localhost:1313/docs/network-infrastructures/layer-2-vpn-services/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Welcome to the Layer 2 VPN Services documentation. Layer 2 VPN solutions enable the extension of LAN connectivity across geographically dispersed sites. This guide covers key protocols, configurations, and best practices clearly and comprehensively.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Key Topics Covered&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;key-topics-covered&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#key-topics-covered&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Introduction to Layer 2 VPN:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;What is Layer 2 VPN?&lt;/li&gt;
-&lt;li&gt;Differences between Layer 2 and Layer 3 VPN&lt;/li&gt;
-&lt;li&gt;Typical Use-Cases and Applications&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Ethernet VPN (EVPN):&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;EVPN Fundamentals and Operations&lt;/li&gt;
-&lt;li&gt;Control Plane and Data Plane Concepts&lt;/li&gt;
-&lt;li&gt;EVPN Configuration Examples&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Virtual Private LAN Service (VPLS):&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Understanding VPLS Operation&lt;/li&gt;
-&lt;li&gt;VPLS Signaling and MAC Address Learning&lt;/li&gt;
-&lt;li&gt;Configuring and Troubleshooting VPLS&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Point-to-Point VPN Solutions:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Overview of EoMPLS (Ethernet over MPLS)&lt;/li&gt;
-&lt;li&gt;Configuration of Point-to-Point Layer 2 VPN&lt;/li&gt;
-&lt;li&gt;Use Cases and Implementation Scenarios&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Best Practices and Advanced Topics:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Layer 2 VPN Scalability Considerations&lt;/li&gt;
-&lt;li&gt;Redundancy and Resiliency Techniques&lt;/li&gt;
-&lt;li&gt;Troubleshooting Common Layer 2 VPN Issues&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;Master Layer 2 VPN services to efficiently design, configure, and maintain reliable and scalable LAN connectivity across your network infrastructure.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Layer 3 VPN Service</title>
-      <link>http://localhost:1313/docs/network-infrastructures/layer-3-vpn-service/</link>
-      <pubDate>Sun, 23 Feb 2025 16:47:30 +0700</pubDate>
-      
-      <guid>http://localhost:1313/docs/network-infrastructures/layer-3-vpn-service/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Welcome to the Layer 3 VPN Service documentation. Layer 3 VPNs leverage MPLS to provide secure, scalable, and efficient connectivity across geographically dispersed networks. This section provides a detailed yet simplified guide to understanding and configuring Layer 3 VPNs.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Key Topics Covered&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;key-topics-covered&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#key-topics-covered&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Introduction to Layer 3 VPN:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Basics of Layer 3 VPNs&lt;/li&gt;
-&lt;li&gt;Benefits and Use Cases&lt;/li&gt;
-&lt;li&gt;Layer 3 VPN versus Layer 2 VPN&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;MPLS Layer 3 VPN Architecture:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Components: PE, CE, P Routers&lt;/li&gt;
-&lt;li&gt;VPN Routing and Forwarding (VRF) Concepts&lt;/li&gt;
-&lt;li&gt;MPLS and MP-BGP Role in Layer 3 VPN&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Configuring Layer 3 VPN:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Basic VRF and Routing Configuration&lt;/li&gt;
-&lt;li&gt;Route Distinguishers (RD) and Route Targets (RT)&lt;/li&gt;
-&lt;li&gt;Configuring MP-BGP and PE-CE Protocols (OSPF, BGP, Static Routing)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Advanced Layer 3 VPN Features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hub-and-Spoke Topology&lt;/li&gt;
-&lt;li&gt;Extranet VPN&lt;/li&gt;
-&lt;li&gt;Shared Service VPN Implementations&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Troubleshooting and Optimization:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Common Issues in Layer 3 VPNs&lt;/li&gt;
-&lt;li&gt;Troubleshooting Techniques and Commands&lt;/li&gt;
-&lt;li&gt;Best Practices for Scalability and Reliability&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;Dive deep into Layer 3 VPNs to master the skills required for designing, deploying, and managing advanced MPLS VPN solutions.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Inter as VPN</title>
-      <link>http://localhost:1313/docs/network-infrastructures/inter-as-vpn/</link>
-      <pubDate>Sun, 23 Feb 2025 16:47:30 +0700</pubDate>
-      
-      <guid>http://localhost:1313/docs/network-infrastructures/inter-as-vpn/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Welcome to the Inter-AS VPN documentation. Inter-AS VPN solutions allow VPN connectivity across multiple autonomous systems, providing flexibility and scalability for large and distributed networks. This guide offers a clear understanding of Inter-AS VPNs, configurations, and advanced scenarios.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Key Topics Covered&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;key-topics-covered&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#key-topics-covered&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Introduction to Inter-AS VPN:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Understanding Inter-AS VPN&lt;/li&gt;
-&lt;li&gt;Applications and Use Cases&lt;/li&gt;
-&lt;li&gt;Comparison with Traditional VPN Solutions&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Inter-AS VPN Options:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Option A (Back-to-Back VRF):&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Concept and Use Cases&lt;/li&gt;
-&lt;li&gt;Configuration Examples&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Option B (ASBR-to-ASBR):&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Detailed Operation and Route Exchange&lt;/li&gt;
-&lt;li&gt;Practical Configuration Scenarios&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Option C (End-to-End MPLS):&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Comprehensive Explanation and Advantages&lt;/li&gt;
-&lt;li&gt;Configuration and Implementation Examples&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Advanced Topics and Scenarios:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Route Filtering and Route Reflectors&lt;/li&gt;
-&lt;li&gt;Inter-AS VPN Security Considerations&lt;/li&gt;
-&lt;li&gt;Managing Complexity and Ensuring Scalability&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Troubleshooting and Best Practices:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Common Issues in Inter-AS VPN Configurations&lt;/li&gt;
-&lt;li&gt;Troubleshooting Techniques and Tools&lt;/li&gt;
-&lt;li&gt;Recommended Practices for Robust and Efficient Deployment&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;Master Inter-AS VPN configurations and best practices to effectively design, deploy, and manage VPN solutions across multiple autonomous systems.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alexandria - Kang Ifaz – Network Infrastructures</title><link>https://kangifaz.com/docs/network-infrastructures/</link><description>Recent content in Network Infrastructures on Alexandria - Kang Ifaz</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© 2025 Kang Ifaz</copyright><lastBuildDate>Sun, 23 Feb 2025 16:48:28 +0700</lastBuildDate><atom:link href="https://kangifaz.com/docs/network-infrastructures/index.xml" rel="self" type="application/rss+xml"/><item><title>Network FUNdamentals</title><link>https://kangifaz.com/docs/network-infrastructures/network-fundamentals/</link><pubDate>Sun, 23 Feb 2025 16:42:12 +0700</pubDate><guid>https://kangifaz.com/docs/network-infrastructures/network-fundamentals/</guid><description>
+&lt;p>Welcome to the Network FUNdamentals section! This comprehensive guide covers foundational concepts crucial for understanding and mastering computer networking. Whether you&amp;rsquo;re a beginner or looking to refresh your knowledge, this section is designed to simplify complex topics clearly and concisely.&lt;/p>
+&lt;hr>
+&lt;h2>Key Topics Covered&lt;span class="hx-absolute -hx-mt-20" id="key-topics-covered">&lt;/span>
+&lt;a href="#key-topics-covered" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Networking Basics:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Understanding Networks&lt;/li>
+&lt;li>LAN, WAN, and MAN&lt;/li>
+&lt;li>Network Devices: Routers, Switches, Firewalls&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>IP Addressing and Subnetting:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>IPv4 vs. IPv6&lt;/li>
+&lt;li>Subnet Masks and CIDR Notation&lt;/li>
+&lt;li>Subnetting Examples and Exercises&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>OSI and TCP/IP Models:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Overview of OSI Model Layers&lt;/li>
+&lt;li>Detailed Explanation of TCP/IP Layers&lt;/li>
+&lt;li>Practical Applications and Differences&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Network Protocols:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Essential Protocols (TCP, UDP, ICMP)&lt;/li>
+&lt;li>ARP and DNS Basics&lt;/li>
+&lt;li>DHCP Configuration and Management&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Fundamental Network Principles:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Data Encapsulation and Packet Flow&lt;/li>
+&lt;li>Broadcast, Multicast, and Unicast Communication&lt;/li>
+&lt;li>Collision Domains and Broadcast Domains&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2>Explore these fundamental topics to establish a solid foundation in networking, paving the way for advanced concepts and practical implementation.&lt;span class="hx-absolute -hx-mt-20" id="explore-these-fundamental-topics-to-establish-a-solid-foundation-in-networking-paving-the-way-for-advanced-concepts-and-practical-implementation">&lt;/span>
+&lt;a href="#explore-these-fundamental-topics-to-establish-a-solid-foundation-in-networking-paving-the-way-for-advanced-concepts-and-practical-implementation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h2>title: &amp;ldquo;Network FUNdamentals&amp;rdquo;
+description: &amp;ldquo;Detailed guide covering essential networking concepts, IP addressing, OSI and TCP/IP models, and foundational networking principles.&amp;rdquo;&lt;span class="hx-absolute -hx-mt-20" id="description-detailed-guide-covering-essential-networking-concepts-ip-addressing-osi-and-tcpip-models-and-foundational-networking-principles">&lt;/span>
+&lt;a href="#description-detailed-guide-covering-essential-networking-concepts-ip-addressing-osi-and-tcpip-models-and-foundational-networking-principles" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h1>Network FUNdamentals&lt;/h1>&lt;p>Welcome to the Network FUNdamentals section! This comprehensive guide covers foundational concepts crucial for understanding and mastering computer networking. Whether you&amp;rsquo;re a beginner or looking to refresh your knowledge, this section is designed to simplify complex topics clearly and concisely.&lt;/p>
+&lt;hr>
+&lt;h2>Key Topics Covered&lt;span class="hx-absolute -hx-mt-20" id="key-topics-covered-1">&lt;/span>
+&lt;a href="#key-topics-covered-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Networking Basics:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Understanding Networks&lt;/li>
+&lt;li>LAN, WAN, and MAN&lt;/li>
+&lt;li>Network Devices: Routers, Switches, Firewalls&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>IP Addressing and Subnetting:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>IPv4 vs. IPv6&lt;/li>
+&lt;li>Subnet Masks and CIDR Notation&lt;/li>
+&lt;li>Subnetting Examples and Exercises&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>OSI and TCP/IP Models:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Overview of OSI Model Layers&lt;/li>
+&lt;li>Detailed Explanation of TCP/IP Layers&lt;/li>
+&lt;li>Practical Applications and Differences&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Network Protocols:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Essential Protocols (TCP, UDP, ICMP)&lt;/li>
+&lt;li>ARP and DNS Basics&lt;/li>
+&lt;li>DHCP Configuration and Management&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Fundamental Network Principles:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Data Encapsulation and Packet Flow&lt;/li>
+&lt;li>Broadcast, Multicast, and Unicast Communication&lt;/li>
+&lt;li>Collision Domains and Broadcast Domains&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Explore these fundamental topics to establish a solid foundation in networking, paving the way for advanced concepts and practical implementation.&lt;/p></description></item><item><title>Interior Gateway Protocol (IGP)</title><link>https://kangifaz.com/docs/network-infrastructures/interior-gateway-protocol-igp/</link><pubDate>Sun, 23 Feb 2025 16:47:29 +0700</pubDate><guid>https://kangifaz.com/docs/network-infrastructures/interior-gateway-protocol-igp/</guid><description>
+&lt;p>Welcome to the Interior Gateway Protocol (IGP) documentation. This section provides comprehensive coverage of routing protocols designed to operate within an autonomous system. Each protocol&amp;rsquo;s theory, operational details, configurations, and best practices are clearly presented to ensure ease of understanding.&lt;/p>
+&lt;hr>
+&lt;h2>Key Topics Covered&lt;span class="hx-absolute -hx-mt-20" id="key-topics-covered">&lt;/span>
+&lt;a href="#key-topics-covered" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Introduction to IGP:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Purpose and Importance of IGPs&lt;/li>
+&lt;li>Difference between IGP and EGP&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Routing Information Protocol (RIP):&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Overview and Operation&lt;/li>
+&lt;li>RIP v1 vs. RIP v2&lt;/li>
+&lt;li>Configuration Examples and Troubleshooting&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Open Shortest Path First (OSPF):&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Fundamentals of OSPF&lt;/li>
+&lt;li>OSPF Areas and Types (Backbone, Stub, NSSA)&lt;/li>
+&lt;li>OSPF LSA Types and Route Calculation&lt;/li>
+&lt;li>Practical Configuration Examples&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Intermediate System to Intermediate System (IS-IS):&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>IS-IS Protocol Fundamentals&lt;/li>
+&lt;li>Comparison with OSPF&lt;/li>
+&lt;li>Levels and Areas in IS-IS&lt;/li>
+&lt;li>Configurations and Optimization Techniques&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Best Practices and Advanced Concepts:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>IGP Scalability and Stability&lt;/li>
+&lt;li>Route Redistribution and Filtering&lt;/li>
+&lt;li>Troubleshooting Common IGP Issues&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Deep dive into each protocol to effectively design, configure, and manage robust internal network routing solutions.&lt;/p></description></item><item><title>Border Gateway Protocol (BGP)</title><link>https://kangifaz.com/docs/network-infrastructures/border-gateway-protocol-bgp/</link><pubDate>Sun, 23 Feb 2025 16:47:29 +0700</pubDate><guid>https://kangifaz.com/docs/network-infrastructures/border-gateway-protocol-bgp/</guid><description>
+&lt;p>Welcome to the Border Gateway Protocol (BGP) section. As the protocol driving internet routing between autonomous systems (AS), BGP is essential for network professionals. This guide simplifies complex concepts and provides detailed insights, configuration examples, and best practices.&lt;/p>
+&lt;hr>
+&lt;h2>Key Topics Covered&lt;span class="hx-absolute -hx-mt-20" id="key-topics-covered">&lt;/span>
+&lt;a href="#key-topics-covered" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Introduction to BGP:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Understanding BGP and Its Role in Internet Routing&lt;/li>
+&lt;li>Differences between IGP and EGP&lt;/li>
+&lt;li>Autonomous Systems and AS Numbers&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>BGP Operation and Attributes:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Path Attributes (AS_PATH, NEXT_HOP, MED, Local Preference)&lt;/li>
+&lt;li>Route Selection Criteria&lt;/li>
+&lt;li>Path Vector Protocol Mechanism&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Configuring BGP:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Basic BGP Configuration&lt;/li>
+&lt;li>eBGP and iBGP Differences and Configurations&lt;/li>
+&lt;li>BGP Neighbor Establishment&lt;/li>
+&lt;li>Route Aggregation and Filtering&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Advanced BGP Features:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Route Reflectors and Confederations&lt;/li>
+&lt;li>Multiprotocol BGP (MP-BGP)&lt;/li>
+&lt;li>BGP Communities and Route Policies&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>BGP Troubleshooting and Optimization:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Common Issues and Debugging Techniques&lt;/li>
+&lt;li>Best Practices for Stability and Scalability&lt;/li>
+&lt;li>Optimizing BGP Convergence and Performance&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Master BGP concepts to confidently design, implement, and manage inter-AS routing solutions.&lt;/p></description></item><item><title>Multiprotocol Labelling Switching (MPLS)</title><link>https://kangifaz.com/docs/network-infrastructures/multiprotocol-labelling-switching-mpls/</link><pubDate>Sun, 23 Feb 2025 16:47:29 +0700</pubDate><guid>https://kangifaz.com/docs/network-infrastructures/multiprotocol-labelling-switching-mpls/</guid><description>
+&lt;p>Welcome to the Multiprotocol Label Switching (MPLS) documentation. MPLS is a widely used technology in modern networks, known for its efficient handling of packets and versatility in supporting various network services. This guide simplifies MPLS concepts, making it approachable for learners at all levels.&lt;/p>
+&lt;hr>
+&lt;h2>Key Topics Covered&lt;span class="hx-absolute -hx-mt-20" id="key-topics-covered">&lt;/span>
+&lt;a href="#key-topics-covered" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>MPLS Basics:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>What is MPLS?&lt;/li>
+&lt;li>MPLS Label Format and Label Stack&lt;/li>
+&lt;li>MPLS Operation and Label Switching&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>MPLS Architecture and Components:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Label Edge Router (LER) and Label Switch Router (LSR)&lt;/li>
+&lt;li>Forwarding Equivalence Class (FEC)&lt;/li>
+&lt;li>Label Distribution Protocol (LDP)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Practical MPLS Configurations:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>MPLS Basic Configuration&lt;/li>
+&lt;li>Label Distribution and Label Retention Modes&lt;/li>
+&lt;li>MPLS Troubleshooting Commands and Tools&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Advanced MPLS Applications:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>MPLS Virtual Private Networks (VPNs)&lt;/li>
+&lt;li>MPLS Traffic Engineering (TE)&lt;/li>
+&lt;li>MPLS Quality of Service (QoS)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Optimizing MPLS Networks:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>MPLS Traffic Engineering Tunnels&lt;/li>
+&lt;li>Fast Reroute and MPLS Resiliency&lt;/li>
+&lt;li>MPLS Network Management and Optimization&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Explore this MPLS section to build a strong foundation and effectively leverage MPLS for efficient, secure, and scalable network solutions.&lt;/p></description></item><item><title>Layer 2 VPN Services</title><link>https://kangifaz.com/docs/network-infrastructures/layer-2-vpn-services/</link><pubDate>Sun, 23 Feb 2025 16:47:29 +0700</pubDate><guid>https://kangifaz.com/docs/network-infrastructures/layer-2-vpn-services/</guid><description>
+&lt;p>Welcome to the Layer 2 VPN Services documentation. Layer 2 VPN solutions enable the extension of LAN connectivity across geographically dispersed sites. This guide covers key protocols, configurations, and best practices clearly and comprehensively.&lt;/p>
+&lt;hr>
+&lt;h2>Key Topics Covered&lt;span class="hx-absolute -hx-mt-20" id="key-topics-covered">&lt;/span>
+&lt;a href="#key-topics-covered" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Introduction to Layer 2 VPN:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>What is Layer 2 VPN?&lt;/li>
+&lt;li>Differences between Layer 2 and Layer 3 VPN&lt;/li>
+&lt;li>Typical Use-Cases and Applications&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Ethernet VPN (EVPN):&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>EVPN Fundamentals and Operations&lt;/li>
+&lt;li>Control Plane and Data Plane Concepts&lt;/li>
+&lt;li>EVPN Configuration Examples&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Virtual Private LAN Service (VPLS):&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Understanding VPLS Operation&lt;/li>
+&lt;li>VPLS Signaling and MAC Address Learning&lt;/li>
+&lt;li>Configuring and Troubleshooting VPLS&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Point-to-Point VPN Solutions:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Overview of EoMPLS (Ethernet over MPLS)&lt;/li>
+&lt;li>Configuration of Point-to-Point Layer 2 VPN&lt;/li>
+&lt;li>Use Cases and Implementation Scenarios&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Best Practices and Advanced Topics:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Layer 2 VPN Scalability Considerations&lt;/li>
+&lt;li>Redundancy and Resiliency Techniques&lt;/li>
+&lt;li>Troubleshooting Common Layer 2 VPN Issues&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Master Layer 2 VPN services to efficiently design, configure, and maintain reliable and scalable LAN connectivity across your network infrastructure.&lt;/p></description></item><item><title>Layer 3 VPN Service</title><link>https://kangifaz.com/docs/network-infrastructures/layer-3-vpn-service/</link><pubDate>Sun, 23 Feb 2025 16:47:30 +0700</pubDate><guid>https://kangifaz.com/docs/network-infrastructures/layer-3-vpn-service/</guid><description>
+&lt;p>Welcome to the Layer 3 VPN Service documentation. Layer 3 VPNs leverage MPLS to provide secure, scalable, and efficient connectivity across geographically dispersed networks. This section provides a detailed yet simplified guide to understanding and configuring Layer 3 VPNs.&lt;/p>
+&lt;hr>
+&lt;h2>Key Topics Covered&lt;span class="hx-absolute -hx-mt-20" id="key-topics-covered">&lt;/span>
+&lt;a href="#key-topics-covered" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Introduction to Layer 3 VPN:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Basics of Layer 3 VPNs&lt;/li>
+&lt;li>Benefits and Use Cases&lt;/li>
+&lt;li>Layer 3 VPN versus Layer 2 VPN&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>MPLS Layer 3 VPN Architecture:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Components: PE, CE, P Routers&lt;/li>
+&lt;li>VPN Routing and Forwarding (VRF) Concepts&lt;/li>
+&lt;li>MPLS and MP-BGP Role in Layer 3 VPN&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Configuring Layer 3 VPN:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Basic VRF and Routing Configuration&lt;/li>
+&lt;li>Route Distinguishers (RD) and Route Targets (RT)&lt;/li>
+&lt;li>Configuring MP-BGP and PE-CE Protocols (OSPF, BGP, Static Routing)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Advanced Layer 3 VPN Features:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Hub-and-Spoke Topology&lt;/li>
+&lt;li>Extranet VPN&lt;/li>
+&lt;li>Shared Service VPN Implementations&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Troubleshooting and Optimization:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Common Issues in Layer 3 VPNs&lt;/li>
+&lt;li>Troubleshooting Techniques and Commands&lt;/li>
+&lt;li>Best Practices for Scalability and Reliability&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Dive deep into Layer 3 VPNs to master the skills required for designing, deploying, and managing advanced MPLS VPN solutions.&lt;/p></description></item><item><title>Inter as VPN</title><link>https://kangifaz.com/docs/network-infrastructures/inter-as-vpn/</link><pubDate>Sun, 23 Feb 2025 16:47:30 +0700</pubDate><guid>https://kangifaz.com/docs/network-infrastructures/inter-as-vpn/</guid><description>
+&lt;p>Welcome to the Inter-AS VPN documentation. Inter-AS VPN solutions allow VPN connectivity across multiple autonomous systems, providing flexibility and scalability for large and distributed networks. This guide offers a clear understanding of Inter-AS VPNs, configurations, and advanced scenarios.&lt;/p>
+&lt;hr>
+&lt;h2>Key Topics Covered&lt;span class="hx-absolute -hx-mt-20" id="key-topics-covered">&lt;/span>
+&lt;a href="#key-topics-covered" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Introduction to Inter-AS VPN:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Understanding Inter-AS VPN&lt;/li>
+&lt;li>Applications and Use Cases&lt;/li>
+&lt;li>Comparison with Traditional VPN Solutions&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Inter-AS VPN Options:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Option A (Back-to-Back VRF):&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Concept and Use Cases&lt;/li>
+&lt;li>Configuration Examples&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Option B (ASBR-to-ASBR):&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Detailed Operation and Route Exchange&lt;/li>
+&lt;li>Practical Configuration Scenarios&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Option C (End-to-End MPLS):&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Comprehensive Explanation and Advantages&lt;/li>
+&lt;li>Configuration and Implementation Examples&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Advanced Topics and Scenarios:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Route Filtering and Route Reflectors&lt;/li>
+&lt;li>Inter-AS VPN Security Considerations&lt;/li>
+&lt;li>Managing Complexity and Ensuring Scalability&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Troubleshooting and Best Practices:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Common Issues in Inter-AS VPN Configurations&lt;/li>
+&lt;li>Troubleshooting Techniques and Tools&lt;/li>
+&lt;li>Recommended Practices for Robust and Efficient Deployment&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Master Inter-AS VPN configurations and best practices to effectively design, deploy, and manage VPN solutions across multiple autonomous systems.&lt;/p></description></item></channel></rss>
