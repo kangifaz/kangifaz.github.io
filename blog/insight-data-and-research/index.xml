@@ -1,0 +1,787 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alexandria - Kang Ifaz – Insight Data and Research</title><link>https://kangifaz.com/blog/insight-data-and-research/</link><description>Recent content in Insight Data and Research on Alexandria - Kang Ifaz</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© 2025 Kang Ifaz</copyright><lastBuildDate>Sun, 19 Jan 2025 08:01:35 +0700</lastBuildDate><atom:link href="https://kangifaz.com/blog/insight-data-and-research/index.xml" rel="self" type="application/rss+xml"/><item><title>Dashboard Anything with Looker Studio</title><link>https://kangifaz.com/blog/insight-data-and-research/dashboard-anything/</link><pubDate>Sun, 21 Sep 2025 18:05:29 +0700</pubDate><guid>https://kangifaz.com/blog/insight-data-and-research/dashboard-anything/</guid><description>
+&lt;p>In today’s world, almost anything can be tracked, analyzed, and visualized. With Google Looker Studio, we can create dashboards that go beyond business reports—they can even be used for personal life management. One example I’ve built is a &lt;strong>daily task activity dashboard for my son&lt;/strong>, turning everyday responsibilities into transparent, gamified achievements.&lt;/p>
+&lt;p>The system is simple but powerful:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Google Form&lt;/strong> is used to record daily activities—filled out by my son and my wife.&lt;/li>
+&lt;li>&lt;strong>Google Sheets&lt;/strong> automatically collects the responses and becomes the structured data source.&lt;/li>
+&lt;li>&lt;strong>Looker Studio&lt;/strong> connects to the Google Sheet, transforming the raw activity data into a dynamic, real-time dashboard.&lt;/li>
+&lt;/ol>
+&lt;p>This creates a seamless flow: input → database → visualization.&lt;/p>
+&lt;p>Here’s how the dashboard looks in practice:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Summary Results&lt;/strong>
+&lt;img src="img/image-1.png" alt="Summary Results" loading="lazy" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Activity and Achievements Chart&lt;/strong>
+&lt;img src="img/image-2.png" alt="Dashboard Chart Activity And Achivements" loading="lazy" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Task Distribution Charts&lt;/strong>
+&lt;img src="img/image-3.png" alt="Task distribution charts" loading="lazy" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Detailed Table of Tasks and Achievements&lt;/strong>
+&lt;img src="img/image-4.png" alt="Table detail task and achivement" loading="lazy" />&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>The &lt;strong>activity form&lt;/strong> records daily actions:
+&lt;img src="img/image-5.png" alt="Activity form" loading="lazy" />&lt;/p>
+&lt;p>The &lt;strong>spending nominal table&lt;/strong> keeps track of point conversions into money:
+&lt;img src="img/image-6.png" alt="Spending nominal" loading="lazy" />&lt;/p>
+&lt;p>Every completed task generates points. Points can be converted transparently into money, so whenever my son wants to buy something, he knows exactly how much more activity is needed to earn it.&lt;/p>
+&lt;p>This small experiment shows how dashboards are not only for companies, but also for families and individuals. Key advantages include:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Transparency&lt;/strong>: The calculation and progress are visible to everyone.&lt;/li>
+&lt;li>&lt;strong>Motivation&lt;/strong>: Gamification encourages consistency in completing tasks.&lt;/li>
+&lt;li>&lt;strong>Flexibility&lt;/strong>: Any Google Form input can be turned into visual insights.&lt;/li>
+&lt;li>&lt;strong>Scalability&lt;/strong>: The same framework could be used for financial tracking, project monitoring, fitness goals, and more.&lt;/li>
+&lt;/ul>
+&lt;p>Looker Studio’s professional-grade features make this possible:&lt;/p>
+&lt;ul>
+&lt;li>Joining and blending multiple tables&lt;/li>
+&lt;li>Applying rich formulas and data manipulation&lt;/li>
+&lt;li>Offering a wide variety of charts and visualization options&lt;/li>
+&lt;/ul>
+&lt;p>What started as a way to motivate my son has evolved into a showcase of how accessible modern dashboarding can be. With free tools like Google Sheets and Looker Studio, anyone can transform raw data into a living, interactive story.&lt;/p>
+&lt;p>Data is no longer locked in spreadsheets—it becomes a transparent guide for better decisions, whether in business or at home.&lt;/p></description></item><item><title>Kerangka Penelitian Ilmiah sebagai Metode Informasi Memvalidasi Informasi (Bahasa)</title><link>https://kangifaz.com/blog/insight-data-and-research/esai-kerangka-penulisan/</link><pubDate>Sun, 02 Mar 2025 00:55:31 +0700</pubDate><guid>https://kangifaz.com/blog/insight-data-and-research/esai-kerangka-penulisan/</guid><description>
+&lt;h2>&lt;strong>Pendahuluan&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="pendahuluan">&lt;/span>
+&lt;a href="#pendahuluan" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Pada masa ini, informasi beredar dengan sangat cepat, namun informasi yang beredar dengan cepat akan sangat sulit untuk melakukan filter kebenarannya. Salah satu metode untuk membuat filter pada tulisan, memastikan informasi yang beredar sudah terverifikasi perlu dilakukan adanya penelitian dan pelaporan penulisan ilmiah. Penulisan ilmiah merupakan metode sistematis untuk menyusun dan menyajikan hasil penelitian dengan tujuan memperoleh, mengembangkan, dan menguji informasi secara akurat. Penelitian ilmiah tidak hanya bertujuan untuk menemukan jawaban atas suatu permasalahan, tetapi juga memastikan bahwa informasi yang disajikan valid dan dapat diuji oleh pihak lain. Dalam dunia akademik dan bisnis, validitas informasi memiliki peran penting untuk mendukung pengambilan keputusan yang berbasis bukti. Oleh karena itu, memahami kerangka penulisan ilmiah menjadi esensial dalam menjaga relevansi dan kredibilitas suatu penelitian.&lt;/p>
+&lt;h2>&lt;strong>Definisi Penelitian dan Kepenulisan Ilmiah&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="definisi-penelitian-dan-kepenulisan-ilmiah">&lt;/span>
+&lt;a href="#definisi-penelitian-dan-kepenulisan-ilmiah" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Penelitian dapat didefinisikan sebagai proses sistematis untuk mengumpulkan, menganalisis, dan menafsirkan data guna menjawab pertanyaan atau mengatasi suatu masalah. Sedangkan kepenulisan ilmiah adalah cara menyusun hasil penelitian dalam bentuk tulisan yang dapat dipertanggungjawabkan secara akademik. Sebuah penelitian yang baik harus memiliki dasar teori yang kuat dan metodologi yang jelas agar hasilnya dapat diuji dan direplikasi oleh peneliti lain.&lt;/p>
+&lt;h2>&lt;strong>Tujuan dan Manfaat Penelitian&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="tujuan-dan-manfaat-penelitian">&lt;/span>
+&lt;a href="#tujuan-dan-manfaat-penelitian" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Tujuan utama dari penelitian ilmiah adalah memperluas wawasan dan menemukan solusi atas suatu permasalahan. Manfaatnya tidak hanya terbatas pada akademisi, tetapi juga memiliki dampak langsung pada praktis di dunia nyata. Dalam penelitian strategi informasi, misalnya, relevansi praktis menjadi salah satu aspek yang sering diperdebatkan. Penelitian yang memiliki relevansi praktis akan lebih mungkin digunakan oleh para praktisi untuk meningkatkan efisiensi kerja dan efektivitas pengambilan keputusan.&lt;/p>
+&lt;p>Selain itu, penelitian ilmiah juga berperan dalam mencegah misinformasi dengan memastikan bahwa setiap informasi yang dihasilkan telah melalui proses verifikasi yang ketat. Penelitian bisnis, misalnya, membantu perusahaan memahami tren pasar, perilaku konsumen, dan strategi kompetitif yang lebih efektif. Dengan adanya penelitian kemudian dilaporkan dalam bentuk kepenulisan dengan apik, maka akan adanya hasil suatu fenomena yang dijelaskan secara ilmiah. Dalam hal ini berarti fenomena dapat dijelaskan, diuji, dan dipahami secara empiris.&lt;/p>
+&lt;h2>&lt;strong>Perbedaan Penulisan Akademik dan Praktis dalam Penelitian&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="perbedaan-penulisan-akademik-dan-praktis-dalam-penelitian">&lt;/span>
+&lt;a href="#perbedaan-penulisan-akademik-dan-praktis-dalam-penelitian" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Dalam dunia penelitian, terdapat perbedaan antara penelitian akademik dan penelitian praktis. Penelitian akademik lebih menekankan pada pengembangan teori dan kontribusi terhadap ilmu pengetahuan. Sebaliknya, penelitian praktis lebih berfokus pada pemecahan masalah konkret yang dihadapi oleh organisasi atau industri tertentu.&lt;/p>
+&lt;p>Meskipun demikian, kesenjangan antara penelitian akademik dan praktik sering kali menjadi tantangan. Banyak penelitian akademik yang dianggap terlalu teoretis dan kurang dapat diterapkan secara langsung di dunia kerja. Oleh karena itu, salah satu tantangan utama dalam penelitian adalah menciptakan keseimbangan antara teori dan praktik agar hasil penelitian dapat memiliki dampak yang nyata. Opini mulai bermunculan mengenai perkembangan teknologi yang membuat perkembangan masalah di akademisi terkesan lebih lamban dibandingkan permasalahan yang ada di industri, hal ini juga menjadi kesenjangan di mana penelitian akademis yang menuntut selalu kaku untuk mampu berakselerasi dalam perkembangan masalah dalam penelitiannya.&lt;/p>
+&lt;h2>&lt;strong>Struktur Penelitian Ilmiah&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="struktur-penelitian-ilmiah">&lt;/span>
+&lt;a href="#struktur-penelitian-ilmiah" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Seperti disebutkan sebelumnya, kepenulisan dalam akademisi cukup kaku, penulisannya harus dibuat sangat terstruktur. Struktur penelitian ilmiah umumnya terdiri dari beberapa elemen utama, yaitu:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Pendahuluan&lt;/strong> – Berisi latar belakang masalah, tujuan penelitian, dan ruang lingkup penelitian.&lt;/li>
+&lt;li>&lt;strong>Tinjauan Pustaka&lt;/strong> – Menyajikan teori dan penelitian terdahulu yang relevan dengan topik yang diteliti.&lt;/li>
+&lt;li>&lt;strong>Metodologi&lt;/strong> – Menjelaskan metode yang digunakan dalam penelitian, termasuk teknik pengumpulan data dan analisis.&lt;/li>
+&lt;li>&lt;strong>Hasil dan Pembahasan&lt;/strong> – Menampilkan temuan utama penelitian dan analisis terhadap hasil yang diperoleh.&lt;/li>
+&lt;li>&lt;strong>Kesimpulan&lt;/strong> – Merangkum hasil penelitian serta memberikan rekomendasi untuk penelitian lebih lanjut.&lt;/li>
+&lt;/ul>
+&lt;p>Dalam penelitian bisnis, misalnya, struktur ini membantu memastikan bahwa penelitian dapat dipahami dan diaplikasikan secara sistematis.&lt;/p>
+&lt;h2>&lt;strong>Peran Etika dalam Penelitian&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="peran-etika-dalam-penelitian">&lt;/span>
+&lt;a href="#peran-etika-dalam-penelitian" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Etika penelitian berfungsi sebagai pedoman untuk memastikan bahwa penelitian dilakukan dengan integritas dan kejujuran. Prinsip-prinsip etika mencakup transparansi, akurasi, serta perlindungan terhadap subjek penelitian.&lt;/p>
+&lt;p>Kesalahan dalam penelitian, seperti fabrikasi data, plagiarisme, atau manipulasi hasil, dapat merusak kredibilitas akademik serta mengurangi kepercayaan publik terhadap penelitian ilmiah. Kasus-kasus pelanggaran etika dalam penelitian, seperti skandal penelitian COVID-19 yang berujung pada pencabutan artikel ilmiah dari jurnal ternama, menunjukkan betapa pentingnya menjaga integritas dalam penelitian.&lt;/p>
+&lt;h2>&lt;strong>Kesimpulan&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="kesimpulan">&lt;/span>
+&lt;a href="#kesimpulan" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Kerangka penulisan ilmiah berfungsi sebagai alat yang membantu dalam memvalidasi informasi serta memastikan bahwa setiap penelitian yang dilakukan memiliki kredibilitas dan relevansi baik dalam dunia akademik maupun praktis. Dengan memahami dan menerapkan metodologi yang sistematis serta menjunjung tinggi etika penelitian, para peneliti dapat menghasilkan informasi yang dapat dipertanggungjawabkan dan bermanfaat bagi masyarakat luas.&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Reference&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="reference">&lt;/span>
+&lt;a href="#reference" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Correia, M. I. T. D. (2023). &lt;em>Ethics in research&lt;/em>. Clinical Nutrition Open Science, 47, 121–130. &lt;a href="https://doi.org/10.1016/j.nutos.2022.12.010" target="_blank" rel="noopener">https://doi.org/10.1016/j.nutos.2022.12.010&lt;/a>&lt;/li>
+&lt;li>Denicol, J. (2022). &lt;em>Why clear managerial recommendations matter in major projects research: Searching for relevance in practice&lt;/em>. International Journal of Project Management, 40(2), 98–100. &lt;a href="https://doi.org/10.1016/j.ijproman.2022.01.004" target="_blank" rel="noopener">https://doi.org/10.1016/j.ijproman.2022.01.004&lt;/a>&lt;/li>
+&lt;li>Hair, J. F., Page, M., &amp;amp; Brunsveld, N. (n.d.). &lt;em>Essentials of Business Research Methods; Fourth Edition&lt;/em>.&lt;/li>
+&lt;li>Miller, S. R., Moore, F., &amp;amp; Eden, L. (2024). &lt;em>Ethics and international business research: Considerations and best practices&lt;/em>. International Business Review, 33(1). &lt;a href="https://doi.org/10.1016/j.ibusrev.2023.102207" target="_blank" rel="noopener">https://doi.org/10.1016/j.ibusrev.2023.102207&lt;/a>&lt;/li>
+&lt;li>Moeini, M., Rahrovani, Y., &amp;amp; Chan, Y. E. (2019). &lt;em>A review of the practical relevance of IS strategy scholarly research&lt;/em>. Journal of Strategic Information Systems, 28(2), 196–217. Elsevier B.V. &lt;a href="https://doi.org/10.1016/j.jsis.2018.12.003" target="_blank" rel="noopener">https://doi.org/10.1016/j.jsis.2018.12.003&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Free[AI] Secretary Service</title><link>https://kangifaz.com/blog/insight-data-and-research/ai-personal-assistant/</link><pubDate>Mon, 27 Jan 2025 23:29:38 +0700</pubDate><guid>https://kangifaz.com/blog/insight-data-and-research/ai-personal-assistant/</guid><description>
+&lt;h2>Background&lt;span class="hx-absolute -hx-mt-20" id="background">&lt;/span>
+&lt;a href="#background" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>As professionals and employees, we often face challenges like &lt;code>limited resources&lt;/code> whether it’s &lt;code>not enough people&lt;/code> to delegate tasks, &lt;code>not enough time&lt;/code> to get things done, or simply inefficient methods that waste time and energy. Many people still rely on manual or &lt;code>traditional procedures&lt;/code>, which not only &lt;code>slow down productivity&lt;/code> but can also lead to &lt;code>increased costs&lt;/code> in the long run.&lt;/p>
+&lt;p>Now, almost everyone is familiar with the &lt;code>concept of Artificial Intelligence&lt;/code> (AI), but &lt;code>implementing&lt;/code> it in daily tasks is still &lt;code>not widespread&lt;/code>. It’s not just about AI’s capabilities being limited; often, &lt;code>we as users don’t maximize the potential of AI&lt;/code> as a resource to help us.&lt;/p>
+&lt;p>Think about common office tasks: arranging schedules, setting up meetings, sending reminders, drafting emails, or searching for information. These tasks are repetitive and time-consuming, and we all deal with them regularly. AI can simplify these tasks. Simply put, &lt;strong>AI is when machines can think, learn, and solve problems like humans&lt;/strong>. It’s not as complicated as it sounds. AI can help with things like &lt;code>organizing schedules&lt;/code>, &lt;code>replying to messages&lt;/code>, &lt;code>searching for information&lt;/code>, and even &lt;code>automating tasks&lt;/code>. By &lt;code>using AI&lt;/code>, you can &lt;code>work faster&lt;/code> and &lt;code>smarter&lt;/code>, &lt;strong>focusing on the important things like your job, studies, or personal goals.&lt;/strong> And the best part? &lt;code>Many AI platforms are free&lt;/code> or very affordable.&lt;/p>
+&lt;h2>Methods&lt;span class="hx-absolute -hx-mt-20" id="methods">&lt;/span>
+&lt;a href="#methods" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>There are many AI platforms available, but some of the most practical and accessible include &lt;code>WhatsApp Meta AI&lt;/code>, &lt;code>Gemini AI&lt;/code>, and others like &lt;code>OpenAI&lt;/code>, &lt;code>Samsung AI&lt;/code>, and &lt;code>Apple AI&lt;/code>. Each has unique strengths, and here’s how they can help:&lt;/p>
+&lt;h3>WhatsApp Meta AI&lt;span class="hx-absolute -hx-mt-20" id="whatsapp-meta-ai">&lt;/span>
+&lt;a href="#whatsapp-meta-ai" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>WhatsApp is something almost all of us use every day for communication. Now, with Meta AI, you can use WhatsApp as a personal assistant. Imagine managing your tasks just by chatting. Meta AI allows you to:&lt;/p>
+&lt;ul>
+&lt;li>Add, edit, and close tasks through simple messages.&lt;/li>
+&lt;li>Schedule reminders directly within your chats.&lt;/li>
+&lt;li>Keep everything organized in the app you already rely on for work and personal communication.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="img/image.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;p>This is one of the most convenient AI tools because it’s integrated into an app you’re already comfortable using.&lt;/p>
+&lt;p>&lt;img src="img/image-1.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;p>What prompt I&amp;rsquo;ve used on whatsapp Meta AI&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Me&lt;/strong> : Please being my secretary, and maintain my task list&lt;/p>
+&lt;/blockquote>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>Meta : I&amp;#39;d be happy to help you manage your task list. I&amp;#39;ll keep track of your tasksand provide reminders and updates as needed.
+To get started, your task list is currently empty. What tasks would you like to add? Youcan tell me a task, and I&amp;#39;ll add it to your list.&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;blockquote>
+&lt;p>&lt;strong>Me&lt;/strong> : First please maintain my task list with format as below Datetime created task - target date time close - task name&lt;/p>
+&lt;ul>
+&lt;li>datetime - task update progress 1&lt;/li>
+&lt;li>datetime - task update progress 2&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code> Meta : I&amp;#39;ll maintain your task list in the format you specified. Here is the initial task list:
+No tasks currently in the list.
+To add a task, simply provide the task details, and I&amp;#39;ll update the list accordingly.&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;blockquote>
+&lt;p>&lt;strong>Me&lt;/strong> : Add some tasks:&lt;/p>
+&lt;ol>
+&lt;li>Meeting with internal team, tomorrow morning 9 AM&lt;/li>
+&lt;li>Meeting with PM Team tomorrow after lunch 2 PM about acceptance test result&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>Meta : Here is the updated task list:
+2025-01-27 00:00:00 - 2025-01-28 09:00:00 - Meeting with internal team -
+2025-01-27 00:00:00 - 2025-01-28 14:00:00 - Meeting with PM Team -&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;blockquote>
+&lt;p>&lt;strong>Me&lt;/strong> : Please follow the current date and time. Now is 27 Jan 23:25.&lt;/p>
+&lt;/blockquote>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>Meta : Here is the updated task list with the current date and time:
+2025-01-27 23:25:00 - 2025-01-28 09:00:00 - Meeting with internal team -
+2025-01-27 23:25:00 - 2025-01-28 14:00:00 - Meeting with PM Team -&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;blockquote>
+&lt;p>&lt;strong>Me&lt;/strong> : Reschedule the meeting with PM to 29 Jan at 15:00.&lt;/p>
+&lt;/blockquote>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>Meta : Here is the updated task list:
+2025-01-27 23:25:00 - 2025-01-28 09:00:00 - Meeting with internal team -
+2025-01-27 23:25:00 - 2025-01-29 15:00:00 - Meeting with PM Team -&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;blockquote>
+&lt;p>&lt;strong>Me&lt;/strong> : Add another task: Need to sign the acceptance document and close it tonight before 22:00.&lt;/p>
+&lt;/blockquote>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>Meta : Here is the updated task list:
+2025-01-27 23:25:00 - 2025-01-28 09:00:00 - Meeting with internal team -
+2025-01-27 23:25:00 - 2025-01-29 15:00:00 - Meeting with PM Team -
+2025-01-27 23:25:00 - 2025-01-27 22:00:00 - Sign Acceptance Document -&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;blockquote>
+&lt;p>&lt;strong>Me&lt;/strong> : Mark the acceptance task as done.&lt;/p>
+&lt;/blockquote>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>Meta : Here is the updated task list:
+2025-01-27 23:25:00 - 2025-01-28 09:00:00 - Meeting with internal team -
+2025-01-27 23:25:00 - 2025-01-29 15:00:00 - Meeting with PM Team -
+2025-01-27 23:25:00 - 2025-01-27 22:00:00 - Sign Acceptance Document - 2025-01-27 23:25:00 - Done&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;blockquote>
+&lt;p>&lt;strong>Me&lt;/strong> : I want to report the document signed via email. Please give me a recommendation for the report.&lt;/p>
+&lt;/blockquote>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>Meta : Here&amp;#39;s a simple email template you can use to report the signed document:
+Subject: Notification: Acceptance Document Signed
+Dear [Recipient&amp;#39;s Name],
+I am writing to confirm that I have signed the acceptance document as required.
+Details:
+• Document Name: [Acceptance Document Name]
+• Date Signed: 2025-01-27
+• Time Signed: [Time]
+Please let me know if any further action is required.
+Best regards,
+[Your Name]&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h3>Gemini AI&lt;span class="hx-absolute -hx-mt-20" id="gemini-ai">&lt;/span>
+&lt;a href="#gemini-ai" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Gemini AI is an excellent alternative, especially for Android users. &lt;code>It works seamlessly with the Google ecosystem&lt;/code>, making it easy to:&lt;/p>
+&lt;ul>
+&lt;li>Sync with Google Tasks and other Google services.&lt;/li>
+&lt;li>Organize and prioritize your day with smart task suggestions.&lt;/li>
+&lt;li>Use voice commands for hands-free assistance.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="img/image-3.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;p>If you’re already using Android and Google’s environment, Gemini AI fits perfectly into your workflow.&lt;/p>
+&lt;p>&lt;img src="img/image-2.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;h3>Other Options: Apple AI and Samsung AI&lt;span class="hx-absolute -hx-mt-20" id="other-options-apple-ai-and-samsung-ai">&lt;/span>
+&lt;a href="#other-options-apple-ai-and-samsung-ai" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>While I personally don’t use Apple AI (Siri) or Samsung AI (Bixby), they’re worth mentioning. These platforms offer advanced integration with their ecosystems:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Apple AI&lt;/strong> provides seamless syncing across iPhones, Macs, and other Apple devices, allowing powerful voice commands and multitasking.&lt;/li>
+&lt;li>&lt;strong>Samsung AI&lt;/strong> excels in combining hardware and software, with tools like SmartThings for controlling smart devices.&lt;/li>
+&lt;/ul>
+&lt;h3>OpenAI for Advanced Tasks&lt;span class="hx-absolute -hx-mt-20" id="openai-for-advanced-tasks">&lt;/span>
+&lt;a href="#openai-for-advanced-tasks" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;code>For more complex&lt;/code> and demanding tasks, I recommend OpenAI, especially their GPT-4o model (sometimes referred to as Model O1). It’s fantastic for writing, coding, or solving difficult problems. OpenAI offers unmatched flexibility for tackling professional challenges.&lt;/p>
+&lt;h2>Conclusion&lt;span class="hx-absolute -hx-mt-20" id="conclusion">&lt;/span>
+&lt;a href="#conclusion" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>AI is not here to replace human resources&lt;/strong>. This article is not about suggesting that we eliminate secretarial roles—their human touch and expertise are invaluable. However, for those of us who don’t have a personal secretary, &lt;code>AI provides an amazing alternative&lt;/code>.&lt;/p>
+&lt;p>To use AI effectively, keep these points in mind:&lt;/p>
+&lt;ul>
+&lt;li>Identify repetitive tasks that AI can manage efficiently.&lt;/li>
+&lt;li>Always double-check AI’s output to ensure accuracy.&lt;/li>
+&lt;li>Use AI as a helper to enhance—not replace—your capabilities.&lt;/li>
+&lt;/ul>
+&lt;p>By leveraging AI strategically, you can significantly boost your productivity and focus on what truly matters. Whether you prefer WhatsApp Meta AI, Gemini AI, or advanced tools like OpenAI, there’s an option that fits your needs. Start exploring and see how AI can transform your workflow—it’s easier and more powerful than you think!&lt;/p></description></item><item><title>Indonesia Data Center Market Landscape</title><link>https://kangifaz.com/blog/insight-data-and-research/data-center-market-landscape/</link><pubDate>Sat, 18 Jan 2025 18:05:31 +0700</pubDate><guid>https://kangifaz.com/blog/insight-data-and-research/data-center-market-landscape/</guid><description>
+&lt;h2>Data Center Market Landscape&lt;span class="hx-absolute -hx-mt-20" id="data-center-market-landscape">&lt;/span>
+&lt;a href="#data-center-market-landscape" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Specific look at The ASEAN data center market is experiencing significant growth, &lt;code>driven by increasing digitalization&lt;/code> and a &lt;code>rising demand&lt;/code> for cloud services. Singapore has long been the region’s primary hub due to its strong infrastructure, regulatory stability, and excellent connectivity. However, as Singapore reaches its capacity limits, opportunities are emerging in neighboring countries.&lt;/p>
+&lt;p>Indonesia is particularly noteworthy with its &lt;code>population of 270 million&lt;/code> and an &lt;code>internet penetration rate of 76.3%&lt;/code>, translating to over &lt;code>212 million internet users&lt;/code>. This large population and growing digital adoption indicate substantial potential for data center expansion. Malaysia also presents attractive opportunities, especially in regions like Johor and Cyberjaya, which offer strategic locations and strong government incentives for foreign investments.&lt;/p>
+&lt;p>Vietnam is rapidly developing its digital infrastructure, supported by a young and tech-savvy population. While it faces challenges such as regulatory clarity and power availability, the demand for data centers is expected to grow as these issues are addressed. Thailand is positioning itself as a digital hub with significant investments in infrastructure and data sovereignty laws, making Bangkok an ideal gateway for regional connectivity.&lt;/p>
+&lt;p>Cloud adoption across ASEAN is on the rise, particularly in the public sector. Central governments show the &lt;code>highest adoption rates at 71.4%&lt;/code>, followed by &lt;code>universities (34%)&lt;/code>, &lt;code>local governments (25.4%)&lt;/code>, and &lt;code>hospitals (8.8%)&lt;/code>. Despite this growth, &lt;code>39.6% of public institutions&lt;/code> plan to adopt cloud services in the near future. The main barrier remains concerns over data security and privacy, especially in the healthcare sector. Addressing these concerns through enhanced security measures will be crucial for further adoption.&lt;/p>
+&lt;p>Looking ahead, the correlation between increasing market demand and the need for robust data center supply is clear. As the ASEAN digital economy continues to expand, the demand for data centers will surge, necessitating strong supply solutions to meet these needs. In the next five years, advancements in cloud technology are expected to alleviate current concerns, fostering greater trust and widespread adoption.&lt;/p>
+&lt;p>Additionally, the &lt;code>ICT industry in ASEAN is continuously evolving&lt;/code> with innovations in machine learning, artificial intelligence, and conventional system improvements. These advancements not only enhance data center efficiency but also address various societal challenges through improved algorithms and logical solutions.&lt;/p>
+&lt;p>The increasing demand for data correlates directly with the growing need for data centers in ASEAN. Singapore, despite its robust infrastructure, cannot single-handedly meet the region&amp;rsquo;s demands. Collaboration with neighboring countries, such as Equinix&amp;rsquo;s initiatives in Indonesia, is essential to address the spillover of unmet demand.&lt;/p>
+&lt;h3>Factors significantly influence this growth:&lt;span class="hx-absolute -hx-mt-20" id="factors-significantly-influence-this-growth">&lt;/span>
+&lt;a href="#factors-significantly-influence-this-growth" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Digitalization Levels&lt;/strong>: The extent to which digital technologies are adopted within a country drives the need for data infrastructure.&lt;/li>
+&lt;li>&lt;strong>Regulatory Support&lt;/strong>: Supportive regulations, including favorable tax policies and - streamlined permitting processes for data centers, are crucial for facilitating growth.&lt;/li>
+&lt;li>&lt;strong>Innovation and Services&lt;/strong>: The development of innovative services that meet the evolving needs of the population ensures sustained demand for data center services.&lt;/li>
+&lt;/ul>
+&lt;p>In simple terms, the market landscape and unmet demand in ASEAN are expected to continue growing. The rate of this growth will depend on the above factors, including how aggressively countries pursue digitalization, the strength of regulatory support, and the pace of innovation in the ICT sector.&lt;/p>
+&lt;p>Looking ahead, as the ASEAN digital economy continues to expand, the demand for data centers will surge, necessitating robust supply solutions to meet these needs. In the next five years, advancements in cloud technology are expected to alleviate current concerns, fostering greater trust and widespread adoption.&lt;/p>
+&lt;h2>Indonesia’s Market Position&lt;span class="hx-absolute -hx-mt-20" id="indonesias-market-position">&lt;/span>
+&lt;a href="#indonesias-market-position" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>Market Volume Data Center 2025 - 2030&lt;span class="hx-absolute -hx-mt-20" id="market-volume-data-center-2025---2030">&lt;/span>
+&lt;a href="#market-volume-data-center-2025---2030" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Indonesia’s data center market is on the rise, experiencing remarkable growth as it prepares to compete with other leading markets in Asia. &lt;code>By 2025, the country’s market volume is expected to reach 0.97 thousand MW&lt;/code>, and by &lt;code>2030, it will more than double to 2.11 thousand MW&lt;/code>. While it may not yet rival the giants like India or Japan, Indonesia’s rapid growth places it as a strong contender, even catching up with markets like Hong Kong.&lt;/p>
+&lt;p>&lt;img src="img/image-2.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;p>India is leading the way in the region, with its data center capacity expected to grow significantly from 3.31 thousand MW in 2025 to 6.69 thousand MW in 2030. This impressive growth is driven by its large population, rapidly expanding digital economy, and extensive infrastructure projects. Japan, as a mature and advanced market, will see its capacity increase from 2.32 thousand MW in 2025 to 3.66 thousand MW in 2030, maintaining its role as a key player in Asia. However, both countries are growing at a more stable pace, creating opportunities for emerging markets like Indonesia to stand out.&lt;/p>
+&lt;p>Hong Kong presents a different scenario. As a financial hub, its data center market is projected to grow from 1.42 thousand MW in 2025 to 2.1 thousand MW in 2030, which is just slightly behind Indonesia. However, challenges such as limited land availability and high operating costs restrict Hong Kong’s potential for further growth, giving Indonesia an advantage with its lower costs and abundant resources.&lt;/p>
+&lt;p>On the other hand, the Philippines lags behind, with its data center capacity growing from 0.56 thousand MW in 2025 to 1.3 thousand MW in 2030. While the growth is steady, it doesn’t match the scale or investment momentum seen in Indonesia, which has firmly established itself as the leading emerging market in the region.&lt;/p>
+&lt;p>Indonesia’s growth is fueled by several factors. The country’s &lt;code>digital transformation, driven by increasing demand&lt;/code> for cloud services and the rise of e-commerce, has created a surge in data center needs. Global tech giants like Amazon, Google, and Microsoft have already recognized this potential, investing heavily in the market. On top of that, government-backed initiatives such as “Indonesia 4.0” are laying the foundation for sustainable growth in the sector.&lt;/p>
+&lt;p>But the road isn’t without its challenges. &lt;code>Indonesia must address infrastructure issues&lt;/code>, particularly in power reliability and connectivity, to fully capitalize on its potential. Competition with established markets like India and Japan is also fierce, but Indonesia’s 16.73% CAGR—one of the highest in the region—underscores its ability to rise above these hurdles.&lt;/p>
+&lt;p>With a strategic location in Southeast Asia, a growing digital economy, and a competitive cost structure, Indonesia is positioning itself as a major player in the data center industry. The next few years will be crucial as the country works to solidify its position and attract even more global investments.&lt;/p>
+&lt;p>Indonesia’s data center market isn’t just growing—it’s evolving into a cornerstone of Southeast Asia’s digital infrastructure. As the market continues to expand, Indonesia is poised to become a regional powerhouse, offering exciting opportunities for businesses and investors looking to tap into one of the fastest-growing digital markets in the world.&lt;/p>
+&lt;h3>Market Size Data Center 2025 - 2030&lt;span class="hx-absolute -hx-mt-20" id="market-size-data-center-2025---2030">&lt;/span>
+&lt;a href="#market-size-data-center-2025---2030" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Indonesia’s data center market is poised for significant growth&lt;/strong>, fueled by the country’s booming digital economy and increased investments in digital infrastructure. &lt;code>By 2025, the market size is projected to reach $675 million&lt;/code>, growing to &lt;code>$1,888 million by 2030&lt;/code>, representing an &lt;code>impressive CAGR of 22.84%.&lt;/code> This rapid expansion positions Indonesia as one of the fastest-growing data center markets in Asia.&lt;/p>
+&lt;p>Despite trailing behind regional giants like India ($4,932 million) and Japan ($4,982 million) by 2030, Indonesia’s market size surpasses the Philippines ($1,162 million) and is competitive with Hong Kong ($2,541 million). With rising demand for cloud computing, e-commerce, and digital services, Indonesia is becoming an attractive destination for global data center providers like AWS, Google, and Microsoft.&lt;/p>
+&lt;p>&lt;img src="img/image-3.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;p>The government’s commitment to initiatives such as “Indonesia 4.0”, alongside increasing foreign investments, is driving this growth. However, challenges like power reliability and connectivity infrastructure remain critical factors that need to be addressed.&lt;/p>
+&lt;p>Indonesia’s strategic location, cost advantages, and untapped potential make it a key player in Asia’s data center landscape. As the market continues to expand, the country is set to compete with more mature markets, offering significant opportunities for investors and businesses looking to capitalize on the region’s digital transformation.&lt;/p>
+&lt;h3>Data Center Compound annual growth rate (CAGR)&lt;span class="hx-absolute -hx-mt-20" id="data-center-compound-annual-growth-rate-cagr">&lt;/span>
+&lt;a href="#data-center-compound-annual-growth-rate-cagr" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The compound annual growth rate (CAGR) comparison paints a clear picture: Indonesia is emerging as the fastest-growing data center market in Asia, leading the way in market size expansion between 2025 and 2030. At 23% CAGR in market size and 17% CAGR in capacity (MW), Indonesia is showcasing its potential as a hub for digital transformation and infrastructure development.&lt;/p>
+&lt;p>&lt;img src="img/image-4.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;p>While &lt;code>India remains the dominant player in capacity growth, with a staggering 26% CAGR in MW, Indonesia’s balanced growth across both market size and capacity&lt;/code> reflects its strategic push for scaling digital infrastructure. India’s rapid capacity expansion highlights its role as a key regional leader, but Indonesia’s growth rate positions it as an attractive destination for global investments.&lt;/p>
+&lt;p>The Philippines, despite its smaller market, edges ahead with a 24% CAGR in market size, surpassing Indonesia in percentage terms. However, with a lower base, the impact of this growth is limited compared to Indonesia’s larger scale. Meanwhile, Japan and Hong Kong show slower growth rates of 15% CAGR in market size, emphasizing their status as mature markets with limited room for aggressive expansion.&lt;/p>
+&lt;p>For Hong Kong, challenges such as high operational costs and limited physical space hinder its capacity growth, which stands at just 8% CAGR. Japan, while maintaining stability, also focuses on optimizing its mature infrastructure, reflected in its 10% CAGR in capacity.&lt;/p>
+&lt;p>Indonesia’s growth story is driven by increasing demand for cloud computing, the rapid rise of e-commerce, and government-led digital transformation initiatives. Global tech giants like Amazon and Google are tapping into this growth, further boosting the country’s potential. With 23% CAGR in market size, Indonesia is setting itself apart as the most dynamic market in Southeast Asia.&lt;/p>
+&lt;p>However, challenges remain. The country must address infrastructure reliability and competition from established players like India and Japan. Despite this, Indonesia’s ability to attract investment and leverage its cost advantages makes it a standout market with the potential to become a major regional hub.&lt;/p>
+&lt;p>Indonesia isn’t just keeping up—it’s leading the charge in data center growth across Asia. Its balanced expansion in both market size and capacity underlines its commitment to becoming a key player in the digital economy. As global and regional demand continues to rise, Indonesia is well-positioned to capitalize on this momentum and solidify its place as a top destination for data center development.&lt;/p>
+&lt;h3>Growing Presence in Installed Racks&lt;span class="hx-absolute -hx-mt-20" id="growing-presence-in-installed-racks">&lt;/span>
+&lt;a href="#growing-presence-in-installed-racks" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The numbers tell a powerful story: Indonesia’s data center market is on the rise, with the total number of installed racks &lt;code>projected to more than double from 124,609 in 2025 to 270,077 in 2030&lt;/code>. This rapid growth highlights the country’s significant efforts to expand its digital infrastructure and meet the growing demands of the cloud computing and e-commerce sectors.&lt;/p>
+&lt;p>&lt;img src="img/image-5.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;p>&lt;code>While Indonesia is growing quickly,&lt;/code> it is still trailing behind regional giants like India and Japan in absolute numbers. India, the clear leader, is expected to nearly double its installed racks from 424,662 in 2025 to a staggering 858,235 by 2030. This reflects India’s position as the go-to destination for large-scale data center projects, driven by its massive population and a booming digital economy. Similarly, Japan will see steady growth, increasing from 297,935 racks in 2025 to 466,216 in 2030, solidifying its role as a mature and technologically advanced data center hub.&lt;/p>
+&lt;p>Hong Kong remains competitive, growing from 181,464 racks in 2025 to 268,805 by 2030, just slightly behind Indonesia. However, Hong Kong faces challenges such as land scarcity and higher operational costs, which may limit its ability to scale further. On the other hand, the Philippines shows promising growth, doubling its installed racks from 72,346 in 2025 to 166,197 in 2030. Despite its smaller size, the Philippines is making steady progress in developing its data center market.&lt;/p>
+&lt;p>Indonesia’s projected growth in installed racks is a testament to the country’s rising prominence in Southeast Asia. The more than doubling of racks from 2025 to 2030 reflects significant investments in digital infrastructure and the increasing adoption of cloud services by businesses and consumers. Indonesia’s strategic location and abundant resources provide it with a competitive edge over some of its regional peers, even as it works to close the gap with larger markets like India and Japan.&lt;/p>
+&lt;p>Indonesia’s impressive growth trajectory is fueled by several key factors:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Rising Digital Demand:&lt;/strong> The explosion of e-commerce, fintech, and digital services in Indonesia has created a massive need for data storage and processing capabilities.&lt;/li>
+&lt;li>&lt;strong>Global Investments:&lt;/strong> Major players like Google, Amazon, and Microsoft are investing heavily in Indonesia’s data center infrastructure, further boosting its capacity.&lt;/li>
+&lt;li>&lt;strong>Government Support:&lt;/strong> Initiatives such as “Indonesia 4.0” are driving digital transformation, encouraging both domestic and foreign investments in the sector.&lt;/li>
+&lt;/ul>
+&lt;p>While Indonesia is on a strong growth path, it faces challenges such as power reliability, internet connectivity, and competition from regional leaders. However, its rapid growth rate, coupled with lower costs and abundant land, positions it as an attractive destination for data center expansion.&lt;/p>
+&lt;p>By 2030, Indonesia is set to become a key player in the Asian data center market, with 270,077 installed racks highlighting its growing capacity and influence. Although it lags behind India and Japan in absolute numbers, its rapid growth places it in a strong position to become a leading hub for digital infrastructure in Southeast Asia. As Indonesia continues to scale, it offers exciting opportunities for businesses and investors looking to be part of this digital revolution.&lt;/p>
+&lt;h3>Indonesia’s Data Center: A Comparative Growth Story&lt;span class="hx-absolute -hx-mt-20" id="indonesias-data-center-a-comparative-growth-story">&lt;/span>
+&lt;a href="#indonesias-data-center-a-comparative-growth-story" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Indonesia’s data center market is on an impressive growth trajectory, solidifying its position as one of the fastest-growing markets in Southeast Asia. A closer look at key metrics reveals how Indonesia compares to regional players like Japan, the Philippines, and the broader Asia Pacific region, highlighting its rapid expansion and future potential.&lt;/p>
+&lt;p>&lt;img src="img/image-6.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;h4>Doubling Capacity by 2030&lt;span class="hx-absolute -hx-mt-20" id="doubling-capacity-by-2030">&lt;/span>
+&lt;a href="#doubling-capacity-by-2030" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>By &lt;code>2025, Indonesia’s data centers will house 124,609 installed racks&lt;/code>, achieving 41.82% of Japan’s total racks and an impressive 172.24% of the Philippines’ capacity. By 2030, Indonesia’s rack count will more than double to 270,077, surpassing the Philippines by 162.50% and closing the gap with Japan, reaching 57.93% of its total racks. Compared to the Asia Pacific average, Indonesia’s contribution remains modest, but its steady growth signals a strong push for infrastructure expansion.&lt;/p>
+&lt;h5>IT Load Capacity: Steady Growth Ahead&lt;span class="hx-absolute -hx-mt-20" id="it-load-capacity-steady-growth-ahead">&lt;/span>
+&lt;a href="#it-load-capacity-steady-growth-ahead" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;p>Indonesia is making significant strides in IT load capacity, aligning closely with Japan. &lt;code>By 2025, Indonesia achieves 0.33% higher capacity than Japan&lt;/code> and maintains this momentum into 2030. When &lt;code>compared to the Philippines, Indonesia outpaces it by a staggering 172.25% in 2025&lt;/code>, demonstrating its dominance in the region. However, relative to the Asia Pacific, Indonesia’s contribution remains consistent at around 4.78%, leaving room for further growth and regional impact.&lt;/p>
+&lt;h4>Market Size: A Rising Digital Economy&lt;span class="hx-absolute -hx-mt-20" id="market-size-a-rising-digital-economy">&lt;/span>
+&lt;a href="#market-size-a-rising-digital-economy" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>Indonesia’s data center market size tells a compelling story of growth. &lt;code>By 2025, the market is expected to reach $675 million, which is 26.88% of Japan’s market size and an amazing 172.23% of the Philippines’ total&lt;/code>. By 2030, Indonesia’s market size will grow to $1.88 billion, improving to 37.91% of Japan’s total while maintaining its strong lead over the Philippines at 162.50%. Within the Asia Pacific, &lt;code>Indonesia’s contribution to the total market size grows modestly to 4.67%,&lt;/code> emphasizing its rising significance.&lt;/p>
+&lt;h4>Market Volume: Expanding at Full Speed&lt;span class="hx-absolute -hx-mt-20" id="market-volume-expanding-at-full-speed">&lt;/span>
+&lt;a href="#market-volume-expanding-at-full-speed" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>Indonesia’s market volume, measured in thousand MW, highlights its accelerating growth. By 2025, &lt;code>Indonesia achieves 41.81% of Japan’s volume&lt;/code> and an `impressive 173.21% of the Philippines’`` capacity, showcasing its ability to scale rapidly. By 2030, Indonesia narrows the gap with Japan, achieving 57.65% of its volume, while continuing to outpace the Philippines by 162.31%. Compared to the Asia Pacific, Indonesia’s share grows slightly to 5.61%, signaling its increasing role in the region’s data center landscape.&lt;/p>
+&lt;h4>CAGR: Leading the Growth Pack&lt;span class="hx-absolute -hx-mt-20" id="cagr-leading-the-growth-pack">&lt;/span>
+&lt;a href="#cagr-leading-the-growth-pack" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>&lt;code>Indonesia’s Compound Annual Growth Rate (CAGR) underscores its status as a market leader.&lt;/code> Between 2025 and 2030, &lt;code>Indonesia’s CAGR for IT load capacity (MW) reaches 175.92% compared to Japan and 92.43% compared to the Philippines,&lt;/code> highlighting its infrastructure’s rapid scaling. For market size, Indonesia’s CAGR of 155.37% aligns closely with Japan and exceeds the Asia Pacific average by 132.41%, positioning it as one of the most dynamic players in the region.&lt;/p>
+&lt;p>Indonesia’s Growth in Context&lt;/p>
+&lt;ul>
+&lt;li>Against Japan: While Japan remains a dominant and mature market, Indonesia is steadily narrowing the gap, particularly in installed racks, IT load capacity, and market volume.&lt;/li>
+&lt;li>Against the Philippines: Indonesia consistently outpaces the Philippines across all metrics, establishing itself as the clear leader in Southeast Asia.&lt;/li>
+&lt;li>Within Asia Pacific: Although Indonesia’s contributions remain relatively modest compared to the Asia Pacific total, its rapid growth rates and increasing capacity position it as a rising star in the regional market.&lt;/li>
+&lt;/ul>
+&lt;p>Indonesia’s data center market is undergoing a transformative phase, driven by strong demand for digital services, rapid adoption of cloud computing, and substantial investments from global tech giants. With its doubling capacity, robust CAGR, and expanding market share, Indonesia is poised to become a significant player in the Southeast Asian and Asia Pacific digital economy.&lt;/p>
+&lt;p>As Indonesia continues to close the gap with regional leaders and address infrastructure challenges, it offers exciting opportunities for businesses and investors looking to tap into one of the fastest-growing data center markets in the world.&lt;/p>
+&lt;h2>Conclusion&lt;span class="hx-absolute -hx-mt-20" id="conclusion">&lt;/span>
+&lt;a href="#conclusion" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Indonesia’s data center market is on a transformative journey, experiencing one of the highest growth rates in the region and solidifying its position as a critical player in Asia’s digital economy. With projections showing exponential growth across key metrics such as market size, installed racks, IT load capacity, and market volume, Indonesia is rapidly outpacing smaller markets like the Philippines and is well-positioned to rival established players such as Hong Kong in the near future.&lt;/p>
+&lt;h3>A Market Poised for Growth&lt;span class="hx-absolute -hx-mt-20" id="a-market-poised-for-growth">&lt;/span>
+&lt;a href="#a-market-poised-for-growth" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>By 2030, Indonesia’s data center market is expected to:&lt;/p>
+&lt;ul>
+&lt;li>Market Size: Expand from $675 million in 2025 to $1.88 billion, with a CAGR of 23%, the highest among its peers.&lt;/li>
+&lt;li>Installed Racks: Double in capacity from 124,609 racks in 2025 to 270,077 racks, surpassing the Philippines by over 162% and closing the gap with Hong Kong and Japan.&lt;/li>
+&lt;li>Market Volume: Increase from 0.97 thousand MW in 2025 to 2.11 thousand MW, nearly matching Hong Kong and continuing to outpace the Philippines.&lt;/li>
+&lt;/ul>
+&lt;p>While India and Japan remain dominant in absolute size, Indonesia’s rapid expansion highlights its potential to play a much larger role in the region. India, for example, will maintain its leadership with 858,235 racks and 6.69 thousand MW market volume by 2030, while Japan continues its steady growth with 466,216 racks and 3.66 thousand MW. Yet, Indonesia’s high CAGR and dynamic growth trajectory make it a compelling market for future investment.&lt;/p>
+&lt;p>Indonesia’s competitive edge lies in several key factors:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Strategic Location:&lt;/strong> As the largest economy in Southeast Asia, Indonesia is geographically well-positioned to serve as a regional hub for data center operations, connecting the region to global digital infrastructure.&lt;/li>
+&lt;li>&lt;strong>Cost Advantages:&lt;/strong> Compared to high-cost markets like Hong Kong and Japan, Indonesia offers lower operational costs and abundant land, making it an attractive destination for large-scale data center projects.&lt;/li>
+&lt;li>&lt;strong>Government Support:&lt;/strong> Initiatives such as “Indonesia 4.0” and other digital transformation policies are driving investments and fostering a business-friendly environment.&lt;/li>
+&lt;li>&lt;strong>Global Investments:&lt;/strong> Major players like Google, Amazon, and Microsoft are tapping into Indonesia’s potential, further accelerating its growth and infrastructure development.
+Challenges to Address&lt;/li>
+&lt;/ol>
+&lt;p>While Indonesia’s growth is impressive, challenges remain:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Infrastructure Reliability:&lt;/strong> Power supply stability and connectivity remain key areas requiring improvement, particularly in remote regions.&lt;/li>
+&lt;li>&lt;strong>Policy and Regulation:&lt;/strong> Ensuring consistent and favorable regulations for international investors will be critical to sustaining growth.&lt;/li>
+&lt;li>&lt;strong>Competition from Regional Leaders:&lt;/strong> Indonesia faces stiff competition from India and Japan, both of which have established ecosystems and larger economies of scale.
+A Look to the Future&lt;/li>
+&lt;/ul>
+&lt;p>Indonesia’s data center market is at a pivotal moment. By maintaining its growth momentum and addressing its challenges, the country has the potential to become a leading hub for data center operations in Southeast Asia and beyond. It is already outpacing smaller markets like the Philippines and narrowing the gap with Hong Kong, thanks to its aggressive expansion and cost advantages.&lt;/p>
+&lt;p>For investors and stakeholders, Indonesia represents an exciting opportunity to capitalize on a market that is not only growing rapidly but also strategically positioned to play a central role in Asia’s digital future. However, achieving sustained market leadership will require continued investments in infrastructure, strong policy support, and a focus on innovation.&lt;/p>
+&lt;p>Indonesia’s data center market is more than just a growth story—it’s a transformation in the making. With its strong growth trajectory, competitive cost structure, and strategic regional role, Indonesia is emerging as a key player in the Asian data center landscape. While it still trails behind giants like India and Japan in absolute size, its potential to outpace mature markets like Hong Kong is evident.&lt;/p>
+&lt;p>The road ahead for Indonesia is filled with opportunities. As the demand for digital services and cloud computing continues to rise, Indonesia’s role in the global data economy will only become more significant. Investors who recognize this potential early and align with the country’s digital transformation efforts are likely to reap significant rewards. The time to invest in Indonesia’s data center market is now.&lt;/p>
+&lt;h2>&lt;strong>Reference :&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="reference-">&lt;/span>
+&lt;a href="#reference-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://databoks.katadata.co.id/teknologi-telekomunikasi/statistik/ab3ed5c473c3e15/penetrasi-internet-indonesia-peringkat-ke-8-di-asean-siapa-teratas" target="_blank" rel="noopener">Penetrasi Internet Indonesia Peringkat ke-8 di ASEAN&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://databoks.katadata.co.id/teknologi-telekomunikasi/statistik/c456be24de4e6df/pengguna-internet-indonesia-peringkat-ke-3-terbanyak-di-asia" target="_blank" rel="noopener">Pengguna Internet Indonesia Peringkat ke-3 Terbanyak di Asia&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://databoks.katadata.co.id/teknologi-telekomunikasi/statistik/3b4b5a4bf9867db/survei-hanya-30-dari-169-lembaga-publik-indonesia-yang-mengadopsi-cloud" target="_blank" rel="noopener">Survei: Hanya 30% dari 169 Lembaga Publik Indonesia yang Mengadopsi Cloud&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://databoks.katadata.co.id/teknologi-telekomunikasi/statistik/2e77ee0da3fafe3/banyak-lembaga-publik-belum-gunakan-layanan-cloud-apa-alasannya" target="_blank" rel="noopener">Banyak Lembaga Publik Belum Gunakan Layanan Cloud&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.tempo.co/ekonomi/equinix-akan-bangun-data-center-di-jakarta-tahun-depan-nilai-investasi-tembus-rp-1-18-triliun-1168101" target="_blank" rel="noopener">Equinix Akan Bangun Data Center di Jakarta Tahun Depan&lt;/a>&lt;/li>
+&lt;li>&lt;a href="mordorintelligence.com" >Mordorintelligence&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Analisis Kondisi Perusahaan Telco</title><link>https://kangifaz.com/blog/insight-data-and-research/analysis_kondisi_perusahaan_telco_sejak_terjadi_pandemi_covid-19/</link><pubDate>Sun, 12 Jan 2025 18:05:31 +0700</pubDate><guid>https://kangifaz.com/blog/insight-data-and-research/analysis_kondisi_perusahaan_telco_sejak_terjadi_pandemi_covid-19/</guid><description>
+&lt;h1>BAGIAN A&lt;/h1>&lt;h2>Return on Assets (ROA)&lt;span class="hx-absolute -hx-mt-20" id="return-on-assets-roa">&lt;/span>
+&lt;a href="#return-on-assets-roa" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;img src="img/image-2.png" alt="ROA" loading="lazy" />&lt;/p>
+&lt;p>[1] Bagaimana kondisi Perusahaan sejak terjadinya pandemi Covid-19&lt;/p>
+&lt;p>Sejak dimulainya pandemi Covid-19 pada Q1-2020, perusahaan mengalami tantangan signifikan yang tercermin pada rasio Return on Assets (ROA). Pada awal pandemi, ROA perusahaan mengalami penurunan tajam dari 1.83 menjadi 1.11, menunjukkan dampak negatif langsung terhadap kemampuan perusahaan dalam menghasilkan laba dari aset yang dimilikinya. Penurunan ini kemungkinan besar disebabkan oleh gangguan operasional, tekanan ekonomi global, dan perubahan permintaan pasar akibat situasi pandemi yang tidak terduga.&lt;/p>
+&lt;p>Namun, setelah periode awal yang sulit, perusahaan menunjukkan kemampuan adaptasi yang cukup baik. Dalam beberapa kuartal berikutnya, ROA kembali meningkat secara bertahap hingga mencapai 1.93, mencerminkan adanya upaya pemulihan melalui pengendalian biaya, efisiensi operasional, atau mungkin diversifikasi pendapatan. Perusahaan mampu mengatasi tantangan yang muncul dan mulai menstabilkan kinerjanya.&lt;/p>
+&lt;p>Memasuki periode selanjutnya, meskipun pandemi masih berlangsung, ROA perusahaan cenderung stabil dengan nilai berkisar antara 1.6 hingga 2.07. Stabilitas ini mengindikasikan bahwa perusahaan telah menemukan cara untuk menjaga efisiensi operasional dan tetap kompetitif meskipun kondisi ekonomi global belum sepenuhnya pulih.&lt;/p>
+&lt;p>Secara keseluruhan, meskipun pandemi memberikan dampak awal yang cukup berat, perusahaan menunjukkan resiliensi yang kuat. Kemampuan untuk beradaptasi, mempertahankan efisiensi, dan memitigasi risiko lebih lanjut menjadi kunci dalam menjaga stabilitas kinerja keuangan selama periode yang penuh tantangan ini. Hal ini mencerminkan manajemen yang responsif dan strategi yang efektif dalam menghadapi situasi yang tidak menentu.&lt;/p>
+&lt;p>[2] Apakah ada perbedaan kondisi Perusahaan sejak terjadinya Covid-19 (pertanyaan 1) dibandingkan dengan sebelum terjadi Covid-19 berdasarkan rasio keuangan&lt;/p>
+&lt;p>Berdasarkan grafik Return on Assets (ROA), terdapat perbedaan signifikan antara kondisi perusahaan sebelum, selama, dan setelah pandemi Covid-19.&lt;/p>
+&lt;p>Kondisi Sebelum Covid-19:
+Pada periode sebelum pandemi, nilai ROA perusahaan cenderung fluktuatif dengan pola yang tidak stabil. Nilai ROA bergerak dalam rentang yang cukup lebar, dari angka serendah 0.77 hingga mencapai puncaknya di 3.01. Fluktuasi ini mencerminkan dinamika efisiensi perusahaan dalam menggunakan asetnya untuk menghasilkan laba. Periode ini menunjukkan adanya tantangan yang beragam bagi perusahaan, seperti perubahan efisiensi operasional, kondisi pasar yang dinamis, atau pengaruh eksternal lainnya.&lt;/p>
+&lt;p>Namun, secara umum, sebelum Covid-19, perusahaan tidak menunjukkan tren kenaikan atau penurunan yang konsisten. Stabilitas jangka panjang sulit dicapai, meskipun ada beberapa periode dengan peningkatan signifikan. Hal ini menunjukkan bahwa efisiensi penggunaan aset cenderung terganggu oleh berbagai faktor, baik internal maupun eksternal.&lt;/p>
+&lt;p>Kondisi Selama Covid-19:
+Ketika pandemi dimulai pada Q1-2020, perusahaan mengalami penurunan signifikan pada ROA, dari 1.83 ke 1.11. Penurunan ini mencerminkan dampak langsung pandemi terhadap efisiensi operasional dan profitabilitas perusahaan. Namun, setelah dampak awal tersebut, perusahaan mulai menunjukkan tanda-tanda pemulihan. ROA meningkat secara bertahap dan kembali mencapai angka 1.93 pada akhir periode pandemi.&lt;/p>
+&lt;p>Pemulihan ini mengindikasikan kemampuan perusahaan untuk beradaptasi dengan kondisi pandemi. Strategi pengelolaan yang lebih efisien, seperti pengurangan biaya, optimalisasi operasional, atau langkah strategis lainnya, kemungkinan berkontribusi pada pemulihan tersebut. Stabilitas yang dicapai selama pandemi menunjukkan bahwa meskipun perusahaan menghadapi tantangan besar, mereka mampu mengatasi dampak buruknya dengan cepat.&lt;/p>
+&lt;h2>Return on Equity (ROE)&lt;span class="hx-absolute -hx-mt-20" id="return-on-equity-roe">&lt;/span>
+&lt;a href="#return-on-equity-roe" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;img src="img/image-3.png" alt="ROE" loading="lazy" />
+[1] Bagaimana kondisi Perusahaan sejak terjadinya pandemi Covid-19&lt;/p>
+&lt;p>Sejak dimulainya pandemi Covid-19 pada Q1-2020, kinerja Return on Equity (ROE) perusahaan mengalami perubahan signifikan. Pada awal pandemi, ROE menunjukkan penurunan yang cukup tajam, dari 4.31 menjadi 2.84. Penurunan ini mencerminkan dampak langsung pandemi terhadap profitabilitas perusahaan, di mana laba bersih yang dihasilkan dari ekuitas mengalami tekanan. Hal ini kemungkinan disebabkan oleh gangguan operasional, penurunan permintaan pasar, atau tantangan eksternal lainnya yang timbul akibat pandemi.&lt;/p>
+&lt;p>Namun, setelah mengalami masa sulit pada awal pandemi, perusahaan menunjukkan kemampuan untuk bangkit dan memulihkan kinerjanya. Dalam beberapa kuartal berikutnya, ROE perlahan-lahan meningkat hingga mencapai 5.62, menandakan adanya pemulihan dalam profitabilitas ekuitas. Peningkatan ini mungkin didorong oleh berbagai langkah strategis yang diambil perusahaan, seperti pengendalian biaya, efisiensi operasional, atau upaya restrukturisasi keuangan yang berhasil meningkatkan laba bersih relatif terhadap modal ekuitas.&lt;/p>
+&lt;p>Pasca-pandemi, ROE perusahaan terlihat lebih stabil meskipun masih mengalami fluktuasi dalam batas yang wajar. Nilai ROE tetap berada di tingkat yang lebih baik dibandingkan periode awal pandemi, mengindikasikan bahwa perusahaan telah berhasil menyesuaikan diri dengan tantangan global yang ada dan mampu menjaga tingkat profitabilitasnya secara konsisten.&lt;/p>
+&lt;p>Secara keseluruhan, pandemi memberikan tekanan awal yang cukup besar terhadap kinerja perusahaan, namun kemampuan untuk pulih dengan stabilitas ROE yang baik menunjukkan adaptasi yang efektif. Hal ini mencerminkan keberhasilan perusahaan dalam merespons perubahan lingkungan bisnis yang tidak menentu, mempertahankan efisiensi, dan meningkatkan profitabilitas ekuitasnya secara berkelanjutan.&lt;/p>
+&lt;p>[2] Apakah ada perbedaan kondisi Perusahaan sejak terjadinya Covid-19 (pertanyaan 1) dibandingkan dengan sebelum terjadi Covid-19 berdasarkan rasio keuangan&lt;/p>
+&lt;p>Sebelum pandemi Covid-19, Return on Equity (ROE) perusahaan menunjukkan pola fluktuasi yang signifikan. Nilai ROE bergerak dalam rentang yang luas, dari angka serendah 2.86 hingga mencapai puncaknya pada 10.8. Periode ini mencerminkan ketidakstabilan dalam efisiensi perusahaan memanfaatkan ekuitasnya untuk menghasilkan laba. Beberapa puncak nilai ROE yang tinggi menunjukkan bahwa perusahaan mampu mencetak profitabilitas yang besar pada kondisi tertentu, namun periode-periode tersebut tidak konsisten dan diikuti oleh penurunan tajam. Tren ini mengindikasikan bahwa sebelum pandemi, perusahaan mungkin menghadapi dinamika pasar yang tidak menentu atau tantangan internal dalam menjaga stabilitas keuangannya.&lt;/p>
+&lt;p>Setelah pandemi Covid-19, kondisi ROE perusahaan menunjukkan perbaikan yang signifikan dibandingkan periode sebelumnya. ROE mulai bergerak pada kisaran yang lebih stabil, dengan nilai mencapai 6.49 hingga 6.73. Stabilitas ini mencerminkan bahwa perusahaan telah mempelajari dan menerapkan strategi yang lebih efektif dalam memanfaatkan ekuitasnya. Perusahaan tampaknya berhasil meningkatkan efisiensi operasional dan memaksimalkan profitabilitas setelah pandemi, meskipun kondisi ekonomi global belum sepenuhnya pulih. Nilai ROE yang lebih konsisten menunjukkan pengelolaan keuangan yang lebih baik dan fokus pada keberlanjutan efisiensi.&lt;/p>
+&lt;p>Secara keseluruhan, perbandingan antara kondisi sebelum dan setelah pandemi menunjukkan perbedaan yang signifikan. Sebelum pandemi, perusahaan mengalami ketidakstabilan dalam efisiensi penggunaan ekuitasnya, sementara setelah pandemi, perusahaan berhasil menciptakan stabilitas dan peningkatan profitabilitas yang mencerminkan adaptasi yang lebih baik terhadap tantangan yang ada.&lt;/p>
+&lt;h2>Gross Profit Margin (GPM)&lt;span class="hx-absolute -hx-mt-20" id="gross-profit-margin-gpm">&lt;/span>
+&lt;a href="#gross-profit-margin-gpm" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;img src="img/image-4.png" alt="GPM" loading="lazy" />
+[1] Bagaimana kondisi Perusahaan sejak terjadinya pandemi Covid-19&lt;/p>
+&lt;p>Selama pandemi Covid-19, khususnya mulai Q1-2020 hingga akhir periode yang ditandai dalam grafik, Gross Profit Margin (GPM) perusahaan mengalami perubahan yang mencerminkan dampak langsung pandemi terhadap efisiensi operasional.&lt;/p>
+&lt;p>Awal Pandemi:
+Pada awal pandemi, GPM perusahaan berada di angka 9.84, yang cukup stabil dibandingkan periode sebelumnya. Namun, seiring berjalannya pandemi, GPM menurun tajam hingga mencapai titik terendah pada 8.67. Penurunan ini mengindikasikan adanya tekanan signifikan pada efisiensi perusahaan dalam menghasilkan laba kotor dari pendapatan. Faktor-faktor seperti gangguan pada rantai pasokan, kenaikan biaya bahan baku, atau penurunan volume penjualan kemungkinan menjadi penyebab utama tekanan ini.&lt;/p>
+&lt;p>Pemulihan Selama Pandemi:
+Setelah penurunan awal, perusahaan berhasil menunjukkan tanda-tanda pemulihan. GPM perlahan naik kembali ke 9.24, meskipun belum mencapai level awal pandemi. Hal ini menunjukkan adanya perbaikan dalam efisiensi operasional, yang mungkin disebabkan oleh pengendalian biaya yang lebih ketat, perbaikan manajemen rantai pasok, atau strategi lain untuk mengatasi tantangan pandemi.&lt;/p>
+&lt;p>Perusahaan menghadapi tekanan signifikan terhadap efisiensinya di awal pandemi, yang terlihat dari penurunan GPM. Namun, langkah-langkah pemulihan yang dilakukan berhasil meningkatkan GPM ke tingkat yang lebih baik meskipun pandemi masih berlangsung. Hal ini menunjukkan kemampuan perusahaan untuk beradaptasi dengan kondisi yang sulit dan menjaga kinerja operasionalnya di tengah tantangan besar.&lt;/p>
+&lt;p>[2] Apakah ada perbedaan kondisi Perusahaan sejak terjadinya Covid-19 (pertanyaan 1) dibandingkan dengan sebelum terjadi Covid-19 berdasarkan rasio keuangan&lt;/p>
+&lt;p>Berdasarkan grafik Gross Profit Margin (GPM), terdapat perbedaan yang signifikan dalam kondisi perusahaan sebelum dan setelah pandemi Covid-19, yang mencerminkan perubahan dalam efisiensi perusahaan menghasilkan laba kotor dari pendapatannya.&lt;/p>
+&lt;p>Kondisi Sebelum Covid-19:
+Sebelum pandemi, GPM perusahaan menunjukkan tren menurun jangka panjang yang cukup konsisten. Nilai GPM tertinggi terlihat di awal grafik, yaitu 15.97, tetapi perlahan menurun hingga berada di rentang yang lebih rendah sekitar 7.41 hingga 9.94 pada periode sebelum pandemi. Penurunan ini mengindikasikan adanya tekanan pada efisiensi operasional perusahaan, yang kemungkinan disebabkan oleh meningkatnya biaya produksi, fluktuasi permintaan pasar, atau perubahan struktur pendapatan perusahaan.&lt;/p>
+&lt;p>Meskipun terdapat beberapa periode stabilitas di sekitar nilai 8 hingga 9, tren keseluruhan menunjukkan bahwa sebelum pandemi, perusahaan mengalami kesulitan untuk mempertahankan efisiensi biaya operasionalnya. Penurunan ini mencerminkan tantangan struktural dalam pengelolaan biaya dan daya saing yang mungkin membutuhkan perhatian khusus.&lt;/p>
+&lt;p>Kondisi Setelah Covid-19:
+Setelah pandemi, GPM perusahaan terlihat bergerak pada rentang yang lebih stabil dibandingkan sebelumnya. Nilai GPM berada di kisaran 8.76 hingga 9.59, yang meskipun tidak menunjukkan perbaikan signifikan dibandingkan sebelum pandemi, memberikan indikasi bahwa perusahaan berhasil mencapai stabilitas dalam efisiensi operasionalnya.&lt;/p>
+&lt;p>Konsistensi GPM pasca-pandemi menunjukkan bahwa perusahaan mampu menjaga efisiensi produksinya meskipun tantangan global akibat pandemi masih terasa. Stabilitas ini juga dapat mencerminkan keberhasilan perusahaan dalam mengelola biaya produksi dan operasionalnya dengan lebih baik di tengah perubahan pasar yang signifikan. Tidak ada tren menurun seperti yang terlihat sebelum pandemi, yang menunjukkan bahwa perusahaan telah beradaptasi untuk menjaga margin laba kotor pada level yang relatif stabil.&lt;/p>
+&lt;h2>Operating Profit Margin (OPM)&lt;span class="hx-absolute -hx-mt-20" id="operating-profit-margin-opm">&lt;/span>
+&lt;a href="#operating-profit-margin-opm" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;img src="img/image-5.png" alt="OPM" loading="lazy" />
+[1] Bagaimana kondisi Perusahaan sejak terjadinya pandemi Covid-19&lt;/p>
+&lt;p>Sejak dimulainya pandemi Covid-19 pada Q1-2020, rasio Operating Profit Margin (OPM) perusahaan mencerminkan adaptasi perusahaan terhadap tekanan pandemi dan kemampuan menjaga efisiensi operasional.&lt;/p>
+&lt;p>Kondisi Awal Pandemi (Q1-2020):
+Pada awal pandemi, OPM perusahaan berada pada level 5.75, yang relatif stabil dibandingkan beberapa periode sebelumnya. Namun, pandemi memberikan tekanan terhadap margin operasional perusahaan, yang terlihat dari penurunan OPM ke level 5.06 di kuartal berikutnya. Penurunan ini menunjukkan bahwa meskipun pendapatan mungkin menurun, perusahaan masih menanggung biaya operasional yang cukup besar, sehingga menekan laba operasionalnya.&lt;/p>
+&lt;p>Pemulihan Selama Pandemi:
+Setelah penurunan awal, perusahaan mulai menunjukkan pemulihan dalam margin operasional. OPM meningkat secara perlahan hingga mencapai puncaknya di 5.85 selama pandemi. Peningkatan ini menunjukkan bahwa perusahaan mampu melakukan penyesuaian operasional, seperti pengendalian biaya, optimalisasi efisiensi, atau strategi lain untuk meningkatkan laba operasional meskipun kondisi eksternal penuh tantangan.&lt;/p>
+&lt;p>Akhir Periode Pandemi dan Setelahnya:
+Setelah periode awal pemulihan, OPM stabil pada kisaran yang lebih tinggi dibandingkan awal pandemi, sebelum akhirnya menunjukkan sedikit peningkatan hingga level 6.65 setelah pandemi. Stabilitas ini menandakan bahwa perusahaan berhasil menyeimbangkan pendapatan dan biaya operasional, mempertahankan efisiensi dalam menghadapi tantangan yang tersisa dari dampak pandemi.
+Secara keseluruhan, meskipun pandemi memberikan tekanan signifikan terhadap efisiensi operasional perusahaan pada awalnya, langkah-langkah pemulihan yang dilakukan terbukti efektif. Peningkatan dan stabilitas OPM selama dan setelah pandemi menunjukkan bahwa perusahaan mampu beradaptasi dan mengelola sumber dayanya dengan baik di tengah tantangan besar.&lt;/p>
+&lt;p>[2] Apakah ada perbedaan kondisi Perusahaan sejak terjadinya Covid-19 (pertanyaan 1) dibandingkan dengan sebelum terjadi Covid-19 berdasarkan rasio keuangan&lt;/p>
+&lt;p>Berdasarkan grafik Operating Profit Margin (OPM), terlihat perbedaan yang signifikan dalam kondisi perusahaan sebelum dan setelah pandemi Covid-19, yang mencerminkan efisiensi perusahaan dalam menghasilkan laba operasional dari pendapatannya.&lt;/p>
+&lt;p>Kondisi Sebelum Covid-19:
+Sebelum pandemi, OPM perusahaan menunjukkan pola fluktuasi yang cukup signifikan. Nilai OPM berada pada kisaran 4.28 hingga 6.31, dengan beberapa penurunan tajam hingga ke level sekitar 2.22. Meskipun ada periode-periode di mana OPM meningkat, tren keseluruhan menunjukkan ketidakstabilan dalam efisiensi operasional perusahaan. Ketidakstabilan ini dapat mencerminkan tantangan dalam pengelolaan biaya operasional, dinamika pasar, atau perubahan dalam struktur pendapatan perusahaan.&lt;/p>
+&lt;p>Namun, pada periode menjelang pandemi, perusahaan mulai menunjukkan tanda-tanda stabilitas yang lebih baik, dengan OPM berkisar di sekitar angka 5.02 hingga 5.76. Hal ini menunjukkan adanya perbaikan efisiensi operasional yang mulai terwujud sebelum pandemi melanda.&lt;/p>
+&lt;p>Kondisi Setelah Covid-19:
+Setelah pandemi, OPM perusahaan menunjukkan peningkatan yang lebih stabil. Nilai OPM naik ke kisaran yang lebih tinggi, mencapai 6.55 hingga 7.08 pada beberapa periode pasca-pandemi. Peningkatan ini menunjukkan bahwa perusahaan mampu meningkatkan efisiensi operasionalnya meskipun menghadapi tantangan global. Stabilitas ini mencerminkan keberhasilan perusahaan dalam mengoptimalkan operasional, mengendalikan biaya, dan mungkin mengambil keuntungan dari pemulihan ekonomi setelah pandemi.&lt;/p>
+&lt;p>Periode pasca-pandemi juga menunjukkan pengurangan dalam fluktuasi OPM, yang mencerminkan pengelolaan operasional yang lebih konsisten dan efisien dibandingkan dengan periode sebelumnya.&lt;/p>
+&lt;h3>Debt-to-Equity Ratio (DER)&lt;span class="hx-absolute -hx-mt-20" id="debt-to-equity-ratio-der">&lt;/span>
+&lt;a href="#debt-to-equity-ratio-der" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;img src="img/image-6.png" alt="DER" loading="lazy" />
+[1] Bagaimana kondisi Perusahaan sejak terjadinya pandemi Covid-19&lt;/p>
+&lt;p>Berdasarkan grafik Debt-to-Equity Ratio (DER) yang diberikan, berikut adalah analisis mengenai kondisi perusahaan selama pandemi Covid-19 (Q1-2020 hingga akhir periode yang terlihat), termasuk informasi terkait data yang hilang.&lt;/p>
+&lt;p>Pada awal pandemi, nilai DER perusahaan berada pada level 9.19. Nilai ini sangat rendah jika dibandingkan dengan periode-periode sebelum pandemi, yang menunjukkan bahwa perusahaan memiliki tingkat leverage yang jauh lebih kecil. Penurunan ini kemungkinan disebabkan oleh langkah perusahaan untuk mengurangi utang atau memperkuat ekuitas guna menghadapi ketidakpastian ekonomi yang ditimbulkan oleh pandemi. DER yang rendah mencerminkan struktur keuangan yang lebih konservatif, di mana perusahaan cenderung mengurangi ketergantungan pada utang selama masa penuh tantangan.&lt;/p>
+&lt;p>Pada periode pandemi (sekitar Q2 hingga Q3-2020), terlihat adanya gap dalam data DER. Tidak adanya data pada periode ini bisa disebabkan oleh kendala pelaporan selama pandemi, baik akibat gangguan operasional internal perusahaan maupun kendala eksternal, seperti pembatasan aktivitas ekonomi atau keterbatasan pelaporan keuangan.&lt;/p>
+&lt;p>Setelah periode data yang hilang, DER kembali dilaporkan dengan nilai 10.92 pada akhir pandemi. Meskipun masih relatif rendah, ini menunjukkan bahwa perusahaan menjaga kebijakan leverage konservatif selama pandemi untuk meminimalkan risiko keuangan. Nilai DER yang stabil pada kisaran rendah ini mencerminkan manajemen risiko yang efektif, dengan perusahaan cenderung menghindari penambahan utang signifikan selama kondisi ekonomi yang tidak pasti.&lt;/p>
+&lt;p>Setelah pandemi, DER mulai menunjukkan sedikit peningkatan ke level 14.35. Meskipun demikian, nilai ini masih berada di bawah rata-rata DER perusahaan pada tahun-tahun sebelum pandemi. Peningkatan ini mungkin mengindikasikan adanya langkah strategis untuk memanfaatkan kembali pembiayaan berbasis utang guna mendukung pertumbuhan operasional, seiring mulai pulihnya kondisi ekonomi global.&lt;/p>
+&lt;p>Secara keseluruhan, pandemi Covid-19 memberikan tantangan signifikan, tetapi perusahaan berhasil mempertahankan struktur keuangan yang konservatif dan beradaptasi dengan baik terhadap ketidakpastian. Meskipun terdapat gap data selama pandemi, kebijakan pengelolaan leverage yang hati-hati mencerminkan strategi yang solid dalam menjaga stabilitas keuangan perusahaan.&lt;/p>
+&lt;p>[2] Apakah ada perbedaan kondisi Perusahaan sejak terjadinya Covid-19 (pertanyaan 1) dibandingkan dengan sebelum terjadi Covid-19 berdasarkan rasio keuangan&lt;/p>
+&lt;p>Berdasarkan grafik Debt-to-Equity Ratio (DER), terdapat perubahan signifikan antara kondisi perusahaan sebelum dan setelah pandemi Covid-19. DER mencerminkan seberapa besar proporsi utang perusahaan dibandingkan ekuitasnya, dan grafik ini memberikan wawasan tentang strategi pembiayaan perusahaan di kedua periode tersebut.&lt;/p>
+&lt;p>Kondisi Sebelum Covid-19:
+Sebelum pandemi, DER perusahaan cenderung menunjukkan tren penurunan yang signifikan dari nilai puncak 157.76 menjadi sekitar 9.19 pada periode menjelang pandemi. Tren ini mengindikasikan bahwa perusahaan secara bertahap mengurangi ketergantungannya pada utang untuk membiayai aktivitasnya. Penurunan ini mungkin mencerminkan upaya perusahaan untuk mengadopsi struktur permodalan yang lebih konservatif, dengan fokus pada pengurangan risiko keuangan melalui pelunasan utang atau peningkatan ekuitas.&lt;/p>
+&lt;p>Namun, meskipun ada tren penurunan, grafik menunjukkan fluktuasi DER yang cukup besar selama beberapa tahun sebelum pandemi. Ini menunjukkan bahwa, meskipun perusahaan berhasil mengurangi leverage-nya secara bertahap, masih ada periode di mana perusahaan menghadapi tekanan keuangan atau mengambil langkah pembiayaan tambahan yang menyebabkan peningkatan sementara pada DER.&lt;/p>
+&lt;p>Kondisi Setelah Covid-19:
+Setelah pandemi, DER menunjukkan pola stabilitas yang lebih baik dibandingkan dengan periode sebelumnya. Nilai DER berada dalam kisaran 12.08 hingga 23.58, yang meskipun lebih tinggi dibandingkan nilai terendah sebelum pandemi, tetap mencerminkan struktur permodalan yang sehat. Stabilitas ini mengindikasikan bahwa perusahaan telah berhasil menjaga keseimbangan antara utang dan ekuitasnya, dengan menghindari peningkatan leverage yang signifikan.&lt;/p>
+&lt;p>Peningkatan moderat pada DER setelah pandemi mungkin mencerminkan langkah strategis perusahaan untuk memanfaatkan kembali pembiayaan berbasis utang guna mendukung pemulihan dan pertumbuhan operasional pasca-pandemi. Namun, nilai yang tetap rendah secara historis menunjukkan bahwa perusahaan tetap mempertahankan pendekatan konservatif dalam struktur pembiayaannya.&lt;/p>
+&lt;h3>Current Ratio (CR)&lt;span class="hx-absolute -hx-mt-20" id="current-ratio-cr">&lt;/span>
+&lt;a href="#current-ratio-cr" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;img src="img/image-7.png" alt="CR" loading="lazy" />
+[1] Bagaimana kondisi Perusahaan sejak terjadinya pandemi Covid-19&lt;/p>
+&lt;p>Selama pandemi Covid-19, perusahaan menunjukkan kemampuan yang solid dalam menjaga likuiditasnya, yang tercermin dari rasio Current Ratio (CR). Pada awal pandemi di Q1-2020, CR perusahaan berada pada angka 2.17, menunjukkan bahwa perusahaan memiliki aset lancar yang lebih dari cukup untuk memenuhi kewajiban jangka pendeknya. Kondisi ini mencerminkan tingkat likuiditas yang sehat dan strategi manajemen yang hati-hati di tengah situasi ekonomi yang tidak menentu.&lt;/p>
+&lt;p>Seiring berjalannya pandemi, perusahaan berhasil meningkatkan CR hingga mencapai puncaknya di angka 2.35. Peningkatan ini menunjukkan adanya upaya proaktif perusahaan dalam memperkuat likuiditasnya. Langkah ini mungkin dilakukan dengan meningkatkan kas atau setara kas untuk mengantisipasi ketidakpastian ekonomi selama pandemi. Langkah strategis ini memberikan perusahaan kemampuan yang lebih besar untuk menghadapi potensi risiko keuangan akibat gangguan operasional dan ekonomi.&lt;/p>
+&lt;p>Namun, setelah mencapai puncak tersebut, CR mulai menurun secara moderat hingga kembali ke angka 2.15. Penurunan ini mencerminkan bahwa perusahaan mulai mengelola aset lancarnya secara lebih optimal, kemungkinan sebagai respons terhadap stabilisasi kondisi operasional. Meskipun demikian, penurunan ini tidak mengindikasikan risiko likuiditas karena nilai CR tetap berada dalam rentang sehat yang memungkinkan perusahaan untuk memenuhi kewajibannya tanpa kesulitan berarti.&lt;/p>
+&lt;p>Menjelang akhir periode pandemi, CR perusahaan stabil di angka sekitar 2.04 hingga 1.99. Meskipun sedikit lebih rendah dibandingkan puncak selama pandemi, nilai ini tetap berada di atas rata-rata sebelum pandemi, menunjukkan bahwa perusahaan mampu mempertahankan stabilitas likuiditasnya meskipun tantangan global masih berlangsung. Tren ini mengindikasikan pengelolaan keuangan yang baik dengan menjaga keseimbangan antara likuiditas dan efisiensi penggunaan aset lancar.&lt;/p>
+&lt;p>Secara keseluruhan, selama pandemi Covid-19, perusahaan menunjukkan langkah antisipatif yang kuat di awal pandemi dengan meningkatkan likuiditasnya secara signifikan. Stabilitas yang terlihat di periode berikutnya mengindikasikan kemampuan perusahaan untuk beradaptasi dengan tantangan eksternal tanpa mengorbankan efisiensi keuangannya. Hal ini mencerminkan strategi pengelolaan keuangan yang efektif dan hati-hati selama masa penuh ketidakpastian.&lt;/p>
+&lt;p>[2] Apakah ada perbedaan kondisi Perusahaan sejak terjadinya Covid-19 (pertanyaan 1) dibandingkan dengan sebelum terjadi Covid-19 berdasarkan rasio keuangan&lt;/p>
+&lt;p>Berdasarkan grafik Current Ratio (CR), terlihat adanya perubahan dalam likuiditas perusahaan antara periode sebelum dan setelah pandemi Covid-19. CR mencerminkan kemampuan perusahaan untuk memenuhi kewajiban jangka pendeknya menggunakan aset lancar, sehingga memberikan gambaran tentang stabilitas keuangan perusahaan.&lt;/p>
+&lt;p>Kondisi Sebelum Covid-19:
+Sebelum pandemi, CR perusahaan menunjukkan tren peningkatan yang bertahap sejak periode awal grafik. Nilai CR meningkat dari kisaran 1.29 di tahun-tahun awal grafik ke angka sekitar 2.06 menjelang pandemi. Tren ini mencerminkan upaya perusahaan untuk memperkuat posisi likuiditasnya, yang mungkin dilakukan melalui peningkatan aset lancar atau pengelolaan kewajiban jangka pendek yang lebih baik.&lt;/p>
+&lt;p>Namun, meskipun terdapat peningkatan bertahap, grafik juga menunjukkan fluktuasi pada nilai CR, dengan beberapa periode di mana nilai CR turun sementara, seperti ke angka 1.95. Fluktuasi ini menunjukkan bahwa, meskipun perusahaan berhasil memperkuat likuiditasnya secara keseluruhan, ada tekanan pada likuiditas di beberapa periode akibat faktor internal atau eksternal tertentu.&lt;/p>
+&lt;p>Kondisi Setelah Covid-19:
+Setelah pandemi, CR menunjukkan stabilitas yang lebih baik dibandingkan periode sebelumnya. Nilai CR bergerak di kisaran 1.99 hingga 2.04, mencerminkan kemampuan perusahaan untuk menjaga tingkat likuiditas yang sehat meskipun menghadapi tantangan pasca-pandemi. Stabilitas ini menunjukkan bahwa perusahaan mampu mempertahankan pengelolaan aset lancar dan kewajiban jangka pendeknya secara konsisten.&lt;/p>
+&lt;p>Tidak seperti periode sebelum pandemi yang menunjukkan fluktuasi besar, periode pasca-pandemi lebih menunjukkan konsistensi dalam nilai CR. Hal ini menunjukkan bahwa perusahaan telah mengadopsi strategi likuiditas yang lebih matang, dengan memastikan keseimbangan antara aset lancar dan kewajiban jangka pendeknya.&lt;/p>
+&lt;h3>Interest Coverage Ratio (ICR)&lt;span class="hx-absolute -hx-mt-20" id="interest-coverage-ratio-icr">&lt;/span>
+&lt;a href="#interest-coverage-ratio-icr" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;img src="img/image-8.png" alt="ICR" loading="lazy" />
+[1] Bagaimana kondisi Perusahaan sejak terjadinya pandemi Covid-19&lt;/p>
+&lt;p>Selama pandemi Covid-19, rasio Interest Coverage Ratio (ICR) perusahaan mengalami perubahan signifikan yang mencerminkan kemampuan perusahaan dalam membayar beban bunga dari pendapatan operasionalnya. Grafik menunjukkan adanya lonjakan luar biasa pada ICR selama periode pandemi.&lt;/p>
+&lt;p>Pada awal pandemi, ICR perusahaan berada pada level 315.57, yang mencerminkan kemampuan yang sangat baik dalam menutupi beban bunga menggunakan pendapatan operasionalnya. Namun, selama pandemi berlangsung, ICR meningkat drastis hingga mencapai puncaknya di angka 3336.31. Lonjakan ini mengindikasikan bahwa pendapatan operasional perusahaan relatif meningkat secara signifikan atau bahwa beban bunga perusahaan mengalami penurunan drastis selama periode tersebut.&lt;/p>
+&lt;p>Peningkatan tajam ini bisa mencerminkan langkah strategis perusahaan, seperti pengurangan utang berbunga tinggi atau efisiensi dalam manajemen operasional selama pandemi. Namun, lonjakan yang sangat tinggi ini juga dapat mencerminkan pengaruh faktor non-operasional, seperti perubahan signifikan dalam struktur pembiayaan atau kebijakan akuntansi yang memengaruhi perhitungan beban bunga.&lt;/p>
+&lt;p>Setelah mencapai puncaknya, ICR mulai menurun kembali, meskipun tetap pada level yang jauh lebih tinggi dibandingkan sebelum pandemi. Pada akhir periode yang terlihat, ICR berada di kisaran 156.46 hingga 258.07. Penurunan ini mungkin mencerminkan stabilisasi operasional perusahaan setelah dampak awal pandemi, tetapi nilai yang tetap tinggi menunjukkan bahwa perusahaan masih memiliki kapasitas yang sangat baik untuk memenuhi kewajiban bunganya.&lt;/p>
+&lt;p>Kesimpulan Selama Pandemi:
+Selama pandemi, perusahaan menunjukkan kemampuan luar biasa dalam menutupi beban bunga, yang tercermin dari lonjakan tajam ICR. Hal ini menunjukkan bahwa perusahaan mampu mempertahankan arus kas operasional yang kuat atau berhasil mengurangi beban bunga secara signifikan selama masa penuh tantangan. Meskipun ICR menurun di akhir pandemi, nilainya tetap mencerminkan kekuatan finansial perusahaan yang signifikan.&lt;/p>
+&lt;p>Secara keseluruhan, pandemi Covid-19 membawa perubahan besar pada ICR perusahaan, dengan peningkatan yang mencolok menunjukkan efisiensi keuangan dan langkah-langkah strategis yang berhasil dalam menjaga stabilitas keuangan perusahaan selama periode yang penuh ketidakpastian.&lt;/p>
+&lt;p>[2] Apakah ada perbedaan kondisi Perusahaan sejak terjadinya Covid-19 (pertanyaan 1) dibandingkan dengan sebelum terjadi Covid-19 berdasarkan rasio keuangan&lt;/p>
+&lt;p>Berdasarkan grafik Interest Coverage Ratio (ICR), terdapat perbedaan signifikan antara kondisi perusahaan sebelum dan setelah pandemi Covid-19. ICR mencerminkan kemampuan perusahaan untuk membayar beban bunga dari laba operasionalnya, yang menjadi indikator penting dalam mengukur kesehatan keuangan dan risiko likuiditas perusahaan.&lt;/p>
+&lt;p>Kondisi Sebelum Covid-19:
+Sebelum pandemi, nilai ICR perusahaan cenderung stabil pada angka yang relatif rendah, berkisar di bawah 100 dengan beberapa peningkatan kecil di periode tertentu. Misalnya, pada periode menjelang pandemi, ICR mencapai nilai tertinggi sekitar 315.57, yang mencerminkan adanya perbaikan moderat dalam kemampuan perusahaan menutupi beban bunga. Namun, tren secara keseluruhan menunjukkan bahwa perusahaan memiliki keterbatasan dalam menjaga margin keuangan yang cukup untuk memenuhi kewajiban bunga dengan nyaman.&lt;/p>
+&lt;p>Stabilitas pada nilai rendah ini mungkin disebabkan oleh tekanan operasional yang menyebabkan laba sebelum bunga dan pajak (EBIT) tidak tumbuh secara signifikan, atau akibat tingginya beban bunga yang dihadapi perusahaan sebelum pandemi.&lt;/p>
+&lt;p>Kondisi Setelah Covid-19:
+Setelah pandemi, ICR menunjukkan peningkatan yang signifikan tetapi fluktuatif. Nilai ICR bergerak ke kisaran yang jauh lebih tinggi, dimulai dari 156.46 hingga mencapai puncaknya di 270.03. Peningkatan ini mencerminkan bahwa perusahaan mampu memperbaiki efisiensi operasionalnya, atau mungkin juga terjadi pengurangan dalam beban bunga. Stabilitas pasca-pandemi pada nilai yang lebih tinggi menunjukkan adanya perbaikan dalam pengelolaan struktur keuangan perusahaan.&lt;/p>
+&lt;p>Namun, peningkatan signifikan selama pandemi menunjukkan adanya faktor sementara atau langkah strategis seperti pelunasan utang berbunga tinggi, yang memberikan dampak positif pada kemampuan perusahaan untuk membayar bunga. Hal ini memberikan fondasi yang lebih stabil dalam menjaga kesehatan keuangannya pasca-pandemi.&lt;/p>
+&lt;p>Secara keseluruhan, sebelum pandemi, perusahaan beroperasi dengan margin keuangan yang lebih terbatas dalam menutupi beban bunga. Setelah pandemi, perusahaan menunjukkan peningkatan signifikan dalam kemampuan membayar bunga, yang mencerminkan perbaikan efisiensi dan strategi pengelolaan keuangan yang lebih efektif. Perbaikan ini memberikan indikasi bahwa perusahaan telah belajar dari tantangan pandemi dan mampu memperkuat stabilitas keuangannya di periode pasca-pandemi.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Bagaimana kondisi Perusahaan sejak terjadinya pandemi Covid-19, yaitu mulai Q1-2020 sampai periode terakhir berdasarkan rasio keuangan ROA, ROE, GPM, OPM, DER, CR, dan ICR?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Apakah ada perbedaan kondisi Perusahaan sejak terjadinya Covid-19 (pertanyaan 1) dibandingkan dengan sebelum terjadi Covid-19 berdasarkan rasio keuangan ROA, ROE, GPM, OPM, DER, CR, dan ICR?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Apakah ada informasi lain selain rasio keuangan ROA, ROE, GPM, OPM, DER, CR, dan ICR yang membedakan kondisi Perusahaan sebelum dan sesudah Covid-19?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Apabila ada hipotesis bahwa USDIDR berpengaruh terhadap kinerja Perusahaan berdasarkan rasio keuangan ROA, ROE, GPM, OPM, DER, CR, dan ICR, maka lakukan analisis apakah hipotesis tersebut dapat dibuktikan benar atau tidak?&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2>Return on Assets (ROA) VS USDIDR&lt;span class="hx-absolute -hx-mt-20" id="return-on-assets-roa-vs-usdidr">&lt;/span>
+&lt;a href="#return-on-assets-roa-vs-usdidr" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;img src="img/image-9.png" alt="ROAvsUSDIDR" loading="lazy" />&lt;/p>
+&lt;p>===== Model untuk ROA =====&lt;/p>
+&lt;p>Call:
+lm(formula = formula, data = data)&lt;/p>
+&lt;p>Residuals:
+Min 1Q Median 3Q Max
+-0.94131 -0.38093 -0.07458 0.26364 1.50635&lt;/p>
+&lt;h2>Coefficients:
+Estimate Std. Error t value Pr(&amp;gt;|t|)&lt;br>
+(Intercept) 1.018e+00 3.626e-01 2.807 0.00664 **
+USDIDR 4.330e-05 2.795e-05 1.549 0.12645&lt;span class="hx-absolute -hx-mt-20" id="usdidr--4330e-05--2795e-05---1549--012645">&lt;/span>
+&lt;a href="#usdidr--4330e-05--2795e-05---1549--012645" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Signif. codes: 0 ‘&lt;em>&lt;strong>’ 0.001 ‘&lt;/strong>’ 0.01 ‘&lt;/em>’ 0.05 ‘.’ 0.1 ‘ ’ 1&lt;/p>
+&lt;p>Residual standard error: 0.5412 on 63 degrees of freedom
+Multiple R-squared: 0.03668, Adjusted R-squared: 0.02139
+F-statistic: 2.399 on 1 and 63 DF, p-value: 0.1264&lt;/p>
+&lt;p>Penjelasan :&lt;/p>
+&lt;p>Model regresi ini mengevaluasi pengaruh nilai tukar USD terhadap ROA. Koefisien intercept sebesar 1.018 menunjukkan bahwa ketika USDIDR bernilai nol, ROA diperkirakan sebesar 1.018. Koefisien untuk USDIDR sebesar 0.0000433 menunjukkan bahwa setiap kenaikan satu unit USDIDR diharapkan meningkatkan ROA sebesar 0.0000433. Namun, nilai p untuk USDIDR adalah 0.1264, yang berarti pengaruh ini tidak signifikan secara statistik pada tingkat signifikansi 5%. Nilai Adjusted R-squared sebesar 0.02139 menunjukkan bahwa hanya sekitar 2.14% variasi ROA yang dapat dijelaskan oleh USDIDR.&lt;/p>
+&lt;h2>Return on Equity (ROE) vs USDIDR&lt;span class="hx-absolute -hx-mt-20" id="return-on-equity-roe-vs-usdidr">&lt;/span>
+&lt;a href="#return-on-equity-roe-vs-usdidr" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;img src="img/image-10.png" alt="ROEvsUSDIDR" loading="lazy" />&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>===== Model untuk ROE =====
+Call:
+lm(formula = formula, data = data)
+Residuals:
+Min 1Q Median 3Q Max
+-3.8736 -1.1745 -0.2501 0.9048 5.5563
+Coefficients:
+Estimate Std. Error t value Pr(&amp;gt;|t|)
+(Intercept) 6.227e&amp;#43;00 1.192e&amp;#43;00 5.222 2.12e-06 ***
+USDIDR -1.049e-04 9.193e-05 -1.1410.258
+---
+Signif. codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Residual standard error: 1.78 on 63 degrees of freedom
+Multiple R-squared: 0.02025, Adjusted R-squared: 0.004694
+F-statistic: 1.302 on 1 and 63 DF, p-value: 0.2582&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Penjelasan :&lt;/p>
+&lt;p>Dalam model ini, intercept sebesar 6.227 menunjukkan bahwa ROE diperkirakan sebesar 6.227 ketika USDIDR bernilai nol. Koefisien USDIDR sebesar -0.0001049 menunjukkan adanya hubungan negatif antara USDIDR dan ROE, artinya kenaikan USDIDR dapat menurunkan ROE. Namun, nilai p sebesar 0.258 menunjukkan bahwa hubungan ini tidak signifikan secara statistik. Nilai Adjusted R-squared sebesar 0.004694 menunjukkan bahwa hanya sekitar 0.47% variasi ROE yang dijelaskan oleh USDIDR.&lt;/p>
+&lt;h2>Gross Profit Margin (GPM) vs USDIDR&lt;span class="hx-absolute -hx-mt-20" id="gross-profit-margin-gpm-vs-usdidr">&lt;/span>
+&lt;a href="#gross-profit-margin-gpm-vs-usdidr" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;img src="img/image-11.png" alt="GPMvsUSD" loading="lazy" />&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>
+===== Model untuk GPM =====
+Call:
+lm(formula = formula, data = data)
+Residuals:
+Min 1Q Median 3Q Max
+-2.2136 -1.1974 -0.3283 0.9267 6.9724
+Coefficients:
+Estimate Std. Error t value Pr(&amp;gt;|t|)
+(Intercept) 1.293e&amp;#43;01 1.152e&amp;#43;00 11.228 &amp;lt; 2e-16 ***
+USDIDR -3.168e-04 8.879e-05 -3.568 0.000695 ***
+---
+Signif. codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Residual standard error: 1.719 on 63 degrees of freedom
+Multiple R-squared: 0.1681, Adjusted R-squared: 0.1549
+F-statistic: 12.73 on 1 and 63 DF, p-value: 0.0006953&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Penjelasan :&lt;/p>
+&lt;p>Model GPM menunjukkan bahwa intercept sebesar 12.93 berarti GPM diperkirakan sebesar 12.93 ketika USDIDR nol. Koefisien USDIDR sebesar -0.0003168 menunjukkan bahwa setiap kenaikan satu unit USDIDR diharapkan menurunkan GPM sebesar 0.0003168. Nilai p sebesar 0.000695 menunjukkan bahwa hubungan ini signifikan secara statistik pada tingkat signifikansi 1%. Nilai Adjusted R-squared sebesar 0.1549 menunjukkan bahwa sekitar 15.49% variasi GPM dijelaskan oleh USDIDR.&lt;/p>
+&lt;h2>Operating Profit Margin (OPM) vs USDIDR&lt;span class="hx-absolute -hx-mt-20" id="operating-profit-margin-opm-vs-usdidr">&lt;/span>
+&lt;a href="#operating-profit-margin-opm-vs-usdidr" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;img src="img/image-12.png" alt="OPMvsUSD" loading="lazy" />&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>===== Model untuk OPM =====
+Call:
+lm(formula = formula, data = data)
+Residuals:
+Min 1Q Median 3Q Max
+-2.8015 -0.6736 -0.0831 0.2280 8.1364
+Coefficients:
+Estimate Std. Error t value Pr(&amp;gt;|t|)
+(Intercept) 3.078e&amp;#43;00 9.345e-01 3.294 0.00162 **
+USDIDR 1.219e-04 7.205e-05 1.692 0.09563 .
+---
+Signif. codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Residual standard error: 1.395 on 63 degrees of freedom
+Multiple R-squared: 0.04346, Adjusted R-squared: 0.02827
+F-statistic: 2.862 on 1 and 63 DF, p-value: 0.09563&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Penjelasan :&lt;/p>
+&lt;p>Pada model OPM, intercept sebesar 3.078 menunjukkan bahwa OPM diperkirakan sebesar 3.078 ketika USDIDR nol. Koefisien USDIDR sebesar 0.0001219 menunjukkan adanya hubungan positif antara USDIDR dan OPM, artinya kenaikan USDIDR dapat meningkatkan OPM. Nilai p sebesar 0.09563 menunjukkan bahwa hubungan ini mendekati signifikan pada tingkat signifikansi 10%. Nilai Adjusted R-squared sebesar 0.02827 menunjukkan bahwa sekitar 2.83% variasi OPM dijelaskan oleh USDIDR.&lt;/p>
+&lt;h2>Debt-to-Equity Ratio (DER) vs USDIDR&lt;span class="hx-absolute -hx-mt-20" id="debt-to-equity-ratio-der-vs-usdidr">&lt;/span>
+&lt;a href="#debt-to-equity-ratio-der-vs-usdidr" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;img src="img/image-13.png" alt="DER" loading="lazy" />&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>===== Model untuk DER =====
+Call:
+lm(formula = formula, data = data)
+Residuals:
+Min 1Q Median 3Q Max
+-47.066 -19.672 -5.963 15.849 65.565
+Coefficients:
+Estimate Std. Error t value Pr(&amp;gt;|t|)
+(Intercept) 237.820979 17.177602 13.85 &amp;lt;2e-16 ***
+USDIDR -0.014651 0.001324 -11.06 &amp;lt;2e-16 ***
+---
+Signif. codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Residual standard error: 25.64 on 63 degrees of freedom
+Multiple R-squared: 0.6602, Adjusted R-squared: 0.6548
+F-statistic: 122.4 on 1 and 63 DF, p-value: &amp;lt; 2.2e-16&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Penjelasan :&lt;/p>
+&lt;p>Model DER menunjukkan bahwa intercept sebesar 237.82 berarti DER diperkirakan sebesar 237.82 ketika USDIDR nol. Koefisien USDIDR sebesar -0.014651 menunjukkan bahwa setiap kenaikan satu unit USDIDR diharapkan menurunkan DER sebesar 0.014651. Nilai p sebesar &amp;lt; 2.2e-16 menunjukkan bahwa hubungan ini sangat signifikan secara statistik. Nilai Adjusted R-squared sebesar 0.6548 menunjukkan bahwa sekitar 65.48% variasi DER dijelaskan oleh USDIDR, yang menunjukkan model ini sangat baik.&lt;/p>
+&lt;h3>Current Ratio (CR) vs USDIDR&lt;span class="hx-absolute -hx-mt-20" id="current-ratio-cr-vs-usdidr">&lt;/span>
+&lt;a href="#current-ratio-cr-vs-usdidr" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;img src="img/image-14.png" alt="CRvsUSDIDR" loading="lazy" />&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>===== Model untuk CR =====
+Call:
+lm(formula = formula, data = data)
+Residuals:
+Min 1Q Median 3Q Max
+-0.45447 -0.12286 0.00147 0.13744 0.51209
+Coefficients:
+Estimate Std. Error t value Pr(&amp;gt;|t|)
+(Intercept) 6.698e-01 1.346e-01 4.976 5.30e-06 ***
+USDIDR 8.731e-05 1.038e-05 8.413 6.78e-12 ***
+---
+Signif. codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Residual standard error: 0.2009 on 63 degrees of freedom
+Multiple R-squared: 0.5291, Adjusted R-squared: 0.5216
+F-statistic: 70.78 on 1 and 63 DF, p-value: 6.779e-12&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Penjelasan :&lt;/p>
+&lt;p>Dalam model CR, intercept sebesar 0.6698 menunjukkan bahwa CR diperkirakan sebesar 0.6698 ketika USDIDR nol. Koefisien USDIDR sebesar 0.00008731 menunjukkan adanya hubungan positif antara USDIDR dan CR, artinya kenaikan USDIDR dapat meningkatkan CR. Nilai p sebesar 6.78e-12 menunjukkan bahwa hubungan ini sangat signifikan secara statistik. Nilai Adjusted R-squared sebesar 0.5216 menunjukkan bahwa sekitar 52.16% variasi CR dijelaskan oleh USDIDR, yang menunjukkan model ini cukup baik.&lt;/p>
+&lt;h3>Interest Coverage Ratio (ICR) vs USDIDR&lt;span class="hx-absolute -hx-mt-20" id="interest-coverage-ratio-icr-vs-usdidr">&lt;/span>
+&lt;a href="#interest-coverage-ratio-icr-vs-usdidr" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;img src="img/image-15.png" alt="ICRvsUSDIDR" loading="lazy" />&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>===== Model untuk ICR =====
+Call:
+lm(formula = formula, data = data)
+Residuals:
+Min 1Q Median 3Q Max
+-270.90 -162.40 -109.259.32 3116.94
+Coefficients:
+Estimate Std. Error t value Pr(&amp;gt;|t|)
+(Intercept) -421.92241 326.01626 -1.294 0.2003
+USDIDR 0.044410.02514 1.767 0.0821 .
+---
+Signif. codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Residual standard error: 486.6 on 63 degrees of freedom
+Multiple R-squared: 0.04721, Adjusted R-squared: 0.03208
+F-statistic: 3.121 on 1 and 63 DF, p-value: 0.08211&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Penjelasan :&lt;/p>
+&lt;p>Model ICR menunjukkan bahwa intercept sebesar -421.92 berarti ICR diperkirakan sebesar -421.92 ketika USDIDR nol (nilai ini mungkin tidak realistis secara praktis). Koefisien USDIDR sebesar 0.04441 menunjukkan adanya hubungan positif antara USDIDR dan ICR, artinya kenaikan USDIDR dapat meningkatkan ICR. Namun, nilai p sebesar 0.0821 menunjukkan bahwa hubungan ini mendekati signifikan pada tingkat signifikansi 10%. Nilai Adjusted R-squared sebesar 0.03208 menunjukkan bahwa sekitar 3.21% variasi ICR dijelaskan oleh USDIDR.&lt;/p>
+&lt;h3>Analisis Multivariat (MANOVA)&lt;span class="hx-absolute -hx-mt-20" id="analisis-multivariat-manova">&lt;/span>
+&lt;a href="#analisis-multivariat-manova" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>Df Pillai approx F num Df den DfPr(&amp;gt;F)
+USDIDR 1 0.70336 19.307 7 57 5.918e-13 ***
+Residuals 63
+---
+Signif. codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Penjelasan :&lt;/p>
+&lt;p>Hasil MANOVA menggunakan statistik Pillai menunjukkan bahwa secara keseluruhan, USDIDR memiliki pengaruh yang sangat signifikan terhadap kombinasi variabel-variabel dependen (ROA, ROE, GPM, OPM, DER, CR, dan ICR) dengan nilai p sebesar 5.918e-13. Ini berarti bahwa USDIDR secara simultan memengaruhi indikator-indikator keuangan tersebut secara signifikan.&lt;/p>
+&lt;ol start="5">
+&lt;li>Apabila diduga tidak hanya USDIDR yang mempengaruhi kinerja Perusahaan, tetapi ada variabel makroekonomi lainnya yang juga berpengaruh, maka lakukan analisis untuk membuktikannya.&lt;/li>
+&lt;/ol>
+&lt;h2>Correlation Analysis&lt;span class="hx-absolute -hx-mt-20" id="correlation-analysis">&lt;/span>
+&lt;a href="#correlation-analysis" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;img src="img/image-16.png" alt="CorrAnalysis" loading="lazy" />&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code> ROA ROEGPM OPM DER CR ICR GDP Inflation Unemployment
+ROA 1.00000000 0.89132588 0.2057401 0.50192118 -0.29366129 0.13467359 0.17890738 0.11270098 -0.01806616 -0.08542504
+ROE 0.89132588 1.00000000 0.4047299 0.45722770 0.12222799 -0.27917484 0.03394299 -0.23711883 0.32723555 0.24391864
+GPM 0.20574010 0.40472988 1.0000000 0.57822095 0.53733465 -0.47646057 -0.11479797 -0.57397775 0.40090708 0.74914013
+OPM 0.50192118 0.45722770 0.5782209 1.00000000 -0.09416701 0.04470615 0.08889883 0.03865061 0.14859707 0.13213184
+DER -0.29366129 0.12222799 0.5373347 -0.09416701 1.00000000 -0.88193109 -0.31978345 -0.81273557 0.70434054 0.78314565
+CR0.13467359 -0.27917484 -0.4764606 0.04470615 -0.88193109 1.00000000 0.28864621 0.76894038 -0.74440748 -0.72086230
+ICR 0.17890738 0.03394299 -0.1147980 0.08889883 -0.31978345 0.28864621 1.00000000 0.26796534 -0.36459097 -0.19426102
+GDP 0.11270098 -0.23711883 -0.5739777 0.03865061 -0.81273557 0.76894038 0.26796534 1.00000000 -0.64914336 -0.90408907
+Inflation-0.01806616 0.32723555 0.4009071 0.14859707 0.70434054 -0.74440748 -0.36459097 -0.64914336 1.00000000 0.65981168
+Unemployment -0.08542504 0.24391864 0.7491401 0.13213184 0.78314565 -0.72086230 -0.19426102 -0.90408907 0.65981168 1.00000000
+Consumption -0.05742690 0.10113142 0.2529473 -0.03713486 0.36225320 -0.27620767 -0.11940661 -0.72219230 0.26206585 0.53988425
+InterestRate -0.17470583 -0.34062535 -0.6209240 -0.37679959 -0.36210327 0.39927388 -0.10944124 0.26708786 -0.48670272 -0.52086587
+Consumption InterestRate
+ROA -0.05742690 -0.1747058
+ROE 0.10113142 -0.3406253
+GPM 0.25294730 -0.6209240
+OPM -0.03713486 -0.3767996
+DER 0.36225320 -0.3621033
+CR -0.276207670.3992739
+ICR -0.11940661 -0.1094412
+GDP -0.722192300.2670879
+Inflation 0.26206585 -0.4867027
+Unemployment 0.53988425 -0.5208659
+Consumption 1.000000000.2301212
+InterestRate 0.230121231.0000000&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Penjelasan :&lt;/p>
+&lt;h1>Analisis Korelasi Variabel Keuangan dan Makroekonomi&lt;/h1>&lt;p>Analisis ini bertujuan untuk mengevaluasi hubungan antara kinerja keuangan perusahaan, yang direpresentasikan oleh indikator-indikator seperti ROA, ROE, GPM, OPM, DER, CR, dan ICR, dengan variabel makroekonomi seperti GDP, inflasi, tingkat pengangguran, konsumsi masyarakat, dan suku bunga. Pendekatan yang digunakan adalah analisis korelasi Pearson, yang mengukur kekuatan dan arah hubungan linear antara dua variabel. Pemilihan metode ini didasarkan pada kemampuannya untuk memberikan indikasi awal mengenai adanya keterkaitan antara variabel-variabel yang diamati, sehingga memungkinkan identifikasi potensi hubungan yang signifikan untuk analisis lebih lanjut.&lt;/p>
+&lt;p>Hasil analisis korelasi menunjukkan bahwa terdapat beberapa hubungan signifikan antara variabel makroekonomi dan indikator keuangan. Sebagai contoh, GDP memiliki korelasi negatif yang kuat dengan DER (\(r = -0.81\)) dan korelasi positif yang kuat dengan CR (\(r = 0.77\)), mengindikasikan bahwa pertumbuhan ekonomi berkontribusi terhadap pengurangan leverage perusahaan sekaligus meningkatkan likuiditasnya. Inflasi memiliki korelasi positif dengan DER (\(r = 0.70\)), tetapi korelasi negatif dengan CR (\(r = -0.74\)), yang menunjukkan bahwa tekanan inflasi dapat mendorong peningkatan penggunaan utang oleh perusahaan sambil menurunkan rasio likuiditas. Tingkat pengangguran menunjukkan korelasi positif dengan GPM (\(r = 0.75\)) dan DER (\(r = 0.78\)), yang dapat diinterpretasikan sebagai dampak dari penurunan konsumsi rumah tangga terhadap strategi margin laba kotor perusahaan.&lt;/p>
+&lt;p>Metode korelasi digunakan karena menyediakan analisis awal untuk mengevaluasi hubungan linier antarvariabel secara kuantitatif. Dengan koefisien korelasi Pearson, dapat diidentifikasi variabel-variabel yang memiliki hubungan signifikan dan arah hubungan tersebut (positif atau negatif). Namun, penting untuk dicatat bahwa korelasi tidak menunjukkan hubungan sebab-akibat (causality); oleh karena itu, hasil ini hanya memberikan indikasi awal yang membutuhkan analisis lebih lanjut.&lt;/p>
+&lt;p>Untuk menjawab pertanyaan tentang pengaruh variabel makroekonomi selain USDIDR terhadap kinerja keuangan perusahaan, analisis multivariat dapat dilakukan. Model regresi linier berganda diterapkan untuk mengevaluasi dampak simultan dari berbagai variabel makroekonomi terhadap indikator keuangan utama. Model ini mengasumsikan bahwa setiap variabel independen (GDP, inflasi, pengangguran, konsumsi, suku bunga) memiliki kontribusi unik terhadap variabel dependen (misalnya, ROA). Rumus umum model regresi linier berganda adalah:&lt;/p>
+&lt;p>&lt;img src="img/image-17.png" alt="rumus" loading="lazy" />&lt;/p>
+&lt;p>Hasil regresi linier menunjukkan bahwa selain USDIDR, variabel makroekonomi lainnya seperti inflasi dan GDP juga memiliki pengaruh signifikan terhadap indikator keuangan tertentu. Sebagai contoh, regresi terhadap ROA menunjukkan bahwa inflasi memiliki pengaruh negatif signifikan (\(p &lt; 0.05\)) dan GDP memiliki pengaruh positif signifikan (\(p &lt; 0.01\)), mengindikasikan bahwa kedua variabel tersebut memengaruhi profitabilitas perusahaan secara berbeda. Hasil serupa diamati untuk indikator lainnya seperti CR dan DER, yang menunjukkan pengaruh yang beragam dari variabel makroekonomi.&lt;/p>
+&lt;p>Analisis ini memberikan wawasan bahwa kinerja keuangan perusahaan dipengaruhi oleh kombinasi dari berbagai faktor makroekonomi, bukan hanya USDIDR. Untuk menjawab pertanyaan dengan lebih komprehensif, model ekonometrika yang lebih kompleks, seperti analisis regresi panel atau model kausalitas Granger, dapat diterapkan untuk menangkap dinamika hubungan antarvariabel dalam rentang waktu tertentu.&lt;/p>
+&lt;h1>BAGIAN B&lt;/h1>&lt;p>Tambahkan data baru, yaitu data kuartal 2 tahun 2024 dan kuartal 3 tahun 2024 (jika sudah ada), dari laporan keuangan masing-masing emiten. Lakukan analisis komparasi kondisi perusahaan (i) tahun 2023 terhadap tahun 2022, dan (ii) tahun 2024 terhadap tahun 2023.&lt;/p>
+&lt;h2>ROA&lt;span class="hx-absolute -hx-mt-20" id="roa">&lt;/span>
+&lt;a href="#roa" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;img src="img/image-29.png" alt="ROA" loading="lazy" />&lt;/p>
+&lt;h2>ROE&lt;span class="hx-absolute -hx-mt-20" id="roe">&lt;/span>
+&lt;a href="#roe" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;img src="img/image-28.png" alt="ROE" loading="lazy" />&lt;/p>
+&lt;h2>GPM&lt;span class="hx-absolute -hx-mt-20" id="gpm">&lt;/span>
+&lt;a href="#gpm" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;img src="img/image-27.png" alt="GPM" loading="lazy" />&lt;/p>
+&lt;h2>OPM&lt;span class="hx-absolute -hx-mt-20" id="opm">&lt;/span>
+&lt;a href="#opm" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;img src="img/image-26.png" alt="OPM" loading="lazy" />&lt;/p>
+&lt;h2>DR&lt;span class="hx-absolute -hx-mt-20" id="dr">&lt;/span>
+&lt;a href="#dr" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;img src="img/image-25.png" alt="DR" loading="lazy" />&lt;/p>
+&lt;h2>CR&lt;span class="hx-absolute -hx-mt-20" id="cr">&lt;/span>
+&lt;a href="#cr" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;img src="img/image-24.png" alt="CR" loading="lazy" />&lt;/p></description></item></channel></rss>

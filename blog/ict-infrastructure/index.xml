@@ -1,0 +1,179 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alexandria - Kang Ifaz – ICT Infrastructure</title><link>https://kangifaz.com/blog/ict-infrastructure/</link><description>Recent content in ICT Infrastructure on Alexandria - Kang Ifaz</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© 2025 Kang Ifaz</copyright><lastBuildDate>Sun, 19 Jan 2025 08:02:30 +0700</lastBuildDate><atom:link href="https://kangifaz.com/blog/ict-infrastructure/index.xml" rel="self" type="application/rss+xml"/><item><title>Cloud Computing Liquefied Everything</title><link>https://kangifaz.com/blog/ict-infrastructure/cloud-computing-liquefied-everything/</link><pubDate>Sun, 07 Sep 2025 11:06:54 +0700</pubDate><guid>https://kangifaz.com/blog/ict-infrastructure/cloud-computing-liquefied-everything/</guid><description>
+&lt;p>&lt;img src="img/image-2.png" alt="Cloud Computing" loading="lazy" />&lt;/p>
+&lt;p>When we talk about &lt;strong>Cloud Computing&lt;/strong>, one powerful way to imagine it is: &lt;strong>liquefying everything&lt;/strong>. Just like water can take any shape, cloud computing allows computing resources to be flexible, scalable, and efficient. Instead of being locked inside a single server, resources can flow to where they are needed most.&lt;/p>
+&lt;p>Today, we see two major directions in computing:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Retail and personal computing:&lt;/strong> Devices that are smaller, cheaper, and extremely power-efficient.&lt;/li>
+&lt;li>&lt;strong>Industrial and enterprise computing:&lt;/strong> Huge data centers with massive computing power, but designed for efficiency and scalability.&lt;/li>
+&lt;/ul>
+&lt;p>At first, it may seem like a contradiction—how can huge power also be efficient? The answer is virtualization and cloud computing.&lt;/p>
+&lt;h2>From Bare Metal to Cloud&lt;span class="hx-absolute -hx-mt-20" id="from-bare-metal-to-cloud">&lt;/span>
+&lt;a href="#from-bare-metal-to-cloud" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>In the &lt;strong>1970s&lt;/strong>, IBM introduced the concept of virtualization. At that time, it was only for research, and not stable for big industries. In the &lt;strong>1990s and early 2000s&lt;/strong>, companies still preferred &lt;strong>bare-metal servers&lt;/strong> for stability:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Bare metal&lt;/strong> = one server, one workload.&lt;/li>
+&lt;li>&lt;strong>Virtualization&lt;/strong> = dividing one server into many smaller workloads.&lt;/li>
+&lt;/ul>
+&lt;p>The real breakthrough came in the &lt;strong>mid-2000s&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Amazon Web Services (AWS)&lt;/strong> launched in &lt;strong>2006&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Google Cloud&lt;/strong> launched in &lt;strong>2008&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Microsoft Azure&lt;/strong> in &lt;strong>2010&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Alibaba Cloud&lt;/strong> in &lt;strong>2009&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Huawei Cloud&lt;/strong> in &lt;strong>2017&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>These services showed that virtualization was not only possible, but also profitable.&lt;/p>
+&lt;h2>Cloud Computing = Liquefied Resources&lt;span class="hx-absolute -hx-mt-20" id="cloud-computing--liquefied-resources">&lt;/span>
+&lt;a href="#cloud-computing--liquefied-resources" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Think of a server with:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>32 CPU cores&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>128 GB RAM&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>4 TB storage&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>If you run it bare metal, only one system uses all of it. If the workload doesn’t need everything, the rest is wasted. With virtualization, you can divide it into smaller virtual machines (VMs), each with its own resources. This is like pouring water into multiple cups from one big container.&lt;/p>
+&lt;p>This concept works not only for CPU and RAM, but also for &lt;strong>storage and GPU&lt;/strong>.&lt;/p>
+&lt;h2>Scalability is the Key&lt;span class="hx-absolute -hx-mt-20" id="scalability-is-the-key">&lt;/span>
+&lt;a href="#scalability-is-the-key" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Scalability is one of the biggest reasons cloud computing is successful. Companies can start small and grow without buying new hardware. For example, consider &lt;strong>Figma&lt;/strong>:&lt;/p>
+&lt;h1>Cloud Computing Liquefied Everything: The Future of Computing&lt;/h1>&lt;h2>Introduction&lt;span class="hx-absolute -hx-mt-20" id="introduction">&lt;/span>
+&lt;a href="#introduction" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>When we talk about &lt;strong>Cloud Computing&lt;/strong>, one powerful way to imagine it is: &lt;strong>liquefying everything&lt;/strong>. Just like water can take any shape, cloud computing allows computing resources to be flexible, scalable, and efficient. Instead of being locked inside a single server, resources can flow to where they are needed most, adapting to the shape and size of the demand.&lt;/p>
+&lt;p>Today, we see two major directions in computing. On one side, we have &lt;strong>retail and personal computing&lt;/strong>, where the focus is on small, low-power devices that are cheap but powerful enough to handle daily tasks. On the other side, there is &lt;strong>industrial and enterprise computing&lt;/strong>, where huge data centers and servers provide massive amounts of computing power, but with an emphasis on efficiency, scalability, and cost control. At first, it seems like these two directions are in conflict. How can massive computing power also be efficient? The answer is virtualization and cloud computing.&lt;/p>
+&lt;h2>From Bare Metal to Cloud&lt;span class="hx-absolute -hx-mt-20" id="from-bare-metal-to-cloud-1">&lt;/span>
+&lt;a href="#from-bare-metal-to-cloud-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;img src="img/image.png" alt="Openstack Cloud Computing" loading="lazy" />&lt;/p>
+&lt;p>Back in the &lt;strong>1970s&lt;/strong>, IBM introduced the concept of virtualization. The idea was revolutionary: instead of dedicating one machine to a single workload, you could split the machine into many smaller parts. Each part could run its own workload independently. But in those early days, virtualization was still only for research and wasn’t stable enough for industries to adopt.&lt;/p>
+&lt;p>In the &lt;strong>1990s and early 2000s&lt;/strong>, most companies still used &lt;strong>bare-metal servers&lt;/strong>. These are physical servers where one machine is tied to one workload. The benefit was reliability and stability, but the drawback was inefficiency. If the workload didn’t use all the available resources, the rest was wasted. Virtualization was known, but it wasn’t trusted enough yet for large industries that required stability above everything else.&lt;/p>
+&lt;p>The turning point came in the &lt;strong>mid-2000s&lt;/strong>, when cloud providers began to emerge:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://aws.amazon.com/" target="_blank" rel="noopener">Amazon Web Services (AWS)&lt;/a> launched in &lt;strong>2006&lt;/strong>, pioneering the pay-as-you-go cloud model.&lt;/li>
+&lt;li>&lt;a href="https://cloud.google.com/" target="_blank" rel="noopener">Google Cloud&lt;/a> launched in &lt;strong>2008&lt;/strong>.&lt;/li>
+&lt;li>&lt;a href="https://azure.microsoft.com/" target="_blank" rel="noopener">Microsoft Azure&lt;/a> arrived in &lt;strong>2010&lt;/strong>.&lt;/li>
+&lt;li>&lt;a href="https://www.alibabacloud.com/" target="_blank" rel="noopener">Alibaba Cloud&lt;/a> entered the market in &lt;strong>2009&lt;/strong>.&lt;/li>
+&lt;li>&lt;a href="https://www.huaweicloud.com/" target="_blank" rel="noopener">Huawei Cloud&lt;/a> followed in &lt;strong>2017&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>These services proved that virtualization could be trusted. More importantly, they showed that virtualization wasn’t just a technology—it was a business model that could change how companies operate.&lt;/p>
+&lt;h2>Cloud Computing = Liquefied Resources&lt;span class="hx-absolute -hx-mt-20" id="cloud-computing--liquefied-resources-1">&lt;/span>
+&lt;a href="#cloud-computing--liquefied-resources-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Imagine you have a powerful server with &lt;strong>32 CPU cores&lt;/strong>, &lt;strong>128 GB RAM&lt;/strong>, and &lt;strong>4 TB storage&lt;/strong>. If you dedicate all of this to one workload (bare metal), then only that workload benefits. If the workload doesn’t fully use the resources, the extra capacity is wasted.&lt;/p>
+&lt;p>With &lt;strong>virtualization&lt;/strong>, the same server can be split into smaller &lt;strong>virtual machines (VMs)&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>VM1: 4 CPU cores, 16 GB RAM, 500 GB storage&lt;/li>
+&lt;li>VM2: 8 CPU cores, 32 GB RAM, 1 TB storage&lt;/li>
+&lt;li>VM3: 2 CPU cores, 8 GB RAM, 250 GB storage&lt;/li>
+&lt;/ul>
+&lt;p>Each VM feels like an independent computer. They can run different operating systems, applications, or even serve different clients. The server is now being used much more efficiently. This is why we call cloud computing “liquefied resources.” Just like liquid, resources can be reshaped into any form depending on the demand.&lt;/p>
+&lt;h2>Scalability: The Real Power&lt;span class="hx-absolute -hx-mt-20" id="scalability-the-real-power">&lt;/span>
+&lt;a href="#scalability-the-real-power" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>One of the most important advantages of cloud computing is &lt;strong>scalability&lt;/strong>. A company doesn’t need to predict its exact resource needs years in advance. Instead, it can start small and grow step by step as demand increases.&lt;/p>
+&lt;p>Take &lt;strong>Figma&lt;/strong> as an example:
+&lt;img src="img/image-1.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;ul>
+&lt;li>Today, &lt;a href="https://thefinancestory.com/figma-100mn-aws-bill-cloud-costs-rising" target="_blank" rel="noopener">Figma spends over $300,000 per day on AWS&lt;/a>. That’s more than &lt;strong>$100 million every year&lt;/strong>.&lt;/li>
+&lt;li>But when Figma first started, its cloud bill was tiny. The company only paid for the small resources it needed to support its early users.&lt;/li>
+&lt;/ul>
+&lt;p>This flexibility is what makes cloud computing so powerful. Without scalability, startups like Figma would have needed huge upfront investments in hardware. Most of them wouldn’t have survived. Instead, cloud computing allowed them to grow naturally, adding more resources only as their user base and revenue increased.&lt;/p>
+&lt;p>Scalability is not just about saving money—it’s about enabling innovation. Developers can experiment with ideas without worrying about wasting large investments. If the idea grows, the infrastructure can grow with it.&lt;/p>
+&lt;h2>Storage Virtualization Explained&lt;span class="hx-absolute -hx-mt-20" id="storage-virtualization-explained">&lt;/span>
+&lt;a href="#storage-virtualization-explained" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Storage is not as simple as just dividing space. It comes with unique challenges because data needs to be reliable, available, and easy to manage. Storage virtualization deals with three main problems:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Integrity:&lt;/strong> Data must remain correct and not corrupted.&lt;/li>
+&lt;li>&lt;strong>Replication:&lt;/strong> Data should exist in more than one place for safety.&lt;/li>
+&lt;li>&lt;strong>Maintenance:&lt;/strong> Disks and drives fail, so the system must allow for easy repair and replacement.&lt;/li>
+&lt;/ul>
+&lt;p>Technologies like &lt;a href="https://ceph.io/en/" target="_blank" rel="noopener">Ceph&lt;/a> and &lt;a href="https://en.wikipedia.org/wiki/ZFS" target="_blank" rel="noopener">ZFS&lt;/a> provide solutions to these problems. For example, Ceph distributes data across many servers. If one disk fails, the system continues running without losing data. ZFS uses advanced methods like checksums to detect and repair corrupted data.&lt;/p>
+&lt;p>To visualize this, imagine pouring water into multiple containers. If one container cracks, the water is still safe in the other containers. That’s what storage virtualization does for data—it spreads it around so it can survive failures and continue flowing.&lt;/p>
+&lt;h2>GPU Virtualization Explained&lt;span class="hx-absolute -hx-mt-20" id="gpu-virtualization-explained">&lt;/span>
+&lt;a href="#gpu-virtualization-explained" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;img src="img/image-3.png" alt="GPU" loading="lazy" />
+GPUs are designed for parallel processing and are extremely powerful, but also very expensive. Traditionally, one GPU was used by one workload. But most workloads don’t always need the full power of a GPU. This created inefficiency.
+&lt;img src="img/image-4.png" alt="GPU Virtualization" loading="lazy" />
+&lt;strong>GPU virtualization&lt;/strong> solves this by allowing multiple workloads to share a single GPU. This is like cutting a large cake into slices so multiple people can enjoy it, instead of one person eating the whole cake. It makes GPU resources accessible to more users at a lower cost.&lt;/p>
+&lt;p>Modern solutions include:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.nvidia.com/vgpu/sizing/virtual-workstation/latest/right-gpu-vsoftware.html" target="_blank" rel="noopener">NVIDIA vGPU&lt;/a>, which lets virtual desktops and AI workloads share a GPU.&lt;/li>
+&lt;li>&lt;a href="https://aws.amazon.com/blogs/containers/gpu-sharing-on-amazon-eks-with-nvidia-time-slicing-and-accelerated-ec2-instances/" target="_blank" rel="noopener">AWS GPU time-slicing&lt;/a>, where expensive GPUs can be divided among many cloud users.&lt;/li>
+&lt;li>&lt;a href="https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/gpu-partitioning" target="_blank" rel="noopener">Microsoft Hyper-V GPU partitioning&lt;/a>, which partitions GPUs in Windows Server.&lt;/li>
+&lt;li>&lt;a href="https://docs.openstack.org/charm-guide/latest/admin/vgpu.html" target="_blank" rel="noopener">OpenStack vGPU&lt;/a>, widely used by vendors like Huawei and ZTE.&lt;/li>
+&lt;/ul>
+&lt;p>GPU virtualization is technically more difficult than CPU or RAM virtualization because of how GPUs handle parallel tasks. But the payoff is huge: AI researchers, designers, and businesses can all share expensive GPU resources without each needing to buy dedicated hardware.&lt;/p>
+&lt;h2>Open Source and Vendor Support&lt;span class="hx-absolute -hx-mt-20" id="open-source-and-vendor-support">&lt;/span>
+&lt;a href="#open-source-and-vendor-support" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The growth of cloud computing wasn’t only driven by big tech companies. Open-source projects also played a critical role. &lt;a href="https://www.openstack.org/" target="_blank" rel="noopener">OpenStack&lt;/a>, first released in &lt;strong>2010&lt;/strong>, gave organizations a way to build their own private or public clouds. Companies like Huawei and ZTE used OpenStack to launch their own cloud services. This made cloud adoption accessible globally, not just in Silicon Valley.&lt;/p>
+&lt;p>Other vendors contributed as well:
+&lt;img src="img/image-5.png" alt="Huawei Cloud" loading="lazy" />&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>VMware&lt;/strong> set the standard for enterprise virtualization.&lt;/li>
+&lt;li>&lt;strong>Red Hat OpenShift&lt;/strong> connected cloud computing with containers and Kubernetes.&lt;/li>
+&lt;li>&lt;a href="https://openmetal.io/resources/blog/vgpus-with-openstack-nova/" target="_blank" rel="noopener">OpenMetal&lt;/a> extended GPU virtualization to OpenStack Nova.&lt;/li>
+&lt;/ul>
+&lt;p>Together, these ecosystems made cloud computing not only a service but also a global infrastructure.&lt;/p>
+&lt;h2>Conclusion&lt;span class="hx-absolute -hx-mt-20" id="conclusion">&lt;/span>
+&lt;a href="#conclusion" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Cloud Computing truly &lt;strong>liquefies everything&lt;/strong>. From CPU and RAM to storage and GPU, all resources can be divided, shared, and reshaped. This flexibility means:&lt;/p>
+&lt;ul>
+&lt;li>Companies can save money by using only what they need.&lt;/li>
+&lt;li>Startups can grow step by step, scaling resources as they succeed, just like Figma.&lt;/li>
+&lt;li>Enterprises can run huge workloads efficiently without wasting power or money.&lt;/li>
+&lt;/ul>
+&lt;p>The future will likely push this concept even further. More components of computing will become “liquefied,” giving industries and individuals new levels of flexibility and efficiency.&lt;/p>
+&lt;p>In the end, cloud computing is not just about technology. It’s about transforming computing power into a liquid form—flowing wherever it is needed, scaling smoothly as demands grow, and always balancing efficiency with profitability.&lt;/p>
+&lt;hr>
+&lt;h3>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;a href="https://aws.amazon.com/blogs/containers/gpu-sharing-on-amazon-eks-with-nvidia-time-slicing-and-accelerated-ec2-instances/" target="_blank" rel="noopener">AWS GPU Sharing on Amazon EKS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/gpu-partitioning" target="_blank" rel="noopener">Microsoft Hyper-V GPU Partitioning&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.nvidia.com/vgpu/sizing/virtual-workstation/latest/right-gpu-vsoftware.html" target="_blank" rel="noopener">NVIDIA vGPU Sizing Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.vmware.com/docs/vmware-ai-ml-ra-ma" target="_blank" rel="noopener">VMware AI/ML Reference Architecture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.cloudeka.id/id/berita/gpu/gpu-virtualization-definisi-keuntungan-dan-implementasinya/" target="_blank" rel="noopener">Cloudeka: GPU Virtualization&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.openstack.org/charm-guide/latest/admin/vgpu.html" target="_blank" rel="noopener">OpenStack vGPU Documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://openmetal.io/resources/blog/vgpus-with-openstack-nova/" target="_blank" rel="noopener">OpenMetal: vGPU with OpenStack Nova&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.nvidia.com/networking/display/public/sol/howto&amp;#43;create&amp;#43;openstack&amp;#43;cloud&amp;#43;image&amp;#43;with&amp;#43;nvidia&amp;#43;gpu&amp;#43;and&amp;#43;network&amp;#43;drivers" target="_blank" rel="noopener">NVIDIA OpenStack Cloud Image Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://thefinancestory.com/figma-100mn-aws-bill-cloud-costs-rising" target="_blank" rel="noopener">Figma’s $100mn AWS Bill&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ceph.io/en/" target="_blank" rel="noopener">Ceph Distributed Storage&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/ZFS" target="_blank" rel="noopener">ZFS Wikipedia&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.openstack.org/" target="_blank" rel="noopener">OpenStack&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Home Data Center</title><link>https://kangifaz.com/blog/ict-infrastructure/home_data_center/</link><pubDate>Sun, 12 Jan 2025 18:05:31 +0700</pubDate><guid>https://kangifaz.com/blog/ict-infrastructure/home_data_center/</guid><description>
+&lt;h2>A. Data Center Definition&lt;span class="hx-absolute -hx-mt-20" id="adata-center-definition">&lt;/span>
+&lt;a href="#adata-center-definition" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Data Center basically can be defined any space have main function for house of servers&lt;code>[1][2]&lt;/code>. The servers in Data Center generally provide for digital services that we use on daily activity such as Video streaming, file sharing, web search, social networking, financial service and many more services that related with digital operation all provided in Data Center&lt;code>[3]&lt;/code>. Nodes installed on data center not limited by Server, but also can install with another type, it’s depend on the function what we require on the Data Center. Basically Services is house for service. For example web service is installed on a server, but to access the services we can’t access without transport technology. So we need another node type for transport technology. And also for security we can’t let the server and transport node connect to public network. We need also for security function to protect the data center is safe. Safe on configuration, protocols and anything potentials ruin the services inside data center and servers. Transport what we mentioned is routers and the security devices we can also mention with firewall devices.
+Commonly data center also designed with various methods. Both in physical and logical methods. In physical mechanism, Data Center mostly designed always redundant. Everything in physical must be redundant. Like service installed on physical server, normally installed on more than 1 server and each server protect the services. Once 1 server is down, like incident or maintenance, another server should be back up the services. Can we imagine for financial service, like bank account without protection. The incident always not predictable. Once the incident happen, how big bank losses incurred. Not only transaction failure, but also trust from customer will be decrease extremely. This will affected to the bank business and revenue &lt;code>[4]&lt;/code>. To protect business value, need to protect the services. How to do, need to protect physically like multiple server, multiple power resources and multiple transmission path. Also need ensure all path transmission need to be secure. Logically to make the services is redundant, need to make a service is effective in logic and redundant by system. Like ensuring after 1 server is down, need mechanism to service can be move to another server can be alive. In special case, not only server and transmission need have redundant way, but also once 1 data center is down, should be has another data center need to back up. This issue is very rare but we need prepare the worst and well prepare. Who knows earthquake schedule? Who knows war like in Ukraine schedule? Nobody knows, so preparation is the best way to keep the services is safe.&lt;/p>
+&lt;h2>B. Data Center Challange&lt;span class="hx-absolute -hx-mt-20" id="bdata-center-challange">&lt;/span>
+&lt;a href="#bdata-center-challange" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Because of that’s so important the services inside data centers need consume power 24x7 per week uptime, and that’s not only 1 server. All server back-up also need to be uptime. If we see the specification of server for example HPE ProLiant DL380 Gen10 Server power specification can until 1600 W. Can we imagine if this kind of server we use for redundant server, need power ready 3200 W 24 Horus, 7 Days a week. In Indonesia, 1 home with medium package power is around 1200 W. so we can imagine, 1 service with 2 server Main and backup can turn on almost 3 house. This only for 1 service in 1 server. So with this case we can imagine, the main issue on Data Center is Power Consume. And to find the effectivity a data center we find using formula Power Usage Effectiveness (PUE). Basically PUE is an instantaneous representation of electrical energy consumption that encourages operators to report the minimum observed values of PUE&lt;code>[1]&lt;/code>.
+In professional data center, power consume and costing so big. Sample in Google consume with over than 1,120 GWh and $67 M, Microsoft with over than 600 GWh and $36M&lt;code>[5]&lt;/code>. This is because various service is maintain in the services,numerous customers rely on infrastructure provided by large cloud companies with datacenters consisting of hundreds of thousands of servers &lt;code>[3]&lt;/code>. Mostly the professional data center already consider for clean power source. It’s mean currently the power consume source from fossil energy. So big data center already deploy for clean energy such as solar panel, cooler by nature. And this measure for how clean data center can calculate with Carbone usage Effectiveness (CUE), CUE is defined as: CUE = Total CO Emissions caused by Total Datacenter Energy/IT Energy Con- sumption. The units of the CUE metric are kilograms of carbon dioxide equivalent (kgCO2e) per kilowatt-hour (kWh)&lt;code>[5] [3]&lt;/code>. The power source is one of important on data center, and another things in power maintain is to deploy safe and reliable power, battery management system and anything related for power management, professional data center already deploy to build environment for clean and reliable data center in advantages &lt;code>[6]&lt;/code>.&lt;/p>
+&lt;h3>C. Home Data Center&lt;span class="hx-absolute -hx-mt-20" id="chome-data-center">&lt;/span>
+&lt;a href="#chome-data-center" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Home Data Center what we raise in this article are implemented with picture as below. We deploy data center with an environment for supporting homework and research activity.&lt;/p>
+&lt;p>&lt;img src="img/homedc.jpg" alt="alt text" loading="lazy" />&lt;/p>
+&lt;p>Figure 1 Home Data Center Installation
+Services maintain in home data center we tried is&lt;/p>
+&lt;ul>
+&lt;li>Firewall&lt;/li>
+&lt;li>NMS Server&lt;/li>
+&lt;li>Web Server&lt;/li>
+&lt;li>CCTV Server&lt;/li>
+&lt;li>Database Server&lt;/li>
+&lt;li>Security testing Kali Linux&lt;/li>
+&lt;li>IOT Server
+And actually still can improve more, the limitation only the imagination. For the detail logical topology can refer to topology below&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="img/image-1.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;p>Figure 2 Topology Home Data Center Application&lt;/p>
+&lt;p>One of the most interesting is, with that’s services so much the device I used for data centers is very compact. We used for fanless mini PC. With specification 4 x Intel(R) Celeron(R) N5105 @ 2.00GHz and 16 GB of RAM. (Currently plan to upgrade the RAM into 64GB RAM), 2 pcs of SSD, 1 SSD NVME 256 GB and 1 SSD 1TB. For the picture can see figure below.&lt;/p>
+&lt;p>&lt;img src="img/image-2.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;p>Figure 3 Home Server Devices
+How we design for the physical and logical design can refer to below figure. The internet we got from one of the biggest ISP in Indonesia direct connect to physical server we installed for virtualization Hyper-V. The port direct connect from ISP used on VM Firewall, inside the Firewall the port will defined as Red Zone. So zones for the data center we have 3 Zones.&lt;/p>
+&lt;ul>
+&lt;li>WAN Zone refer to Red Zone or Internet network (untrust Network)&lt;/li>
+&lt;li>LAN Zone refer to Green Zone or internal network (trust Network)&lt;/li>
+&lt;li>DMZ (Demilitarized Zone) is special network content for data center services.
+The internet received by internal home also filtered from the firewall, so we strictly policed in the firewall both for Green Zone and of course for DMZ. And we always active feature of IPS and IDS especially network coming from Un-Trust Zone.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="img/image-3.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;p>Figure 4 Phisical and Logical Design
+The power usage also monitored every day. And the results is average power on around 52W. so Is big different if we compare to proper server in data center 52W vs 1600W. And It’s also count Average consume 1.06 KWH and monthly power usage is around 32 KWh. With Price Power consume per KWH in Indonesia is 1.444 IDR, we consume per month average 46K IDR. This is so far if we compare but if we see the scale this is reasonable.&lt;/p>
+&lt;p>&lt;img src="img/image-4.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;p>Figure 5 Daily Power Used Home Data Center&lt;/p>
+&lt;p>&lt;img src="img/image-5.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;p>Figure 6 Power Consume Monthly and Running
+Home data center performance as below monitored by its server. The performance picture can refer to picture below. Currently RAM 16G is still maintain but often to full and make the server is freezing. For CPU with 4 Cores still maintain and with additional fan, te services is maintain.&lt;/p>
+&lt;p>&lt;img src="img/image-6.png" alt="alt text" loading="lazy" />&lt;/p>
+&lt;p>Figure 7 Home Data Center Performance
+Security of home data center we strictly policed in the firewall, activate for features can support the security such as IPS / IDS, Clam-V, etc. And in Security part also have feature VPN. To remote access from anywhere, we connect from this firewall to cloud VPN, and we can access from anywhere as long can access the VPN network. For logical topology can refer to picture as below&lt;/p>
+&lt;p>Figure 8 Security and Remote Access Topology&lt;/p>
+&lt;h2>D. Reference:&lt;span class="hx-absolute -hx-mt-20" id="dreference">&lt;/span>
+&lt;a href="#dreference" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>[1] J. Yuventi and R. Mehdizadeh, “A critical analysis of Power Usage Effectiveness and its use in communicating data center energy consumption,” Energy Build, vol. 64, pp. 90–94, 2013, doi: 10.1016/j.enbuild.2013.04.015.&lt;/p>
+&lt;p>[2] J. G. Koomey, “Worldwide electricity used in data centers,” Environmental Research Letters, vol. 3, no. 3, Jul. 2008, doi: 10.1088/1748-9326/3/3/034008.&lt;/p>
+&lt;p>[3] M. Noormohammadpour and C. S. Raghavendra, “Datacenter Traffic Control: Understanding Techniques and Tradeoffs,” IEEE Communications Surveys and Tutorials, vol. 20, no. 2. Institute of Electrical and Electronics Engineers Inc., pp. 1492–1525, Apr. 01, 2018. doi: 10.1109/COMST.2017.2782753.&lt;/p>
+&lt;p>[4] J. Ceballos, R. Dipasquale, and R. Feldman, “Business continuity and security in datacenter interconnection,” Bell Labs Tech J, vol. 17, no. 3, pp. 147–155, 2012, doi: 10.1002/bltj.21565.&lt;/p>
+&lt;p>[5] “Harnessing renewable energy in cloud datacenters- opportunities and challenges ”.&lt;/p>
+&lt;p>[6] J. M. Pierson et al., “Datazero: Datacenter with zero emission and robust management using renewable energy,” IEEE Access, vol. 7, pp. 103209–103230, 2019, doi: 10.1109/ACCESS.2019.2930368.&lt;/p></description></item></channel></rss>
