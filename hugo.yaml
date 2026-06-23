@@ -53,7 +53,7 @@ markup:
     extensions:
       passthrough:
         delimiters:
-          block: [['\[', '\]'], ['12578', '12578']]
+          block: [['\[', '\]'], ['56189', '56189']]
           inline: ['\(', '\)']
-        enable: true
+        enable: false
 copyright: "© 2025 Kang Ifaz"
