@@ -1,28 +1,51 @@
 baseURL: https://kangifaz.com/
-# canonifyURLs: true
 languageCode: en-us
 title: Alexandria - Kang Ifaz
 module:
   imports:
     - path: github.com/imfing/hextra
 params:
-  themeMode: light # Set default theme mode to light
+  themeMode: light
 menu:
   main:
-    - name: "Documentation"
-      url: "/docs/"
+    - identifier: learning
+      name: "Learning with Iris"
+      pageRef: "/docs/learning"
       weight: 1
-    - name: "ICT Infrastructure"
-      url: "/blog/ict-infrastructure/"
+    - identifier: matematika
+      name: "Matematika"
+      pageRef: "/docs/learning/matematika"
+      parent: learning
+      weight: 11
+    - identifier: python-ds
+      name: "Python & Data Science"
+      pageRef: "/docs/learning/python-ds"
+      parent: learning
+      weight: 12
+    - identifier: finance
+      name: "Finance"
+      pageRef: "/docs/learning/finance"
+      parent: learning
+      weight: 13
+    - identifier: docs
+      name: "Documentation"
+      pageRef: "/docs"
       weight: 2
-    - name: "Insight Data and Research"
-      url: "/blog/insight-data-and-research/"
+    - identifier: ict
+      name: "ICT Infrastructure"
+      pageRef: "/blog/ict-infrastructure"
       weight: 3
-    - name: "Data Repository"
-      url: "https://github.com/kangifaz/repo/tree/main"
+    - identifier: insight
+      name: "Insight Data and Research"
+      pageRef: "/blog/insight-data-and-research"
       weight: 4
-    - name: Search
+    - identifier: repo
+      name: "Data Repository"
+      url: "https://github.com/kangifaz/repo/tree/main"
       weight: 5
+    - identifier: search
+      name: Search
+      weight: 6
       params:
         type: search
 markup:
@@ -30,7 +53,7 @@ markup:
     extensions:
       passthrough:
         delimiters:
-          block: [['\[', '\]'], ['$$', '$$']]
-          inline: [['\(', '\)']]
+          block: [['\[', '\]'], ['12578', '12578']]
+          inline: ['\(', '\)']
         enable: true
 copyright: "© 2025 Kang Ifaz"
