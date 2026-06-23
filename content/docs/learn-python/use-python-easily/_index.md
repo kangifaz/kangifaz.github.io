@@ -1,6 +1,6 @@
 ---
 date: '2025-06-01T01:28:09+07:00'
-draft: false
+draft: true
 title: 'Use Python Easily'
 weight: 5
 ---

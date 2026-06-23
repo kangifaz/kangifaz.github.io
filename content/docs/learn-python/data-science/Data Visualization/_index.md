@@ -1,6 +1,6 @@
 ---
 date: '2025-03-16T15:24:16+07:00'
-draft: false
+draft: true
 title: 'Data Visualization'
 weight: 3
 ---

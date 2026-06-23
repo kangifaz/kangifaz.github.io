@@ -1,6 +1,6 @@
 ---
 date: '2025-03-16T15:23:16+07:00'
-draft: false
+draft: true
 title: 'File Handling and Exceptions'
 weight: 3
 ---

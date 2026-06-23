@@ -1,6 +1,6 @@
 ---
 date: '2025-03-16T15:21:38+07:00'
-draft: false
+draft: true
 title: 'Functions & Modules'
 weight: 3
 ---

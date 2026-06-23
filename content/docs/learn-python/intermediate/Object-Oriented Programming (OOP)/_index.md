@@ -1,6 +1,6 @@
 ---
 date: '2025-03-16T15:22:56+07:00'
-draft: false
+draft: true
 title: 'Object Oriented Programming (OOP)'
 weight: 2
 ---

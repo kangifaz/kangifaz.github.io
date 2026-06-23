@@ -1,6 +1,6 @@
 ---
 date: '2025-03-16T15:10:53+07:00'
-draft: false
+draft: true
 title: 'Intermediate Python'
 weight: 2
 ---

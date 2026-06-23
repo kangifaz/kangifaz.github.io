@@ -1,6 +1,6 @@
 ---
 date: '2025-03-16T15:06:00+07:00'
-draft: false
+draft: true
 title: 'Basic Syntax & Data Types'
 weight: 1
 ---

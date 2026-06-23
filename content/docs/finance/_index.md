@@ -1,6 +1,6 @@
 ---
 date: '2025-02-23T16:55:59+07:00'
-draft: false
+draft: true
 title: 'Finance'
 description: "A comprehensive collection of finance concepts, investment strategies, and research materials. This documentation also explores the integration of finance with IT and data-driven research."
 weight: 4

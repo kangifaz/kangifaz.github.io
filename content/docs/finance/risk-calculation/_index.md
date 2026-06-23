@@ -1,6 +1,6 @@
 ---
 date: '2025-02-23T16:55:25+07:00'
-draft: false
+draft: true
 title: 'Risk Calculation'
 description: "Understanding financial risk calculation methods such as Value at Risk (VaR) and Conditional Value at Risk (CVaR), their significance, and application in investments."
 weight: 2

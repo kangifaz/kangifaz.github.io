@@ -1,6 +1,6 @@
 ---
 date: '2025-03-16T15:25:02+07:00'
-draft: false
+draft: true
 title: 'Deep Learning'
 weight: 3
 ---

@@ -1,6 +1,6 @@
 ---
 date: '2025-03-16T15:11:12+07:00'
-draft: false
+draft: true
 title: 'Data Science'
 weight: 3
 ---

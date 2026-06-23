@@ -1,6 +1,6 @@
 ---
 date: '2025-03-16T15:11:31+07:00'
-draft: false
+draft: true
 title: 'API & Machine Learning'
 weight: 4
 ---
