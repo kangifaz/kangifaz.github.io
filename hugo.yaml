@@ -52,8 +52,5 @@ markup:
   goldmark:
     extensions:
       passthrough:
-        delimiters:
-          block: [['\[', '\]'], ['56189', '56189']]
-          inline: ['\(', '\)']
         enable: false
 copyright: "© 2025 Kang Ifaz"
