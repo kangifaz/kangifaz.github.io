@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATOMOS HPC Cluster Architecture</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'JetBrains Mono', monospace; background: #020617; min-height: 100vh; padding: 2rem; color: white; }
+    .container { max-width: 1200px; margin: 0 auto; }
+    .header { margin-bottom: 2rem; }
+    .header-row { display: flex; align-items: center; gap: 1rem; margin-bottom: 0.5rem; }
+    .pulse-dot { width: 12px; height: 12px; background: #22d3ee; border-radius: 50%; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+    h1 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.025em; }
+    .subtitle { color: #94a3b8; font-size: 0.875rem; margin-left: 1.75rem; }
+    .diagram-container { background: rgba(15, 23, 42, 0.5); border-radius: 1rem; border: 1px solid #1e293b; padding: 1.5rem; overflow-x: auto; }
+    svg { width: 100%; min-width: 900px; display: block; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 2rem; }
+    .card { background: rgba(15, 23, 42, 0.5); border-radius: 0.75rem; border: 1px solid #1e293b; padding: 1.25rem; }
+    .card-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem; }
+    .card-dot { width: 8px; height: 8px; border-radius: 50%; }
+    .card-dot.cyan { background: #22d3ee; }
+    .card-dot.emerald { background: #34d399; }
+    .card-dot.violet { background: #a78bfa; }
+    .card-dot.amber { background: #fbbf24; }
+    .card h3 { font-size: 0.875rem; font-weight: 600; }
+    .card ul { list-style: none; color: #94a3b8; font-size: 0.75rem; }
+    .card li { margin-bottom: 0.375rem; }
+    .footer { text-align: center; margin-top: 1.5rem; color: #475569; font-size: 0.75rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="header-row">
+        <div class="pulse-dot"></div>
+        <h1>ATOMOS HPC Cluster — Parallel Computing with Dask</h1>
+      </div>
+      <p class="subtitle">6 node ARM cluster • 24 cores • 10.8GB RAM • Monte Carlo simulations at 238/sec</p>
+    </div>
+
+    <div class="diagram-container">
+      <svg viewBox="0 0 1000 700">
+        <defs>
+          <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/>
+          </marker>
+          <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.5"/>
+          </pattern>
+        </defs>
+
+        <rect width="100%" height="100%" fill="url(#grid)"/>
+
+        <!-- Internet / User -->
+        <rect x="30" y="30" width="120" height="60" rx="6" fill="rgba(30, 41, 59, 0.5)" stroke="#94a3b8" stroke-width="1.5"/>
+        <text x="90" y="55" fill="white" font-size="12" font-weight="600" text-anchor="middle">User / API</text>
+        <text x="90" y="72" fill="#94a3b8" font-size="9" text-anchor="middle">curl, Telegram, Web</text>
+
+        <!-- Arrow to gateway -->
+        <line x1="150" y1="60" x2="198" y2="60" stroke="#22d3ee" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+
+        <!-- API Gateway / Coordination Layer -->
+        <rect x="200" y="30" width="160" height="60" rx="6" fill="rgba(8, 51, 68, 0.4)" stroke="#22d3ee" stroke-width="1.5"/>
+        <text x="280" y="55" fill="white" font-size="12" font-weight="600" text-anchor="middle">API Gateway</text>
+        <text x="280" y="72" fill="#94a3b8" font-size="9" text-anchor="middle">FastAPI / Flask</text>
+
+        <!-- Arrow to scheduler -->
+        <line x1="280" y1="90" x2="280" y2="148" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+
+        <!-- Dask Scheduler (atomos-07) -->
+        <rect x="200" y="150" width="160" height="70" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+        <text x="280" y="175" fill="white" font-size="12" font-weight="600" text-anchor="middle">Dask Scheduler</text>
+        <text x="280" y="192" fill="#94a3b8" font-size="9" text-anchor="middle">10.0.0.227 (atomos-07)</text>
+        <text x="280" y="206" fill="#34d399" font-size="8" text-anchor="middle">tcp://:8786 • Dashboard :8787</text>
+
+        <!-- Workers -->
+        <!-- Worker atomos-01 -->
+        <rect x="20" y="310" width="130" height="80" rx="6" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+        <text x="85" y="335" fill="white" font-size="11" font-weight="600" text-anchor="middle">Worker 1</text>
+        <text x="85" y="352" fill="#94a3b8" font-size="9" text-anchor="middle">10.0.0.221</text>
+        <text x="85" y="367" fill="#94a3b8" font-size="8" text-anchor="middle">atomos-01 • 4 cores</text>
+        <text x="85" y="382" fill="#a78bfa" font-size="8" text-anchor="middle">512MB allocated</text>
+
+        <!-- Worker atomos-03 -->
+        <rect x="180" y="310" width="130" height="80" rx="6" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+        <text x="245" y="335" fill="white" font-size="11" font-weight="600" text-anchor="middle">Worker 2</text>
+        <text x="245" y="352" fill="#94a3b8" font-size="9" text-anchor="middle">10.0.0.223</text>
+        <text x="245" y="367" fill="#94a3b8" font-size="8" text-anchor="middle">atomos-03 • 4 cores</text>
+        <text x="245" y="382" fill="#a78bfa" font-size="8" text-anchor="middle">512MB allocated</text>
+
+        <!-- Worker atomos-04 -->
+        <rect x="340" y="310" width="130" height="80" rx="6" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+        <text x="405" y="335" fill="white" font-size="11" font-weight="600" text-anchor="middle">Worker 3</text>
+        <text x="405" y="352" fill="#94a3b8" font-size="9" text-anchor="middle">10.0.0.224</text>
+        <text x="405" y="367" fill="#94a3b8" font-size="8" text-anchor="middle">atomos-04 • 4 cores</text>
+        <text x="405" y="382" fill="#a78bfa" font-size="8" text-anchor="middle">512MB allocated</text>
+
+        <!-- Worker armbian 225 -->
+        <rect x="500" y="310" width="130" height="80" rx="6" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+        <text x="565" y="335" fill="white" font-size="11" font-weight="600" text-anchor="middle">Worker 4</text>
+        <text x="565" y="352" fill="#94a3b8" font-size="9" text-anchor="middle">10.0.0.225</text>
+        <text x="565" y="367" fill="#94a3b8" font-size="8" text-anchor="middle">armbian • 4 cores</text>
+        <text x="565" y="382" fill="#a78bfa" font-size="8" text-anchor="middle">512MB allocated</text>
+
+        <!-- Worker armbian 226 -->
+        <rect x="660" y="310" width="130" height="80" rx="6" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+        <text x="725" y="335" fill="white" font-size="11" font-weight="600" text-anchor="middle">Worker 5</text>
+        <text x="725" y="352" fill="#94a3b8" font-size="9" text-anchor="middle">10.0.0.226</text>
+        <text x="725" y="367" fill="#94a3b8" font-size="8" text-anchor="middle">armbian • 4 cores</text>
+        <text x="725" y="382" fill="#a78bfa" font-size="8" text-anchor="middle">512MB allocated</text>
+
+        <!-- Arrows from scheduler to workers -->
+        <path d="M 260 220 Q 150 260 85 308" fill="none" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+        <path d="M 270 220 Q 230 260 245 308" fill="none" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+        <path d="M 280 220 Q 320 260 405 308" fill="none" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+        <path d="M 290 220 Q 420 260 565 308" fill="none" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+        <path d="M 300 220 Q 540 260 725 308" fill="none" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+
+        <!-- Results / Output -->
+        <rect x="750" y="30" width="210" height="60" rx="6" fill="rgba(120, 53, 15, 0.3)" stroke="#fbbf24" stroke-width="1.5"/>
+        <text x="855" y="55" fill="white" font-size="12" font-weight="600" text-anchor="middle">Output / Results</text>
+        <text x="855" y="72" fill="#94a3b8" font-size="9" text-anchor="middle">JSON, Charts, Reports</text>
+
+        <!-- Arrow gateway to output -->
+        <line x1="360" y1="60" x2="748" y2="60" stroke="#fbbf24" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+
+        <!-- Monte Carlo Results Box -->
+        <rect x="100" y="440" width="800" height="230" rx="8" fill="rgba(15, 23, 42, 0.7)" stroke="#1e293b" stroke-width="2"/>
+        <text x="120" y="465" fill="#fbbf24" font-size="12" font-weight="700">Monte Carlo Test Results</text>
+
+        <text x="120" y="490" fill="#94a3b8" font-size="10">Test 1: Pi Estimation (500k samples)</text>
+        <text x="600" y="490" fill="#22d3ee" font-size="10">π = 3.141920 | Error: 0.000327 | Speed: 832,237/s | 0.60s</text>
+
+        <text x="120" y="515" fill="#94a3b8" font-size="10">Test 2: Portfolio Simulation (500 scenarios × 252 days)</text>
+        <text x="600" y="515" fill="#34d399" font-size="10">Mean: +13.30% | Median: +8.55% | Prob profit: 58.4% | 2.10s</text>
+
+        <text x="120" y="550" fill="white" font-size="11" font-weight="600">Cluster Specifications</text>
+        <text x="120" y="572" fill="#94a3b8" font-size="9">• 6× ARM boards (Orange Pi RK3399 / similar)</text>
+        <text x="120" y="588" fill="#94a3b8" font-size="9">• 4 cores each = 24 total CPU cores</text>
+        <text x="120" y="604" fill="#94a3b8" font-size="9">• 1.8GB RAM per node = 10.8GB total</text>
+        <text x="120" y="620" fill="#94a3b8" font-size="9">• Dask Distributed 2021 + Pure Python</text>
+        <text x="120" y="636" fill="#94a3b8" font-size="9">• 1 GbE Ethernet (via home network)</text>
+        <text x="120" y="655" fill="#34d399" font-size="10">Status: OPERATIONAL • 5 Workers Active • Ready</text>
+
+        <!-- Legend -->
+        <text x="720" y="465" fill="white" font-size="10" font-weight="600">Legend</text>
+        <rect x="720" y="478" width="16" height="10" rx="2" fill="rgba(8, 51, 68, 0.4)" stroke="#22d3ee" stroke-width="1"/>
+        <text x="742" y="486" fill="#94a3b8" font-size="8">API / Gateway</text>
+        <rect x="720" y="494" width="16" height="10" rx="2" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1"/>
+        <text x="742" y="502" fill="#94a3b8" font-size="8">Scheduler / Worker</text>
+        <rect x="720" y="510" width="16" height="10" rx="2" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1"/>
+        <text x="742" y="518" fill="#94a3b8" font-size="8">Compute Node</text>
+        <rect x="720" y="526" width="16" height="10" rx="2" fill="rgba(120, 53, 15, 0.3)" stroke="#fbbf24" stroke-width="1"/>
+        <text x="742" y="534" fill="#94a3b8" font-size="8">Output</text>
+      </svg>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-dot cyan"></div>
+          <h3>User Interaction</h3>
+        </div>
+        <ul>
+          <li>• Ask Iris via Telegram/WhatsApp</li>
+          <li>• Iris receives task, plans work</li>
+          <li>• Sends jobs to ATOMOS cluster</li>
+          <li>• Collects results, formats reply</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div class="card-dot emerald"></div>
+          <h3>Dask Scheduler</h3>
+        </div>
+        <ul>
+          <li>• Runs on atomos-07 (10.0.0.227)</li>
+          <li>• Port 8786 (dashboard on 8787)</li>
+          <li>• Distributes tasks to 5 workers</li>
+          <li>• Monitors task completion</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div class="card-dot violet"></div>
+          <h3>Compute Workers</h3>
+        </div>
+        <ul>
+          <li>• 5 nodes × 4 cores = 24 CPUs</li>
+          <li>• Each allocated 512MB RAM</li>
+          <li>• Run independent simulations</li>
+          <li>• Pure Python (no numpy needed)</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer">ATOMOS HPC Cluster • Built 2026 • By Kang Ifaz & Iris AI</p>
+  </div>
+</body>
+</html>
